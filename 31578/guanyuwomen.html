@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>关于我们_老年康养服务中心网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31578/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/index.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/ddsmoothmenu.js"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+    mainmenuid: "smoothmenu1",
+    orientation: 'h',
+    classname: 'nav'
+});
+</script>
+<script language="javascript" type="text/javascript" src="static/js/jquery.db_tabmotionbanner.min.js"></script>
+    <meta http-equiv="mobile-agent" content="format=xhtml;url=https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=1">
+    <script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/applewebkit.*mobile/i.test(navigator.userAgent.toLowerCase()) || (/midp|symbianos|nokia|samsung|lg|nec|tcl|alcatel|bird|dbtel|dopod|philips|haier|lenovo|mot-|nokia|sonyericsson|sie-|amoi|zte/.test(navigator.userAgent.toLowerCase()))){try{if(/android|windows phone|webos|iphone|ipod|blackberry/i.test(navigator.userAgent.toLowerCase())){window.location.href="https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=1";}else if(/ipad/i.test(navigator.userAgent.toLowerCase())){}else{}}catch(e){}}}</script>
+</head>
+<body>
+<div class="top_wrap">
+  <div class="top">
+    <div class="logo"> <a href="index.html" rel="nofollow"><img src="static/picture/1-241231095F1219.png" width="380" height="95"></a> </div>
+    <div class="nav_wrap">
+      <div class="nav" id="smoothmenu1">
+        <ul class="clearfix">
+          <li class="nav1"> <a href="index.html">首 页</a> </li>
+                    <li><a class="selected" href="">关于我们</a>  </li>
+                    <li><a class="" href="qiyefuwu.html">企业服务</a>             <ul class="submenu">
+                            <li><a href="jiatinghushi.html">家庭护士</a></li>
+                            <li><a href="jijiakanghu.html">居家康护</a></li>
+                            <li><a href="shequzhaohu.html">社区照护</a></li>
+                            <li><a href="quanchengpeihu.html">全程陪护</a></li>
+                            <li><a href="chuangshangxiyu.html">床上洗浴</a></li>
+                            <li><a href="fujufuwu.html">辅具服务</a></li>
+                          </ul>
+             </li>
+                    <li><a class="" href="xinwenzhongxin.html">新闻中心</a>             <ul class="submenu">
+                            <li><a href="gongsidongtai.html">公司动态</a></li>
+                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                          </ul>
+             </li>
+                    <li><a class="" href="jiaruwomen.html">加入我们</a>  </li>
+                    <li><a class="" href="lianxiwomen.html">联系我们</a>  </li>
+                  </ul>
+      </div>
+      <div class="clear"> </div>
+    </div>
+    <div class="shehome"> <a href="" class="wxpt">关于我们</a>  | <a href="lianxiwomen.html" class="wxpt">联系我们</a> </div>
+  </div>
+</div>
+<div id="bn317" class="bn317">
+  <ul class="list clearfix">
+        <li><a href=""><img src="static/picture/1-2412301FJ1263.jpg"></a></li>
+        <li><a href=""><img src="static/picture/1-2412301FJ1Q1.jpg"></a></li>
+      </ul>
+  <div class="tip"></div>
+  <div class="prev"></div>
+  <div class="next"></div>
+</div>
+<script type="application/javascript">
+$(function () {
+   if (!$("#bn317").length || $("#bn317 .list li").length <= 1) {    return false; }
+    var _this = $("#bn317"),
+        me = $("#bn317 .list"),
+        tip = $("#bn317 .tip"),
+        prev = _this.find(".prev"),
+        next = _this.find(".next"),
+        t, interval = 2000,
+        speed = 1000,
+        speed2 = 700,
+        n = 0,
+        N = me.children("li").length;
+        me.find("li:gt(0)").hide();
+    if ($("#bn317 .tip").length) {
+        var htmlTip = "";
+        for (var i = 0; i < N; i++) {
+            if (i == 0) {
+                htmlTip += "<span class='cur'></span>";
+            } else {
+                htmlTip += "<span></span>";
+            }
+        }
+        tip.append(htmlTip);
+    }
+    var func = function() {
+        if (n >= N - 1) {
+            n = 0;
+        } else {
+            n++;
+        }
+        me.children("li").eq(n).css({
+            "z-index": 2
+        }).stop().fadeIn(speed).siblings("li").css({
+            "z-index": 1
+        }).stop().fadeOut(speed2);
+        if ($("#bn317 .tip").length) {
+            tip.children("span").eq(n).addClass("cur").siblings("span").removeClass("cur");
+        }
+    }
+    next.bind("click", function(){
+        clearInterval(t);
+        func();
+    });
+    prev.bind("click", function(){
+        clearInterval(t);
+        n -= 2;
+        n < -1 ? n = N-2 : n ;
+        func();
+    });
+    tip.children("span").mouseover(function() {
+        clearInterval(t);
+        n = $(this).index() - 1;
+        func();
+    });
+    t = setInterval(func, interval);
+    _this.hover(function(){
+        clearInterval(t);
+    },function(){
+        t = setInterval(func, interval);
+    });
+  
+});
+</script>
+<div class="clear20"></div>
+<div class="zy_tent content">
+  <div class="ziye_tile">
+    <h1>关于我们<span></span></h1>
+  </div>
+  <div class="zy_tent1">
+    <div class="xw_box1">
+      <div class="xw_box1_right left">
+        <h1>关于我们</h1>
+        <p>多个方面，致力于满足老年人在日常生活中的各种需求，提供健康服务，全面的疗养设施，以及养生养心健康需求的解决方案。它可以是公益性质的，也可以是经营性质的，主要客户群体是需要康养与医疗结合的顾客，如慢病老年患者，涵盖空巢老人、老干部、低保老人等各类老年人群。</p><p>二、服务内容</p><p>基础照料：提供托老、购物、送餐、代购物品、家政服务等一般照料服务，以及特殊照顾如陪护等。</p><p>个人清洁与衣着服务：包括洗脸、洗手、洗头、洗脚，协助整理个人物品，更换床单，以及协助穿脱衣裤、扣扣子、更换衣裤、整理衣物等。</p><p>健康管理：建立健康档案，提供疾病防治、康复护理、心理卫生、健康教育等服务，并陪护老年人看病，确保他们得到及时、专业的医疗照顾。</p><p>文化教育：提供老年学校、知识讲座、学习培训、书法绘画、图书阅览等服务，满足老年人的学习需求。</p><p>体育健身：提供活动场所和体育健身设施，鼓励老年人积极锻炼，保持身体健康。</p><p>娱乐活动：组织适宜的文化娱乐活动，如打牌、下棋、看书报等，丰富老年人的精神生活。</p><p>三、环境与设施</p><p>居住环境：老年康养中心通常营造舒适、温馨、宁静的氛围，适合老年人居住和休养。例如，有的康养中心以庭院式养老区域打造，附设中式风格庭院，活动场所环境幽静，空气清新，有大片绿地、花园、亭阁与廊道等。</p><p>医疗设施：配备先进的医疗设备和康复设备，以满足老年人的健康需求。同时，有专业的医疗团队，包括医生、护士和康复师等，能够为老年人提供定期体检、疾病诊治、康复训练等医疗服务。</p><p>功能空间：除了居住区外，还设有接待区、活动区、休息区、餐饮区、便利设施区等，以满足老年人的不同需求。每个功能空间都体现了对长者的关怀与尊重。</p> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="foot_wrap">
+  <div class="foot">
+    <div class="foot1">
+      <ul>
+        <li class="f_box1"> <img src="static/picture/1-2412301K24V93.jpg" alt="老年康养服务中心网站模板"> <p>携手某某公司</p>
+<p>与健康同行&nbsp;&bull;&nbsp;与长寿相伴</p> </li>
+        <li class="f_box2">
+          <div class="f_box2_a">
+            <h1>020-88888888</h1>
+            <div class="clear20"></div>
+            <p>老年康养服务中心网站模板</p>
+            <p>地址：广东省广州市</p>
+            <p>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></p>
+          </div>
+        </li>
+        <li class="f_box3"> <img src="static/picture/1-2412301K201610.jpg" alt="老年康养服务中心网站模板" width="130" height="130"> </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="foot2">
+      <p class="f2_p2"><a href="index.html">首页</a>|<a href="">关于我们</a>|<a href="qiyefuwu.html">企业服务</a>|<a href="xinwenzhongxin.html">新闻中心</a>|<a href="jiaruwomen.html">加入我们</a>|<a href="lianxiwomen.html">联系我们</a></p>
+    </div>
+  </div>
+</div>
+<!-- 应用插件标签 begin --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

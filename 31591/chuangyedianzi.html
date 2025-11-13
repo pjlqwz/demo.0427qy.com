@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>创业点子_响应式通用新闻博客资讯网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31591/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+<div class="container"> <div class="container wapnav">
+  <div class="content"> <a href="javascript:;" id="sousuo"><i class="fa fa-search"></i></a> <a href="index.html" id="waplogo">某某博客网</a> <a href="javascript:;" id="xiala"><i class="fa fa-bars fa-fw"></i>导航</a> </div>
+</div>
+<div id="yd-nav">
+  <ul>
+    <li> <a rel="nofollow" href="index.html"> <i class="fa fa-home fa-fw"></i>本站首页</a></li>
+        <li class=""><a href="chuangyezixun.html"><i class="fa fa-nav1 fa-fw"></i> 创业资讯</a>  </li>
+        <li class=""><a href="chuangyezhidao.html"><i class="fa fa-nav2 fa-fw"></i> 创业指导</a>  </li>
+        <li class=""><a href="chuangyegushi.html"><i class="fa fa-nav3 fa-fw"></i> 创业故事</a>  </li>
+        <li class="hover"><a href=""><i class="fa fa-nav4 fa-fw"></i> 创业点子</a>  </li>
+        <li class=""><a href="zhichangjianghu.html"><i class="fa fa-nav5 fa-fw"></i> 职场江湖</a>  </li>
+        <li class=""><a href="qiuzhigonglue.html"><i class="fa fa-nav6 fa-fw"></i> 求职攻略</a>  </li>
+        <li class=""><a href="gushiyulu.html"><i class="fa fa-nav7 fa-fw"></i> 故事语录</a>       <ul class="sub-menu">
+                <li><a href="lizhigushi.html"><i class="fa fa-file-text fa-fw"></i>励志故事</a></li>
+                <li><a href="lizhiyulu.html"><i class="fa fa-file-text fa-fw"></i>励志语录</a></li>
+              </ul>
+       </li>
+        <li class=""><a href="guanyuwomen.html"><i class="fa fa-nav8 fa-fw"></i> 关于我们</a>       <ul class="sub-menu">
+                <li><a href="guanggaofuwu.html"><i class="fa fa-file-text fa-fw"></i>广告服务</a></li>
+                <li><a href="lianxiwomen.html"><i class="fa fa-file-text fa-fw"></i>联系我们</a></li>
+              </ul>
+       </li>
+        <li><a href="javascript:;" title="关闭" class="guanbi" id="guanbi">关闭</a></li>
+  </ul>
+</div>
+<div id="sousuola" class="sousuo"> <a href="javascript:;" id="sguanbi">关闭</a>   <form method="get" action="/31591/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+    <input type="text" name="keywords" id="keywords" value="本站站内搜索" onfocus="if (value =='本站站内搜索'){value =''}" onblur="if (value ==''){value='本站站内搜索'}">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">  </form>
+   </div>
+<header class="header">
+  <h1 class="logo"> <a href="index.html" title="响应式通用新闻博客资讯网站模板"> <img src="static/picture/1-211116160SR95.png" alt="响应式通用新闻博客资讯网站模板" title="响应式通用新闻博客资讯网站模板"> </a> </h1>
+  <nav class="nav">
+    <ul>
+      <li><a rel="nofollow" href="index.html"><i class="fa fa-home fa-fw"></i>返回首页</a></li>
+            <li class=""><a href="chuangyezixun.html"><i class="fa fa-nav1 fa-fw"></i> 创业资讯</a>  </li>
+            <li class=""><a href="chuangyezhidao.html"><i class="fa fa-nav2 fa-fw"></i> 创业指导</a>  </li>
+            <li class=""><a href="chuangyegushi.html"><i class="fa fa-nav3 fa-fw"></i> 创业故事</a>  </li>
+            <li class="hover"><a href=""><i class="fa fa-nav4 fa-fw"></i> 创业点子</a>  </li>
+            <li class=""><a href="zhichangjianghu.html"><i class="fa fa-nav5 fa-fw"></i> 职场江湖</a>  </li>
+            <li class=""><a href="qiuzhigonglue.html"><i class="fa fa-nav6 fa-fw"></i> 求职攻略</a>  </li>
+            <li class=""><a href="gushiyulu.html"><i class="fa fa-nav7 fa-fw"></i> 故事语录</a>         <ul class="sub-menu">
+                    <li><a href="lizhigushi.html"><i class="fa fa-file-text fa-fw"></i>励志故事</a></li>
+                    <li><a href="lizhiyulu.html"><i class="fa fa-file-text fa-fw"></i>励志语录</a></li>
+                  </ul>
+         </li>
+            <li class=""><a href="guanyuwomen.html"><i class="fa fa-nav8 fa-fw"></i> 关于我们</a>         <ul class="sub-menu">
+                    <li><a href="guanggaofuwu.html"><i class="fa fa-file-text fa-fw"></i>广告服务</a></li>
+                    <li><a href="lianxiwomen.html"><i class="fa fa-file-text fa-fw"></i>联系我们</a></li>
+                  </ul>
+         </li>
+          </ul>
+  </nav>
+</header>
+
+  <div class="content">
+    <div class="bycontent">
+      <div class="breadcrumb">当前位置： <a href='index.html' class=''>主页</a> > <a href=''>创业点子</a></div>
+      <ul class="jlmenu">
+              </ul>
+            <article class="acpost">
+        <header>
+          <h2><a href="146.html" title="小商家眼中的双11：无处安放的焦虑" rel="bookmark">小商家眼中的双11：无处安放的焦虑</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:17</p>
+        <div class="acpost-tu clear"><a href="146.html" title="小商家眼中的双11：无处安放的焦虑" rel="bookmark"><img alt="小商家眼中的双11：无处安放的焦虑" src="static/picture/15J23140303220-bP7.jpg"></a></div>
+        <span class="acpost-centtxt">又是一年双十一。不知不觉，这场由光棍节演变而来的购物狂欢节已走过了第十个年头。 今年，各电商平台再次突破 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="147.html" title="宝宝树6个月亏损21亿 平台上市比养娃难？" rel="bookmark">宝宝树6个月亏损21亿 平台上市比养娃难？</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:17</p>
+        <div class="acpost-tu clear"><a href="147.html" title="宝宝树6个月亏损21亿 平台上市比养娃难？" rel="bookmark"><img alt="宝宝树6个月亏损21亿 平台上市比养娃难？" src="static/picture/15J2314511B10-1EQ.jpg"></a></div>
+        <span class="acpost-centtxt">母婴类社区平台宝宝树赴港上市风波再起。 11月20日下午，据IFR，宝宝树指引IPO价格定在指导价区间的低端（其每股 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="148.html" title="黄金发展期已远，蜻蜓、荔枝、喜马拉雅们下一" rel="bookmark">黄金发展期已远，蜻蜓、荔枝、喜马拉雅们下一</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:13</p>
+        <div class="acpost-tu clear"><a href="148.html" title="黄金发展期已远，蜻蜓、荔枝、喜马拉雅们下一" rel="bookmark"><img alt="黄金发展期已远，蜻蜓、荔枝、喜马拉雅们下一" src="static/picture/15J23145134I0-341G.jpg"></a></div>
+        <span class="acpost-centtxt">曾几何时，无数专家学者就电子书的出现是否会让纸质书销声匿迹、数字化阅读的方式会不会取代传统阅读方式进行 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="149.html" title="AI作曲会给数字音乐平台带来第二春吗？" rel="bookmark">AI作曲会给数字音乐平台带来第二春吗？</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:13</p>
+        <div class="acpost-tu clear"><a href="149.html" title="AI作曲会给数字音乐平台带来第二春吗？" rel="bookmark"><img alt="AI作曲会给数字音乐平台带来第二春吗？" src="static/picture/15J2314515A0-531F.jpg"></a></div>
+        <span class="acpost-centtxt">不久前，来自中央音乐学院的独奏家与美国人工智能乐团携手演出了12首中外作品，这是音乐人工智能伴奏系统在中 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="150.html" title="科技大佬工资起底：杨元庆年薪超一亿元 马云有" rel="bookmark">科技大佬工资起底：杨元庆年薪超一亿元 马云有</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:10</p>
+        <div class="acpost-tu clear"><a href="150.html" title="科技大佬工资起底：杨元庆年薪超一亿元 马云有" rel="bookmark"><img alt="科技大佬工资起底：杨元庆年薪超一亿元 马云有" src="static/picture/15J231451C550-E4Y.jpg"></a></div>
+        <span class="acpost-centtxt">我们都知道马云一手创办的阿里巴巴，成为了是中国最大的网络公司，阿里巴巴拥有着亿万的活跃用户。根据阿里巴 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="151.html" title="揭秘恒大与贾跃亭纠纷的事实与隐秘情节" rel="bookmark">揭秘恒大与贾跃亭纠纷的事实与隐秘情节</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:15</p>
+        <div class="acpost-tu clear"><a href="151.html" title="揭秘恒大与贾跃亭纠纷的事实与隐秘情节" rel="bookmark"><img alt="揭秘恒大与贾跃亭纠纷的事实与隐秘情节" src="static/picture/15J23145191530-U491.jpg"></a></div>
+        <span class="acpost-centtxt">纷扰多时的Faraday Future（简称FF）纠纷陷入僵局，到底真相如何？自诞生之日起就引起极大关注的FF又将如何演变？界 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="152.html" title="欧阳娜娜带火了Vlog，短视频的下一个风口真的是" rel="bookmark">欧阳娜娜带火了Vlog，短视频的下一个风口真的是</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:7</p>
+        <div class="acpost-tu clear"><a href="152.html" title="欧阳娜娜带火了Vlog，短视频的下一个风口真的是" rel="bookmark"><img alt="欧阳娜娜带火了Vlog，短视频的下一个风口真的是" src="static/picture/15J231454112F-14L8.jpg"></a></div>
+        <span class="acpost-centtxt">短视频的流行对市场进行了初步的教育，中国移动互联网用户开始从读字和读图的时代，迈向读视频的时代。 作者 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="153.html" title="共享单车的印度崛起：东方不亮西方亮？" rel="bookmark">共享单车的印度崛起：东方不亮西方亮？</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:19</p>
+        <div class="acpost-tu clear"><a href="153.html" title="共享单车的印度崛起：东方不亮西方亮？" rel="bookmark"><img alt="共享单车的印度崛起：东方不亮西方亮？" src="static/picture/15J2314543T20-33259.jpg"></a></div>
+        <span class="acpost-centtxt">2015年，随着抢眼的小黄车突现北大校园，共享单车的概念迅速被普及，玩家接连冒头，巨额投资不断涌入，和高铁、 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="154.html" title="多次试水母婴医疗，宝宝树能摆脱低盈利乌云吗" rel="bookmark">多次试水母婴医疗，宝宝树能摆脱低盈利乌云吗</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:16</p>
+        <div class="acpost-tu clear"><a href="154.html" title="多次试水母婴医疗，宝宝树能摆脱低盈利乌云吗" rel="bookmark"><img alt="多次试水母婴医疗，宝宝树能摆脱低盈利乌云吗" src="static/picture/15J2314545Y0-5T18.jpg"></a></div>
+        <span class="acpost-centtxt">政策利好持续推动，外加市场需求强劲，母婴医疗因此得以快速发展，行业内的企业也是动作不断。 近日，据凤凰网 </span> </article>
+            <article class="acpost">
+        <header>
+          <h2><a href="155.html" title="“中等生”宝宝树的烦恼" rel="bookmark">“中等生”宝宝树的烦恼</a></h2>
+        </header>
+        <p class="acpost-footer"> 2019-11-20 | <a href="">分类：创业点子</a> | 浏览:34</p>
+        <div class="acpost-tu clear"><a href="155.html" title="“中等生”宝宝树的烦恼" rel="bookmark"><img alt="“中等生”宝宝树的烦恼" src="static/picture/15J23145523010-129620.jpg"></a></div>
+        <span class="acpost-centtxt">作者 /科技谷说 要想得到二级市场投资者的真正看好，宝宝树可能还有许多事情要做。 眼下，宝宝树最紧急需要应对 </span> </article>
+            <div class="pagination pagination-multi">
+        <ul>
+           <li><a>首页</a></li> <li><a>上一页</a></li> <li class="active"><span>1</span></li><li><a href="lists_11_2.html" data-ey_fc35fdc="html" data-tmp="1">2</a></li><li><a href="lists_11_3.html" data-ey_fc35fdc="html" data-tmp="1">3</a></li> <li><a href="lists_11_2.html" data-ey_fc35fdc="html" data-tmp="1">下一页</a></li> <li><a href="lists_11_5.html" data-ey_fc35fdc="html" data-tmp="1">末页</a></li>        </ul>
+      </div>
+    </div>
+  </div>
+  <aside class="sidebar">
+  <div id="divSearchPanel" class="side clear side_searchpanel">
+    <div class="side divSearchPanel">
+      <div class="search">         <form class="sform" method="get" action="/31591/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+          <input type="text" name="keywords" id="keywords">
+          <input type="submit" value="搜索">
+          <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">        </form>
+         </div>
+    </div>
+  </div>
+  <div id="aside_hot" class="side clear side_aside_hot">
+    <h3>热门文章</h3>
+    <ul class="side-ul aside_hot">
+          </ul>
+  </div>
+  <div id="divComments" class="side clear side_comments">
+    <h3>热门推荐</h3>
+    <ul class="side-ul divComments">
+            <li class="clearfix" title="致命拼多多"><a href="156.html">致命拼多多</a></li>
+            <li class="clearfix" title="渡劫之后的互联网金融行业，或许迎来了最安"><a href="118.html">渡劫之后的互联网金融行业，或许迎来了最安</a></li>
+            <li class="clearfix" title="QQ再次推出注销功能 使用QQ的时代即将"><a href="119.html">QQ再次推出注销功能 使用QQ的时代即将</a></li>
+            <li class="clearfix" title="无人驾驶业务再遇阻力 裁员190人"><a href="120.html">无人驾驶业务再遇阻力 裁员190人</a></li>
+            <li class="clearfix" title="科技晚报：富途控股在美上市 丰田品牌在华"><a href="121.html">科技晚报：富途控股在美上市 丰田品牌在华</a></li>
+            <li class="clearfix" title="波多野结衣也站台区块链了？"><a href="47.html">波多野结衣也站台区块链了？</a></li>
+            <li class="clearfix" title="房产中介电商平台“小败局”"><a href="38.html">房产中介电商平台“小败局”</a></li>
+            <li class="clearfix" title="那个要干掉“二手房中介”的爱屋吉屋，为什"><a href="39.html">那个要干掉“二手房中介”的爱屋吉屋，为什</a></li>
+          </ul>
+  </div>
+  <div id="divTags" class="side clear side_tags">
+    <h3>标签列表</h3>
+    <ul class="side-ul divTags">
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=299">近视手术</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=298">免运费</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=296">夸夸群</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=295">视频命长</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=294">短视频内</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=293">“抄袭”花</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=292">内容创业</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=291">直播</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=290">顺丰</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=289">咖啡</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=288">哈罗发展顺风</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=287">哈罗顺风车</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=286">电子烟</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=285">每日优鲜</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=284">粉丝经济</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=283">小扎回母</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=282">扎克伯格</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=281">Facebook</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=280">百箱齐发：201</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=279">智能音箱</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=278">体育短视频纷</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=277">体育短视频</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=276">共享厨房</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=275">废品回收行</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=274">废品回收行业</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=273">前赴后</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=272">音乐平台</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=271">化妆间</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=270">蜻蜓</a></li>
+            <li><a href="/31591/index.php?m=home&c=Tags&a=lists&tagid=269">懒人听书</a></li>
+          </ul>
+  </div>
+  <div id="divStatistics" class="side clear side_statistics">
+    <h3>友情链接</h3>
+    <div class="side divStatistics">
+      <ul>
+                <li><a href="https://www.taobao.com/" target="_self">淘宝</a></li>
+                <li><a href="https://www.jd.com/" target="_self">京东</a></li>
+                <li><a href="https://www.youku.com/" target="_self">优酷</a></li>
+                <li><a href="https://www.baidu.com/" target="_self">百度</a></li>
+                <li><a href="https://www.qq.com/" target="_self">腾讯</a></li>
+              </ul>
+    </div>
+  </div>
+</aside>
+
+  <footer class="footer"> <span>
+  <p>Copyright © 2002-202X 某某新闻博客 版权所有 网站备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICPxxxxxxxx号</a> </p>
+  </span> </footer>
+<script>
+	lastScrollY = 0;
+	function heartBeat() {
+		var diffY;
+		if (document.documentElement && document.documentElement.scrollTop)
+			diffY = document.documentElement.scrollTop;
+		else if (document.body)
+			diffY = document.body.scrollTop
+		else { /*Netscape stuff*/ }
+		percent = .1 * (diffY - lastScrollY);
+		if (percent > 0) percent = Math.ceil(percent);
+		else percent = Math.floor(percent);
+		document.getElementById("full").style.top = parseInt(document.getElementById("full").style.top) + percent + "px";
+		lastScrollY = lastScrollY + percent;
+		if (diffY > 200) {
+			document.getElementById("full").style.display = "block"
+		} else {
+			document.getElementById("full").style.display = "none"
+		}
+	}
+	suspendcode = '<div id="topend"><div id="full" style="display:none; top:420px;"><a href="#"><img src="/31591/template/pc/skin/images/btn_top.gif"/></a></div></div>';
+	document.write(suspendcode);
+	window.setInterval("heartBeat()", 1);
+</script> 
+<script language="javascript" type="text/javascript" src="static/js/nav.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/sticky-sidebar.js"></script>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+ </div>
+</body>
+</html>

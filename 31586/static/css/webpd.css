@@ -1,0 +1,73 @@
+﻿/*all*/
+.webpd_boxm {
+	width: 100%;
+	background: #f6f6f6;
+	padding: 45px 0;
+	overflow: hidden;
+}
+.webpd_boxm .webpd_kj {
+	float: right;
+}
+.webpd_boxm .webpd_pic {
+	float: left;
+}
+.webpd_boxh {
+	width: 100%;
+	padding: 45px 0;
+	overflow: hidden;
+}
+.webpd_boxh .webpd_kj {
+	float: left;
+}
+.webpd_boxh .webpd_pic {
+	float: right;
+}
+.webpd_kj {
+	width: 516px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #666;
+	line-height: 28px;
+	position: relative;
+}
+.webpd_kj h2 {
+	font-size: 32px;
+	color: #666;
+	font-weight: bold;
+	line-height: 70px;
+}
+.webpd_kj .case {
+	margin-top: 44px;
+	color: #999;
+}
+.webpd_kj .case a {
+	width: auto;
+	margin-right: 7px;
+	font-size: 12px;
+	display: inline-block;
+}
+.webpd_kj .m {
+	margin-top: 10px;
+	font-size: 12px;
+}
+.webpd_kj .an {
+	overflow: hidden;
+	padding: 80px 0 0 0;
+}
+.webpd_kj .an a {
+	width: 111px;
+	height: 33px;
+	background: #666;
+	text-align: center;
+	line-height: 33px;
+	float: left;
+	margin: 0 16px 0 0;
+	color: #fff;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+.webpd_kj .an a.on, .webpd_kj .an a:hover {
+	background: #d9221a;
+}

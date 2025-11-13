@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>公司动态_老年康养服务中心网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31578/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/index.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/ddsmoothmenu.js"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+    mainmenuid: "smoothmenu1",
+    orientation: 'h',
+    classname: 'nav'
+});
+</script>
+<script language="javascript" type="text/javascript" src="static/js/jquery.db_tabmotionbanner.min.js"></script>
+    <meta http-equiv="mobile-agent" content="format=xhtml;url=https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=12">
+    <script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/applewebkit.*mobile/i.test(navigator.userAgent.toLowerCase()) || (/midp|symbianos|nokia|samsung|lg|nec|tcl|alcatel|bird|dbtel|dopod|philips|haier|lenovo|mot-|nokia|sonyericsson|sie-|amoi|zte/.test(navigator.userAgent.toLowerCase()))){try{if(/android|windows phone|webos|iphone|ipod|blackberry/i.test(navigator.userAgent.toLowerCase())){window.location.href="https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=12";}else if(/ipad/i.test(navigator.userAgent.toLowerCase())){}else{}}catch(e){}}}</script>
+</head>
+<body>
+<div class="top_wrap">
+  <div class="top">
+    <div class="logo"> <a href="index.html" rel="nofollow"><img src="static/picture/1-241231095F1219.png" width="380" height="95"></a> </div>
+    <div class="nav_wrap">
+      <div class="nav" id="smoothmenu1">
+        <ul class="clearfix">
+          <li class="nav1"> <a href="index.html">首 页</a> </li>
+                    <li><a class="" href="guanyuwomen.html">关于我们</a>  </li>
+                    <li><a class="" href="qiyefuwu.html">企业服务</a>             <ul class="submenu">
+                            <li><a href="jiatinghushi.html">家庭护士</a></li>
+                            <li><a href="jijiakanghu.html">居家康护</a></li>
+                            <li><a href="shequzhaohu.html">社区照护</a></li>
+                            <li><a href="quanchengpeihu.html">全程陪护</a></li>
+                            <li><a href="chuangshangxiyu.html">床上洗浴</a></li>
+                            <li><a href="fujufuwu.html">辅具服务</a></li>
+                          </ul>
+             </li>
+                    <li><a class="selected" href="xinwenzhongxin.html">新闻中心</a>             <ul class="submenu">
+                            <li><a href="">公司动态</a></li>
+                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                          </ul>
+             </li>
+                    <li><a class="" href="jiaruwomen.html">加入我们</a>  </li>
+                    <li><a class="" href="lianxiwomen.html">联系我们</a>  </li>
+                  </ul>
+      </div>
+      <div class="clear"> </div>
+    </div>
+    <div class="shehome"> <a href="guanyuwomen.html" class="wxpt">关于我们</a>  | <a href="lianxiwomen.html" class="wxpt">联系我们</a> </div>
+  </div>
+</div>
+<div id="bn317" class="bn317">
+  <ul class="list clearfix">
+        <li><a href=""><img src="static/picture/1-2412301FJ1263.jpg"></a></li>
+        <li><a href=""><img src="static/picture/1-2412301FJ1Q1.jpg"></a></li>
+      </ul>
+  <div class="tip"></div>
+  <div class="prev"></div>
+  <div class="next"></div>
+</div>
+<script type="application/javascript">
+$(function () {
+   if (!$("#bn317").length || $("#bn317 .list li").length <= 1) {    return false; }
+    var _this = $("#bn317"),
+        me = $("#bn317 .list"),
+        tip = $("#bn317 .tip"),
+        prev = _this.find(".prev"),
+        next = _this.find(".next"),
+        t, interval = 2000,
+        speed = 1000,
+        speed2 = 700,
+        n = 0,
+        N = me.children("li").length;
+        me.find("li:gt(0)").hide();
+    if ($("#bn317 .tip").length) {
+        var htmlTip = "";
+        for (var i = 0; i < N; i++) {
+            if (i == 0) {
+                htmlTip += "<span class='cur'></span>";
+            } else {
+                htmlTip += "<span></span>";
+            }
+        }
+        tip.append(htmlTip);
+    }
+    var func = function() {
+        if (n >= N - 1) {
+            n = 0;
+        } else {
+            n++;
+        }
+        me.children("li").eq(n).css({
+            "z-index": 2
+        }).stop().fadeIn(speed).siblings("li").css({
+            "z-index": 1
+        }).stop().fadeOut(speed2);
+        if ($("#bn317 .tip").length) {
+            tip.children("span").eq(n).addClass("cur").siblings("span").removeClass("cur");
+        }
+    }
+    next.bind("click", function(){
+        clearInterval(t);
+        func();
+    });
+    prev.bind("click", function(){
+        clearInterval(t);
+        n -= 2;
+        n < -1 ? n = N-2 : n ;
+        func();
+    });
+    tip.children("span").mouseover(function() {
+        clearInterval(t);
+        n = $(this).index() - 1;
+        func();
+    });
+    t = setInterval(func, interval);
+    _this.hover(function(){
+        clearInterval(t);
+    },function(){
+        t = setInterval(func, interval);
+    });
+  
+});
+</script>
+<div class="clear20"></div>
+<div class="zy_tent content">
+  <div class="ziye_tile">
+    <h1>公司动态<span></span>
+      <div class="news_class"> <span class="on"><a href="">公司动态</a></span>  <span class=""><a href="xingyexinwen.html">行业新闻</a></span>  </div>
+    </h1>
+  </div>
+  <div class="zy_tent1">     <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="21.html">老年人养生之道：岁月静好，健康常伴</a></h1>
+        <h2>阅读量：689</h2>
+        <p>随着年岁的增长，老年人更需注重养生，以维持身心的和谐与健康，享受幸福晚年。养生不仅是一种生活态度，更...</p>
+        <h3><a href="21.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="20.html">老年人中医养生：传承千年智慧</a></h1>
+        <h2>阅读量：826</h2>
+        <p>在岁月的长河中，老年人积累了丰富的人生经验，而中医养生则为他们的健康生活提供了宝贵的智慧。中医强调“...</p>
+        <h3><a href="20.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="19.html">睡眠养生：充足睡眠，适度午休</a></h1>
+        <h2>阅读量：609</h2>
+        <p>夏天对于广东来说，是酷热且潮湿的。尤其在大城市里，热浪和车流形成的排放使得夏天尤其难熬。公公是个乡下...</p>
+        <h3><a href="19.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="18.html">老人健康 老年人养生学会这些妙招</a></h1>
+        <h2>阅读量：656</h2>
+        <p>老人冬季养生小知识　　老年人身子乏力，免疫力低下，因此老人要考虑壮健的度过寒冬，一定重视冬季养生难点...</p>
+        <h3><a href="18.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="17.html">天漸涼老年人要學會“五養” 專家送上健康提醒</a></h1>
+        <h2>阅读量：989</h2>
+        <p>昨天是重陽節。老年人如何更好地享受安康的晚年生活、日常生活中有什麼需要注意的？上海市健康促進中心昨天...</p>
+        <h3><a href="17.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="16.html">中老年人健康养生保健知识浅谈</a></h1>
+        <h2>阅读量：598</h2>
+        <p>随着社会的不断发展与进步，人们的健康意识逐渐增强，特别是对于中老年人而言，健康养生保健已成为他们生活...</p>
+        <h3><a href="16.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="15.html">老年养生保健知识有哪些？</a></h1>
+        <h2>阅读量：776</h2>
+        <p>老年养生保健知识通常包括适当运动、控制情绪、调理饮食等。1.适当运动老年人应该进行适度的身体活动，如...</p>
+        <h3><a href="15.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="xw_box1">
+      <div class="xw_box1_left left">
+        <dl>
+          <dd>31</dd>
+          <dd>12</dd>
+          <dt>2024</dt>
+        </dl>
+      </div>
+      <div class="xw_box1_right left">
+        <h1><a href="14.html">羊肉是寒性还是热性</a></h1>
+        <h2>阅读量：687</h2>
+        <p>羊是纯食草动物，所以较牛肉的肉质要细嫩，容易消化，高蛋白、低脂肪、含磷脂多，较猪肉和牛肉的脂肪含量都...</p>
+        <h3><a href="14.html">Read More</a></h3>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="pglist">  共<strong>1</strong>页 <strong>8</strong>条 </div>
+  </div>
+</div>
+<div class="foot_wrap">
+  <div class="foot">
+    <div class="foot1">
+      <ul>
+        <li class="f_box1"> <img src="static/picture/1-2412301K24V93.jpg" alt="老年康养服务中心网站模板"> <p>携手某某公司</p>
+<p>与健康同行&nbsp;&bull;&nbsp;与长寿相伴</p> </li>
+        <li class="f_box2">
+          <div class="f_box2_a">
+            <h1>020-88888888</h1>
+            <div class="clear20"></div>
+            <p>老年康养服务中心网站模板</p>
+            <p>地址：广东省广州市</p>
+            <p>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></p>
+          </div>
+        </li>
+        <li class="f_box3"> <img src="static/picture/1-2412301K201610.jpg" alt="老年康养服务中心网站模板" width="130" height="130"> </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="foot2">
+      <p class="f2_p2"><a href="index.html">首页</a>|<a href="guanyuwomen.html">关于我们</a>|<a href="qiyefuwu.html">企业服务</a>|<a href="xinwenzhongxin.html">新闻中心</a>|<a href="jiaruwomen.html">加入我们</a>|<a href="lianxiwomen.html">联系我们</a></p>
+    </div>
+  </div>
+</div>
+<!-- 应用插件标签 begin --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

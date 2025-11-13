@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>案例展示二_烘干机机械通用网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/543/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="static/css/child_cart.css">
+<link rel="stylesheet" type="text/css" href="static/css/child_atm.css">
+<link rel="stylesheet" type="text/css" href="static/css/master.css">
+<link rel="stylesheet" type="text/css" href="static/css/subpage.css">
+<link rel="stylesheet" type="text/css" href="static/css/animate.css">
+<script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/banner.js"></script>
+<script type="text/javascript" src="static/js/child_atm.js"></script>
+<script type="text/javascript" src="static/js/marquee.js"></script>
+<script type="text/javascript" src="static/js/jqselect.js"></script>
+<script type="text/javascript" src="static/js/zx.js"></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/543/template/pc/skin/js/png.js"></script>
+<script>DD_belatedPNG.fix('div,img,span,li,a,a:hover,dd,p,input,select')</script>
+<![endif]-->
+<script type="text/javascript">
+    window.onload = function(){
+        imgZoomRun("product3","p","prod-zoom","li"); // 图片放大
+        imgZoomRun("product7","p","prod-zoom","li");
+        imgZoomRun("product8","p","prod-zoom","li");
+        newsFontMove("fontjump"); // 鼠标放上，字体上下挪
+        newsFontMove("fontjumpcolor"); // 鼠标放上，字体上下挪
+        colorChange("fontjumpcolor"); // 隔行换色
+        colorChange("news5"); // 隔行换色
+        listImgZoom("product3","205"); // 图片缩放，需要给定宽度
+		enterAnimation("news_fadein");
+		if(typeof(data) != "undefined"){
+            var lefttype = new LeftType(data,"left-type",0); // 多级分类
+        }
+        afx.conHeightAuto();
+    };
+    window.addEventListener("resize",function(){
+        afx.conHeightAuto();
+    },false);
+    /*window.onresize = function(){
+        afx.conHeightAuto();
+        console.log("跑le？");
+    };   */
+</script>
+<script type="text/javascript" src="static/js/zoom.js"></script>
+</head>
+
+<!-- 头部 -->
+<div class="header"> 
+  <!-- 顶部 -->
+  <div class="h_top_c">
+    <div class="h_top">
+      <marquee>
+      最新公告：诚信为本：市场永远在变，诚信永远不变。      </marquee>
+      <span>服务热线：400-123-4567</span> </div>
+  </div>
+  <!-- 顶部 end--> 
+  
+  <!-- logo 搜索 -->
+  <div class="h_mid_c">
+    <div class="h_mid"> <span class="bigsearch">
+      <div class="search" id="bigse">
+              <form method="get" action="/543/index.php?m=home&c=Search&a=lists">
+         <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">          <input type="text" class="text" value="请输入关键词" name="keywords" id="keywords" onfocus="this.value=''" onblur="if(!value){value=defaultValue}">
+          <input type="submit" title="搜索" class="button" value="">
+        </form>
+            </div>
+      </span>
+      <div class="logo"> <a href="index.html" title="烘干机机械通用网站模板"> <img src="static/picture/f10947c9f7b53eeb5694fb39c32aef4e.png" alt="烘干机机械通用网站模板"> </a> </div>
+      <!-- 导航 -->
+      
+      <div class="nav">
+        <ul>
+                    <li> <a href="guanyuwomen.html" title="关于我们">关于我们</a> </li>
+                    <li> <a href="chanpinzhongxin.html" title="产品中心">产品中心</a> </li>
+                    <li> <a href="xinwendongtai.html" title="新闻动态">新闻动态</a> </li>
+                    <li> <a href="chenggonganli.html" title="成功案例">成功案例</a> </li>
+                    <li> <a href="xingyezixunfag.html" title="行业资讯">行业资讯</a> </li>
+                    <li> <a href="rongyuzizhi.html" title="荣誉资质">荣誉资质</a> </li>
+                    <li> <a href="jishuzhichi.html" title="技术支持">技术支持</a> </li>
+                    <li> <a href="danye2.html" title="联系我们">联系我们</a> </li>
+                  </ul>
+      </div>
+      <!-- 导航 end--> 
+    </div>
+    <div class="c"></div>
+  </div>
+  <!-- logo 搜索 end--> 
+</div>
+
+<!-- banner -->
+<div class="banner1">
+  <div class="banner-box1">
+    <li><a><img src="static/picture/70ab533c73252b9960f620d85018b2a2.jpg"></a></li>
+  </div>
+</div>
+<!-- banner -->
+<!-- 头部 end --> 
+
+<!-- 图标导航 end-->
+<div class="main_c">
+  <div class="main" id="content"> 
+    <!-- 左侧部分 --> 
+    <div class="sp_left" id="contentLeft"> 
+          <div class="con1-left">
+       <p class="left-title1">产品中心</p>
+        <a href="javascript:;" title="" class="class_up"></a>
+        <div class="con1_class">
+          <ul id="left-type">
+                    <li> <a href="diyixilie.html" title="第一系列" class="">第一系列</a> </li>
+                    <li> <a href="dierxilie.html" title="第二系列" class="">第二系列</a> </li>
+                    <li> <a href="disanxilie.html" title="第三系列" class="">第三系列</a> </li>
+                    <li> <a href="disixilie.html" title="第四系列" class="">第四系列</a> </li>
+                    <li> <a href="diwuxilie.html" title="第五系列" class="">第五系列</a> </li>
+                    </ul>
+        </div>
+        <a href="javascript:;" title="" class="class_down"></a> </div>
+        
+      <!-- nav end--> 
+      <!-- 新闻资讯 -->
+            <div class="sub_youhui sub_common">
+        <div class="sub_common_title">
+          <h2>新闻动态</h2>
+        </div>
+        <div class="sub_youhui_content">
+          <div class="syl_list sub_common_padding">
+            <ul>
+                          <li> <a href="50.html" title="2017两会透露信号：智能卫浴或迎发展黄金期">2017两会透露信号：智能卫浴或迎发展黄金期</a> </li>
+                          <li> <a href="49.html" title="电子商务网站建设技术：怎样修改网站标题">电子商务网站建设技术：怎样修改网站标题</a> </li>
+                          <li> <a href="48.html" title="极简主义：你了解过“震颤教”吗？">极简主义：你了解过“震颤教”吗？</a> </li>
+                          <li> <a href="47.html" title="IKEA宜家PS系列：家居可以怎样时尚表达？">IKEA宜家PS系列：家居可以怎样时尚表达？</a> </li>
+                          <li> <a href="46.html" title="谷歌总部扩建曝光细节图 像个透明帐篷">谷歌总部扩建曝光细节图 像个透明帐篷</a> </li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+         
+      <!-- 新闻资讯 end--> 
+      <!-- 联系我们 -->
+      <div class="sub_content sub_common"> 
+        <p class="fy_ltname">咨询热线</p>
+        <span class="fyltel">400-123-4567</span>
+        <div class="sub_content_list sub_common_padding"> 
+          地址：广东省广州市天河区88号 <br>
+          传真：+86-123-4567 <br>
+        </div>
+      </div>
+      <!-- 联系我们 end--> 
+    </div>
+    <!-- 左侧部分 end--> 
+    <!-- 内容部分 -->
+    <div class="sp_content" id="contentRight">
+      <div class="content_com_title">
+        <h2>成功案例</h2>
+        <div class="bread"> 当前位置： <a href='index.html' class='crumb'>首页</a> &gt; <a href='chenggonganli.html'>成功案例</a></div>
+      </div>
+      <div class="content">
+        <div class="view">
+          <h1 class="view-title">案例展示二</h1>
+          <div class="view-date"> <span>发布时间：2018-05-30</span> <span>点击量：<span id="clicksArea"><script src='https://demoall.kuaituiyun.cn/543/index.php?m=api&c=Ajax&a=arcclick&type=view&aids=52' type='text/javascript' language='javascript'></script></span></span> </div>
+          <div class="bdsharebuttonbox view-share"> <a href="#" class="bds_more" data-cmd="more"></a> <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a> <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a> <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a> <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a> <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> </div>
+          <p style="text-align: center;"><img src="static/picture/f38cd71dd227efd4e1424e13f53e3368.jpg" title="f38cd71dd227efd4e1424e13f53e3368.jpg" alt="f38cd71dd227efd4e1424e13f53e3368.jpg"></p> </div>
+        <div class="page">
+                      <p> 上一篇：<a href="51.html">案例展示一</a> </p>
+                      <p> 下一篇：<a href="53.html">案例展示三</a> </p>
+                    <a href="chenggonganli.html" title="返回" class="back">返回</a> </div>
+      </div>
+    </div>
+  </div>
+  <!-- 内容部分 end--> 
+</div>
+
+
+<!-- footer --> 
+<div class="boot">
+  <div class="fmain">
+    <div class="fool">
+      <div class="footOne">
+        <ul class="share">
+          <div>
+            <li><a href="tencent://message/?uin=1234567890&Menu=yes" class="list qq" target="blank">在线咨询</a></li>
+          </div>
+        </ul>
+      </div>
+      <span class="footleft"><b>咨询热线：</b><font>400-123-4567</font></span> </div>
+    <div class="fooc"> <span class="itfname">站点分享：</span> 
+      <!--share-->
+      <div class="newsshare">
+        <div class="bdsharebuttonbox"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+        </div>
+      <!--share--> 
+      <span class="itfname">友情链接：</span>
+      <select class="you_select" onchange="window.open(this.options[this.selectedIndex].value)"> 
+             <option value="https://www.youku.com/">优酷</option>
+             <option value="https://www.jd.com/">京东</option>
+             <option value="https://www.taobao.com/">淘宝</option>
+             <option value="https://weibo.com/">微博</option>
+       
+      </select>
+    </div>
+    <div class="foor">
+      <div class="pp">电话：400-123-4567</div>
+      <div class="pp">传真：+86-123-4567</div>
+      <div class="pp">地址：广东省广州市天河区88号</div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="footclear"></div>
+<div class="foot">
+  <div class="fmain">
+    <div class="bootTxt">
+      <div class="booleft">版权所有：Copyright © 2002-202X 某某公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>ICP备案编号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤IP**********</a>&nbsp;&nbsp;&nbsp;&nbsp; </div>
+      
+    </div>
+  </div>
+</div>
+<div class="side_nav">
+  <ul>
+    <li class="sub_QR"> <a href="javascript:;"> <span><img src="static/picture/1-2305300Z504307.jpg" width="128" height="128" alt=""></span> </a> </li>
+    <li class="back_top"> <a href="#"> <span>返回顶部</span> </a> </li>
+  </ul>
+  <div class="c"></div>
+</div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+  <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+
+<!-- footer end-->
+</html>

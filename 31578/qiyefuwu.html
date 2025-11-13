@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>家庭护士_老年康养服务中心网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31578/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/index.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/ddsmoothmenu.js"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+    mainmenuid: "smoothmenu1",
+    orientation: 'h',
+    classname: 'nav'
+});
+</script>
+<script language="javascript" type="text/javascript" src="static/js/jquery.db_tabmotionbanner.min.js"></script>
+    <meta http-equiv="mobile-agent" content="format=xhtml;url=https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=2">
+    <script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/applewebkit.*mobile/i.test(navigator.userAgent.toLowerCase()) || (/midp|symbianos|nokia|samsung|lg|nec|tcl|alcatel|bird|dbtel|dopod|philips|haier|lenovo|mot-|nokia|sonyericsson|sie-|amoi|zte/.test(navigator.userAgent.toLowerCase()))){try{if(/android|windows phone|webos|iphone|ipod|blackberry/i.test(navigator.userAgent.toLowerCase())){window.location.href="https://demoall.5fa.cn/31578/index.php?m=home&c=Lists&a=index&tid=2";}else if(/ipad/i.test(navigator.userAgent.toLowerCase())){}else{}}catch(e){}}}</script>
+</head>
+<body>
+<div class="top_wrap">
+  <div class="top">
+    <div class="logo"> <a href="index.html" rel="nofollow"><img src="static/picture/1-241231095F1219.png" width="380" height="95"></a> </div>
+    <div class="nav_wrap">
+      <div class="nav" id="smoothmenu1">
+        <ul class="clearfix">
+          <li class="nav1"> <a href="index.html">首 页</a> </li>
+                    <li><a class="" href="guanyuwomen.html">关于我们</a>  </li>
+                    <li><a class="selected" href="">企业服务</a>             <ul class="submenu">
+                            <li><a href="jiatinghushi.html">家庭护士</a></li>
+                            <li><a href="jijiakanghu.html">居家康护</a></li>
+                            <li><a href="shequzhaohu.html">社区照护</a></li>
+                            <li><a href="quanchengpeihu.html">全程陪护</a></li>
+                            <li><a href="chuangshangxiyu.html">床上洗浴</a></li>
+                            <li><a href="fujufuwu.html">辅具服务</a></li>
+                          </ul>
+             </li>
+                    <li><a class="" href="xinwenzhongxin.html">新闻中心</a>             <ul class="submenu">
+                            <li><a href="gongsidongtai.html">公司动态</a></li>
+                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                          </ul>
+             </li>
+                    <li><a class="" href="jiaruwomen.html">加入我们</a>  </li>
+                    <li><a class="" href="lianxiwomen.html">联系我们</a>  </li>
+                  </ul>
+      </div>
+      <div class="clear"> </div>
+    </div>
+    <div class="shehome"> <a href="guanyuwomen.html" class="wxpt">关于我们</a>  | <a href="lianxiwomen.html" class="wxpt">联系我们</a> </div>
+  </div>
+</div>
+<div id="bn317" class="bn317">
+  <ul class="list clearfix">
+        <li><a href=""><img src="static/picture/1-2412301FJ1263.jpg"></a></li>
+        <li><a href=""><img src="static/picture/1-2412301FJ1Q1.jpg"></a></li>
+      </ul>
+  <div class="tip"></div>
+  <div class="prev"></div>
+  <div class="next"></div>
+</div>
+<script type="application/javascript">
+$(function () {
+   if (!$("#bn317").length || $("#bn317 .list li").length <= 1) {    return false; }
+    var _this = $("#bn317"),
+        me = $("#bn317 .list"),
+        tip = $("#bn317 .tip"),
+        prev = _this.find(".prev"),
+        next = _this.find(".next"),
+        t, interval = 2000,
+        speed = 1000,
+        speed2 = 700,
+        n = 0,
+        N = me.children("li").length;
+        me.find("li:gt(0)").hide();
+    if ($("#bn317 .tip").length) {
+        var htmlTip = "";
+        for (var i = 0; i < N; i++) {
+            if (i == 0) {
+                htmlTip += "<span class='cur'></span>";
+            } else {
+                htmlTip += "<span></span>";
+            }
+        }
+        tip.append(htmlTip);
+    }
+    var func = function() {
+        if (n >= N - 1) {
+            n = 0;
+        } else {
+            n++;
+        }
+        me.children("li").eq(n).css({
+            "z-index": 2
+        }).stop().fadeIn(speed).siblings("li").css({
+            "z-index": 1
+        }).stop().fadeOut(speed2);
+        if ($("#bn317 .tip").length) {
+            tip.children("span").eq(n).addClass("cur").siblings("span").removeClass("cur");
+        }
+    }
+    next.bind("click", function(){
+        clearInterval(t);
+        func();
+    });
+    prev.bind("click", function(){
+        clearInterval(t);
+        n -= 2;
+        n < -1 ? n = N-2 : n ;
+        func();
+    });
+    tip.children("span").mouseover(function() {
+        clearInterval(t);
+        n = $(this).index() - 1;
+        func();
+    });
+    t = setInterval(func, interval);
+    _this.hover(function(){
+        clearInterval(t);
+    },function(){
+        t = setInterval(func, interval);
+    });
+  
+});
+</script>
+<div class="clear20"></div>
+<div class="zy_tent content">
+  <div class="ziye_tile">
+    <h1>家庭护士<span></span></h1>
+  </div>
+  <div class="zy_tent1">
+    <div class="xw_box1">
+      <div class="xw_box1_right left">
+        <h1>家庭护士</h1>
+        <p>家庭护士在提供护理服务时，主要承担以下职责：<br></p><p>日常生活照料：包括帮助长者或患者进行个人卫生、穿衣、洗漱等日常生活活动，保持环境整洁干净，提供饮食和营养支持等。</p><p>健康监测：监测患者的体温、血压、呼吸等生命体征，并及时记录和报告异常情况。</p><p>药物管理：负责按时提醒患者服药，并确保正确的剂量和用药方式。</p><p>疾病管理：帮助患者进行康复训练、按医嘱进行治疗，为患者提供身体和情感上的支持。</p><p>心理护理：理解患者的需求和情感状态，提供陪伴、安慰和鼓励，帮助患者保持积极的心态。</p><p>家庭支持：协助家庭成员了解患者的健康状况，并提供必要的教育和建议。</p><p>三、技能要求</p><p>为了胜任家庭护士的职责，她们需要具备以下技能：</p><p>技术技能：掌握基本的急救技能和常见疾病的护理知识，如合理的体位转换、卧床患者的护理技巧等。</p><p>沟通技巧：能够与患者、家属和医疗团队进行有效的沟通，建立良好的沟通关系，了解患者需求并传达相关信息。</p><p>观察技巧：具备观察和记录患者生命体征变化的能力，发现潜在的问题和异常情况，并及时采取应对措施。</p><p>管理技能：能够合理安排自己的工作时间和优先级，善于解决问题和应对突发状况。</p><p>体力和耐心：护理工作常常需要长时间站立或屈膝，因此家庭护士需要具备一定的体力和耐力。同时，她们需要有耐心和善于倾听，以满足患者的需求。</p><p>四、资质认证</p><p>为了提高家庭护士的专业素养和服务质量，一些地区或机构可能会推出家庭陪护认证证书。这一证书旨在规范行业标准，确保家庭护士具备必要的知识和技能。获得这一证书通常需要经过培训学习、考试考核以及材料提交等流程。</p><p>五、发展前景</p><p>随着人口老龄化的加剧以及人们对生活质量要求的提高，对专业家庭护士的需求日益增长。家庭护士可以为那些需要特殊照顾的人提供更为便利和舒适的服务，满足家庭对高质量护理服务的需求。因此，家庭护士这一职业具有广阔的发展前景。</p><p>总之，家庭护士在促进患者健康、提高生活质量方面发挥着重要作用。她们需要具备全面的技能和素质，以满足不同患者的需求。同时，随着社会的不断发展，家庭护士的职业前景也将更加广阔。</p> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="foot_wrap">
+  <div class="foot">
+    <div class="foot1">
+      <ul>
+        <li class="f_box1"> <img src="static/picture/1-2412301K24V93.jpg" alt="老年康养服务中心网站模板"> <p>携手某某公司</p>
+<p>与健康同行&nbsp;&bull;&nbsp;与长寿相伴</p> </li>
+        <li class="f_box2">
+          <div class="f_box2_a">
+            <h1>020-88888888</h1>
+            <div class="clear20"></div>
+            <p>老年康养服务中心网站模板</p>
+            <p>地址：广东省广州市</p>
+            <p>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></p>
+          </div>
+        </li>
+        <li class="f_box3"> <img src="static/picture/1-2412301K201610.jpg" alt="老年康养服务中心网站模板" width="130" height="130"> </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="foot2">
+      <p class="f2_p2"><a href="index.html">首页</a>|<a href="guanyuwomen.html">关于我们</a>|<a href="">企业服务</a>|<a href="xinwenzhongxin.html">新闻中心</a>|<a href="jiaruwomen.html">加入我们</a>|<a href="lianxiwomen.html">联系我们</a></p>
+    </div>
+  </div>
+</div>
+<!-- 应用插件标签 begin --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>
