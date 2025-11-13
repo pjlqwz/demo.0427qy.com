@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="applicable-device" content="pc,wap">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<title>案例中心_响应式网站SEO优化排名服务网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31849/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/swiper.min.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/superslide.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/swiper.min.js"></script>
+</head>
+<body>
+<div class="header" id="header">
+  <div class="pc_banner mtbanner">
+    <div class="pcbanner">
+      <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="static/picture/1-251014142300640.jpg"></div>
+              </div>
+          </div>
+      </div>
+  <div class="head_top clearfix" id="headtop">
+    <div class="center">
+      <div class="text clearfix">
+        <div class="logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+             
+            <li class=""> <a href="wangzhanjianshe.html">网站建设</a></li>
+             
+            <li class=""> <a href="yunyingtuiguang.html">运营推广</a></li>
+             
+            <li class=""> <a href="youhuapaiming.html">优化排名</a></li>
+             
+            <li class=""> <a href="xinwendongtai.html">新闻动态</a></li>
+             
+            <li class="active"> <a href="">案例中心</a></li>
+             
+            <li class=""> <a href="lianxi.html">联系我们</a></li>
+                      </ul>
+        </div>
+        <script type="text/javascript">
+			$(".nav li").hover(function(){
+				//$(this).toggleClass("active").siblings('.nav li').removeClass("active");//切换图标
+				$(this).children(".nav .v_list").slideToggle(150).siblings("#app_menu .v_list").slideUp(150);
+			});
+		</script>
+        <div class="tel">
+          <p> <span>020-66889888</span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="m_header">
+  <div class="m_head_content">
+    <div class="m_head_logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+    <div class="menu" id="menu"><i class="fa fa-list-ul"></i></div>
+  </div>
+  <div class="app_menu" id="app_menu">
+    <ul>
+      <li><a href="index.html"><span>首页</span></a></li>
+       
+      <li class=""> <a href="wangzhanjianshe.html"><span>网站建设</span></a></li>
+       
+      <li class=""> <a href="yunyingtuiguang.html"><span>运营推广</span></a></li>
+       
+      <li class=""> <a href="youhuapaiming.html"><span>优化排名</span></a></li>
+       
+      <li class=""> <a href="xinwendongtai.html"><span>新闻动态</span></a></li>
+       
+      <li class="active"> <a href=""><span>案例中心</span></a></li>
+       
+      <li class=""> <a href="lianxi.html"><span>联系我们</span></a></li>
+          </ul>
+  </div>
+  <script type="text/javascript">
+            $("#menu").on('click', function (event) {
+                if($("#app_menu").css("display")=="none"){
+                    $("#app_menu").slideDown(600);
+                }else{
+                    $("#app_menu").slideUp(600);
+                }
+            }); 
+            // $("#app_menu li").eq(2).addClass('on');
+            // $("#app_menu li").eq(3).addClass('on');
+
+            $("#app_menu li").click(function(){
+                $(this).toggleClass("active").siblings('#app_menu li').removeClass("active");//切换图标
+                $(this).next("#app_menu .v_list").slideToggle(500).siblings("#app_menu .v_list").slideUp(500);
+            });
+        </script> 
+</div>
+<div class="m_banner mtbanner">
+  <div class="mbanner" id="mbanner">
+    <ul>
+              <li><img src="static/picture/1-251014142300640.jpg"></li>
+            </ul>
+  </div>
+  </div>
+<script type="text/javascript">
+        $(document).ready(function() {
+            var navOffset=$(".main").offset().top;
+            $(window).scroll(function(){
+                var scrollPos=$(window).scrollTop();
+                if(scrollPos >navOffset){
+                    $("#headtop").addClass("fixed");
+                }else{
+                    $("#headtop").removeClass("fixed");
+                }
+            });
+        });
+    </script>
+<div class="main page_main">
+  <div class="center">
+    <div class="case_wrap clearfix">
+      <div class="box_tit clearfix"> <span>案例中心</span>
+        <p>CASE</p>
+      </div>
+            <div class="pro_screen clearfix" id="filter_btn">
+                <ul class="fbox clearfix">
+          <li><span>行业</span></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&ZXljbXM=1' class="active"><b>全部</b></a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=1&ZXljbXM=1' class="">企业集团</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=2&ZXljbXM=1' class="">婚纱摄影</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=3&ZXljbXM=1' class="">建筑装饰</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=4&ZXljbXM=1' class="">机械设备</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=5&ZXljbXM=1' class="">生活家居</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=6&ZXljbXM=1' class="">医疗教育</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=7&ZXljbXM=1' class="">网络公司</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=8&ZXljbXM=1' class="">餐饮美食</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&hangye=9&ZXljbXM=1' class="">其他行业</a></li>
+                  </ul>
+                <ul class="fbox clearfix">
+          <li><span>颜色</span></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&ZXljbXM=1' class="active"><b>全部</b></a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=10&ZXljbXM=1' class="">红色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=11&ZXljbXM=1' class="">橙色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=12&ZXljbXM=1' class="">黄色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=13&ZXljbXM=1' class="">绿色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=14&ZXljbXM=1' class="">蓝色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=15&ZXljbXM=1' class="">黑色</a></li>
+                    <li><a onclick='ey_97c0670026ad69b846ea069ffdb217a9(this);' data-url='/31849/index.php?m=home&c=Lists&a=index&lang=cn&tid=5&yanse=16&ZXljbXM=1' class="">灰色</a></li>
+                  </ul>
+                <script type="text/javascript">
+    function ey_97c0670026ad69b846ea069ffdb217a9(obj) {
+        var dataurl = obj.getAttribute("data-url");
+        if (dataurl) {
+            window.location.href = dataurl;
+        } else {
+            alert('没有选择筛选项');
+        }
+    }
+
+    function ey_3c160ded72fd680a55a591829e72a776(obj) {
+        var dataurl = obj.options[obj.selectedIndex].getAttribute("data-url");
+        if (dataurl) {
+            window.location.href = dataurl;
+        } else {
+            alert('没有选择筛选项');
+        }
+    }
+</script>      </div>
+            <div class="case_list clearfix" id="web_list">
+        <ul class="clearfix" id="box">
+                    <li>
+            <div class="n_case scroll_pic"><a href="35.html"><img src="static/picture/1-1P4101633370-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>蒂薇雅</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>699元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span><i>服装</i><i>蓝色</i><i>响应式</i></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="34.html"><img src="static/picture/1-1P4101632320-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>新西兰手工冰棍</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>600元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span><i>响应式</i><i>绿色</i><i>食品</i></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="33.html"><img src="static/picture/1-1P4101629400-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>车业有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>688元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span><i>车业</i><i>红色</i></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="32.html"><img src="static/picture/1-1P410162Q10-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>农机集团有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>669元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="31.html"><img src="static/picture/1-1P410162F90-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>光阳发动机有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>599元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="30.html"><img src="static/picture/1-1P4101625480-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>能源科技有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>499元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="29.html"><img src="static/picture/1-1P4101623590-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>房地产开发有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>988元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span></span> </div>
+          </li>
+                    <li>
+            <div class="n_case scroll_pic"><a href="25.html"><img src="static/picture/1-1P4101604460-L.jpg" style="top: 0px;"></a></div>
+            <div class="text clearfix">
+              <h3>信息咨询有限公司</h3>
+            </div>
+            <div class="text2 clearfix"> <span>￥<i>899元</i></span> <a href="https://www.baidu.com/" target="_blank" rel="nofollow">查看演示站</a> </div>
+            <div class="text3 clearfix">
+              <p></p>
+              <span></span> </div>
+          </li>
+                  </ul>
+      </div>
+      <div class="pagebar">
+        <div class="pagination">  共<strong>1</strong>页 <strong>8</strong>条 </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="center">
+    <div class="box clearfix">
+      <p>Copyright © 2002-202X 某某网络设计有限公司 版权所有&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备12345678号</a>&nbsp;&nbsp;<a href="31849/sitemap.xml" target="_blank">xml地图</a>&nbsp;&nbsp; </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+        $(function () {
+            $('.imgauto img').imgAuto();
+        })
+    </script> 
+<div class="footer-fix">
+  <ul class="clearfix">
+    <li><a href="index.html"><i class="i1"></i>网站首页</a></li>
+        <li><a href="wangzhanjianshe.html"><i class="i2"></i> 网站建设</a></li>
+        <li><a href="xinwendongtai.html"><i class="i4"></i> 新闻动态</a></li>
+        <li><a href="tel:020-66889888"><i class="i3"></i>服务热线</a></li>
+  </ul>
+</div>
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

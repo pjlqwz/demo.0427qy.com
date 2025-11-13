@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="applicable-device" content="pc,wap">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<title>优化排名_响应式网站SEO优化排名服务网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/31849/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/swiper.min.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/superslide.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/swiper.min.js"></script>
+</head>
+<body>
+<div class="header" id="header">
+  <div class="pc_banner mtbanner">
+    <div class="pcbanner">
+      <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="static/picture/1-251014142300640.jpg"></div>
+              </div>
+          </div>
+      </div>
+  <div class="head_top clearfix" id="headtop">
+    <div class="center">
+      <div class="text clearfix">
+        <div class="logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+             
+            <li class=""> <a href="wangzhanjianshe.html">网站建设</a></li>
+             
+            <li class=""> <a href="yunyingtuiguang.html">运营推广</a></li>
+             
+            <li class="active"> <a href="">优化排名</a></li>
+             
+            <li class=""> <a href="xinwendongtai.html">新闻动态</a></li>
+             
+            <li class=""> <a href="anli.html">案例中心</a></li>
+             
+            <li class=""> <a href="lianxi.html">联系我们</a></li>
+                      </ul>
+        </div>
+        <script type="text/javascript">
+			$(".nav li").hover(function(){
+				//$(this).toggleClass("active").siblings('.nav li').removeClass("active");//切换图标
+				$(this).children(".nav .v_list").slideToggle(150).siblings("#app_menu .v_list").slideUp(150);
+			});
+		</script>
+        <div class="tel">
+          <p> <span>020-66889888</span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="m_header">
+  <div class="m_head_content">
+    <div class="m_head_logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+    <div class="menu" id="menu"><i class="fa fa-list-ul"></i></div>
+  </div>
+  <div class="app_menu" id="app_menu">
+    <ul>
+      <li><a href="index.html"><span>首页</span></a></li>
+       
+      <li class=""> <a href="wangzhanjianshe.html"><span>网站建设</span></a></li>
+       
+      <li class=""> <a href="yunyingtuiguang.html"><span>运营推广</span></a></li>
+       
+      <li class="active"> <a href=""><span>优化排名</span></a></li>
+       
+      <li class=""> <a href="xinwendongtai.html"><span>新闻动态</span></a></li>
+       
+      <li class=""> <a href="anli.html"><span>案例中心</span></a></li>
+       
+      <li class=""> <a href="lianxi.html"><span>联系我们</span></a></li>
+          </ul>
+  </div>
+  <script type="text/javascript">
+            $("#menu").on('click', function (event) {
+                if($("#app_menu").css("display")=="none"){
+                    $("#app_menu").slideDown(600);
+                }else{
+                    $("#app_menu").slideUp(600);
+                }
+            }); 
+            // $("#app_menu li").eq(2).addClass('on');
+            // $("#app_menu li").eq(3).addClass('on');
+
+            $("#app_menu li").click(function(){
+                $(this).toggleClass("active").siblings('#app_menu li').removeClass("active");//切换图标
+                $(this).next("#app_menu .v_list").slideToggle(500).siblings("#app_menu .v_list").slideUp(500);
+            });
+        </script> 
+</div>
+<div class="m_banner mtbanner">
+  <div class="mbanner" id="mbanner">
+    <ul>
+              <li><img src="static/picture/1-251014142300640.jpg"></li>
+            </ul>
+  </div>
+  </div>
+<script type="text/javascript">
+        $(document).ready(function() {
+            var navOffset=$(".main").offset().top;
+            $(window).scroll(function(){
+                var scrollPos=$(window).scrollTop();
+                if(scrollPos >navOffset){
+                    $("#headtop").addClass("fixed");
+                }else{
+                    $("#headtop").removeClass("fixed");
+                }
+            });
+        });
+    </script>
+<div class="main">
+  <div class="f_box1 f_bg">
+    <div class="center">
+      <div class="ftit">
+        <h2> 三大产品创新颠覆传统SEO</h2>
+        <p> 采用2018年全新搜索引擎算法，快速上首页，就是这么简单</p>
+      </div>
+      <div class="list">
+        <div class="items">
+          <h5> 平台化全智能操作</h5>
+          <p> 后台一键添加关键词+优化链接即可<br>
+            优化工作全部后台智能完成</p>
+        </div>
+        <div class="items">
+          <h5> 排名效果可视化</h5>
+          <p> 系统每天自动查询关键词在百度排名位置<br>
+            并生成查询报表</p>
+        </div>
+        <div class="items">
+          <h5> 收费功能自动化</h5>
+          <p> 关键词任务计费全自动，后台根据关键词热度、优<br>
+            化站质量全部自动调整优化力度，确保效果</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="f_box2">
+    <div class="center">
+      <div class="ftit">
+        <h2> 他们使用排名已盈利，你还在犹豫什么?</h2>
+        <p> 快速上手，不管是兼职还是全职，工具在手效果不愁，客户多多，盈利满满！</p>
+      </div>
+      <div class="list">
+        <div class="items">
+          <h5> 个人企业站长 <small>正在使用</small></h5>
+          <p> 系统分类优化订单，网站排名效果更快，工作效率大大提升！</p>
+          <a href="https://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes" rel="nofollow" target="_blank">立即咨询&gt;</a></div>
+        <div class="items">
+          <h5> SEO优化公司 <small>正在使用</small></h5>
+          <p> 公司优化业务效果更明显，客户合作意向越来越高！</p>
+          <a href="https://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes" rel="nofollow" target="_blank">立即咨询&gt;</a></div>
+        <div class="items">
+          <h5> 网站负责人员 <small>正在使用</small></h5>
+          <p> 实时掌控网站优化效果 随时调整优化关键词！</p>
+          <a href="https://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes" rel="nofollow" target="_blank">立即咨询&gt;</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="f_box3 f_bg">
+    <div class="center">
+      <div class="ftit">
+        <h2> 选择我们让seo变得更简单</h2>
+        <p> 采用2018年全新搜索引擎算法，快速上首页，就是这么简单</p>
+      </div>
+      <div class="list">
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s1.png"> <img src="static/picture/s11.png"></div>
+          <h5> 系统操作易</h5>
+          <p> 系统操作简单，只需要添加网址而和关键词的一步操作就能坐等排名效果 ! 确保您的优化任务省时、省事、省资源！</p>
+        </div>
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s2.png"> <img src="static/picture/s22.png"></div>
+          <h5> 优化效果快</h5>
+          <p> 快速提升关键词排名，输入想要优化的关键词，最快当天就能见效！</p>
+        </div>
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s3.png"> <img src="static/picture/s33.png"></div>
+          <h5> 排名效果好</h5>
+          <p> SEO核心优化技术能够轻松做到优化一个核心词，匹配一批关键词到首页，为网站带来更多高频流量！</p>
+        </div>
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s4.png"> <img src="static/picture/s44.png"></div>
+          <h5> 成本费用低</h5>
+          <p> 费用远低于行业同类产品！系统坚持用较低的成本做更好的效果！</p>
+        </div>
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s5.png"> <img src="static/picture/s55.png"></div>
+          <h5> 效果覆盖广</h5>
+          <p> 能够根据不同的搜索引擎的特征，进行针对性的排名优化，排名效果覆盖各大主流搜索引擎！</p>
+        </div>
+        <div class="items">
+          <div class="pic"> <img src="static/picture/s6.png"> <img src="static/picture/s66.png"></div>
+          <h5> 监控效果好</h5>
+          <p> 智能监控系统让排名效果以及费用消耗一目了然，方便用户随时随地均可查询排名效果的实时数据！</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="f_box4">
+    <div class="center">
+      <div class="ftit">
+        <h2> 优秀案例赏析</h2>
+        <p> 使用众多行业法的优秀案例</p>
+      </div>
+      <div class="seo_cases clearfix">
+        <div class="seo_cases_list" id="seo_cases_list1">
+          <div class="title clearfix">
+            <p> <span>关键词</span> <span>网址</span> <span>排名</span></p>
+          </div>
+          <div class="bd">
+            <ul class="infoList">
+              <li> <span>激光切割机</span><span>www.la**.com</span><span>1</span></li>
+              <li> <span>机械加工</span><span>www.vt**.com</span><span>1</span></li>
+              <li> <span>微商</span><span>www.gf**.org</span><span>2</span></li>
+              <li> <span>小程序开发</span><span>www.wx**.com</span><span>2</span></li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+                        jQuery("#seo_cases_list1").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:4,interTime:50,trigger:"click"});
+                    </script>
+        <div class="seo_cases_list" id="seo_cases_list2">
+          <div class="title clearfix">
+            <p> <span>关键词</span> <span>网址</span> <span>排名</span></p>
+          </div>
+          <div class="bd">
+            <ul class="infoList">
+              <li> <span>合肥家政公司</span><span>www.ax**.com</span><span>1</span></li>
+              <li> <span>长沙装修公司</span><span>www.qs**.com</span><span>1</span></li>
+              <li> <span>矿山机械</span><span>www.yt**.com</span><span>1</span></li>
+              <li> <span>五金模具</span><span>www.ne**.com </span><span>1</span></li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+                        jQuery("#seo_cases_list2").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:4,interTime:50,trigger:"click"});
+                    </script>
+        <div class="seo_cases_list" id="seo_cases_list3">
+          <div class="title clearfix">
+            <p> <span>关键词</span> <span>网址</span> <span>排名</span></p>
+          </div>
+          <div class="bd">
+            <ul class="infoList">
+              <li> <span>CAD教程</span><span>www.mf**.com</span><span>4</span></li>
+              <li> <span>广州二手车</span><span>www.gj**.com</span><span>1</span></li>
+              <li> <span>扫地机</span><span>www.ch**.com</span><span>2</span></li>
+              <li> <span>会计培训</span><span>www.ac**.com</span><span>1</span></li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+                        jQuery("#seo_cases_list3").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:4,interTime:50,trigger:"click"});
+                    </script></div>
+      <a class="ot_more" href="https://wpa.qq.com/msgrd?v=3&uin=888888&site=qq&menu=yes" rel="nofollow" target="blank">购买产品</a></div>
+  </div>
+</div>
+<div class="footer">
+  <div class="center">
+    <div class="box clearfix">
+      <p>Copyright © 2002-202X 某某网络设计有限公司 版权所有&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备12345678号</a>&nbsp;&nbsp;<a href="31849/sitemap.xml" target="_blank">xml地图</a>&nbsp;&nbsp; </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+        $(function () {
+            $('.imgauto img').imgAuto();
+        })
+    </script> 
+<div class="footer-fix">
+  <ul class="clearfix">
+    <li><a href="index.html"><i class="i1"></i>网站首页</a></li>
+        <li><a href="wangzhanjianshe.html"><i class="i2"></i> 网站建设</a></li>
+        <li><a href="xinwendongtai.html"><i class="i4"></i> 新闻动态</a></li>
+        <li><a href="tel:020-66889888"><i class="i3"></i>服务热线</a></li>
+  </ul>
+</div>
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

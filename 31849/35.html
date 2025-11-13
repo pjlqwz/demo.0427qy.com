@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="applicable-device" content="pc,wap">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<title>蒂薇雅_响应式网站SEO优化排名服务网站模板</title>
+<meta name="description" content="生物科技发展有限公司位于广州番禺区，是一家致力于女性用品的设计、开发、销售的高科技公司，公司以女性需求为导向，为广大女性朋友创造更舒适的体验为目标。">
+<meta name="keywords" content="蒂薇,雅,">
+<link href="/31849/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/swiper.min.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/superslide.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/swiper.min.js"></script>
+</head>
+<body>
+<div class="header" id="header">
+  <div class="pc_banner mtbanner">
+    <div class="pcbanner">
+      <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="static/picture/1-251014142300640.jpg"></div>
+              </div>
+          </div>
+      </div>
+  <div class="head_top clearfix" id="headtop">
+    <div class="center">
+      <div class="text clearfix">
+        <div class="logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+             
+            <li class=""> <a href="wangzhanjianshe.html">网站建设</a></li>
+             
+            <li class=""> <a href="yunyingtuiguang.html">运营推广</a></li>
+             
+            <li class=""> <a href="youhuapaiming.html">优化排名</a></li>
+             
+            <li class=""> <a href="xinwendongtai.html">新闻动态</a></li>
+             
+            <li class="active"> <a href="anli.html">案例中心</a></li>
+             
+            <li class=""> <a href="lianxi.html">联系我们</a></li>
+                      </ul>
+        </div>
+        <script type="text/javascript">
+			$(".nav li").hover(function(){
+				//$(this).toggleClass("active").siblings('.nav li').removeClass("active");//切换图标
+				$(this).children(".nav .v_list").slideToggle(150).siblings("#app_menu .v_list").slideUp(150);
+			});
+		</script>
+        <div class="tel">
+          <p> <span>020-66889888</span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="m_header">
+  <div class="m_head_content">
+    <div class="m_head_logo"> <a href="index.html"><img src="static/picture/1-220F11R221K2.png"></a> </div>
+    <div class="menu" id="menu"><i class="fa fa-list-ul"></i></div>
+  </div>
+  <div class="app_menu" id="app_menu">
+    <ul>
+      <li><a href="index.html"><span>首页</span></a></li>
+       
+      <li class=""> <a href="wangzhanjianshe.html"><span>网站建设</span></a></li>
+       
+      <li class=""> <a href="yunyingtuiguang.html"><span>运营推广</span></a></li>
+       
+      <li class=""> <a href="youhuapaiming.html"><span>优化排名</span></a></li>
+       
+      <li class=""> <a href="xinwendongtai.html"><span>新闻动态</span></a></li>
+       
+      <li class="active"> <a href="anli.html"><span>案例中心</span></a></li>
+       
+      <li class=""> <a href="lianxi.html"><span>联系我们</span></a></li>
+          </ul>
+  </div>
+  <script type="text/javascript">
+            $("#menu").on('click', function (event) {
+                if($("#app_menu").css("display")=="none"){
+                    $("#app_menu").slideDown(600);
+                }else{
+                    $("#app_menu").slideUp(600);
+                }
+            }); 
+            // $("#app_menu li").eq(2).addClass('on');
+            // $("#app_menu li").eq(3).addClass('on');
+
+            $("#app_menu li").click(function(){
+                $(this).toggleClass("active").siblings('#app_menu li').removeClass("active");//切换图标
+                $(this).next("#app_menu .v_list").slideToggle(500).siblings("#app_menu .v_list").slideUp(500);
+            });
+        </script> 
+</div>
+<div class="m_banner mtbanner">
+  <div class="mbanner" id="mbanner">
+    <ul>
+              <li><img src="static/picture/1-251014142300640.jpg"></li>
+            </ul>
+  </div>
+  </div>
+<script type="text/javascript">
+        $(document).ready(function() {
+            var navOffset=$(".main").offset().top;
+            $(window).scroll(function(){
+                var scrollPos=$(window).scrollTop();
+                if(scrollPos >navOffset){
+                    $("#headtop").addClass("fixed");
+                }else{
+                    $("#headtop").removeClass("fixed");
+                }
+            });
+        });
+    </script>
+<div class="main">
+  <div class="center">
+    <div class="page_cont art_cont clearfix">
+      <div class="fl">
+        <div class="content_tit clearfix">
+          <h3>蒂薇雅</h3>
+          <span>发布时间 - 2018-04-10 16:34:28&nbsp;&nbsp;&nbsp;&nbsp;点击率：<script src='https://demoall.5fa.cn/31849/index.php?m=api&c=Ajax&a=arcclick&type=view&aids=35' type='text/javascript' language='javascript'></script>次</span> </div>
+        <div class="content ab_img">
+          <div style="text-align: center;"><img alt="" src="static/picture/1-1P410163423b8.jpg"></div>        </div>
+        <div class="show_pages clearfix">
+                    <p>上一篇：<a href="34.html">新西兰手工冰棍</a></p>
+                    <p>下一篇：<a>暂无</a></p>
+                  </div>
+      </div>
+      <div class="fr">
+        <div class="hot_new clearfix"> <span>最新文章</span> 
+                    <a href="">蒂薇雅</a> 
+                    <a href="34.html">新西兰手工冰棍</a> 
+                    <a href="33.html">车业有限公司</a> 
+                    <a href="32.html">农机集团有限公司</a> 
+                    <a href="31.html">光阳发动机有限公司</a> 
+                    <a href="30.html">能源科技有限公司</a> 
+                    <a href="29.html">房地产开发有限公司</a> 
+                    <a href="25.html">信息咨询有限公司</a> 
+                   </div>
+      </div>
+    </div>
+    <div class="m_show_pages clearfix">
+            <p>上一篇：<a href="34.html">新西兰手工冰棍</a></p>
+            <p>下一篇：<a>暂无</a></p>
+          </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="center">
+    <div class="box clearfix">
+      <p>Copyright © 2002-202X 某某网络设计有限公司 版权所有&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备12345678号</a>&nbsp;&nbsp;<a href="31849/sitemap.xml" target="_blank">xml地图</a>&nbsp;&nbsp; </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+        $(function () {
+            $('.imgauto img').imgAuto();
+        })
+    </script> 
+<div class="footer-fix">
+  <ul class="clearfix">
+    <li><a href="index.html"><i class="i1"></i>网站首页</a></li>
+        <li><a href="wangzhanjianshe.html"><i class="i2"></i> 网站建设</a></li>
+        <li><a href="xinwendongtai.html"><i class="i4"></i> 新闻动态</a></li>
+        <li><a href="tel:020-66889888"><i class="i3"></i>服务热线</a></li>
+  </ul>
+</div>
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

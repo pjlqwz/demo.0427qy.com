@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>响应式美容仪器网站模板_响应式美容仪器网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/31785/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/common.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/swiper.min.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/swiper.min.js"></script>
+</head>
+<body style="background-color:#f9f9f9;">
+<div class="web_top">
+  <div class="webtop_main w1400">
+    <div class="web_logo"> <a href=""><img src="static/picture/1-200H01F951534.png" alt="响应式美容仪器网站模板"></a> </div>
+    <div class="top_tel"> <span>免费咨询热线</span>
+      <p>400-123-4567</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="nav">
+    <div class="w1400">
+      <div class="webtop_right">
+        <div class="webtop_search">           <form action="/31785/index.php?m=home&c=Search&a=lists" name="form1" method="get" onsubmit="return checkform(form1)">
+            <div class="sc_ipt">
+              <input type="text" name="keywords" placeholder="请输入产品名称..." onfocus="this.value=''" autocomplete="off">
+            </div>
+            <div class="sc_btn">
+              <input type="submit" value="">
+            </div>
+            <div class="clear"></div>
+            <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1"><input type="hidden" name="channelid" id="channelid" value="2">          </form>
+           </div>
+      </div>
+      <div class="web_nav">
+        <div class="nav_menu"> <span></span> <span></span> <span></span> </div>
+        <div class="nav_list">
+          <ul>
+            <li class="active"><a href="">网站首页</a></li>
+                        <li class=""><a href="guanyuwomen.html">关于我们</a></li>
+                        <li class=""><a href="chanpinzhanshi.html">产品展示</a></li>
+                        <li class=""><a href="xinwenzhongxin.html">新闻中心</a></li>
+                        <li class=""><a href="jishuwendang.html">技术文档</a></li>
+                        <li class=""><a href="rongyuzizhi.html">荣誉资质</a></li>
+                        <li class=""><a href="zaixianliuyan.html">在线留言</a></li>
+                        <li class=""><a href="lianxiwomen.html">联系我们</a></li>
+                      </ul>
+          <div class="nav_mask"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+	$('.nav_mask').click(function(){
+		$('.nav_list').removeClass('open')
+	})
+	$('.nav_menu,.nav_list').click(function(e){
+		e.stopPropagation();
+	})
+	$('.web_nav').find('.nav_menu').click(function(e){
+		$('.nav_list').toggleClass('open')
+	})
+	$(function () {
+		$(".nav_list ul li i").click(function(){
+			var b=false;
+			if($(this).attr("class")=="cur"){
+			   b=true;
+			}
+			$(".nav_list ul li ul").prev("i").removeClass("cur");
+			$(".nav_list>ul>li").children("ul").slideUp("fast");
+			if(!b){
+				$(this).addClass("cur");
+				$(this).siblings("ul").slideDown("fast");
+			}
+		})
+	});
+</script>
+<div class="webidx_banner">
+  <div class="swiper-container01">
+    <div class="swiper-wrapper">       <div class="swiper-slide"><img src="static/picture/1-200H01G413560.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="static/picture/1-200H01G401b2.jpg" alt=""></div>
+       </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+<script type="text/javascript">
+    var swiper01 = new Swiper('.swiper-container01', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      autoplay: 3000,
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 0,
+      breakpointsInverse: true,
+      prevButton: '.swiper-button-prev',
+      nextButton: '.swiper-button-next',
+      pagination: '.swiper-pagination',
+      observer: true,
+      observeParents: true,
+      autoplayDisableOnInteraction: false,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        767: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        1080: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        1200: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        }
+      }
+    });
+  </script>
+<div class="eyprobox">
+  <div class="w1400">
+    <div class="eybigbt">
+      <p>Product</p>
+      <span>我们精心打造并呈献给您的产品</span> </div>
+    <div class="clear"></div>
+    <div class="martop">
+      <div class="proleft">
+        <div class="h_left">
+          <div class="cp_type">
+            <div class="hd">
+              <p><img src="static/picture/proico1.png">产品分类</p>
+              <span>PRODUCT</span><em></em><i></i> </div>
+            <div class="bd">
+              <ul>
+                                <li>
+                  <p><a href="yaobuhuli.html">腰部护理</a><span></span></p>
+                                    <div>  <a href="erbuhuli.html">耳部护理</a>  <a href="bibuhuli.html">鼻部护理</a>  <a href="weidianliulei.html">微电流类</a>  </div>
+                                  </li>
+                                <li>
+                  <p><a href="shoubuhuli.html">手部护理</a><span></span></p>
+                                    <div>  <a href="ledguangliaolei.html">LED光疗类</a>  <a href="tuomaoleimeirongyi.html">脱毛类美容仪</a>  <a href="jiguangleimeirongyi.html">激光类美容仪</a>  </div>
+                                  </li>
+                                <li>
+                  <p><a href="shaihouxiufu.html">晒后修复</a><span></span></p>
+                                    <div>  <a href="diancibolei.html">电磁波类</a>  <a href="guangxuelei.html">光学类</a>  <a href="chaoshengbolei.html">超声波类</a>  </div>
+                                  </li>
+                                <li>
+                  <p><a href="toupihuli.html">头皮护理</a></p>
+                                  </li>
+                                <li>
+                  <p><a href="yanjinghuli.html">眼睛护理</a></p>
+                                  </li>
+                                <li>
+                  <p><a href="zubuhuli.html">足部护理</a></p>
+                                  </li>
+                                <li>
+                  <p><a href="chunbuhuli.html">唇部护理</a></p>
+                                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proright">
+        <ul>
+                    <li>
+            <div class="pro_img"><a href="37.html" class="pic"><img src="static/picture/1-200H1112Q3E6.png" alt="新款RF射频美眼仪"></a></div>
+            <div class="text"> <a href="37.html" class="name">新款RF射频美眼仪</a> </div>
+            <a href="37.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="12.html" class="pic"><img src="static/picture/1-200H111342K19.png" alt="新款淡化法令纹颈部按摩器"></a></div>
+            <div class="text"> <a href="12.html" class="name">新款淡化法令纹颈部按摩器</a> </div>
+            <a href="12.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="11.html" class="pic"><img src="static/picture/1-200H111332YB.png" alt="新款跨境现货电动洗脸仪"></a></div>
+            <div class="text"> <a href="11.html" class="name">新款跨境现货电动洗脸仪</a> </div>
+            <a href="11.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="10.html" class="pic"><img src="static/picture/1-200H1112T4T6.png" alt="冷热敷电动按摩美容导入仪"></a></div>
+            <div class="text"> <a href="10.html" class="name">冷热敷电动按摩美容导入仪</a> </div>
+            <a href="10.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="9.html" class="pic"><img src="static/picture/1-200H1112Q3E6.png" alt="家用皮秒笔淡斑笔祛斑仪"></a></div>
+            <div class="text"> <a href="9.html" class="name">家用皮秒笔淡斑笔祛斑仪</a> </div>
+            <a href="9.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="8.html" class="pic"><img src="static/picture/1-200H1112IWA.png" alt="家用电动毛孔清洁仪"></a></div>
+            <div class="text"> <a href="8.html" class="name">家用电动毛孔清洁仪</a> </div>
+            <a href="8.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="7.html" class="pic"><img src="static/picture/1-200H1112G0101.png" alt="脸部导入仪温感洁面按摩仪"></a></div>
+            <div class="text"> <a href="7.html" class="name">脸部导入仪温感洁面按摩仪</a> </div>
+            <a href="7.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="6.html" class="pic"><img src="static/picture/1-200H1112619146.jpg" alt="面部脉冲射频美容仪"></a></div>
+            <div class="text"> <a href="6.html" class="name">面部脉冲射频美容仪</a> </div>
+            <a href="6.html" class="more"></a> </li>
+                    <li>
+            <div class="pro_img"><a href="5.html" class="pic"><img src="static/picture/1-200H1110F95U.jpg" alt="电流眼部提拉紧致按摩仪眼霜导入美容仪"></a></div>
+            <div class="text"> <a href="5.html" class="name">电流眼部提拉紧致按摩仪眼霜导入美容仪</a> </div>
+            <a href="5.html" class="more"></a> </li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="webidx_about">
+  <div class="eydxab_main w1400">
+    <div class="eybigbt eybigbt_w">
+      <p>Company</p>
+      <span>欢迎您走进我们的领域，全面了解我们的业务与风采。</span> </div>
+    <div class="eydxab_con">
+      <div class="eydxab_text">
+        <div class="eydxab_name">响应式美容仪器网站模板</div>
+        <div class="eydxab_ms">
+          <p>             技术原理与科学依据射频技术：通过电磁波产生热效应，使真皮层温度升至45-55℃，激活成纤维细胞合成胶原蛋白。临床试验显示，连续使用射频仪12周，皮肤弹性提升27%，皱纹深度减少19%。微电流技术：模拟人体生物电，刺激运动神经末梢，引发肌肉收缩。研究证实，0.5mA电流可增强面部肌肉张力，改善轮廓下垂。光疗技术：红光（630-660nm）：穿透至皮下1-2mm，促进线粒体活性，加速细胞代谢。蓝光（405-420nm）：靶向破坏痤疮丙酸杆菌的卟啉，减少炎症。超声波技术：利用20kHz以上高频振动，产生空化效应，使护肤品分子细化至纳米级，渗透率提升5-8倍。四、选择指南：如何匹配个人需求抗衰需求：轻度松弛：选择微电流+射频复合仪器（如雅萌ACE六代），兼顾即时提拉与长期胶原再生。深度皱纹：优先院线级射频仪（如热玛吉），能量密度达8-10J/cm²，效果持续1-2年。祛痘需求：炎症期痘痘：蓝光美容... </p>
+        </div>
+        <ul>
+          <li>
+            <div class="title"><i></i>公司开业</div>
+            <div class="cont">2010</div>
+          </li>
+          <li>
+            <div class="title"><i></i>秉持专注态度</div>
+            <div class="cont">366</div>
+          </li>
+        </ul>
+        <div class="eydxab_more">  <a href="guanyuwomen.html">查看全部</a>  </div>
+      </div>
+      <div class="eydxab_img"><img src="static/picture/abimg.png"></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="webidx_articles">
+  <div class="eyarticles_main w1400">     <div class="eybigbt eybigbt_at">
+      <div class="fl">
+        <p>ARTICLES</p>
+        <span>技术文档</span> </div>
+      <div class="fr">
+        <div class="more"> <a href="jishuwendang.html">查看全部</a> </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="eyarticles_list">
+      <ul>
+                <li>
+          <div class="eyarticles_text"> <a href="25.html" class="eyarticles_name">格力美容仪让董明珠变漂亮，这次跨界能成吗？</a>
+            <p>再次跨界，董明珠爱上了“美容仪”长期以来，人们对于“美容仪是不是智商税”这个话题的争议从未衰减。一边是抖音、小红书数量众多的种草推荐；另一半则是用户被烫伤、工商</p>
+            <div class="eyarticles_Time"><a href="25.html" class="fl">查看详情<i></i></a><span class="fr">2020-07-21</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </li>
+                <li>
+          <div class="eyarticles_text"> <a href="24.html" class="eyarticles_name">华帝美肌浴GW6i燃气热水器 深化沐浴护肤新体验</a>
+            <p>在当下追求品质生活与健康护肤的热潮中，家电领域有一款产品始终散发着独特魅力，它就是华帝美肌浴GW6i燃气热水器。这款精准聚焦爱美人群，尤其是注重精准护肤的悦己</p>
+            <div class="eyarticles_Time"><a href="24.html" class="fl">查看详情<i></i></a><span class="fr">2020-07-21</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </li>
+                <li>
+          <div class="eyarticles_text"> <a href="23.html" class="eyarticles_name">想在家“悄悄”变美，家用美容仪你用对了吗？</a>
+            <p>安坐家中随时享受到高性价比的美容体验和满足日常保养护理需求，家用美容仪应时而生～想在家“悄悄”变美，家用美容仪你用对了吗？如何甄别？如何选购呢？市市场监管局给</p>
+            <div class="eyarticles_Time"><a href="23.html" class="fl">查看详情<i></i></a><span class="fr">2020-07-21</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </li>
+                <li>
+          <div class="eyarticles_text"> <a href="22.html" class="eyarticles_name">让射频类美容仪告别“野蛮生长”</a>
+            <p>日前，国家药监局发布《关于调整〈医疗器械分类目录〉部分内容的公告》（以下简称“30号公告”），明确射频治疗仪、射频皮肤治疗仪类产品按照第三类医疗器械管理。自20</p>
+            <div class="eyarticles_Time"><a href="22.html" class="fl">查看详情<i></i></a><span class="fr">2020-07-21</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </li>
+                <div class="clear"></div>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="eyou_news">
+  <div class="eyou_news_main w1400">     <div class="eybigbt eybigbt_at eybigbt_news">
+      <div class="fl">
+        <p>NEWS</p>
+        <span>新闻中心</span> </div>
+      <div class="fr">
+        <div class="more"> <a href="xinwenzhongxin.html">查看全部</a> </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+        <div class="eyou_news_list">       <div class="eyou_news_tj">
+        <div class="img"><a href="20.html"><img src="static/picture/1-200H111342K19.png" alt="革新与突破：轻成超声线提，家用超声线提创新者"></a></div>
+        <div class="text">
+          <div class="name"><a href="20.html">革新与突破：轻成超声线提，家用超声线提创新者</a></div>
+          <p>随着超声美容技术在美业的渗透率逐年攀升，家用超声美容仪品牌大量涌入市场。QYResearch调研数据显示，全球便携式超声波美容仪市场规模约3.27亿美元，中国作</p>
+        </div>
+        <div class="time"> <span>2020</span>
+          <p>07-21</p>
+          <a href="20.html">查看详情<i></i></a> </div>
+        <div class="clear"></div>
+      </div>
+            <ul>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="19.html">花至获得Ⅲ类医疗器械注册证，家用美容仪进入精准时代</a>
+            <p>近日，根据国家药品监督管理局公布的最新医疗器械批准证明文件送达信息显示，花至美容科技有限公司旗下品牌FLOSSOM花至射频皮肤治疗仪成功获批Ⅲ类械证，注册证编号</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="18.html">美肤系统累计使用超50万小时，用户满意度达97%</a>
+            <p>唯芯美AI美肤系统，依托母公司台湾Perfect Corp.提供的AI核心算法和国际认证标准，从用户皮肤检测、数据分析到个性化护肤方案推荐，全流程由系统智能完成</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="17.html">被央视曝光，家用美容仪效果不如手</a>
+            <p>近年来，因宣称能解决各类皮肤衰老的问题，满足消费者居家美容的需求，家用美容仪日渐走红。据青眼情报（企业版）调查的数据显示，家用美容仪的市场规模已由2017年的3</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="16.html">深圳产美容仪取得三类医疗器械注册证</a>
+            <p>日前，国家药监局发布医疗器械批准证明文件送达信息，批准深圳市宗匠科技有限公司（下称“宗匠科技”）旗下手持式射频皮肤治疗仪的三类医疗器械注册申请，AMIRO觅光成</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="15.html">9800的美容仪，治不好董小姐的焦虑</a>
+            <p>“用一个星期，就会发现自己漂亮了。”在熟悉的“董式发言”中，董明珠又一次带货了，这一次轮到了格力的最新产品—— 一款售价高达9800元的美容仪。在2024格力冰</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <li> <i></i>
+          <div class="eyou_news_text"> <a href="14.html">“用一星期就能变漂亮”，董明珠上新9800元美容仪</a>
+            <p>“只要你用上一个星期，你就会发现你自己变漂亮了。”日前，在河北石家庄正定举行的2024格力冰洗生活电器战略发布会上，格力电器董事长兼总裁董明珠在谈到格力研发的美</p>
+          </div>
+          <div class="eyou_news_time"> <span>2020</span>
+            <p>07-21</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+                <div class="clear"></div>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="web_foot">
+    	<div class="webfoot_main w1400">
+        <div class="wbfootleft">
+        	<dl>
+                            	<dd>
+                	<p><i></i>关于我们</p>
+                                        <a href="gongsijianjie.html">公司简介</a>
+                                        <a href="qiyezhanlue.html">企业战略</a>
+                                    </dd>
+                                <dd>
+                	<p><i></i>产品展示</p>
+                                        <a href="yaobuhuli.html">腰部护理</a>
+                                        <a href="shoubuhuli.html">手部护理</a>
+                                        <a href="shaihouxiufu.html">晒后修复</a>
+                                        <a href="toupihuli.html">头皮护理</a>
+                                        <a href="yanjinghuli.html">眼睛护理</a>
+                                        <a href="zubuhuli.html">足部护理</a>
+                                        <a href="chunbuhuli.html">唇部护理</a>
+                                    </dd>
+                                <dd>
+                	<p><i></i>技术文档</p>
+                                    </dd>  
+                                <div class="clear"></div>              
+            </dl>
+        </div>
+        <div class="wbfootright">
+            <div class="wbfootewm">
+                <img src="static/picture/1-200H1094023F1.jpg"><p>扫码加微信</p>
+            </div>
+            <div class="wbfootlxfs">
+            	<p><img src="static/picture/ftico1.png">服务热线</p>
+                <span>400-123-4567</span>
+                <p><img src="static/picture/ftico2.png">广东省广州市天河区某某工业区88号</p>
+                <p><img src="static/picture/ftico3.png">admin@youweb.com</p>
+            </div>
+            <div class="clear"></div>
+        </div>            
+        <div class="clear"></div>
+    	<div class="webfoot_copy">            
+            <p class="fl"><span>Copyright © 2012-202X 某某公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;</span>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></p>
+            <p class="fr"><a href="31785/sitemap.xml" target="_blank">sitemap.xml</a></p>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script language="javascript" type="text/javascript" src="static/js/nav.js"></script>
+	<a href="https://smalltool.github.io/" style="display:none;">仿站神器</a>
+</body></html>
