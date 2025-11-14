@@ -1,0 +1,161 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+
+.topLogBoxPc,.topCustom{ background:#222222;}
+.topLogBox a:hover,.w-languege a.cur{color:#F23F00;}
+.topLogBox .w-search .search-btn-w{ background-color:#F23F00;}
+.w-nav li:hover > a, .w-nav  li:hover > .li-parent-div > a, .w-nav li.active > a, .w-nav li.active > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li:hover > a,.w-admin-header .w-nav .nav_inner > li:hover > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li.active > a,.w-admin-header .w-nav .nav_inner > li.active > .li-parent-div > a{color:#fff; background:#F23F00;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{ background:#F23F00 !important;}
+.w-text a:hover,.newsDetail .news-others a:hover{color:#F23F00;}
+/*--------------------组件-------------------------*/
+.btn-default-w{ background-color:#F23F00;}
+.btn-default-w:hover,.btn-default-w:focus, .btn-global-w:hover,.btn-global-w:focus{background-color:#D6161C; }
+.w-social .social-item{ background-color:#F23F00;}
+.w-social .social-item:hover{ background-color:#D6161C;}
+.search-defaut-w .search-btn-w{ background-color:#F23F00;}
+.search-defaut-w .search-btn-w:hover{background-color:#D6161C;}
+.color_s_default{ color:#F9BC70;}
+.bg_s_default{ background:#F9BC70;}
+.w-service-fixed .color_s_default:hover{color:#F23F00;}
+.w-service-fixed .bg_s_default:hover{ background:#F23F00;}
+.w-service-fixed .service-popc{background:#F23F00; }
+.w-lantern .lantern_pre,.w-lantern .lantern_next{background-color:#F23F00;}
+.w-lantern .lantern_pre:hover,.w-lantern .lantern_next:hover{background-color:#D6161C;}
+.captionbgFadeOutScale .caption .captionbg,.captionbgFadeInLeft.imgLeftBig .caption .captionbg,.captionbgFadeInRight.imgRightBig .caption .captionbg{background-color:#F23F00;}
+.w-slide-page-num .slide-page a.active{ background-color:#F23F00;}
+/*-----------------footer-------------------------*/
+.w-footer .w-social .social-item{ background-color:#4e4e4e;}
+.w-footer .w-social .social-item:hover{ background-color:#F23F00;}
+/*--------------------系统------------------------*/
+.systitle{ background:#F23F00;}
+.crumbs a:hover,.w-breadcrumbs a:hover{color:#F23F00;}
+.w-pages a:hover,.w-pages a.cur{color:#fff; background:#F23F00; border:1px solid #F23F00;}
+.info_tab li.cur_tab a{ color:#F23F00;}
+.w-prd-list-cell .w-prd-infobox h2 a:hover,.w-prd-list-cell .w-prd-infobox .w-prd-more a:hover{color:#F23F00;}
+.w-prd-list-cell .w-prd-btns a.btn-buy{ background:#F23F00; border-color:#F23F00; }
+.w-prd-list-cell .w-prd-btns a.btn-buy:hover{ background:#D6161C; border-color:#D6161C;}
+.w-prd-list-cell .w-prd-btns a.btn-addCart:hover{  border-color:#666;  color:#333;}
+/*-------------新闻--------------------*/
+.w-News-list .news-com .news-h a:hover,.w-adNews .news-h a:hover,.w-adNews1 li .news-item .news-com .news-h a:hover,.w-adNews9 li .news-com .news-h a:hover{color:#F23F00;}
+.w-News-list5 li .news-item .data-day,.w-adNews1 li .news-item .data-day{ background:#F23F00;}
+.w-News-list7 li .date .date-day,.w-News-list7 li .date .date-yearMonth{ background:#F23F00; color:#fff;}
+.w-adNews3 .w-adNews-imgs .news-img .news-buoy-content .mask{background:#222;}
+.w-adNews3{background:#F23F00;}
+.w-adNews3 .w-adNews-imgs .adNews3prev,.w-adNews3 .w-adNews-imgs .adNews3next{background-color:#F23F00;}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH a,.w-adNews3 .w-adNews-texts li .w-adNews-textH h3{ color:#fff;opacity:0.98; *filter:alpha(opacity=98); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=98);}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH a:hover,.w-adNews3 .w-adNews-texts li .w-adNews-textH a:hover h3{ color:#FBE904;}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH p,.w-adNews3 .w-adNews-texts li .w-adNews-textH .news-sum{ color:#fff;opacity:0.98; *filter:alpha(opacity=98); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=98);}
+.w-adNews3 .w-adNews-texts li .numberQ{border-color:#fff; color:#fff;opacity:0.9; *filter:alpha(opacity=90); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);}
+.w-adNews3 .w-adNews-texts li{border-color:#fff;}
+.w-adNews3 .w-adNews-imgs .adNews3prev{background-image:url("../image/adnews3prev_white.png");}
+.w-adNews3 .w-adNews-imgs .adNews3next{background-image:url("../image/adnews3next_white.png");}
+.w-adNews10 li .news-item .news-com .more a{ background:#D6161C;}
+.w-adNews10 li .news-item .news-com .more a:hover{ background:#F23F00;}
+/*-----------------------会员中心和购物车--------------------*/
+.w-admin-top .w-sign .w-admin-register, .w-admin-top .w-sign .w-admin-person,.w-admin-shopCart a .fa-shopping-cart,.order-progress .order-progress-text > div.cur,.orderA .orderA-statue .orderA-s,.orderA .order-route .order-route-notice a,.orderA .orderA-statue .orderA-btn .btn-green-A,.w-admin-sidemenu li.cur a,.payStatue-nav a.cur,.personInfoA .uploadimgA{ color:#F23F00;}
+.order-progress .order-progress-line .order-progress-line-sec.cur .curcle{background-image:url("../image/progress_complete.png");}
+.order-progress .order-progress-line .order-progress-line-sec.cur .line,.btn-greenC,.btn-greenA{background-color:#F23F00;}
+.checkbox_tel input[type="checkbox"]:checked + label{background-color:#F23F00;}
+.orderA .orderA-statue .orderA-btn .btn-green-A,.section-con-new,.payStatue-nav a.cur{ border-color:#F23F00;}
+.orderSum-item .imgB,.order-routes .order-routeItem.cur .order-routeItem-img .imgA{background-color:#FCD2C2;}
+.order-routes .order-routeItem.cur .order-routeItem-img .lineA{background-image:url('../image/routelinecur.png');}
+/*----------------------标题------------------------*/
+.color_main{color:#F23F00;}
+.color_vice{ }
+.color_vice_light{}
+.color_h{}
+.color_span{}
+.colorbg_main{color:#F23F00;}
+.bg_main{background-color:#F23F00;}
+.bg_main_light{background-color:#FEEEE8;}
+.bg_simpline{background-color:#F23F00;}
+.border_colorall_main{border-color:#F23F00;}
+.aHoverborder_main:hover{border-color:#F23F00;}
+.border_colorleft_main{border-left-color:#F23F00;}
+.border_colortop_main{border-top-color:#F23F00;}
+.border_colorright_main{border-right-color:#F23F00;}
+.border_colorbottom_main{border-bottom-color:#F23F00;}
+.aHovercolor_main:hover{color:#F23F00;}
+.aHoverbg_main:hover{background-color:#F23F00;}
+.border_colorall_main_deepen{border-color:#D6161C;}
+.aHovercolor_deepen:hover{ color:#D6161C;}
+.aHoverbg_deepen:hover{ background-color:#D6161C;}
+.aHoverborder_deepen:hover{border-color:#D6161C;}
+.colorChange{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(bottom, #F23F00, #F56634);
+	background-image: -moz-linear-gradient(bottom, #F23F00, #F56634);
+	background-image: -o-linear-gradient(bottom, #F23F00, #F56634);
+	background-image: -ms-linear-gradient(bottom, #F23F00,#F56634);
+	background-image: linear-gradient(to top, #F23F00, #F56634);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#F56634, endColorStr=#F23F00);}
+.colorChange_deepen{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(bottom, #F56634,#F23F00);
+	background-image: -moz-linear-gradient(bottom, #F56634, #F23F00);
+	background-image: -o-linear-gradient(bottom, #F56634, #F23F00);
+	background-image: -ms-linear-gradient(bottom, #F56634, #F23F00);
+	background-image: linear-gradient(to top, #F56634, #F23F00);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#F23F00, endColorStr=#F56634);}
+.bg_main_change{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(bottom, #ffffff, #F23F00);
+	background-image: -moz-linear-gradient(bottom, #ffffff, #F23F00);
+	background-image: -o-linear-gradient(bottom, #ffffff, #F23F00);
+	background-image: -ms-linear-gradient(bottom, #ffffff,#F23F00);
+	background-image: linear-gradient(to top, #ffffff, #F23F00);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#F23F00, endColorStr=#ffffff);}
+.bg_main_changeDeepen{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(bottom, #F23F00, #ffffff);
+	background-image: -moz-linear-gradient(bottom, #F23F00, #ffffff);
+	background-image: -o-linear-gradient(bottom, #F23F00, #ffffff);
+	background-image: -ms-linear-gradient(bottom, #F23F00,#ffffff);
+	background-image: linear-gradient(to top, #F23F00, #ffffff);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#F23F00);}
+.bg_main_change_left{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(right, #ffffff, #F23F00);
+	background-image: -moz-linear-gradient(right, #ffffff, #F23F00);
+	background-image: -o-linear-gradient(right, #ffffff, #F23F00);
+	background-image: -ms-linear-gradient(right, #ffffff,#F23F00);
+	background-image: linear-gradient(to left, #ffffff, #F23F00);}
+.bg_main_changeDeepen_left{background-color:#F23F00;
+    background-image: -webkit-linear-gradient(right, #F23F00, #ffffff);
+	background-image: -moz-linear-gradient(right, #F23F00, #ffffff);
+	background-image: -o-linear-gradient(right, #F23F00, #ffffff);
+	background-image: -ms-linear-gradient(right, #F23F00,#ffffff);
+	background-image: linear-gradient(to left, #F23F00, #ffffff);}
+.w-title2{ background:#F23F00;}
+.w-title2,.w-title2 .title-h-in h2,.w-title2 .more{color:#fff;}
+.w-title2 .more:hover{ color:#FBE904;}
+.w-title16 .title-h-in > span{ color:#f23f00;}
+.w-title17 .title-text-in{ background:#F23F00;}
+.w-title17 .w-title-inner{background-image:url("../image/tit17bg_0.png");}
+.w-title17 .more:hover{ background-image:url("../image/tit17_morehover_0.png");}
+.w-title19 .more .icon_more,.icon_more19bg{ background-image:url("../image/icon_more_0.png");}
+@media (min-width:768px){
+	.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent:hover > .div-parent a,.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent.cur > .div-parent a,.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent:hover > .div-parent .fa,.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent.cur > .div-parent .fa{ color:#FFFF00;}
+	.w-com-menu-V .ul-submenu{ background:#ff7f53;}
+	.w-com-menu-V .ul-submenu li:hover >.div-parent a,.w-com-menu-V .ul-submenu li.cur >.div-parent a{ background:#FF5C26;}
+	.w-com-menu-V .ul-submenu li:hover >.div-parent a,.w-com-menu .ul-submenu li:hover >.div-parent .fa,.w-com-menu-V .ul-submenu li.cur >.div-parent a,.w-com-menu .ul-submenu li.cur >.div-parent .fa{ color:#fff;}
+    .w-com-menu-H >.w-com-menu-in>.ul-parent> li:hover >.div-parent a,.w-com-menu-H >.w-com-menu-in>.ul-parent> li.cur >.div-parent a{  color:#F23F00;}
+	.w-com-menu-H .ul-submenu li:hover> .div-parent >a,.w-com-menu-H .ul-submenu li.cur> .div-parent >a{ color:#F23F00; }
+}
+@media (min-width:961px){
+	.w-nav .submenu{ background:#F23F00; background:rgba(242,63,0,0.95); }
+	.w-nav .submenu li:hover > a, .w-nav .submenu  li:hover > .li-parent-div > a, .w-nav .submenu li.active > a, .w-nav .submenu li.active  >.li-parent-div > a{ background:#D6161C; color:#fff;}
+}
+@media (max-width:960px){
+	.w-admin-header,.body-login .w-admin-header,.w-header{color:#333;}
+	.topLogBox a:hover,.w-languege a.cur{color:#F23F00;}
+}
+@media (max-width:767px){
+	.w-com-menu{ border-bottom:2px solid #F23F00;}
+	.w-com-menu .ul-parent{background-color:#f0f0f0;}
+	.w-com-menu .ul-submenu ul{ background-color:#fafafa;}
+	.w-com-menu .ul-submenu .ul-submenu ul{ background-color:#fdfdfd;}
+	.w-com-menu li a, .w-com-menu .ul-submenu li a{text-align:left;}
+	.w-com-menu li a, .w-com-menu .ul-submenu li a,.w-com-menu .fa{color:#2b2b2b; }
+	.w-com-menu li, .w-com-menu .ul-submenu li{border:none; border-bottom:1px solid #fff;}
+	.w-com-menu li >.div-parent:hover a,.w-com-menu  li.cur >.div-parent a{ background:none; }
+	.w-com-menu li > .div-parent:hover > a, .w-com-menu li.cur > .div-parent > a, .w-com-menu li > .div-parent:hover > .fa, .w-com-menu li.cur > .div-parent > .fa{color:#F23F00; }
+	.w-com-menu .ul-submenu li > .div-parent:hover a, .w-com-menu .ul-submenu li.cur > .div-parent a{background:none;}
+	.systitle{color:#fff; text-align:center;}
+	/*-----------------------会员中心和购物车--------------------*/
+	.order-routes .order-routeItem.cur .order-routeItem-img .lineA{background-image:url('../image/routelinecurtel.png');}
+}

@@ -1,0 +1,339 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>新闻资讯_易优Cms-演示站</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header w-header-common">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="row_top clearfix">
+      <div class="column column4">
+        <div class="col-logo">
+          <div class="w-logo">
+            <h1 style="display:none;"><a href="index.html"></a></h1>
+            <a href="index.html" class="w-logo-img"> <img src="static/picture/060d10649b7e9459cc263020a6fcbbaa.png"> </a> </div>
+        </div>
+      </div>
+      <div class="column column8 clearfix">
+        <div class="topLogBox">
+          <div class="topLogBox-in">
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li class=""><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="active">
+                <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                        <li><a href="xingyedongtai.html">行业动态</a></li>
+                                        <li><a href="meitibaodao.html">媒体报道</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="ketingjiaji.html">客厅家居</a></li>
+                                        <li><a href="jiajishijian.html">家居饰件</a></li>
+                                        <li><a href="woshijiaji.html">卧室家居</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="rencaizhaopin.html">人才招聘 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix">
+            <li class=""><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="active">
+              <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                    <li><a href="xingyedongtai.html">行业动态</a></li>
+                                    <li><a href="meitibaodao.html">媒体报道</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="ketingjiaji.html">客厅家居</a></li>
+                                    <li><a href="jiajishijian.html">家居饰件</a></li>
+                                    <li><a href="woshijiaji.html">卧室家居</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="rencaizhaopin.html">人才招聘 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/d5de6a8ec00bbfceb1abeffda46bb5ac.jpg" alt="banner" title="" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="row">
+      <div class="wrap-content-in w-system w-productcom">
+        <div class="w-system-in"> 
+          <!--新闻左侧列表分类-->
+          <div class="side_bar">
+            <div class="w-com-menu w-com-menu-V">
+              <div class="w-com-menu-in">
+                <div class="systitle">
+                  <div class="systitle-in">新闻资讯</div>
+                  <i class="fa icon_menuControl"></i></div>
+                <ul class="ul-parent">
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="gongsixinwen.html">公司新闻</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="xingyedongtai.html">行业动态</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="meitibaodao.html">媒体报道</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!--新闻左侧列表分类 end--> 
+          
+          <!--新闻列表1-->
+          <div class="side_left">
+            <div class="crumbs">
+              <div class="crumbs_in">您当前的位置: <a href='index.html' class='crumb'>首页</a> &gt; <a href='xinwenzixun.html'>新闻资讯</a></div>
+            </div>
+            <div class="w-News-list w-News-list3">
+              <div class="w-News-list-in clearfix">
+                <ul>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="18.html" title="2018年上半年家具行业7大关键词">2018年上半年家具行业7大关键词</a> </div>
+                          <div class="date">2019-01-16</div>
+                        </div>
+                        <div class="news-sum">环保近年来，国家环保标准越来越高，要求越来越严格。2018年，国家层面对环保的重视度更高，首先是在架构上于2018年3月13日组建了“生态环境部”，以整合以往相对分散的生态环境保护职责；其次是中央与地方联合的环保整治力度持续加大，作为VOCs排放大户的家具行业是被监控的重点对象。2018年，多部重量级环保文件正式生效实...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="17.html" title="中国家具业正进入品牌建设高潮期">中国家具业正进入品牌建设高潮期</a> </div>
+                          <div class="date">2019-01-16</div>
+                        </div>
+                        <div class="news-sum">除了世界杯赛场还没有中国家具企业的身影，现在几乎所有引人注目的广告阵地都有了家具企业的品牌广告。家具广告经常见诸于中央电视台的黄金广告时段，热播电视剧，以及高铁站候车室、车站站台，地铁，机场，高速公路边的广告牌。甚至三四线城市的街头，也有很多家具企业硕大的广告牌，吸引着路人的目光。乍看之下，中国家具业似乎一派繁荣景象。...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="16.html" title="家具行业能否出现真正的消费者品牌？">家具行业能否出现真正的消费者品牌？</a> </div>
+                          <div class="date">2019-01-16</div>
+                        </div>
+                        <div class="news-sum">不少家具企业都在A股上市融资，家具企业的资金环境因此大为改善。一些企业意识到在消费升级的大环境下，打造真正的消费者品牌的重要性，于是进行了大笔的广告投入，旨在打造真正的消费者品牌。有的企业由于广告投放力度大，营业收入大幅增加。其试图通过资金优势获得更大市场份额的意图十分明显，给竞争对手造成了巨大的市场压力。那么，家具行...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="15.html" title="2018家具原材料供应链传统模式或将被彻底改造">2018家具原材料供应链传统模式或将被彻底改造</a> </div>
+                          <div class="date">2019-01-16</div>
+                        </div>
+                        <div class="news-sum">　家具行业竞争激烈。而谁能在这个成本日益上涨的年代，有效降低企业生产成本，谁就能获得竞争优势。　　最近在知名家具企业聚集的珠三角出现了一种新型的家具原材料采购新模式，有效降低了企业的原材料采购成本。　　这种采购模式的不断发展，有可能在珠三角地区形成新的家具产业区域性竞争力，使得广东地区再次获得家具制造的成本优势。　　这...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+            <div class="next1">  <a href="/6101/xinwenzixun" data-ey_fc35fdc="html" data-tmp="1"><<</a> <a href="/6101/xinwenzixun" data-ey_fc35fdc="html" data-tmp="1"><</a> <a href="/6101/xinwenzixun" data-ey_fc35fdc="html" data-tmp="1">1</a><a class="on1">2</a> <a>></a> <a>>></a></div>
+          </div>
+          
+          <!--新闻列表1 end--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div>
+              <ul class="link">
+                <span>友情链接 :</span>                 <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div>
+              <div style="text-align:center;">热线电话：400-123-4567 &nbsp; &nbsp;电子邮箱：admin@youweb.com</div>
+              <div style="text-align:center;">公司地址：江西省南昌市友谊路326号</div>
+              <div style="text-align:center;">Copyright © 2012-2018 某某公司 版权所有 &nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="li-div">
+          <div class="w-space space-b noChoose" style="height:25px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+ </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.news_list.js"></script>
+</body>
+</html>

@@ -1,0 +1,887 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>响应式智能家居家电网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<link href="/2366/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/2366/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/2366/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/2366/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/2366/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/2366/template/pc/skin/js/respond.min.js"></script>
+      <script src="/2366/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="topLogBox topLogBoxPc">
+    <div class="topLogBox-in">
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top clearfix">
+        <div class="column column3">
+          <div class="col-logo">
+            <div class="w-logo">
+                <h1 style="display:none;"><a href=""></a></h1>
+                <a href="" class="w-logo-img"> <img src="static/picture/076365e77596a50a51e238c6e9ebb8ef.png"> </a> </div>
+          </div>
+        </div>
+        <div class="column column9 clearfix">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="gongsidongtai.html">公司动态</a></li>
+                                           <li><a href="xingyezixun.html">行业资讯</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="pinpaichanpin.html">品牌产品 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="chanpinfenleiyi.html">产品分类一</a></li>
+                                           <li><a href="chanpinfenleier.html">产品分类二</a></li>
+                                           <li><a href="chanpinfenleisan.html">产品分类三</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="gongsidongtai.html">公司动态</a></li>
+                                         <li><a href="xingyezixun.html">行业资讯</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="pinpaichanpin.html">品牌产品 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="chanpinfenleiyi.html">产品分类一</a></li>
+                                         <li><a href="chanpinfenleier.html">产品分类二</a></li>
+                                         <li><a href="chanpinfenleisan.html">产品分类三</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式</a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in">
+            <div class="col-com"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    @media (max-width:767px){
+        .bannerBox{width:100%; margin-left:-0%;}
+    }
+</style>
+  <section class="w-container bannerBox ">
+    <div class="banner">
+      <ul class="bxslider">
+                  <li> <img src="static/picture/f3b4f0dcde0ac7cf0c342335ef26a290.jpg" alt="幻灯二" title="幻灯二"> <a href="" target="_self"><span style="display:none;">none</span></a> </li>
+                  <li> <img src="static/picture/9c67227c76ba956a70c33ddf672fb039.jpg" alt="幻灯一" title="幻灯一"> <a href="" target="_self"><span style="display:none;">none</span></a> </li>
+           
+      </ul>
+      <script src="static/js/jquery.bxslider.js"></script>
+      <link rel="stylesheet" href="static/css/jquery.bxslider.css">
+      <script type="text/javascript">
+            var scale = '';
+            var speed = 500;
+            var pause = 5;
+            $(function () {
+                $('.banner>ul').bxSlider({
+                    mode: 'fade', /*滚动方式 fade、vertical、horizontal */
+                    auto: true, /*自动滚动*/
+                    autoControls: false, /*自动滚动按钮*/
+                    infiniteLoop: true, /*循环滚动*/
+                    hideControlOnEnd: true, /*无效按钮隐藏*/
+                    adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+                    minSlides: 1,
+                    maxSlides: 2,
+                    scale: scale,
+                    speed: speed,
+                    pause: pause * 1000
+                });
+            });
+        </script> 
+    </div>
+  </section>
+  <div class="w-container w-main">
+      <div class="w-section pdTop-large pdBottom-large" style="background:url(static/image/59ca0ebf72698.jpg) no-repeat center;" id="504738">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInUp" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">品牌产品 </h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <style type="text/css">
+    .w-productList2 .g-n3{ width:33.32%; *width:33.32%;}
+    @media (max-width:767px){
+        .w-productList2 .w-prd-list-cell{ width:50%;}
+    }
+</style>
+          <div class="li-div" data-comunique="n3">
+            <div class="not-animated w-productList w-productList2" data-animate="fadeInUp" style="text-align:center;" id="products-n3">
+              <div class="w-productList-in">
+                <div class="w-productList-inner clearfix">
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="16.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/0bacdef25e4704bdbfaa5c83e595b09e.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="16.html">产品名称九</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="15.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/024c7fcd05b088662be68db066068b7f.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="15.html">产品名称八</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="14.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/2a5c2ae327e09430abc0282db4ba25b3.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="14.html">产品名称七</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="13.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/6ff3cebe9c0b05b9cc514dac07c362a7.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="13.html">产品名称六</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="12.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/4a2784ddcb53e4b1f05a22274d2211ad.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="12.html">产品名称五</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="11.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/69d3381882c6f0e6af891b54dd8e43a4.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="11.html">产品名称四</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="10.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/9490048b767808ceeeb19dc6b6cf03a4.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="10.html">产品名称三</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="9.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/3a7b08e8905ebfac1df7e08fbc0037da.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="9.html">产品名称二</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="8.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                          <div class="img-count-in"><img src="static/picture/a207b3dd64b89e2d8afc27333ed97210.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="8.html">产品名称一</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <div class="prd_pre bg_main aHoverbg_deepen"></div>
+              <div class="prd_next bg_main aHoverbg_deepen"></div>
+              <div class="prd_pageState"></div>
+              <script type="text/javascript">
+            $(function () {
+                var $prdList = $('#products-n3');
+                (function ($,window,$prdList) {
+                    /* 需要被触发的方法 */
+                    var loadOver = function () {
+                        var prdListChild = $prdList.find('.w-productList-in').html();
+                        var prdSlideX = function () {
+                            var visX;
+                            if ($(window).width() > 767) {
+                                visX = 3;
+                            } else {
+                                visX = 2;
+                            }
+                            $prdList.slideNew({
+                                mainCell: ".w-productList-in .w-productList-inner",
+                                autoPage: true,
+                                effect: "leftLoop",
+                                interTime: 5000,
+                                autoPlay: true,
+                                scroll: visX,
+                                vis: visX,
+                                pageStateCell: ".prd_pageState",
+                                prevCell: ".prd_pre",
+                                nextCell: ".prd_next"
+                            });
+                        };
+                        prdSlideX();
+                        var widthOld = $(window).width();
+                        var widthNew;
+                        $(window).resize(function () {
+                            widthNew = $(window).width();
+                            if (widthOld > 767) {
+                                if (widthNew < 768) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            } else {
+                                if (widthNew > 767) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            }
+                            widthOld = $(window).width();
+                        });
+                    }
+                    /* 获取图片 */
+                    var $thisimg = $prdList.find('img');
+                    var imgNum = $thisimg.length;
+                    $thisimg.each(function(){
+                        $(this).load(function(){
+                            if (!--imgNum) {
+                                loadOver();
+                            }
+                        });
+                        $(this).attr("src",$(this).attr("src"));
+                    });
+                })(jQuery,window,$prdList);
+            });
+        </script> 
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="w-section pdTop-big pdBottom-big">
+      <div class="row" style="max-width:1100px;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInUp" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">关于我们 </h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-text" data-animate="fadeInUp" style="">
+              <style type="text/css">
+@media (max-width:560px){
+    .img_bgtext td{display:block; width:100%;}
+  }
+</style>
+              <table class="img_bgtext" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr class="firstRow">
+                    <td width="30%" valign="top"><img src="static/picture/b0e37b27e6cd4c4c1930657999b17d84.jpg" style="max-width:100%;"></td>
+                    <td style="padding:1em 7%; background:#161616; color:#fff;" width="70%" valign="middle"><p>智能家居是在互联网影响之下物联化的体现。智能家居通过物联网技术将家中的各种设备（如音视频设备、照明系统、窗帘控制、空调控制、安防系统、数字影院系统、影音服务器、影柜系统、网络家电等）连接到一起，提供家电控制、照明控制、电话远程控制、室内外遥控、防盗报警、环境监测、暖通控制、红外转发以及可编程定时控制等多种功能和手段。与普通家居相比，智能家居不仅具有传统的居住功能，兼备建筑、网络通信、信息家电、设备自动化，提供全方位的信息交互功能，甚至为各种能源费用节约资金。...</p>
+                      <a href="guanyuwomen.html" target="_self"><img src="static/picture/59c36c37efb23.png"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+       <div class="w-section pdTop-default pdBottom-default" style="background:url(static/image/59ca0f34e266c.jpg) no-repeat center;" id="504749">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-medium pdBottom-small">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInUp" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">新闻资讯 </h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="504749" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                                      <td class="td-w" width="40.28455284552845%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg" data-animate="fadeInLeft" style="cursor:pointer;">
+                            <div class="image-w"> <a title="" style="cursor:default;" href="7.html">
+                              <div class="img"> <img src="static/picture/5baf25477d50a.png"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:25px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInLeft" style="">
+                            <div style="font-size:110%;"><a href="7.html">电饭煲市场热度不断 企业如何提高竞争力？</a></div>
+                            <div style="color:#8f8f8f; margin-bottom:1em; font-size:95%;">2018-09-29</div>
+                            <div style="color:#666666; font-size:95%;">民以食为天，电饭煲早已成为厨房标配，一碗香喷喷的米饭正挑战每个吃货的味蕾。纵观整个电饭煲行......</div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-button4" data-animate="fadeInLeft" style="padding-top:20px;">
+                            <div class="btn-w btn-pd4 bg_main aHoverbg_deepen g-click-to-link" id="button-n3" onclick="window.location='/2366/xinwenzixun/gongsidongtai/7.html';"> <span class="btn-inner" style="">+</span> </div>
+                            <a style="display:none;" href="7.html" target="_self"><span id="tag-a-n3"></span></a> </div>
+                        </div>
+                        </div></td>
+                           
+                    <td class="td-w" width="59.71273778899898%"><div class="div-padding">
+                        <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+                          <div class="not-animated w-adNews w-adNews8" data-animate="fadeInRight" style="">
+                            <div class="w-adNews-in clearfix">
+                              <ul>
+                                                              <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a target="_blank" href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="6.html" target="_blank" title="护眼小天使 天猫精灵联合定制款美的台灯">护眼小天使 天猫精灵联合定制款美的台灯</a></div>
+                                    </div>
+                                    <div class="news-sum">相信我们每个人都不会忘记小时候在台灯下学习的情景，哪一盏小小的台灯承载着家长的希望与孩子们的梦想。不同的是，十几年前我们并不像现在的学生们这样幸福，有各种具备护眼功能的台灯可用。一般而言市面上的普通台灯都使用荧光灯作为光源，不过因为其自身原......</div>
+                                  </div>
+                                </li>
+                                                               <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a target="_blank" href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="5.html" target="_blank" title="小米超薄LED智能电视发布：4.9mm堪">小米超薄LED智能电视发布：4.9mm堪</a></div>
+                                    </div>
+                                    <div class="news-sum">9月27日，小米在印度举办新品发布会，正式推出三款智能电视：小米电视4Pro55英寸、小米电视4APro49英寸和小米电视4CPro32英寸。核心配置上，小米电视4Pro55英寸采用4KHDR显示屏（分辨率为38402160），拥有4．9m......</div>
+                                  </div>
+                                </li>
+                                                               <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a target="_blank" href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="4.html" target="_blank" title="英国机构：苹果Apple Watch S">英国机构：苹果Apple Watch S</a></div>
+                                    </div>
+                                    <div class="news-sum">9月28日，EGC心电图功能是苹果AppleWatchSeries4的重要新特性。这项功能已经获得了FDA（美国食品和药物管理局）的认证，但在其他的国家和地区恐怕还得经过不小的波折。据相关消息，按照英国药品和保健产品监管机构（MHRA）方面......</div>
+                                  </div>
+                                </li>
+                                  
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-large pdBottom-default">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-small pdBottom-small">
+          <div class="li-div">
+            <div class="w-title w-title16" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">联系方式</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">CONTACT US</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:35px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="504796" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="50%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-text" style=""> <font size="4" color="#ffffff">响应式智能家居家电网站模板</font> </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style=""> 电话：400-123-4567<br>
+                              传真：+86-123-4567<br>
+                              手机：138-0000-0000<br>
+                              Q Q：1234567890<br>
+                              邮箱：admin@admin.com<br>
+                              地址：广东省广州市天河区88号<br></div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="50%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-form" style="">
+                                                      <form method="POST" class="guest-form" enctype="multipart/form-data" action="/2366/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-shartText">
+                                  <label class="w-label-form"> <span>姓名</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="text" name="attr_1" id="attr_1">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-tel">
+                                  <label class="w-label-form"> <span>电话</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="text" name="attr_2" id="attr_2">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-Email">
+                                  <label class="w-label-form"> <span>邮箱</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="text" name="attr_3" id="attr_3">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="li-div">
+                              <div class="w-form-section w-form-UL clearfix" style="">
+                                <div class="w-form-largeText">
+                                  <label class="w-label-form"> 地址 </label>
+                                  <div class="w-form-fr" style="">
+                                    <textarea class="w-textarea-form" style="width:100%;height:5em" name="attr_4" id="attr_4"></textarea>
+                                    <input class="w-text-form" type="hidden">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="w-form-submit">
+                              <div class="w-buttom" style="">
+                                <div class="btn-default-w g-form-components" onclick="checkForm();"> <span class="btn-inner">提交</span> </div>
+                              </div>
+                            </div>
+                            <input type="hidden" name="gourl" id="gourl_21d4c2bfd7a93dcf8c0157931a3abb8d" value="https://demoall.kuaituiyun.cn/2366"><input type="hidden" name="typeid" value="10"><input type="hidden" name="__token__21d4c2bfd7a93dcf8c0157931a3abb8d" id="21d4c2bfd7a93dcf8c0157931a3abb8d" value=""><script type="text/javascript">
+    function submit21d4c2bfd7a93dcf8c0157931a3abb8d(elements)
+    {
+        if (document.getElementById('gourl_21d4c2bfd7a93dcf8c0157931a3abb8d')) {
+            document.getElementById('gourl_21d4c2bfd7a93dcf8c0157931a3abb8d').value = window.location.href;
+        }
+        
+        
+        elements.submit();
+    }
+
+    function ey_fleshVerify_1698052511(id)
+    {
+        var token = id.replace(/verify_/g, '__token__');
+        var src = "/2366/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn&token="+token;
+        src += "&r="+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+
+    function fc9bb3ebc316920f53a175fe5a745c62c()
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("post", "/2366/index.php?m=api&c=Ajax&a=get_token&name=__token__21d4c2bfd7a93dcf8c0157931a3abb8d", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send('_ajax=1');
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+                document.getElementById("21d4c2bfd7a93dcf8c0157931a3abb8d").value = ajax.responseText;
+                document.getElementById("gourl_21d4c2bfd7a93dcf8c0157931a3abb8d").value = window.location.href;
+          　}
+        } 
+    }
+    fc9bb3ebc316920f53a175fe5a745c62c();
+    function getNext1598839807(id,name,level) {
+        var input = document.getElementById('attr_'+name);
+        var first = document.getElementById('first_id_'+name);
+        var second = document.getElementById('second_id_'+name);
+        var third = document.getElementById('third_id_'+name);
+        var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+
+        if (level == 1){
+            if (second) {
+                second.style.display = 'none';
+                second.innerHTML  = ''; 
+            }
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            input.value = fvalue;
+            value = fvalue;
+        } else if (level == 2){
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            if (svalue) {
+                input.value = fvalue+','+svalue;
+                value = svalue;
+            }else{
+                input.value = fvalue;
+            }
+        } else if (level == 3){
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            tindex = third.selectedIndex;
+            tvalue = third.options[tindex].value;
+            if (tvalue) {
+                input.value = fvalue+','+svalue+','+tvalue;
+                value = tvalue;
+            }else{
+                input.value = fvalue+','+svalue;
+            }
+        } 
+        if (value) {
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).options.add(new Option('请选择','')); 
+                var ajax = new XMLHttpRequest();
+                //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                ajax.open("post", "/2366/index.php?m=api&c=Ajax&a=get_region&pid="+value, true);
+                // 给头部添加ajax信息
+                ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //步骤三:发送请求+数据
+                ajax.send('_ajax=1');
+                //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                ajax.onreadystatechange = function () {
+                    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                    if (ajax.readyState==4 && ajax.status==200) {
+                        var data = JSON.parse(ajax.responseText).data;
+                        if (data) {
+                            data.forEach(function(item) {
+                           document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                           document.getElementById(id).style.display = "block";
+
+                        });
+                        }
+                  　}
+                }
+            }
+        }
+    }
+</script>                            </form>
+						  <script type="text/javascript">
+                            function checkForm()
+                            {
+                              if(document.getElementById('attr_1').value.length == 0)
+                              {
+                                alert('请输入姓名');
+                                return false;
+                              }
+                              if(document.getElementById('attr_2').value.length == 0)
+                              {
+                                alert('请输入电话');
+                                return false;
+                              }
+                              document.getElementById('myform').submit();
+                            }
+                          </script>
+                                                  </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-text" style="">
+              <div class="line" style="background:#3B3B3B; position:absolute; width:5000px;height:1px; left:-1500px;"></div>
+              <div style="text-align:center; padding-top:1em; color:#6e6e6e;">Copyright © 2012-2023 某某公司 版权所有 &nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-service-fixed">
+      <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+        <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+    </div>
+  </div> 
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script> 
+</body>
+</html>

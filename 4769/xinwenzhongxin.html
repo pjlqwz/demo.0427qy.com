@@ -1,0 +1,341 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新闻中心_易优Cms-演示站</title>
+<meta name="description" content="我们擅长商业策略与用户体验的美妙结合。
+用心做好每一个网站">
+<meta name="keywords" content="">
+<link href="/4769/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/4769/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/4769/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/4769/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/4769/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/4769/template/pc/skin/js/respond.min.js"></script>
+      <script src="/4769/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="w-container w-header">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="col-logo">
+        <div class="w-logo">
+          <h1 style="display:none;"><a href="index.html"></a></h1>
+          <a href="index.html" class="w-logo-img"> <img src="static/picture/0ecf044b917280c0247e7a48060e3642.png"> </a> </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="mobanzhanshi.html">模板展示<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="mobanfenleiyi.html">模板分类一</a></li>
+                                            <li><a href="mobanfenleier.html">模板分类二</a></li>
+                                            <li><a href="mobanfenleisan.html">模板分类三</a></li>
+                                            <li><a href="mobanfenleisi.html">模板分类四</a></li>
+                                            <li><a href="mobanfenleiwu.html">模板分类五</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="anlizhanshi.html">案例展示</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="active">
+                  <div class="li-parent-div li-parentOne-div"><a href="">新闻中心</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="topLogBox">
+          <div class="topLogBox-in">
+            <div class="col-com">
+              <div class="col_item clearfix"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/40162522139da5378538d547caf055f0.jpg" alt="" title="" style=" "> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="row">
+      <div class="wrap-content-in w-system w-productcom">
+        <div class="w-system-in"> 
+          <div class="w-com-menu w-com-menu-H">
+            <div class="w-com-menu-in">
+              <div class="systitle">
+                <div class="systitle-in">新闻中心</div>
+                <i class="fa icon_menuControl"></i></div>
+              <ul class="ul-parent">
+                  
+              </ul>
+            </div>
+          </div>
+          <div class="">
+            <style type="text/css">
+        .w-News-list2 li{ width:25%; *width:24.99%;}
+    </style>
+            <div class="crumbs">
+              <div class="crumbs_in">您当前的位置: &nbsp; <a href='index.html' class='crumb'>首页</a> &gt; <a href=''>新闻中心</a></div>
+            </div>
+            <div class="w-News-list w-News-list2 news_imgScaleBig">
+              <div class="w-News-list-in clearfix">
+                <ul>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="如何起一个好标题，这里有5个要点可以参考"> <a target="_self" class="img-count w-news-img" href="19.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="如何起一个好标题，这里有5个要点可以参考" src="static/picture/fa3796a9c8e23474f6f022ba3c69caeb.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="19.html" title="如何起一个好标题，这里有5个要点可以参考">如何起一个好标题，这里有5个要点可以参考</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">只有起好标题，你的内容可能才会有意义，你的内容才会有被用户点击的可能。在讲套路之前，首先我们来看看两组数据第一组数据：截至2017年4月，“头条号”平台的账号数量已超过60万个；第二组数据：2016年中国微信公众号数量超......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="网站优化不同阶段的seo优化策略"> <a target="_self" class="img-count w-news-img" href="18.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="网站优化不同阶段的seo优化策略" src="static/picture/296c8c6ac969d9caeba07464aa5bc7e3.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="18.html" title="网站优化不同阶段的seo优化策略">网站优化不同阶段的seo优化策略</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">在网站的优化过程中，每个阶段都有每个阶段的优化策略，因为着重点不同，成长的方向就可能不一样，若在不同的阶段采取一样的优化操作，那么所带来的效果是不一样的。你在某个阶段去着重优化这个网站最需要的那一块，这个时候所带来的效果......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="九误九建：企业做好SEO网络营销推广的必经之路"> <a target="_self" class="img-count w-news-img" href="17.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="九误九建：企业做好SEO网络营销推广的必经之路" src="static/picture/2c9b591173be19c6b61f70866d0788be.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="17.html" title="九误九建：企业做好SEO网络营销推广的必经之路">九误九建：企业做好SEO网络营销推广的必经之路</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">随着越来越多的人选择在互联网上寻求合作，很多商家也把自己的产品放到互联网上，企图获得更多曝光率，从而增加产品的销量，但在众多企业中，不难发现网络推广做得好的，大多都属于那种愿意投资并愿意深入了解用户需求思维的企业，而不单......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="新手若这样学SEO 一百小时轻松脱胎换骨"> <a target="_self" class="img-count w-news-img" href="16.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="新手若这样学SEO 一百小时轻松脱胎换骨" src="static/picture/8c32396976b27805cec1c6dae5f53a51.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="16.html" title="新手若这样学SEO 一百小时轻松脱胎换骨">新手若这样学SEO 一百小时轻松脱胎换骨</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">之前很多新手问笔者，学习SEO一般能多久学会，其实这样问题比较难回答，一般学得好的，只需要一个月就能掌握SEO的技术，而有的人学习一两年依然停留在发外链更新软文的层面，因此很多新手都学不好这门技术的原因也在这里，那么对于......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="SEO干货：什么样的页面才算是高质量的页面"> <a target="_self" class="img-count w-news-img" href="15.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="SEO干货：什么样的页面才算是高质量的页面" src="static/picture/e5c116227a8933ba0da8b85bb3811929.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="15.html" title="SEO干货：什么样的页面才算是高质量的页面">SEO干货：什么样的页面才算是高质量的页面</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">现在很多SEOer都在追求权重，但权重的获取往往离不开高质量的页面，很多人把目光重点放在了首页的页面，从而忽视内页的优化，也是比较不合理的，那么在搜索引擎的认识之中，什么样的页面才算是高质量的页面呢?下面岑辉宇就给大家来......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="【官方说法】HTTPS站点如何在百度站长平台提交数据？"> <a target="_self" class="img-count w-news-img" href="14.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="【官方说法】HTTPS站点如何在百度站长平台提交数据？" src="static/picture/12ae09bb589e03b70a5ef9dd03f5a89f.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="14.html" title="【官方说法】HTTPS站点如何在百度站长平台提交数据？">【官方说法】HTTPS站点如何在百度站长平台提交数据？</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">上周学院已发布百度搜索对HTTPS站点的全流程支持方案，可还是陆续收到站长提问，做了HTTPS站点，在平台如何提交数据，如何使用工具，下面学院君再给大家细细讲解：1、HTTPS站点请先使用平台HTTPS认证工具，经过平台......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="【官方说法】百度对HTTPS站点全流程支持方案文字概述"> <a target="_self" class="img-count w-news-img" href="13.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="【官方说法】百度对HTTPS站点全流程支持方案文字概述" src="static/picture/920a9e3a84fd41d2b9a97e376f2ff645.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="13.html" title="【官方说法】百度对HTTPS站点全流程支持方案文字概述">【官方说法】百度对HTTPS站点全流程支持方案文字概述</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">5月25日，VIP大讲堂-网站安全那些事儿成功举办，现场发布百度对HTTPS站点全流程支持方案，收到站长们广泛关注!学院君贴心的将现场演讲提炼成文字版本带给大家，快来看吧!HTTPS优势HTTPS是基于tls和ssl加密......</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="善用seo关键词研究工具 快速提升搜索排名"> <a target="_self" class="img-count w-news-img" href="12.html">
+                        <div style="padding-bottom:100%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="善用seo关键词研究工具 快速提升搜索排名" src="static/picture/47bc217421153eb0e43296e7d2c23a6b.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a target="_self" href="12.html" title="善用seo关键词研究工具 快速提升搜索排名">善用seo关键词研究工具 快速提升搜索排名</a> </div>
+                          <div class="date">2018-11-28</div>
+                        </div>
+                        <div class="news-sum">对于大部分的网站经营者来说搜索引擎最佳化/搜索引擎优化SEO（SearchEngineOptimization）这个词汇肯定不会陌生，甚至都快听厌了，而对于新加入电商经营的卖家们来说，SEO肯定也是未来在网络世界奋斗当中......</div>
+                      </div>
+                    </div>
+                  </li>
+                        
+                </ul>
+              </div>
+            </div>
+           <div class="next1">  <a><<</a> <a><</a> <a class="on1">1</a><a href="lists_4_2.html" data-ey_fc35fdc="html" data-tmp="1">2</a> <a href="lists_4_2.html" data-ey_fc35fdc="html" data-tmp="1">></a> <a href="lists_4_2.html" data-ey_fc35fdc="html" data-tmp="1">>></a></div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section pdTop-default pdBottom-default">
+    <div class="w-footer-in" style="max-width:;">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content  pdTop-small pdBottom-small">
+        <div class="li-div">
+          <div class="w-text" style="">
+            <div align="center"><font color="#757575">Copyright © 2012-2018 某某公司 版权所有 &nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a></font></div>
+          </div>
+        </div>
+        <div class="li-div">
+          <div class="w-text" style="">
+            <div align="center"><font color="#757575">
+              <ul class="link">
+                <span>友情链接 :</span>                 <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+                              </ul>
+              </font></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.news_list.js"></script> 
+</body>
+</html>

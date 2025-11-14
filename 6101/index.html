@@ -1,0 +1,768 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>响应式创意家居网站模板</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header w-header-common">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="row_top clearfix">
+      <div class="column column4">
+        <div class="col-logo">
+          <div class="w-logo">
+            <h1 style="display:none;"><a href=""></a></h1>
+            <a href="" class="w-logo-img"> <img src="static/picture/060d10649b7e9459cc263020a6fcbbaa.png"> </a> </div>
+        </div>
+      </div>
+      <div class="column column8 clearfix">
+        <div class="topLogBox">
+          <div class="topLogBox-in">
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li class="active"><a href="">网站首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                        <li><a href="xingyedongtai.html">行业动态</a></li>
+                                        <li><a href="meitibaodao.html">媒体报道</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="ketingjiaji.html">客厅家居</a></li>
+                                        <li><a href="jiajishijian.html">家居饰件</a></li>
+                                        <li><a href="woshijiaji.html">卧室家居</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="rencaizhaopin.html">人才招聘 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix">
+            <li class="active"><a href="">网站首页</a><i class="nav_simpline_cur"></i></li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                    <li><a href="xingyedongtai.html">行业动态</a></li>
+                                    <li><a href="meitibaodao.html">媒体报道</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="ketingjiaji.html">客厅家居</a></li>
+                                    <li><a href="jiajishijian.html">家居饰件</a></li>
+                                    <li><a href="woshijiaji.html">卧室家居</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="rencaizhaopin.html">人才招聘 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="w-container bannerBox ">
+    <div class="banner">
+      <ul class="bxslider">
+                <li> <img src="static/picture/826876874693d408f41986c61c70d579.jpg" alt="首页幻灯2" title="首页幻灯2" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </li>
+                <li> <img src="static/picture/bf707e8bec69c4a788cb069da131560a.jpg" alt="首页幻灯1" title="首页幻灯1" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </li>
+              </ul>
+      <script src="static/js/jquery.bxslider.js"></script>
+      <link rel="stylesheet" href="static/css/jquery.bxslider.css">
+      <script type="text/javascript">
+            var scale = '';
+            var speed = 500;
+            var pause = 5;
+            $(function () {
+                $('.banner>ul').bxSlider({
+                    mode: 'fade', /*滚动方式 fade、vertical、horizontal */
+                    auto: true, /*自动滚动*/
+                    autoControls: false, /*自动滚动按钮*/
+                    infiniteLoop: true, /*循环滚动*/
+                    hideControlOnEnd: true, /*无效按钮隐藏*/
+                    adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+                    minSlides: 1,
+                    maxSlides: 2,
+                    scale: scale,
+                    speed: speed,
+                    pause: pause * 1000
+                });
+            });
+        </script> 
+    </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="w-section ">
+      <div class="row">
+        <div class="row-mask"></div>
+                <div class="wrap-content-in">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>                     <td class="td-w" width="33.333333333333336%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatFull captionbgFadeInDefault textFade" data-animate="fadeInUp" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="客厅家居" href="ketingjiaji.html">
+                              <div class="img"> <img src="static/picture/6bd7197388e314d0688b0716ff4b8da8.jpg"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                                <div class="caption-text">
+                                  <div class="caption-text-in">
+                                    <h3 class="textFadeInDefault">客厅家居</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                                        <td class="td-w" width="33.333333333333336%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatFull captionbgFadeInDefault textFade" data-animate="fadeInUp" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="家居饰件" href="jiajishijian.html">
+                              <div class="img"> <img src="static/picture/3c513e5e541336959b460ddbec8d9581.jpg"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                                <div class="caption-text">
+                                  <div class="caption-text-in">
+                                    <h3 class="textFadeInDefault">家居饰件</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                                        <td class="td-w" width="33.333333333333336%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatFull captionbgFadeInDefault textFade" data-animate="fadeInUp" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="卧室家居" href="woshijiaji.html">
+                              <div class="img"> <img src="static/picture/2c95bfe353035082529c34a496b0d858.jpg"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                                <div class="caption-text">
+                                  <div class="caption-text-in">
+                                    <h3 class="textFadeInDefault">卧室家居</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                     </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:85px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="font-weight:bold;" data-type="title">RRODUCT DISPLAY</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">产品展示</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <style type="text/css">
+    .w-productList1 .g-9d167e88e16729694574423c78f906bc{ width:24.99%; *width:24.99%;}
+</style>
+          <div class="li-div">
+            <div class="not-animated w-productList w-productList1" data-animate="fadeInUp" style="">
+              <div class="w-productList-in clearfix">                 <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="14.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/cb2b686e14dd71a8018d1a70d7966450.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="14.html">特价创意家具 简约现代客厅茶几</a></h2>
+                        <div class="w-prd-sum" style="display:none;">·&nbsp;弄台小几，花梨茶几造型简约，古朴典雅...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="13.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/84f3bddb1e646ff2221fbdd30470468c.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="13.html">北欧简约书桌椅 </a></h2>
+                        <div class="w-prd-sum" style="display:none;">·&nbsp;时尚定制优雅素洁的视觉享受，平衡设计...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="12.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/0f03a887194e5414c1995b9bb6da5c6b.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="12.html">特价商城接待布艺简约宜家椅子</a></h2>
+                        <div class="w-prd-sum" style="display:none;">精选优质棉麻面料亲肤舒适显得优雅而迷人，流畅的线条...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="11.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/4fc404e7867338a6449142cfe28a8425.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="11.html">可爱小脚丫浴室门口吸水脚垫</a></h2>
+                        <div class="w-prd-sum" style="display:none;">&nbsp;此款产品适合，洗好澡出来踩在上面，能迅...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="10.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/f84c59d404bf651ef760e2f200334eac.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="10.html">椭圆相框照片墙</a></h2>
+                        <div class="w-prd-sum" style="display:none;">· 本款实木照片墙，精美设计，软木条带可扎钉固定便...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="9.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/4faee1fc8066797f191c3928a426fcc5.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="9.html">地中海客厅实木照片墙</a></h2>
+                        <div class="w-prd-sum" style="display:none;">本款实木照片墙，精美设计，软木条带可扎钉固定便签留...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="8.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/3d98f96df87e696fb3d659fc752ca002.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="8.html">实木照片墙</a></h2>
+                        <div class="w-prd-sum" style="display:none;">&nbsp;本款实木照片墙，精美设计，软木条带可扎...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-9d167e88e16729694574423c78f906bc">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="7.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/52b94161b0619fab2a17a2d9044e6be4.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="7.html">浴室吸水防滑进门地垫</a></h2>
+                        <div class="w-prd-sum" style="display:none;">·&nbsp;此款产品适合，洗好澡出来踩在上面，能...</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:85px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+         </div>
+    </div>
+        <div class="w-section pdTop-default pdBottom-small" style="background:#f2f2f2;">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:30px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="font-weight:bold;" data-type="title">ABOUT US</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">关于我们</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-section pdTop-default pdBottom-default" style="background:#f2f2f2;">
+      <div class="row" style="max-width:;">
+        <div class="row-mask" style="background:#ffffff;opacity:1;*filter:alpha(opacity=100); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:33px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="49.0081303294112%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatNone" data-animate="fadeInUp" style="cursor:pointer;">
+                            <div class="image-w"> <a title="" href="javascript:void(0);">
+                              <div class="imgScaleBig">
+                                <div class="img"> <img src="static/picture/cf5af5ac8fa92c333dd95dfbc39d4021.jpg"> </div>
+                              </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="38.3739837398374%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                            <div class="w-text">
+                              <style type="text/css">
+												.text1{ padding-top:60px;}
+												.text1 .txt{min-height:20em;}
+												@media (max-width:960px) {
+													.text1{ padding-top:0.5em;}
+													.text1 .txt{min-height:0;}
+												}												
+</style>
+                              <div class="text1">
+                                <h3 style="font-size:120%; margin-top:0; margin-bottom:1em; text-align:center;">关于我们</h3>
+                                <div class="txt">                                   【企业核心价值】：务实、负责、速度、创新【品牌文化核心】：高雅、时尚、浪漫【企业文化理念】：做人、做事、做品牌某某家具不靠低质低价抢占市场，要靠技术、工艺和服务，以合理的价格求得客户的最终信赖和品牌的长远发展。没有形成规模化生产的好品牌，靠的是广告和营销；而通过规模化生产、规范化管理、人性化服务有阶段的品牌拓展建立起来的品牌是具有生命力的，品质是值得您信赖的。某某家具是这样做的:先做人，再做事；先树立信念，再做企业；先做好产品细节，再谈品牌发展。产品质量无...
+                                   </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-button" data-animate="fadeInUp" style="text-align:center;">
+                            <div class="btn-default-b btn-default-w btn-large-w g-click-to-link" onclick="window.open('/6101/guanyuwomen/','_self')"> <span class="btn-inner" style="">了解更多</span> </div>
+                            <a style="display:none;" href="guanyuwomen.html" target="_self"><span></span></a> </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:25px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-default pdBottom-default" style="background:#f2f2f2;">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:70px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section">
+      <div class="row">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:90px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="font-weight:bold;" data-type="title">NEWS INFORMATION</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">新闻资讯</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="48.65853658536585%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatNone" data-animate="fadeInUp" style="cursor:pointer;padding-bottom:10px;">
+                            <div class="image-w"> <a title="" href="javascript:void(0);">
+                              <div class="imgScaleBig">
+                                <div class="img"> <img src="static/picture/a089eb79ec4c1e24ec04dc8ebad3a223.jpg"> </div>
+                              </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+                          <div class="not-animated w-adNews w-adNews8" data-animate="fadeInUp" style="">
+                            <div class="w-adNews-in clearfix">
+                              <ul>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="22.html" title="迎|“十一”主题优惠即将开幕">迎|“十一”主题优惠即将开幕</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">在六一第一波的节日促销打折活动后,新一波的“国庆”、“十一”促销打折马...</div>
+                                  </div>
+                                </li>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="21.html" title="多少家具企业在借道越南做出口？">多少家具企业在借道越南做出口？</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">11月8日晚，永艺股份发公告称公司将在越南建设办公家具生产基地。11月...</div>
+                                  </div>
+                                </li>
+                                                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="47.235772357723576%"><div class="div-padding">
+                        <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+                          <div class="not-animated w-adNews w-adNews8" data-animate="fadeInUp" style="">
+                            <div class="w-adNews-in clearfix">
+                              <ul>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="20.html" title="真皮沙发制造探秘，真相令人心惊">真皮沙发制造探秘，真相令人心惊</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">真皮沙发舒适透气，相比布艺沙发显得经典、大气、高端，是沙发家族中历来的...</div>
+                                  </div>
+                                </li>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="19.html" title="家具行业危机重重，涉险过关靠什么？">家具行业危机重重，涉险过关靠什么？</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">对家具企业来说，今年又是不好过的一年。上市家具企业上半年年报显示，大部...</div>
+                                  </div>
+                                </li>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="18.html" title="2018年上半年家具行业7大关键词">2018年上半年家具行业7大关键词</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">环保近年来，国家环保标准越来越高，要求越来越严格。2018年，国家层面...</div>
+                                  </div>
+                                </li>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="17.html" title="中国家具业正进入品牌建设高潮期">中国家具业正进入品牌建设高潮期</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">除了世界杯赛场还没有中国家具企业的身影，现在几乎所有引人注目的广告阵地...</div>
+                                  </div>
+                                </li>
+                                                                <li>
+                                  <div class="news-item">
+                                    <div class="news-together">
+                                      <div class="news-h"><a href="16.html" title="家具行业能否出现真正的消费者品牌？">家具行业能否出现真正的消费者品牌？</a></div>
+                                      <div class="date">2019-01-16</div>
+                                    </div>
+                                    <div class="news-sum">不少家具企业都在A股上市融资，家具企业的资金环境因此大为改善。一些企业...</div>
+                                  </div>
+                                </li>
+                                                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-button" data-animate="fadeInUp" style="text-align:center;padding-top:20px;">
+                            <div class="btn-default-b btn-default-w btn-large-w g-click-to-link" onclick="window.open('/6101/xinwenzixun/','_self')"> <span class="btn-inner" style="">MORE</span> </div>
+                            <a style="display:none;" href="xinwenzixun.html"><span></span></a> </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:50px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div>
+              <ul class="link">
+                <span>友情链接 :</span>                 <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div>
+              <div style="text-align:center;">热线电话：400-123-4567 &nbsp; &nbsp;电子邮箱：admin@youweb.com</div>
+              <div style="text-align:center;">公司地址：江西省南昌市友谊路326号</div>
+              <div style="text-align:center;">Copyright © 2012-2018 某某公司 版权所有 &nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="li-div">
+          <div class="w-space space-b noChoose" style="height:25px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+ </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+	<a href="https://smalltool.github.io/" style="display:none;">仿站小工具官网</a>
+</body>
+</html>
