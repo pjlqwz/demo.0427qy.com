@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>留言中心_易优Cms-演示站</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/5885/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- include main css -->
+<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="static/css/jquery.mmenu.all.css">
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<link href="static/css/font-awesome.min.css" rel='stylesheet' type='text/css' media="all">
+<link rel="stylesheet" type="text/css" href="static/css/animate.css">
+<!--[if lt IE 9]>
+<script src="/5885/template/pc/skin/js/html5shiv.min.js"></script>
+<script src="/5885/template/pc/skin/js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div> 
+  <!--header--> 
+  <header class="header home_p">
+    <div class="container">
+      <div class="logo"> <a href="index.html"><img src="static/picture/8d145bc931b26bb9be7fa2a1dbdadb88.png" alt="易优Cms-演示站"></a> </div>
+      <a href="#mmenu" class="phone-nav"><i class="fa fa-list"></i></a>
+      <div class="logo_right">
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+                        <li><a href="jingqugaikuang.html" class="">景区概况</a>
+             
+            </li>
+                        <li><a href="wenyuanzhilv.html" class="">文苑之旅</a>
+                          <ul>
+                                <li><a href="chayizhongxin.html">茶艺中心 </a></li>
+                                <li><a href="wanzhulinhai.html">万竹林海 </a></li>
+                                <li><a href="chuangyizhongxin.html">创意中心 </a></li>
+                                <li><a href="huacaoyuanyi.html">花草园艺</a></li>
+                              </ul>
+             
+            </li>
+                        <li><a href="shuyazhuzhai.html" class="">舒雅住宅</a>
+             
+            </li>
+                        <li><a href="xinwendongtai.html" class="">新闻动态 </a>
+                          <ul>
+                                <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                                <li><a href="xingyexinwen.html">行业新闻</a></li>
+                              </ul>
+             
+            </li>
+                        <li><a href="" class="active">留言中心</a>
+             
+            </li>
+                        <li><a href="lianxiwomen.html" class="">联系我们</a>
+             
+            </li>
+                      </ul>
+        </nav>
+      </div>
+    </div>
+  </header> 
+  
+  <!--banner  start-->
+  <section class="banner_zi">
+    <div><img src="static/picture/45c5145d0fe4b0ebeec1b1882d1570ee.jpg" alt="留言中心"></div>
+  </section>
+  <!--banner end-->
+  <div class="head_bar"> <span>位置：</span> <a href='index.html' class='crumb'>首页</a> &gt; <a href=''>留言中心</a> </div>
+  <div class="feedback_con">
+    <div class="top_tit"> <span class="span1"><a href="">留言中心</a></span><br>
+    </div>
+        <form method="POST" enctype="multipart/form-data" action="/5885/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+    	<input type="hidden" name="typeid" value="5"><input type="hidden" name="__token__c38e5505ef3a6d12122d869ea1985ace" id="c38e5505ef3a6d12122d869ea1985ace" value=""><script type="text/javascript">
+    function ey_fleshVerify(id)
+    {
+        var src = "/5885/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+        if (src.indexOf('?') > -1) {
+            src += '&';
+        } else {
+            src += '?';
+        }
+        src += 'r='+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+    function f0244d978bc31407d3ded05cb71735d1b()
+    {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open("get", "/5885/index.php?m=api&c=Ajax&a=get_token&name=__token__c38e5505ef3a6d12122d869ea1985ace", true);
+        // 给头部添加ajax信息
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //步骤三:发送请求+数据
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("c38e5505ef3a6d12122d869ea1985ace").value = ajax.responseText;
+          　}
+        } 
+    }
+    f0244d978bc31407d3ded05cb71735d1b();
+</script>      <ul class="liu_ul">
+        <li class="clearfix">
+        <p class="p1"> <span><i>*</i>标题</span><input type="text" name="attr_1" id="attr_1"></p>
+        <p> <span><i>*</i>姓名</span><input type="text" name="attr_2" id="attr_2"></p>
+      </li>
+      <li class="clearfix">
+        <p class="p1"><span><i>*</i>电话</span><input type="text" name="attr_3" id="attr_3"></p>
+        <p> <span><i>*</i>邮箱</span><input type="text" name="attr_4" id="attr_4"></p>
+      </li>
+      <li> <span class="span_nei">留言内容</span>
+        <textarea name="attr_5" id="attr_5" rows="7" cols=""></textarea>
+      </li>
+      
+      <li class="btn"> <a href="javascript:void(0);" onclick="checkForm();">提交</a> &nbsp; <a href="javascript:void(0);" onclick="resetFrom();">重置</a> </li>
+      </ul>
+    </form>
+    <script type="text/javascript">
+            function checkForm()
+            {
+              if(document.getElementById('attr_1').value.length == 0)
+              {
+                alert('请输入您的标题');
+                return false;
+              }
+              if(document.getElementById('attr_2').value.length == 0)
+              {
+                alert('请输入您的姓名');
+                return false;
+              }
+              document.getElementById('myform').submit();
+            }
+			
+			//清除表单中所有内容
+			function resetFrom() {
+				window.location.reload();
+			}
+          </script> 
+     </div>
+  <!--footer  start-->
+
+<footer class="footer">
+  <div class="footer_con">
+    <div class="con">
+      <div class="nei">
+        <div class="">
+          <ul class="di_nav clearfix">
+                        <li><a href="jingqugaikuang.html">景区概况</a></li>
+                        <li><a href="wenyuanzhilv.html">文苑之旅</a></li>
+                        <li><a href="shuyazhuzhai.html">舒雅住宅</a></li>
+                        <li><a href="xinwendongtai.html">新闻动态 </a></li>
+                        <li><a href="">留言中心</a></li>
+                        <li><a href="lianxiwomen.html">联系我们</a></li>
+                      </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="lian"> 电话：<a href="tel:400-123-4567">400-123-4567</a><br>
+          邮箱：<a href="mailto:admin@youweb.com">admin@youweb.com</a><br>
+          手机：<a href="tel:138 0000 0000">138 0000 0000</a><br>
+          地址:广东省广州市天河区88号<br>
+          <br>
+          <span class="er_a"> <img src="static/picture/526611694d501320cd594f43c7d764d7.png" alt="" width="24" height="24" class="one_img"> 某某旅游公众号 <img src="static/picture/526611694d501320cd594f43c7d764d7.png" alt="" class="er_img"> </span> </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy">Copyright © 2012-2018 某某公司 版权所有 &nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a></div>
+  <div class="copy">
+    <ul class="link">
+      <span>友情链接 :</span> 
+            <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+            <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+            <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+            <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+            <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+          </ul>
+  </div>
+</footer>
+<!--footer  end--> 
+
+<!--移动端  Mmenu-->
+<nav id="mmenu">
+  <ul>
+    <li><a href="index.html">首页</a></li>
+        <li><a href="jingqugaikuang.html" class="">景区概况</a>  </li>
+        <li><a href="wenyuanzhilv.html" class="">文苑之旅</a>       <ul>
+                <li><a href="chayizhongxin.html">茶艺中心 </a></li>
+                <li><a href="wanzhulinhai.html">万竹林海 </a></li>
+                <li><a href="chuangyizhongxin.html">创意中心 </a></li>
+                <li><a href="huacaoyuanyi.html">花草园艺</a></li>
+              </ul>
+       </li>
+        <li><a href="shuyazhuzhai.html" class="">舒雅住宅</a>  </li>
+        <li><a href="xinwendongtai.html" class="">新闻动态 </a>       <ul>
+                <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                <li><a href="xingyexinwen.html">行业新闻</a></li>
+              </ul>
+       </li>
+        <li><a href="" class="active">留言中心</a>  </li>
+        <li><a href="lianxiwomen.html" class="">联系我们</a>  </li>
+      </ul>
+</nav>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> </div>
+
+<!--Include Js--> 
+<script src="static/js/jquery.min.js" type="text/javascript"></script> 
+
+<!--移动端导航--> 
+<script src="static/js/jquery.mmenu.all.min.js" type="text/javascript"></script> 
+
+<!--slick--> 
+<script src="static/js/slick.min.js" type="text/javascript"></script> 
+<script src="static/js/wow.js" type="text/javascript"></script> 
+
+<!--placeholder--> 
+<script src="static/js/jquery.placeholder.min.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	$(function(){ $('input, textarea').placeholder(); });
+</script> 
+<script src="static/js/public.js" type="text/javascript"></script> 
+<!--<script src="/5885/template/pc/skin/js/bootstrap.min.js"></script>--> 
+
+<!--<script src="/5885/template/pc/skin/js/bootstrap.min.js"></script>-->
+
+</body>
+</html>

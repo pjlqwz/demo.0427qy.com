@@ -1,0 +1,168 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+
+.w-logo h1, .w-logo a{ color:#fff;}
+.topLogBox a:hover,.w-languege a.cur{color:#FF6600;}
+.topLogBox .w-search .search-btn-w{ background-color:#FF6600;}
+.topLogBox .w-search .input-search-w{ border-color:#bbb;}
+.w-header,.w-admin-header,.body-login .w-admin-header{ background:#ff5400;}
+.w-nav .nav_inner > li:hover > a, .w-nav .nav_inner > li:hover > .li-parent-div > a, .w-nav .nav_inner > li.active > a, .w-nav .nav_inner > li.active > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li:hover > a,.w-admin-header .w-nav .nav_inner > li:hover > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li.active > a,.w-admin-header .w-nav .nav_inner > li.active > .li-parent-div > a{ color:#fff; background:#FFAD00; transition: all 0.2s;-moz-transition: all 0.2s;-webkit-transition: all 0.2s; -o-transition: all 0.2s;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{ background:#FFAD00 !important;}
+.w-text a:hover,.newsDetail .news-others a:hover{color:#ff5400;}
+/*--------------------组件-------------------------*/
+.btn-default-w{ background-color:#FF5400; color:#fff; }
+.btn-default-w:hover,.btn-default-w:focus{ color:#fff; background-color:#FFAD00; transition: all 0.2s;-moz-transition: all 0.2s;-webkit-transition: all 0.2s; -o-transition: all 0.2s; }
+.w-social .social-item{ background-color:#ff5400;}
+.w-social .social-item:hover{ background-color:#FFAD00;}
+.w-social .social-item:hover .icon-social{}
+.search-defaut-w .search-btn-w{ background-color:#FF5400;}
+.search-defaut-w .search-btn-w:hover{background-color:#FFAD00;}
+.color_s_default{ color:#FF8144;}
+.bg_s_default{ background:#FF8144;}
+.w-service-fixed .color_s_default:hover{color:#ff5400;}
+.w-service-fixed .bg_s_default:hover{ background:#ff5400;}
+.w-service-fixed .service-popc{background:#ff5400; }
+.w-lantern .lantern_pre,.w-lantern .lantern_next{background-color:#ff5400;}
+.w-lantern .lantern_pre:hover,.w-lantern .lantern_next:hover{background-color:#FFAD00;}
+.captionbgFadeOutScale .caption .captionbg,.captionbgFadeInLeft.imgLeftBig .caption .captionbg,.captionbgFadeInRight.imgRightBig .caption .captionbg{background-color:#ff5400;}
+.w-slide-page-num .slide-page a.active{ background-color:#ff5400;}
+/*-----------------footer-------------------------*/
+.w-footer{}
+.w-footer a:hover{ color:#fff;}
+.w-footer .btn-default-w{ background-color:#666; }
+.w-footer .btn-default-w:hover,.btn-default-w:focus{ background-color:#FFAD00;}
+.w-footer .search-defaut-w .search-btn-w{ background-color:#666;}
+.w-footer .search-defaut-w .search-btn-w:hover{background-color:#FFAD00;}
+.w-footer .w-social .social-item{ background-color:#666;}
+.w-footer .w-social .social-item:hover{ background-color:#FFAD00;}
+/*--------------------系统------------------------*/
+.systitle{ background:#ff5400;}
+.crumbs a:hover,.w-breadcrumbs a:hover{color:#ff5400;}
+.w-pages a:hover,.w-pages a.cur{color:#dd0000;}
+.info_tab li.cur_tab a{ color:#ff5400;}
+.w-prd-list-cell .w-prd-infobox h2 a:hover,.w-prd-list-cell .w-prd-infobox .w-prd-more a:hover{color:#ff5400;}
+.w-prd-list-cell .w-prd-btns a.btn-buy{ background:#ff5400; border-color:#ff5400; }
+.w-prd-list-cell .w-prd-btns a.btn-buy:hover{ background:#FFAD00; border-color:#FFAD00; }
+.w-prd-list-cell .w-prd-btns a.btn-addCart:hover{  border-color:#666;  color:#333;}
+/*-------------新闻--------------------*/
+.w-News-list .news-com .news-h a:hover,.w-adNews .news-h a:hover,.w-adNews1 li .news-item .news-com .news-h a:hover{color:#ff5400;}
+.w-News-list5 li .news-item .data-day,.w-adNews1 li .news-item .data-day{ background:#ff5400;}
+.w-adNews3 .w-adNews-imgs .news-img .news-buoy-content .mask{background:#222;}
+.w-adNews3{background:#FF5400;}
+.w-adNews3 .w-adNews-imgs .adNews3prev,.w-adNews3 .w-adNews-imgs .adNews3next{background-color:#ff5400;}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH a,.w-adNews3 .w-adNews-texts li .w-adNews-textH h3{ color:#fff;opacity:0.98; *filter:alpha(opacity=98); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=98);}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH a:hover,.w-adNews3 .w-adNews-texts li .w-adNews-textH a:hover h3{ color:#FFAD00;}
+.w-adNews3 .w-adNews-texts li .w-adNews-textH p,.w-adNews3 .w-adNews-texts li .w-adNews-textH .news-sum{ color:#fff;opacity:0.98; *filter:alpha(opacity=98); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=98);}
+.w-adNews3 .w-adNews-texts li .numberQ{border-color:#fff; color:#fff;opacity:0.9; *filter:alpha(opacity=90); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);}
+.w-adNews3 .w-adNews-texts li{border-color:#fff;}
+.w-adNews3 .w-adNews-imgs .adNews3prev{background-image:url("../image/adnews3prev_white.png");}
+.w-adNews3 .w-adNews-imgs .adNews3next{background-image:url("../image/adnews3next_white.png");}
+/*-----------------------会员中心和购物车--------------------*/
+.w-admin-top .w-sign .w-admin-register, .w-admin-top .w-sign .w-admin-person,.w-admin-shopCart a .fa-shopping-cart,.order-progress .order-progress-text > div.cur,.orderA .orderA-statue .orderA-s,.orderA .order-route .order-route-notice a,.orderA .orderA-statue .orderA-btn .btn-green-A,.w-admin-sidemenu li.cur a,.payStatue-nav a.cur,.personInfoA .uploadimgA{ color:#ff5400;}
+.order-progress .order-progress-line .order-progress-line-sec.cur .curcle{background-image:url("../image/progress_complete.png");}
+.order-progress .order-progress-line .order-progress-line-sec.cur .line,.btn-greenC,.btn-greenA{background-color:#ff5400;}
+.checkbox_tel input[type="checkbox"]:checked + label{background-color:#ff5400;}
+.orderA .orderA-statue .orderA-btn .btn-green-A,.section-con-new,.payStatue-nav a.cur{ border-color:#ff5400;}
+.orderSum-item .imgB,.order-routes .order-routeItem.cur .order-routeItem-img .imgA{background-color:#FCCC72;}
+.order-routes .order-routeItem.cur .order-routeItem-img .lineA{background-image:url('../image/routelinecur.png');}
+/*----------------------标题------------------------*/
+.color_main{color:#ff5400;}
+.color_vice{}
+.color_vice_light{}
+.color_h{}
+.color_span{}
+.colorbg_main{color:#ff5400;}
+.bg_main{background-color:#ff5400;}
+.bg_main_light{background-color:#FFF3ED;}
+.bg_simpline{background-color:#ff5400;}
+.border_colorall_main{border-color:#ff5400;}
+.aHoverborder_main:hover{border-color:#ff5400;}
+.border_colorleft_main{border-left-color:#ff5400;}
+.border_colortop_main{border-top-color:#ff5400;}
+.border_colorright_main{border-right-color:#ff5400;}
+.border_colorbottom_main{border-bottom-color:#ff5400;}
+.aHovercolor_main:hover{color:#ff5400;}
+.aHoverbg_main:hover{background-color:#ff5400;}
+.border_colorall_main_deepen{border-color:#FFAD00;}
+.aHovercolor_deepen:hover{ color:#FFAD00;}
+.aHoverbg_deepen:hover{ background-color:#FFAD00;}
+.aHoverborder_deepen:hover{border-color:#FFAD00;}
+.colorChange{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(bottom, #ff5400, #FFAD00);
+	background-image: -moz-linear-gradient(bottom, #ff5400, #FFAD00);
+	background-image: -o-linear-gradient(bottom, #ff5400, #FFAD00);
+	background-image: -ms-linear-gradient(bottom, #ff5400,#FFAD00);
+	background-image: linear-gradient(to top, #ff5400, #FFAD00);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#FFAD00, endColorStr=#ff5400);}
+.colorChange_deepen{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(bottom, #FFAD00,#ff5400);
+	background-image: -moz-linear-gradient(bottom, #FFAD00, #ff5400);
+	background-image: -o-linear-gradient(bottom, #FFAD00, #ff5400);
+	background-image: -ms-linear-gradient(bottom, #FFAD00, #ff5400);
+	background-image: linear-gradient(to top, #FFAD00, #ff5400);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ff5400, endColorStr=#FFAD00);}
+.bg_main_change{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(bottom, #ffffff, #ff5400);
+	background-image: -moz-linear-gradient(bottom, #ffffff, #ff5400);
+	background-image: -o-linear-gradient(bottom, #ffffff, #ff5400);
+	background-image: -ms-linear-gradient(bottom, #ffffff,#ff5400);
+	background-image: linear-gradient(to top, #ffffff, #ff5400);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ff5400, endColorStr=#ffffff);}
+.bg_main_changeDeepen{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(bottom, #ff5400, #ffffff);
+	background-image: -moz-linear-gradient(bottom, #ff5400, #ffffff);
+	background-image: -o-linear-gradient(bottom, #ff5400, #ffffff);
+	background-image: -ms-linear-gradient(bottom, #ff5400,#ffffff);
+	background-image: linear-gradient(to top, #ff5400, #ffffff);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#ff5400);}
+.bg_main_change_left{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(right, #ffffff, #ff5400);
+	background-image: -moz-linear-gradient(right, #ffffff, #ff5400);
+	background-image: -o-linear-gradient(right, #ffffff, #ff5400);
+	background-image: -ms-linear-gradient(right, #ffffff,#ff5400);
+	background-image: linear-gradient(to left, #ffffff, #ff5400);}
+.bg_main_changeDeepen_left{background-color:#ff5400;
+    background-image: -webkit-linear-gradient(right, #ff5400, #ffffff);
+	background-image: -moz-linear-gradient(right, #ff5400, #ffffff);
+	background-image: -o-linear-gradient(right, #ff5400, #ffffff);
+	background-image: -ms-linear-gradient(right, #ff5400,#ffffff);
+	background-image: linear-gradient(to left, #ff5400, #ffffff);}
+.w-title2{ background:#ff5400; color:#fff;}
+.w-title2 .title-h-in h2,.w-title2 .more{ color:#fff;}
+.w-title2 .more:hover{ color:#FFDE00;}
+.w-title17 .title-h-in{ background:#000;}
+.w-title17 .title-text-in{ background:#ff5400;}
+.w-title17 .w-title-inner{background-image:url("../image/tit17bg_0.png");}
+.w-title17 .more:hover{ background-image:url("../image/tit17_morehover_0.png");}
+.w-title19 .more .icon_more,.icon_more19bg{ background-image:url("../image/icon_more_0.png");}
+.w-title23 .simpline{ background:#1F3580;}
+@media (min-width:768px){
+	.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent:hover > .div-parent a,.w-com-menu-V > .w-com-menu-in > .ul-parent > .li-parent.cur > .div-parent a{ color:#ff5400;}
+	.w-com-menu-V .ul-submenu li:hover >.div-parent a{}
+	.w-com-menu-V .ul-submenu li:hover >.div-parent a,.w-com-menu .ul-submenu li:hover >.div-parent .fa{ color:#ff5400;}
+    .w-com-menu-H >.w-com-menu-in>.ul-parent> li:hover >.div-parent a,.w-com-menu-H >.w-com-menu-in>.ul-parent> li.cur >.div-parent a{  color:#ff5400;}
+	.w-com-menu-H .ul-submenu li:hover> .div-parent >a,.w-com-menu-H .ul-submenu li.cur> .div-parent >a{ color:#ff5400; }
+}
+@media (min-width:961px){
+	.w-nav .submenu{ background:#FFAD00; background:rgba(255,173,0,0.95);}
+	.w-nav .submenu li:hover > a, .w-nav .submenu  li:hover > .li-parent-div > a, .w-nav .submenu li.active > a, .w-nav .submenu li.active  >.li-parent-div > a{ color:#fff; background:#FF8144;}
+}
+@media (max-width:960px){
+	.w-header-common .mobile-nav-toggle{ background:#212121; color:#fff;}
+	.w-nav .nav_inner > li:hover > a, .w-nav .nav_inner > li:hover > .li-parent-div > a, .w-nav .nav_inner > li.active > a, .w-nav .nav_inner > li.active > .li-parent-div > a,.w-nav li:hover > a, .w-nav  li:hover > .li-parent-div > a, .w-nav li.active > a, .w-nav li.active > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li:hover > a,.w-admin-header .w-nav .nav_inner > li:hover > .li-parent-div > a,.w-admin-header .w-nav .nav_inner > li.active > a,.w-admin-header .w-nav .nav_inner > li.active > .li-parent-div > a{color:#ff5400; background:none}
+	.topLogBox .w-search .input-search-w{border-color:#ccc;}
+}
+@media (max-width:767px){
+	.w-com-menu{ border-bottom:2px solid #ff5400;}
+	.w-com-menu .ul-parent{background-color:#F0ECE1;}
+	.w-com-menu .ul-submenu ul{ background-color:#fafafa;}
+	.w-com-menu .ul-submenu .ul-submenu ul{ background-color:#fdfdfd;}
+	.w-com-menu li a, .w-com-menu .ul-submenu li a{text-align:left;}
+	.w-com-menu li a, .w-com-menu .ul-submenu li a,.w-com-menu .fa{color:#666; }
+	.w-com-menu li, .w-com-menu .ul-submenu li{border:none; border-bottom:1px solid #fff;}
+	.w-com-menu li >.div-parent:hover a,.w-com-menu  li.cur >.div-parent a{ background:none; }
+	.w-com-menu li > .div-parent:hover > a, .w-com-menu li.cur > .div-parent > a, .w-com-menu li > .div-parent:hover > .fa, .w-com-menu li.cur > .div-parent > .fa{color:#ff5400; }
+	.w-com-menu .ul-submenu li > .div-parent:hover a, .w-com-menu .ul-submenu li.cur > .div-parent a{background:none;}
+	.systitle{background:#ff5400; color:#fff; text-align:center;}
+	/*-----------------------会员中心和购物车--------------------*/
+	.order-routes .order-routeItem.cur .order-routeItem-img .lineA{background-image:url('../image/routelinecurtel.png');}
+}

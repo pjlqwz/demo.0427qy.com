@@ -1,0 +1,54 @@
+﻿*{margin:0;padding:0;}
+body {
+    background:#a2a2a2;
+    color: #444;
+    font-family: "微软雅黑","Microsoft YaHei";
+    
+    text-align: left;}
+html{font-size:100%;}
+ol,ul,li,dl,dt,dd{list-style:none;}
+h1,h2,h3,h3,h4,h5,h6{font-weight: normal;}
+em,i,stong{ font-style:normal; font-weight:normal;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{border:none;}
+a{text-decoration: none;color:#333;}
+.fl{float:left;}
+.fr{float:right;}
+
+.Pr {
+    position: relative;
+}
+.Pa {
+    position: absolute;
+}
+button{cursor:pointer;}
+button:hover{color:#0f75bc;}
+/*去除Chrome等浏览器文本框默认发光边框*/
+.clear{clear:both;}
+.dis{display:block;}
+.undis{display:none;}
+input:focus, textarea:focus { outline: none; }
+input,textarea { font-family: "microsoft yahei";}
+/* 去除 ie6 & ie7 焦点点状线 */
+a:focus,*:focus {outline:none;}
+/*禁止拖动大小*/
+textarea{resize:none}
+/* 去掉 table cell 的边距并让其边重合 */
+table { border-collapse:collapse;border-spacing:0;}
+/* ie bug：th 不继承 text-align */
+th {text-align:inherit;}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym {border:none;font-variant:normal;}
+
+body{ 
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0);  
+}
