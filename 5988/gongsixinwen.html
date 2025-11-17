@@ -1,0 +1,346 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>公司新闻_易优Cms-演示站</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="col-logo">
+      <div class="w-logo">
+        <h1 style="display:none;"><a href="index.html"></a></h1>
+        <a href="index.html" class="w-logo-img"> <img src="static/picture/87bc0f98f03dd12188b77b684d1c7608.png"> </a> </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+            <li class=""><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="active">
+              <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="">公司新闻</a></li>
+                                    <li><a href="xingyedongtai.html">行业动态</a></li>
+                                    <li><a href="zuixindongtai.html">最新动态</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="zhinenkaifa.html">智能开发</a></li>
+                                    <li><a href="pinpaiwanju.html">品牌玩具</a></li>
+                                    <li><a href="zhinendanao.html">智能大脑</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="topLogBox">
+        <div class="topLogBox-in">
+          <div class="col-com"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/3ba4552211da6a06b2b225642f0b2c87.jpg" alt="banner" title="" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="row">
+      <div class="wrap-content-in w-system w-productcom">
+        <div class="w-system-in"> 
+          <!--新闻左侧列表分类-->
+          <div class="side_bar">
+            <div class="w-com-menu w-com-menu-V">
+              <div class="w-com-menu-in">
+                <div class="systitle">
+                  <div class="systitle-in">新闻资讯</div>
+                  <i class="fa icon_menuControl"></i></div>
+                <ul class="ul-parent">
+                                    <li class="li-parent cur">
+                    <div class="div-parent"> <a href="">公司新闻</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="xingyedongtai.html">行业动态</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="zuixindongtai.html">最新动态</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!--新闻左侧列表分类 end--> 
+          
+          <!--新闻列表1-->
+          <div class="side_left">
+            <div class="crumbs">
+              <div class="crumbs_in">您当前的位置: &nbsp; <a href='index.html' class='crumb'>首页</a> &gt; <a href='xinwenzixun.html' class='crumb'>新闻资讯</a> &gt; <a href=''>公司新闻</a> </div>
+            </div>
+            <div class="w-News-list w-News-list6 news_imgScaleBig">
+              <div class="w-News-list-in clearfix">
+                <ul>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="消除“网红玩具”的监管盲点"> <a class="img-count w-news-img" href="25.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="消除“网红玩具”的监管盲点" src="static/picture/a7cdbaeff9688bbc73f8428f7ba3aa5e.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="25.html" title="消除“网红玩具”的监管盲点">消除“网红玩具”的监管盲点</a> </div>
+                          <div class="date">2019-01-10</div>
+                        </div>
+                        <div class="news-sum">从“牙签弩”到“口袋弹弓”，从“网红气球”到“水晶泥”……尽管无论报纸电视还是网络自媒体，隔一段时间就要发一波提醒，正告大家“这些‘网红玩具’暗藏杀机”“这种‘网红玩具’让孩子很受伤”“告诉你的孩子千万别玩”，云云，然而，“网红玩具”总是你方唱罢我登场，屡屡受到孩子们追捧，更频频上演“问题总动员”，成为备受关注的社会问...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="玩具连锁店如何装修更受欢迎?"> <a class="img-count w-news-img" href="24.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="玩具连锁店如何装修更受欢迎?" src="static/picture/c609b4acf97b0b1e0cf550d4a992b258.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="24.html" title="玩具连锁店如何装修更受欢迎?">玩具连锁店如何装修更受欢迎?</a> </div>
+                          <div class="date">2019-01-10</div>
+                        </div>
+                        <div class="news-sum">现在无论开什么店，店铺装修都很重要，良好的店铺环境更容易吸引消费者的眼球，开玩具连锁店也是如此。那么开玩具连锁店如何装修呢?下面我们就来看看玩具连锁店装修技巧吧!作为玩具连锁店的投资商，首先要考虑到的就是自己经营产品的特点，消费群体是哪一类人，才能打造更吸引儿童的店铺环境，从而实现更长久的发展。在装修时，应与周围的环境...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="国产纸尿裤 繁荣下的危机"> <a class="img-count w-news-img" href="23.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="国产纸尿裤 繁荣下的危机" src="static/picture/d89e91a83fff00587d74ac07d4392026.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="23.html" title="国产纸尿裤 繁荣下的危机">国产纸尿裤 繁荣下的危机</a> </div>
+                          <div class="date">2019-01-10</div>
+                        </div>
+                        <div class="news-sum">国产纸尿裤“成长的烦恼”粗略统计，中国市场上有1200多个纸尿裤品牌，每天还不断有新品牌进入。从占有率和话语权看，资源分布极不平均。排名前十的品牌瓜分了80%的市场份额，其中独大的四家外资品牌被业内称为“四大”，即帮宝适、妈咪宝贝、好奇和花王，高端市场几乎被这四家包揽。大量国产纸尿裤品牌只能定位中低端，主要在三、四线市...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="中国人海外“抢奶粉”受辱谁之过？"> <a class="img-count w-news-img" href="22.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="中国人海外“抢奶粉”受辱谁之过？" src="static/picture/0e16f370b090995bf1f54f7b5190b7ae.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="22.html" title="中国人海外“抢奶粉”受辱谁之过？">中国人海外“抢奶粉”受辱谁之过？</a> </div>
+                          <div class="date">2019-01-10</div>
+                        </div>
+                        <div class="news-sum">偌大一个中国，如果婴儿都要靠外国奶粉来供养，全世界也养不起，但这个问题根源也很清楚，就是食品安全问题，更是诚信问题，我们的企业要取信于民，要有最起码道德底线。中国人海外“抢奶粉”受辱谁之过？　　内地传媒报道，两名荷兰青年，近日在阿姆斯特丹街头，向多名华人泼洒奶粉，怀疑他们不满华人在当地抢购婴儿奶粉。　　报道指，两名青年...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+            <div class="next1">  <a><<</a> <a><</a> <a class="on1">1</a><a href="lists_3_2.html" data-ey_fc35fdc="html" data-tmp="1">2</a> <a href="lists_3_2.html" data-ey_fc35fdc="html" data-tmp="1">></a> <a href="lists_3_2.html" data-ey_fc35fdc="html" data-tmp="1">>></a></div>
+          </div>
+          
+          <!--新闻列表1 end--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div col-li-div">
+          <div class="col-table">
+            <div class="links">
+              <ul class="link">
+                <span>友情链接 :</span>                 <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+                              </ul>
+            </div>
+            <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="57.113821138211385%"><div class="div-padding">
+                      <div class="li-div">
+                        <div class="w-space space-b noChoose" style="height:10px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                      <div class="li-div">
+                        <div class="w-text" style="">
+                          <div class="li-div">
+                            <div class="w-text"> Copyright © 2012-2018 某某公司 版权所有<br>
+                              热线电话：400-123-4567&nbsp;&nbsp;电子邮箱：admin@youweb.com&nbsp;&nbsp;公司地址：江西省南昌市<br>
+                              <a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="42.90108533409553%"><div class="div-padding">
+                      <div class="li-div">
+                        <div class="w-space space-b noChoose" style="height:10px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                      <div class="li-div col-li-div" data-id="1155099" data-type="1">
+                        <div class="col-table">
+                          <table class="div-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="td-w" width="80.92122077941895%"><div class="div-padding">
+                                    <div class="li-div">
+                                      <div class="w-space space-b noChoose" style="height:20px;">
+                                        <div class="stretch-b"></div>
+                                      </div>
+                                    </div>
+                                    <div class="li-div">
+                                      <div class="tel-hidden w-text" style="">
+                                        <div align="right">扫一扫<br>
+                                        </div>
+                                        <div align="right">关注微信</div>
+                                      </div>
+                                    </div>
+                                  </div></td>
+                                <td class="td-w" width="19.000649452209473%"><div class="div-padding">
+                                    <div class="li-div">
+                                      <div class="tel-hidden w-simImg" style="cursor:pointer;">
+                                        <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                                          <div class="img"> <img src="static/picture/0006c84166b9619c2160ef53137e9f78.jpg"> </div>
+                                          <div class="caption w-img-caption">
+                                            <div class="captionbg"></div>
+                                          </div>
+                                          </a> </div>
+                                      </div>
+                                    </div>
+                                  </div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+ </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.news_list.js"></script>
+</body>
+</html>

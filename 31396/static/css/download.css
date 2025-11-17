@@ -1,0 +1,42 @@
+﻿body{font-size:12px;margin:auto;word-wrap:break-word}
+.w1400{width:1440px;margin:0 auto}
+@media (max-width:1480px){.w1400{width:auto;padding-left:20px;padding-right:20px;box-sizing:border-box}
+}@media (max-width:1000px){.w1400{width:98%;min-width:inherit}
+}a{color:#333;text-decoration:none}
+@font-face{font-family:"iconfont";src:url('../font/iconfont.ttf') format('truetype')}
+.iconfont{font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-xiazaitubiaosvg:before{content:"\e655"}
+.download_item{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background-color:#f4f4f4;box-sizing:border-box}
+.download_item:first-child{margin-top:0}
+.download_item .info_box{display:flex;align-items:flex-start;justify-content:left;flex-wrap:wrap;flex:1}
+.download_item .info_box .info{width:calc( 100% - 160px )}
+.download_item .info_box .pic_box{margin-right:16px;height:68px;width:68px;position:relative;overflow:hidden}
+.download_item .info_box .pic_box img{position:absolute}
+.download_item .info_box .tips{display:block;font-size:14px;color:#333333}
+.download_item .info_box .tips .size{margin-left:6px}
+.download_item .info_box .name{display:inline-block;margin-bottom:12px;font-size:14px;color:#232323;word-break:break-all}
+.download_item .btn{display:flex;align-items:center;justify-content:center}
+.download_item .btn a{border-radius:100%!important;border-width:1px;border-style:solid;display:flex;vertical-align:middle;text-decoration:none;border-radius:5px;position:relative;width:33px;height:33px;box-sizing:border-box;box-sizing:border-box;font-size:14px;text-transform:uppercase}
+.download_item .btn a.download_file_view{margin-right:16px}
+.download_item .btn a i{position:absolute;font-weight:bold;top:50%;left:50%;transform:translate(-50%,-50%);font-size:18px}
+.download_item .btn a.download_file_view i{font-weight:normal;font-size:14px}
+.box.category{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.box.category .list_box{width:78.47%;margin-left:45px}
+.box .list_box .list{padding-top:22px;display:grid;gap:20px}
+.box .top_title{line-height:56px;border-bottom:1px solid #e8e8e8;overflow:hidden;font-size:20px;text-transform:uppercase}
+@media screen and (max-width:768px){.download_item{padding:15px}
+.download_item .info_box .pic_box{margin-right:8px;width:50px;height:50px}
+.download_item .info_box .info{padding-right:10px;width:calc( 100% - 60px );box-sizing:border-box}
+.download_item .info_box .name{margin-bottom:10px;font-size:14px}
+.download_item .info_box .tips{font-size:14px}
+.download_item .btn a{width:30px;height:30px;font-size:12px;border-width:1px}
+.download_item .btn a i{font-size:14px}
+.download_item .btn a.download_file_view{margin-right:6px}
+.download_item .btn a.download_file_view i{font-size:12px}
+.box .list_box .list{gap:12px}
+.box.category .list_box{width:100%;margin-left:0px}
+.box.category .top_title{padding-left:15px;padding-right:40px;height:43px;line-height:41px;font-size:20px;position:relative;box-sizing:border-box}
+.box.category .top_title.top_list_name{position:relative;font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.box{position:relative}
+}@media screen and (max-width:450px){.download_item .info_box .tips{font-size:12px}
+}

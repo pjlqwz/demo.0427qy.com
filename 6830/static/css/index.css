@@ -1,0 +1,546 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+.banners-pc {
+	clear: both;
+	height: 767px;
+}
+.banners-pc .frame {
+	height: 767px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+.banners-mb {
+	display: none;
+	clear: both;
+	height: 700px;
+}
+.banners-mb div {
+	height: 100%;
+}
+.banners-mb .frame {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+ @media (max-width: 1024px) {
+.banners-pc {
+	display: none;
+}
+.banners-mb {
+	display: block;
+}
+}
+.course {
+	clear: both;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	background: #fbfcff;
+}
+.course .c_b img {
+	width: 100%;
+	display: block;
+}
+.course .main {
+	margin-bottom: 40px;
+}
+.course .main .jsk {
+	max-width: 822px;
+	border-radius: 20px;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+}
+.course .main .jsk .pic {
+	margin-right: 30px;
+}
+.course .main .jsk .pic img {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: inline-block;
+}
+.course .main .jsk .font {
+	padding: 35px 36px 30px 0;
+}
+.course .main .jsk .font .h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff4b64;
+}
+.course .main .jsk .font .l1 {
+	margin: 18px 0 16px 0;
+}
+.course .main .jsk .font .l1 em {
+	padding: 7px 12px;
+	display: inline-block;
+	color: #fff;
+	background: #ff4b64;
+	border-radius: 20px;
+	margin-right: 16px;
+}
+.course .main .jsk .font .p1 {
+	color: #999;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+.course .main .jsk .font .more {
+	color: #ff4b64;
+	text-decoration: underline;
+}
+.course .main .aud {
+}
+.course .main .free {
+	width: 346px;
+	border-radius: 20px;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	padding: 32px 32px 0 32px;
+}
+.course .main .free .h1 {
+	font-size: 18px;
+	color: #ff4b64;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.course .main .free .font {
+	font-size: 14px;
+	text-align: center;
+	color: #999;
+	padding-bottom: 10px;
+}
+.course .main .free .list {
+	margin-top: 10px;
+}
+.course .main .free .list > li {
+	margin-bottom: 20px;
+}
+.course .main .free .list > li .box {
+	border: 1px solid #f2f2f2;
+	border-radius: 30px;
+	width: 100%;
+	line-height: 48px;
+	padding-left: 16px;
+	color: #999;
+}
+.course .main .free .list > li .box .text {
+	line-height: 48px;
+	border: 0;
+	color: #333;
+	width: 70%;
+}
+.course .main .free .btn {
+	padding-bottom: -10px;
+	text-align: center;
+}
+.course .main .free .btn a {
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 50px;
+	background: #ff4b64;
+	box-shadow: 0 6px 0 rgba(241,43,70,1);
+	position: relative;
+}
+.course .main .free .btn a .ico_l {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+.course .main .free .btn a .ico_r {
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+.course .kc {
+	margin-bottom: 50px;
+}
+.course .kc .list {
+	margin-left: -32px;
+	margin-bottom: -30px;
+}
+.course .kc .list > li {
+	float: left;
+	width: 16.66%;
+	padding-left: 32px;
+	padding-bottom: 30px;
+}
+.course .kc .list > li .box {
+	position: relative;
+	display: block;
+}
+.course .kc .list > li .box .pic {
+}
+.course .kc .list > li .box .pic img {
+	border-radius: 20px;
+	width: 100%;
+	display: block;
+}
+.course .kc .list > li .box .t {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 34px;
+	text-align: center;
+	background: #ffcb2a;
+	z-index: 10;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #fff;
+}
+.course .kc .list > li .box:hover .t {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding-top: 25%;
+	vertical-align: middle;
+	text-align: center;
+	background: rgba(255,75,100,.8);
+	z-index: 10;
+	border-radius: 20px;
+	color: #fff;
+	transform: scale(1);
+	transition: ease .3s;
+}
+ @media (max-width: 1024px) {
+.course .main .jsk {
+	float: none;
+	max-width: none;
+}
+.course .main .jsk .pic {
+	float: none;
+	text-align: center;
+	margin-right: 0;
+}
+.course .main .jsk .pic img {
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 0;
+	display: inline-block;
+	width: 100%;
+}
+.course .main .jsk .font {
+	float: none;
+	padding: 30px 20px;
+}
+.course .main .free {
+	float: none;
+	width: auto;
+	margin-top: 30px;
+}
+.course .main .free .btn a .ico_l, .course .main .free .btn a .ico_r {
+	display: none;
+}
+.course .kc .list > li {
+	float: left;
+	width: 33.33%;
+}
+}
+ @media (max-width: 600px) {
+.course .kc .list > li {
+	float: left;
+	width: 50%;
+}
+}
+.service .ser_con {
+background: url( {
+eyou:global name='web_templets_pc' /
+}
+/skin/img/ser_bg.jpg) no-repeat center center;
+background-size: conatin;
+padding-top: 200px;
+}
+.service .ser_con .list > li {
+	padding-bottom: 60px;
+}
+.service .ser_con .list > li .pic {
+	width: 46px;
+	height: 46px;
+	background: #ff4b64;
+	text-align: center;
+	line-height: 56px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.service .ser_con .list > li .pic img {
+	width: 22px;
+}
+.service .ser_con .list > li .font {
+	padding-left: 20px;
+}
+.service .ser_con .list > li .font .p1 {
+	color: #ff4b64;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+.service .ser_con .list > li .font .p2 {
+	line-height: 24px;
+}
+ @media (max-width: 700px) {
+.service .ser_con {
+	background: none;
+	padding-top: 50px;
+}
+.service .ser_con .list {
+	width: 50%;
+}
+}
+ @media (max-width: 600px) {
+.service .ser_con .list > li .pic {
+	float: none;
+	margin: 0 auto;
+}
+.service .ser_con .list > li .font {
+	float: none;
+	text-align: center;
+	padding-top: 10px;
+}
+}
+.intro {
+}
+.intro .intro_t img {
+	width: 100%;
+	display: block;
+}
+.intro .intro_b img {
+	width: 100%;
+	display: block;
+}
+.intro .intro_con {
+	background: #ff4b64;
+	padding: 80px 0;
+}
+.intro .intro_con .font {
+	color: #fff;
+	margin-top: 70px;
+}
+.intro .intro_con .font .h1 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 17px;
+}
+.intro .intro_con .font .p1 {
+	line-height: 28px;
+}
+.intro .intro_con .font .btn {
+	text-align: left;
+	margin-top: 120px;
+}
+.intro .intro_con .font .btn a {
+	display: inline-block;
+	padding: 0 82px;
+	height: 56px;
+	line-height: 56px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 50px;
+	background: #ffcb2a;
+	box-shadow: 0 6px 0 rgba(255,142,42,1);
+	position: relative;
+}
+.intro .intro_con .font .btn a .ico_l {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+.intro .intro_con .font .btn a .ico_r {
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+.intro .intro_con .pic {
+	padding-left: 104px;
+}
+ @media (max-width: 1024px) {
+.intro .intro_con .font .btn a .ico_l, .intro .intro_con .font .btn a .ico_r {
+	display: none;
+}
+.intro .intro_con .pic {
+	float: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.intro .intro_con .font .btn {
+	text-align: center;
+}
+}
+.room {
+	padding: 50px 0;
+}
+.room .tab-list {
+	max-width: 680px;
+	margin: 0 auto;
+}
+.room .tab-list .n_tab {
+	margin-left: -38px;
+	padding: 30px 0 50px 0;
+}
+.room .tab-list .n_tab > li {
+	float: left;
+	width: 25%;
+	padding-left: 38px;
+}
+.room .tab-list .n_tab > li .box {
+	padding: 13px 0;
+	display: block;
+	border: 2px dashed #ff4b64;
+	border-radius: 30px;
+	text-align: center;
+}
+.room .tab-list .n_tab > li .on {
+	background: #ff4b64;
+	box-shadow: 0 6px 0 rgba(241,43,70,1);
+	color: #fff;
+}
+.room .tab-list .n_tab > li .box:hover {
+	background: #ff4b64;
+	box-shadow: 0 6px 0 rgba(241,43,70,1);
+	color: #fff;
+}
+.say {
+	background: #fbfcff;
+}
+.say .say_t img {
+	width: 100%;
+	display: block;
+}
+.say .say_b img {
+	width: 100%;
+	display: block;
+}
+.say .list {
+	margin-left: -80px;
+	margin-bottom: -30px;
+	padding-top: 30px;
+}
+.say .list > li {
+	float: left;
+	width: 50%;
+	padding-left: 80px;
+	padding-bottom: 30px;
+}
+.say .list > li .box {
+	padding: 45px 38px 54px 102px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	position: relative;
+}
+.say .list > li .box .pic {
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 80px;
+	left: -48px;
+}
+.say .list > li .box .pic img {
+	border-radius: 100%;
+}
+.say .list > li .box .font {
+	float: right;
+}
+.say .list > li .box .font .line {
+	width: 36px;
+	height: 6px;
+	background: #ffcb2a;
+	border-radius: 20px;
+}
+.say .list > li .box .font .p1 {
+	max-width: 396px;
+	padding: 33px 0 28px 0;
+	line-height: 30px;
+}
+.say .list > li .box .font .p2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff4b64;
+}
+ @media (max-width: 1024px) {
+.say .list > li {
+	float: none;
+	width: 100%;
+}
+.say .list > li .box {
+	padding-left: 150px;
+	padding-right: 20px;
+}
+.say .list > li .box .pic {
+	left: 20px;
+}
+.say .list > li .box .font .p1 {
+	max-width: none;
+	padding: 33px 0 28px 0;
+	line-height: 30px;
+}
+}
+.parent {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.parent .list {
+	margin-left: -32px;
+	margin-bottom: -30px;
+	padding-top: 30px;
+}
+.parent .list > li {
+	float: left;
+	width: 33.33%;
+	padding-left: 32px;
+	padding-bottom: 30px;
+}
+.parent .list > li .box {
+	display: block;
+	position: relative;
+}
+.parent .list > li .box .pic img {
+	border-radius: 20px;
+	width: 100%;
+}
+.parent .list > li .box .rq {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 82px;
+	height: 82px;
+	background: #ff4b64;
+	text-align: center;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 80px;
+}
+.parent .list > li .box .font .p1 {
+	color: #ff4b64;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 24px 0;
+}
+.parent .list > li .box .font .p2 {
+	color: #666;
+	line-height: 24px;
+	max-width: 370px;
+}
+.parent .list > li .box .font .p3 {
+	color: #ff4b64;
+	padding-top: 24px;
+}
+ @media (max-width: 900px) {
+.parent .list > li {
+	width: 50%;
+}
+.parent .list > li .box .font .p2 {
+	max-width: none;
+}
+}
+ @media (max-width: 600px) {
+.parent .list > li {
+	width: 100%;
+}
+}

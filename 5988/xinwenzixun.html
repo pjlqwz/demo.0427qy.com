@@ -1,0 +1,346 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>新闻资讯_易优Cms-演示站</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="col-logo">
+      <div class="w-logo">
+        <h1 style="display:none;"><a href="index.html"></a></h1>
+        <a href="index.html" class="w-logo-img"> <img src="static/picture/87bc0f98f03dd12188b77b684d1c7608.png"> </a> </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+            <li class=""><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="active">
+              <div class="li-parent-div li-parentOne-div"><a href="">新闻资讯<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                    <li><a href="xingyedongtai.html">行业动态</a></li>
+                                    <li><a href="zuixindongtai.html">最新动态</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i> </a></div>
+              <i class="nav_simpline_cur"></i>               <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                                    <li><a href="zhinenkaifa.html">智能开发</a></li>
+                                    <li><a href="pinpaiwanju.html">品牌玩具</a></li>
+                                    <li><a href="zhinendanao.html">智能大脑</a></li>
+                                  </ul>
+              </div>
+               </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <li class="">
+              <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言 </a></div>
+              <i class="nav_simpline_cur"></i>  </li>
+                        <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="topLogBox">
+        <div class="topLogBox-in">
+          <div class="col-com"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/3ba4552211da6a06b2b225642f0b2c87.jpg" alt="banner" title="" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="row">
+      <div class="wrap-content-in w-system w-productcom">
+        <div class="w-system-in"> 
+          <!--新闻左侧列表分类-->
+          <div class="side_bar">
+            <div class="w-com-menu w-com-menu-V">
+              <div class="w-com-menu-in">
+                <div class="systitle">
+                  <div class="systitle-in">新闻资讯</div>
+                  <i class="fa icon_menuControl"></i></div>
+                <ul class="ul-parent">
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="gongsixinwen.html">公司新闻</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="xingyedongtai.html">行业动态</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                    <li class="li-parent ">
+                    <div class="div-parent"> <a href="zuixindongtai.html">最新动态</a><span class="menu_simpline_cur"></span></div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!--新闻左侧列表分类 end--> 
+          
+          <!--新闻列表1-->
+          <div class="side_left">
+            <div class="crumbs">
+              <div class="crumbs_in">您当前的位置: &nbsp; <a href='index.html' class='crumb'>首页</a> &gt; <a href=''>新闻资讯</a> </div>
+            </div>
+            <div class="w-News-list w-News-list6 news_imgScaleBig">
+              <div class="w-News-list-in clearfix">
+                <ul>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="武大图书馆通宵备考忙"> <a class="img-count w-news-img" href="41.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="武大图书馆通宵备考忙" src="static/picture/5c4e662d82ff9.png"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="41.html" title="武大图书馆通宵备考忙">武大图书馆通宵备考忙</a> </div>
+                          <div class="date">2019-01-28</div>
+                        </div>
+                        <div class="news-sum">英语四六级、考研、期末考试……即将接踵而来的挑战，让12月成为大学生考试季，不少学生开启了“熬夜刷题”模式临阵磨枪。为了他们有更安全舒适的复习条件，武汉大学图书馆信息科学分馆从上周开始，试行全天开放部分区域。前晚10时到昨晨7时，楚天都市报记者进行了体验式采访，完整记录下学生通宵备考的一整夜。前天22时58分，图书馆西...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="思政课：上出“实践味” 挑起“信仰担”"> <a class="img-count w-news-img" href="40.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="思政课：上出“实践味” 挑起“信仰担”" src="static/picture/5c4e65f913882.png"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="40.html" title="思政课：上出“实践味” 挑起“信仰担”">思政课：上出“实践味” 挑起“信仰担”</a> </div>
+                          <div class="date">2019-01-28</div>
+                        </div>
+                        <div class="news-sum">经典品读情景式教学。 东北大学 供图特区何以能立？特区经济何能勇立潮头？特区精神如何与时俱进？东北大学文法学院梁晓伟团队在“思想政治理论实践”课授课教师的指导下，赴深圳一周寻找答案。“在一周的社会实践中，我们深入走访了5个城区，采访了14位常住居民，最终形成了2万多字的调研报告。我们发现原来思政课上的理论并没有落伍，而...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="中小学教学如何摆脱浅表化"> <a class="img-count w-news-img" href="39.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="中小学教学如何摆脱浅表化" src="http://img.hebnews.cn/2019-01/08/833714d3-9b1a-4942-8438-ed5d1bf4b6b2.jpg"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="39.html" title="中小学教学如何摆脱浅表化">中小学教学如何摆脱浅表化</a> </div>
+                          <div class="date">2019-01-28</div>
+                        </div>
+                        <div class="news-sum">短短40分钟课堂，有的执教老师向学生提问竟有上百次之多，换算下来，实际留给学生思考的时间平均只有两秒。这样的情形经常出现在中小学的课堂上。课程改革进行多年，尽管中小学课堂中增加了不少互动、提问环节，课后也加强了实践，但最终教学质量还是引发了家长的担忧。前不久，在广州举行的第五届中国小学校长大会上，不少与会嘉宾指出，浅表...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox" title="浙江高校又苦又累的老年护理专业很抢手"> <a class="img-count w-news-img" href="38.html">
+                        <div style="padding-bottom:75%;" class="aspectRatio"></div>
+                        <div class="img-count-in"><img alt="浙江高校又苦又累的老年护理专业很抢手" src="static/picture/5c4e654658191.png"></div>
+                        </a> </div>
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="38.html" title="浙江高校又苦又累的老年护理专业很抢手">浙江高校又苦又累的老年护理专业很抢手</a> </div>
+                          <div class="date">2019-01-28</div>
+                        </div>
+                        <div class="news-sum">什么专业就业前景好？最近，浙江省教育评估院《2017届浙江省高校毕业生职业发展状况及人才培养质量调查报告》正式出炉，调查全省105所高校2017届27万多名大学毕业生，以及近1.5万家聘用相关高校2017届毕业生的用人单位。根据报告，2017届本科专业中有11个专业就业率达到100%，而专科专业中29个专业就业率是10...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+            <div class="next1">  <a><<</a> <a><</a> <a class="on1">1</a><a href="lists_2_2.html" data-ey_fc35fdc="html" data-tmp="1">2</a><a href="lists_2_3.html" data-ey_fc35fdc="html" data-tmp="1">3</a><a href="lists_2_4.html" data-ey_fc35fdc="html" data-tmp="1">4</a><a href="lists_2_5.html" data-ey_fc35fdc="html" data-tmp="1">5</a> <a href="lists_2_2.html" data-ey_fc35fdc="html" data-tmp="1">></a> <a href="lists_2_6.html" data-ey_fc35fdc="html" data-tmp="1">>></a></div>
+          </div>
+          
+          <!--新闻列表1 end--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content">
+        <div class="li-div col-li-div">
+          <div class="col-table">
+            <div class="links">
+              <ul class="link">
+                <span>友情链接 :</span>                 <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+                              </ul>
+            </div>
+            <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="57.113821138211385%"><div class="div-padding">
+                      <div class="li-div">
+                        <div class="w-space space-b noChoose" style="height:10px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                      <div class="li-div">
+                        <div class="w-text" style="">
+                          <div class="li-div">
+                            <div class="w-text"> Copyright © 2012-2018 某某公司 版权所有<br>
+                              热线电话：400-123-4567&nbsp;&nbsp;电子邮箱：admin@youweb.com&nbsp;&nbsp;公司地址：江西省南昌市<br>
+                              <a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="42.90108533409553%"><div class="div-padding">
+                      <div class="li-div">
+                        <div class="w-space space-b noChoose" style="height:10px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                      <div class="li-div col-li-div" data-id="1155099" data-type="1">
+                        <div class="col-table">
+                          <table class="div-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="td-w" width="80.92122077941895%"><div class="div-padding">
+                                    <div class="li-div">
+                                      <div class="w-space space-b noChoose" style="height:20px;">
+                                        <div class="stretch-b"></div>
+                                      </div>
+                                    </div>
+                                    <div class="li-div">
+                                      <div class="tel-hidden w-text" style="">
+                                        <div align="right">扫一扫<br>
+                                        </div>
+                                        <div align="right">关注微信</div>
+                                      </div>
+                                    </div>
+                                  </div></td>
+                                <td class="td-w" width="19.000649452209473%"><div class="div-padding">
+                                    <div class="li-div">
+                                      <div class="tel-hidden w-simImg" style="cursor:pointer;">
+                                        <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                                          <div class="img"> <img src="static/picture/0006c84166b9619c2160ef53137e9f78.jpg"> </div>
+                                          <div class="caption w-img-caption">
+                                            <div class="captionbg"></div>
+                                          </div>
+                                          </a> </div>
+                                      </div>
+                                    </div>
+                                  </div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+ </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.news_list.js"></script>
+</body>
+</html>
