@@ -1,0 +1,40 @@
+﻿input{outline:none;border-radius:0;font-family:'microsoft yahei',Helvetica,arial;appearance:none;-moz-appearance:none;-webkit-appearance:none}
+input:focus,textarea:focus{outline:none}
+input:focus{-webkit-tap-highlight-color:transparent;-webkit-user-modify:read-write-plaintext-only}
+input[type="button"],input[type="submit"],input[type="reset"]{-webkit-appearance:none}
+textarea{-webkit-appearance:none}
+em,i,span,b{font-style:normal;-webkit-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s}
+*::-webkit-input-placeholder{color:#dedede}
+*::-moz-placeholder{color:#dedede}
+*::-ms-input-placeholder{color:#dedede}
+*::placeholder{color:#dedede}
+.fl{float:left}
+.fr{float:right}
+.fz18{font-size:18px}
+.list_form{padding-bottom:50px}
+.list_form .w_30{width:31%;margin-left:3.5%}
+.list_form .w_30:first-child{margin-left:0}
+.list_form .w_100{width:100%}
+.list_form div{margin-top:40px}
+.list_form label i{margin-right:10px;color:#f00}
+.list_form label{padding-right:20px;color:#3c3c3c;line-height:46px;float:left}
+.list_form input[type=text],.list_form textarea{border:1px solid #d5d5d5;line-height:44px;height:44px;border-radius:5px;font-size:18px;width:calc(100% - 80px);float:left;text-indent:15px;color:#666}
+.list_form textarea{height:255px}
+.list_form input[type=submit]{float:left;width:118px;height:46px;background:#0056a8;border:none;color:#fff;font-size:20px;border-radius:5px;margin-left:75px;margin-right:20px}
+.list_form .yzm input[type=text]{width:120px;height:44px;float:right;margin-right:20px}
+.list_form .yzm img{float:right;width:142px;height:48px}
+@media screen and (max-width:1200px){.fz18{font-size:16px}
+.list_form input[type=text],.list_form textarea{font-size:15px}
+}@media screen and (max-width:991px){
+.list_form .w_30{width:33%;margin-left:0.5%}
+.list_form label{padding-right:10px}
+.list_form input[type=text],.list_form textarea{width:calc(100% - 65px)}
+}@media screen and (max-width:760px){.list_form .w_30{width:100%}
+.fz18{font-size:15px}
+.list_form input[type=text],.list_form textarea,.list_form label,.list_form .yzm input[type=text]{height:35px;line-height:35px}
+.list_form .w_30,.list_form .w_100,.list_form div{margin-top:20px}
+.list_form textarea{height:180px}
+.list_form input[type=submit]{margin:0 10px 0 55px;width:90px;height:37px;font-size:15px}
+.list_form .yzm img{height:35px;width:90px}
+.list_form .yzm input[type=text]{width:70px;margin-right:10px}
+}

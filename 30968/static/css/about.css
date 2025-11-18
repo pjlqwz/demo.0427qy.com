@@ -1,0 +1,56 @@
+﻿html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0}
+body,textarea,input,button,select,keygen,legend{font-size:14px;color:#333;font-family:Arial;-webkit-text-size-adjust:none;outline:0}
+.clear{margin:0px auto;clear:both;height:0px;font-size:0px;overflow:hidden}
+.clean{zoom:1}
+.clean:after,.clean:before{content:'';display:table}
+.clean:after{clear:both}
+a{color:#333;text-decoration:none}
+a:hover{text-decoration:underline}
+a.red{color:red;text-decoration:none}
+a.red:hover{color:red;text-decoration:underline}
+.fc_red{color:#ff0000}
+.wrap{width:1200px;margin:0 auto;zoom:1}
+@media screen and (max-width:1440px){.wrap{width:95%}
+}.clear{cleat:both}
+.about_item:nth-child(2){margin-top:42px}
+.about_item:nth-child(3){margin-top:46px;margin-bottom:85px}
+.about_item .title{font-size:30px;color:#000;margin-bottom:15px}
+.about_item .con_outer{width:100%;margin-top:21px;background:#05c3a2}
+.about_item.ab_1 .con{margin-top:19px;padding:40px;box-sizing:border-box}
+.about_item.ab_1 .r_con{width:46%;padding-left:4%;float:left}
+@media (max-width:991px){.about_video{width:100%;float:none;text-align:center}
+.about_item.ab_1 .r_con{width:100%;float:none;padding-left:0}
+.about_item.ab_1 .con{padding:5%}
+}.ey-position{position:relative;border-bottom:1px solid #ddd}
+.ey-position .title{float:left;width:50%;text-align:left;font-size:20px;height:55px;line-height:55px;color:#555;max-width:60%;overflow:hidden}
+.ey-position .position{float:left;width:50%;text-align:right;height:55px;line-height:55px;color:#888;font-size:16px;overflow:hidden}
+.ey-position .position a{color:#888;vertical-align:middle}
+.ey-position.s1{border:none}
+.ey-position.s1>.title{display:none}
+.ey-position.s1>.position{text-align:left}
+.ey-smdy{margin:30px 0;overflow:hidden}
+.ey-smdy>.contents{color:#555;line-height:160%;font-size:16px;min-height:300px}
+.ey-smdy>.contents>.share{padding:10px 0}
+.ey-smdy.content-100>.contents{float:none;width:100%}
+.ey-smdy strong,.ey-smdy b{font-weight:bold}
+.ey_smly{margin:30px 0;padding-top:10px}
+.ey_smly .ey_lytitle{text-align:center;margin-bottom:2%}
+.ey_smly .ey_lytitle .title{font-size:24px;color:#333}
+.ey_smly .ey_lytitle span{display:block;width:28px;height:2px;background:#333;margin:15px auto 10px}
+.ey_smly .ey_lytitle .txt{font-size:16px;color:#555}
+.ey_smly .rows{padding:10px 2%;position:relative}
+.ey_smly .rows.input_rows{float:left;width:50%;text-align:center;box-sizing:border-box}
+.ey_smly .rows .input{width:100%;height:43px;line-height:43px;font-size:12px;color:#888;text-indent:10px;box-sizing:border-box}
+.ey_smly .rows textarea{width:100%;height:150px;padding:5px;font-size:12px;color:#888;box-sizing:border-box}
+.ey_smly .rows .fc_red{margin-right:8px;position:absolute;right:0;bottom:7px;z-index:1}
+.ey_smly .rows.input_rows .fc_red{bottom:18px}
+.ey_smly .rows.vcode .input{width:150px;max-width:80%}
+.ey_smly .rows.vcode img{margin-top:3px}
+.ey_smly .rows.vcode .fc_red{position:static;margin:0 0 0 8px}
+.ey_smly .rows .form_button{width:160px;height:40px;line-height:40px;background:#222;color:#fff;font-size:14px;border:none;text-transform:uppercase;cursor:pointer}
+.ey_smly .rows.textarea_rows{clear:both}
+.ey_smly.s1>form>.rows.input_rows{width:100%;float:none}
+.ey_smly.s1>form>.rows.textarea_rows textarea{width:90%;max-width:90%}
+@media only screen and (max-width:768px){.ey_smly .rows.input_rows{width:100%;float:none}
+}@media only screen and (max-width:768px){.ey_smly .rows .fc_red{margin-right:0}
+}

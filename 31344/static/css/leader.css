@@ -1,0 +1,38 @@
+﻿.w-prd-list-cell a{text-decoration:none}
+.w-prd-list-cell a:hover{text-decoration:underline}
+.w-prd-list-cell{float:left;margin-bottom:1em}
+.w-prd-list-cell .w-prd-con:after{content:"";display:block;clear:both;height:0;visibility:hidden}
+.w-prd-list-cell .w-prd-con{zoom:1}
+.w-prd-list-cell .w-prd-con > a{display:block;text-decoration:none}
+.w-prd-list-cell .w-prd-con > a::after{content:"";display:block;clear:both;height:0;visibility:hidden}
+.w-prd-list-cell .w-prd-con > a:hover{text-decoration:none}
+.w-prd-list-cell .w-prd-imgbox{text-align:center}
+.w-prd-list-cell .w-prd-imgbox a{display:block}
+.w-prd-list-cell .w-prd-infobox h2{font-size:110%;margin-top:0;margin-bottom:0.5em;font-weight:normal;text-overflow:ellipsis;white-space:nowrap;word-break:keep-all;overflow:hidden}
+.w-prd-list1{margin-left:-0.8%;margin-right:-0.8%}
+.w-prd-list1 .w-prd-list-cell{width:24.99%}
+.w-prd-list1 .w-prd-list-cell-in{padding:0 4%}
+.w-prd-list1 .w-prd-list-cell .w-prd-infobox{padding:0.7em 0}
+.w-prd-list2 .w-prd-list-cell-in{overflow:hidden}
+.w-prd-list2 .w-prd-list-cell{width:100%}
+.w-prd-list2 .w-prd-list-cell .w-prd-imgbox{width:25%;float:left}
+.w-prd-list2 .w-prd-list-cell .w-prd-infobox{margin-left:25%}
+.w-prd-list2 .w-prd-list-cell .w-prd-infobox{padding:0 1em}
+.eyrow{max-width:1200px;margin:0 auto}
+.w-prd-list-cell{color:#999}
+.w-prd-list-cell .w-prd-infobox h2{margin-bottom:0}
+.w-prd-list-cell .w-prd-infobox h2,.w-product .w-prd-infobox h2{font-size:115%}
+@media (min-width:768px){.side_left{overflow:hidden;padding-top:10px}
+}.img-count{display:block;position:relative}
+.img-count img{position:relative;width:253px;max-width:253px;left:-31.5px}
+.aspectRatio{padding-bottom:133.33%}
+.img-count-in{position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden}
+.w-prd-list .img-count-in{height:100%}
+@media (max-width:767px){.eyrow{padding-top:10px}
+.w-prd-list-cell{margin-bottom:0.5em}
+.w-prd-list1{margin-left:0;margin-right:0}
+.w-prd-list1 .w-prd-list-cell{min-width:49.9%}
+.w-prd-list1 .w-prd-list-cell:nth-child(2n+1){clear:both}
+.w-prd-list2 .w-prd-list-cell{min-width:100%}
+.w-prd-list2 .w-prd-list-cell-in{padding:0 0.5em}
+}

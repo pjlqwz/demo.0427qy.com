@@ -1,0 +1,61 @@
+﻿<!--新闻内页-->
+@media only screen and (max-width:768px){.ey_promb{display:block}
+}#lib_info_detail .ext_mes div,.ey_smnrlb .ext_mes div{display:inline-block;margin:0 8px;font-size:14px;color:#333}
+.ey_smnrlb .ext_mes{text-align:center;margin:8px 0}
+.ey-position{border-bottom:none !important}
+.wrap{width:1200px;margin:0 auto;zoom:1}
+.wrap-module body .ey-position{margin-top:8px;line-height:40px;margin-bottom:25px;border-color:#e6e6e6}
+.info-detail .wrap .ey-position .position{text-align:left;font-family:"Oswald-Regular";line-height:65px}
+.wrap .ey-position .position{text-align:left;font-family:"Oswald-Regular";line-height:65px}
+.rale_news{padding-bottom:30px;width:100%}
+.rale_news .news_title{width:100%;height:30px;line-height:30px}
+.rale_news .news_title .title{font-size:22px;color:#191919}
+.rale_news .news_title .read_btn{font-size:14px;color:#888}
+.rale_news .news_title .read_btn span{font-size:14px;color:#888;font-family:cursive;font-weight:bold}
+.rale_news .list{display:grid;grid-template-columns:repeat(4,23.25%);justify-content:space-between;margin-top:23px;width:100%}
+.rale_news .list .item{}
+.rale_news .list .item .img{display:block;width:100%;text-align:center;text-decoration:none;overflow:hidden;position:relative;padding-top:100%}
+.rale_news .list .item .img img{position:absolute;top:0px;right:0px;bottom:0px;left:0px;margin:auto}
+.rale_news .list .item .title{display:-webkit-box;margin-top:15px;line-height:20px;height:40px;font-size:16px;color:#333;text-decoration:none;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.rale_news .list .item .time{margin-top:8px;width:100%;height:21px;line-height:21px;font-size:14px;color:#989898}
+.rale_news .list .item .brief{display:-webkit-box;margin-top:6px;line-height:24px;font-size:14px;color:#888;text-decoration:none;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.rale_news .list .item:hover .img img{-webkit-transform:scale(1.1);transform:scale(1.1)}
+.rale_news.desc_news{margin-top:55px}
+.rale_news.desc_news .news_title{position:relative;width:100%;text-align:center}
+.rale_news.desc_news .news_title:before{display:block;content:'';position:absolute;left:0;top:50%;width:100%;height:1px;background:#ddd;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.rale_news.desc_news .news_title .title{position:relative;z-index:1;padding:0 40px;width:100%;background:#fff;text-align:center}
+.rale_news.desc_news .list{grid-template-columns:repeat(2,49%);grid-row-gap:44px}
+.rale_news.desc_news .list .item .img{width:39.2857%;height:100%;text-align:center}
+.rale_news.desc_news .list .item .text{width:calc(100% - 43.5374%)}
+.rale_news.desc_news .list .item.no_img .text{width:100%}
+.rale_news.desc_news .list .item .text .title{margin-top:0;font-size:18px}
+.rale_news.desc_news .list .item .brief{font-size:15px;color:#888}
+@media screen and (max-width:1440px){.wrap{width:95%}
+}.ey-position{position:relative;border-bottom:1px solid #ddd}
+.ey-position .title{float:left;width:50%;text-align:left;font-size:20px;height:55px;line-height:55px;color:#555;max-width:60%;overflow:hidden}
+.ey-position .position{float:left;width:50%;text-align:right;height:55px;line-height:55px;color:#888;font-size:16px;overflow:hidden}
+.ey-position .position a{color:#888;vertical-align:middle}
+.ey-position.s1{border:none}
+.ey-position.s1>.title{display:none}
+.ey-position.s1>.position{text-align:left}
+.ey_smnrlb{margin:30px 0;overflow:hidden}
+.ey_smnrlb>.title{font-size:20px;text-align:center;padding-bottom:10px;color:#222}
+.ey_smnrlb>.share{text-align:center}
+.ey_smnrlb>.contents{padding:20px 0;color:#555;line-height:180%;font-size:16px;min-height:300px}
+.ey_smnrlb .ext_mes{margin:10px 0 10px}
+@media only screen and (max-width:768px){.ey-position>.title{display:none}
+.ey-position>.position{left:0;text-align:left}
+.ey_smnrlb{margin:10px 0}
+.ey_smnrlb>.title{font-size:16px;border-bottom:1px solid #ddd}
+.ey_smnrlb>.contents{min-height:200px}
+#ey_procon{overflow:hidden}
+}@media only screen and (max-width:768px){.ey_smly .rows.input_rows{width:100%;float:none}
+}@media only screen and (max-width:768px){.ey_smly .rows .fc_red{margin-right:0}
+}.news_title .fl{float:left !important}
+.news_title .fr{float:right !important}
+.clear{margin:0px auto;clear:both;height:0px;font-size:0px;overflow:hidden}
+.blank12{margin:0px auto;clear:both;height:12px;font-size:1px;overflow:hidden}
+.clean{zoom:1}
+.clean:after,.clean:before{content:'';display:table}
+.clean:after{clear:both}
+<!--新闻内页end-->

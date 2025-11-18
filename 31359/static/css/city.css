@@ -1,0 +1,82 @@
+﻿.ey-cont .ey_kuan {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid #f4f4f4;
+}
+.ey-cont .item {
+	line-height: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #f4f4f4;
+}
+.ey-cont .item:hover {
+	background-color: #f5f5f5;
+}
+.ey-cont .item dt {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	padding: 5px 10px;
+	color: #333;
+}
+.ey-cont .item dd {
+	margin: 0 0 0 70px;
+	padding-left: 15px;
+	border-left: 1px solid #f4f4f4;
+	padding: 5px 10px;
+}
+.ey-cont .item dd a {
+	display: block;
+	white-space: nowrap;
+	float: left;
+	margin: 0 12px;
+}
+.ey-cont .item dd a:hover {
+	text-decoration: none;
+	color: #ff552e;
+}
+.ey-cont .ey_mtext p {
+	width: 100%;
+	line-height: 60px;
+	display: block;
+	margin-top: 20px;
+}
+.ey-cont .ey_mtext .ey_p1 {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	color: #ff552e;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ey-cont .ey_mtext a {
+	display: inline-block;
+	margin-right: 15px;
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+}
+.ey-cont .ey_mtext a:hover {
+	color: #ff552e;
+}
+.ey-cont .ey_mtext .psf {
+	color: #555;
+	font-size: 16px;
+	font-weight: 800;
+}
+.ey-cont {
+	max-width: 1200px;
+	margin: 16px auto;
+}
+@media screen and (max-width: 1920px) {
+.ey-cont .ey_kuan {
+	width: 100%;
+}
+.ey-cont {
+	padding: 0 1%;
+}
+.ey-cont .ey_kuan {
+	width: 100%;
+}
+}
