@@ -1,0 +1,95 @@
+﻿.ey_prodet{margin:0;width:1200px;margin:0 auto}
+.ey_prodet .gallery .share{text-align:center;padding-top:10px}
+.ey_prodet .gallery .at-share-tbx-element .at-share-btn:last-child{margin-right:0}
+.ey_prodet .info{padding-top:19px}
+.ey_prodet .info .name{font-size:22px;line-height:34px;color:#000;letter-spacing:0.08px}
+.ey_prodet .info .attribute{margin:14px 0 0;border-bottom:1px solid #e6e7eb;padding-bottom:0}
+.ey_prodet .info .attribute li{font-size:14px;line-height:26px;color:#666;display:flex}
+.ey_prodet .info .attribute li.attr_hide{visibility:hidden;opacity:0;height:0;-webkit-transition:all 300ms ease 0s;transition:all 300ms ease 0s}
+.ey_prodet .info .attribute.show li.attr_hide{visibility:visible;opacity:1;height:auto}
+.ey_prodet .info .attribute li .key{display:block;width:147px}
+.ey_prodet .link{visibility:visible;opacity:1;height:auto;font-family:"Opensans-Regular";font-size:14px;line-height:20px;color:#1686cc;text-decoration:none;padding-right:16px;position:relative}
+.ey_prodet .link:after{content:'';width:10px;height:6px;background:url(../image/icon_attr_arrow.png) no-repeat center;position:absolute;right:0;top:50%;transform:translateY(-50%)}
+.ey_prodet .link.show_less:after{transform:rotate(180deg) translateY(50%)}
+.ey_prodet .link.hide{visibility:hidden;opacity:0;height:0}
+.ey_prodet .range_box{}
+.ey_prodet .range_box .price_range{font-family:"Opensans-Regular";font-size:14px;line-height:14px;color:#999;display:flex;align-items:flex-end;padding:20px 10px 21px}
+#interval_price,.ey_prodet .range_box .price_range .price{font-family:"Opensans-Bold";font-size:18px;line-height:20px;color:#333;margin:0;padding:0}
+.ey_prodet .range_box .price_range .unit{margin-left:6px;letter-spacing:0.1px}
+.ey_prodet .range_box .price_range .line{font-size:14px;line-height:12px;margin:0 5px}
+.ey_prodet .range_box .price_range .min_order{color:#333;letter-spacing:0.1px}
+.ey_prodet .range_box .price_range .min_order span{color:#999}
+.ey_prodet .prod_attr_group{font-family:'Opensans-Regular';padding:15px 20px 18px;background:#f6f6f6}
+.ey_prodet .prod_attr_row{display:block;width:100%;margin-bottom:2px}
+.ey_prodet .prod_attr_row:last-child{margin-bottom:0}
+.ey_prodet .prod_attr_key{font-size:14px;font-family:'Opensans-Semibold';font-weight:bold;line-height:34px;width:100%;margin-bottom:5px}
+.ey_prodet .prod_attr_box{display:flex;flex-wrap:wrap;width:100%}
+.ey_prodet .prod_attr_box .prod_attr_item{box-sizing:border-box;min-width:40px;height:40px;border:1px solid #979797;display:flex;justify-content:center;align-items:center;margin:0 10px 10px 0;font-size:12px;text-decoration:none;padding:1px 9px;border-radius:3px;background:#ffffff}
+.ey_prodet .prod_attr_box .prod_attr_item.selected{border:2px solid #ff6e26;padding:0 8px}
+.ey_prodet .prod_attr_box .prod_attr_item.pic{width:38px;height:38px;padding:1px}
+.ey_prodet .prod_attr_box .prod_attr_item.pic.pic_selected{padding:0;border:2px solid #ff6e26}
+.ey_prodet .prod_attr_comb{display:block;width:100%}
+.ey_prodet .prod_attr_comb .prod_attr_item{margin:0 10px 0 0}
+.ey_prodet .prod_attr_comb .prod_attr_comb_row{min-height:38px;display:flex;justify-content:flex-start;margin-bottom:14px;-webkit-transition:all 300ms ease 0s;transition:all 300ms ease 0s}
+.ey_prodet .prod_attr_comb .prod_attr_comb_row.mb_4{margin-bottom:4px}
+.ey_prodet .prod_attr_comb .attr_comb_hide{display:none}
+.ey_prodet .prod_attr_comb.show .attr_comb_hide{display:flex}
+.ey_prodet .prod_attr_comb.show .mb_4{margin-bottom:14px}
+.ey_prodet .prod_attr_comb .comb_box{display:flex;align-items:center;flex-wrap:wrap;width:calc(100% - 420px)}
+.ey_prodet .prod_attr_comb .comb_box.comb_tool{width:333px;height:40px;justify-content:space-between}
+.ey_prodet .prod_attr_comb .prod_attr_comb_price{font-size:14px;line-height:14px}
+.ey_prodet .prod_total{display:flex;justify-content:space-between;align-items:center;font-family:'Opensans-Regular';height:80px;border-top:1px solid #e6e7eb;border-bottom:1px solid #e6e7eb;background-color:#ffffff;position:relative}
+.ey_prodet .prod_total .total{padding-top:25px;padding-bottom:25px;padding-left:20px;display:flex;align-items:center;font-size:22px;color:#ff6e26;border-left:1px solid #ffffff}
+.ey_prodet .prod_total .total_num span{font-size:14px}
+.ey_prodet .prod_total .line{width:1px;height:16px;background-color:#e6e7eb;margin:0 18px 0 20px}
+.ey_prodet .prod_total .total_price{font-family:'Opensans-Bold'}
+.ey_prodet .selected_list{box-sizing:border-box;display:block;height:100%;font-size:14px;line-height:18px;text-decoration:none;border-left:1px solid #e6e7eb;border-right:1px solid #f9f9f9;padding:30px 35px 30px 20px;position:relative}
+.ey_prodet .selected_list:after{content:'';width:10px;height:6px;background:url(../image/icon_selected_arrow.png) no-repeat center;position:absolute;right:19px;top:50%;transform:translateY(-50%);-webkit-transition:all 300ms ease 0s;transition:all 300ms ease 0s}
+.ey_prodet .selected_list.on{color:#ff6e26;background-color:#fff;border-right-color:#ffffff}
+.ey_prodet .selected_list.on:after{background:url(../image/icon_selected_arrow_active.png) no-repeat center}
+.ey_prodet .total_list{box-sizing:border-box;visibility:hidden;opacity:0;font-family:'Opensans-Regular';width:100%;position:absolute;bottom:100%;font-size:12px;line-height:22px;background-color:#fff;z-index:999}
+.ey_prodet .total_list.show{visibility:visible;opacity:1}
+.ey_prodet .total_list table{width:100%;border:1px solid #e5e5e5}
+.ey_prodet .total_list table tr td{box-sizing:border-box;padding:18px 0 17px 10px;border-color:#efefef}
+.ey_prodet .total_list table tr td.attr{width:179px}
+.ey_prodet .total_list table tr td.num{width:119px}
+.ey_prodet .payment{display:block;margin-top:15px}
+.ey_prodet .payment .key{width:100%;font-size:14px;font-family:'Opensans-Bold';line-height:28px;margin-bottom:10px}
+.ey_prodet .payment .payment_list{width:100%}
+.ey_prodet .payment .payment_list .payment_item{display:inline-block;vertical-align:middle;box-sizing:border-box;border:1px solid #e5e5e5;height:30px;margin:0 10px 10px 0;padding:6px}
+.ey_prodet .prod_info_form .attribute .attribute_box{margin-bottom:2px}
+.batch_model .total_num{top:5px;right:25px;padding:2px 3px}
+.product-detail .ey_proxj.ey_prodet .description .title span{padding:0;margin-right:15px;padding-bottom:6px;border-bottom:3px solid transparent}
+.product-detail .ey_proxj.ey_prodet .description .title span:after{width:0;height:0}
+.product-detail .ey_proxj.ey_prodet .description .title{border-bottom:1px solid #dddddd}
+.product-detail .ey_proxj.ey_prodet .description .title span.cur{border-bottom:3px solid #333333;color:#333333}
+#interval_price{color:#333}
+@media screen and (max-width:1240px){.ey_prodet{width:1000px}
+.ey_prodet .info{padding-left:33px}
+.ey_prodet .prod_attr_key{width:100px}
+.ey_prodet .prod_attr_comb .prod_attr_item{margin-right:5px}
+.ey_prodet .prod_attr_comb .comb_box{width:calc(100% - 220px)}
+.ey_prodet .prod_attr_comb .comb_box.comb_tool{width:100%}
+.ey_prodet .prod_total .total{padding-left:100px}
+.ey_prodet .prod_total .line{margin:0 10px}
+.ey_prodet .selected_list{padding:30px 29px 30px 16px}
+.ey_prodet .selected_list:after{right:15px}
+.ey_prodet .total_list table tr td{padding:15px 0 14px 8px}
+.ey_prodet .total_list table tr td.attr{width:149px}
+.ey_prodet .total_list table tr td.num{width:100px}
+.ey_prodet .payment .key{width:100px}
+.ey_prodet .payment .payment_list{width:calc(100% - 100px)}
+}@media screen and (max-width:1023px){.ey_prodet{width:100%;max-width:750px}
+.ey_prodet .gallery{width:100%}
+.ey_prodet .info{width:100%;padding-left:0}
+.ey_prodet .range_box .price_range{padding:15px 0}
+.ey_prodet .slide{padding:10px 5px}
+.ey_prodet .prod_attr_group{padding:20px 0}
+.ey_prodet .prod_attr_row{width:96%;margin:0 2% 10px 2%}
+.ey_prodet .prod_attr_comb .comb_box{width:calc(100% - 190px)}
+.ey_prodet .prod_total .total{padding-left:10px}
+.ey_prodet .total_list table tr td{padding:5px}
+}@media screen and (max-width:780px){#interval_price,.ey_prodet .range_box .price_range .price{font-size:16px}
+.ey_prodet .range_box .price_range .min_order{font-size:13px}
+.ey_prodet .prod_attr_comb .comb_box.comb_tool .prod_attr_comb_sku{display:none}
+}

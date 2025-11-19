@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<title>财经_响应式财经科技新闻博客网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31038/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+<header class="header" id="header">
+  <div class="containe">
+    <div id="nav-box" class="nav-bar header-nav right">
+      <div class="container">
+        <h2 class="logo"> <a href="index.html" title="响应式财经科技新闻博客网站模板"> <img src="static/picture/1-23121Q01455b6.png" alt="响应式财经科技新闻博客网站模板"> <img src="static/picture/1-23121Q01455b6.png" alt="响应式财经科技新闻博客网站模板" class="nightlogoimg"></a> </h2>
+        <nav class="nav-bar">
+          <ul class="nav">
+            <li class='navbar-item '><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+                        <li class="navbar-item "><a href="keji312.html">科技</a>               <ul class="sub-nav">
+                                <li class="navbar-item"><a href="yidong.html">移动</a></li>
+                                <li class="navbar-item"><a href="xiaofei.html">消费</a></li>
+                                <li class="navbar-item"><a href="wanghong.html">网红</a></li>
+                                <li class="navbar-item"><a href="zhibo.html">直播</a></li>
+                                <li class="navbar-item"><a href="jiaodian.html">焦点</a></li>
+                              </ul>
+               </li>
+                        <li class="navbar-item active"><a href="">财经</a>  </li>
+                        <li class="navbar-item "><a href="jinrong.html">金融</a>  </li>
+                        <li class="navbar-item "><a href="chuangtou.html">创投</a>  </li>
+                        <li class="navbar-item "><a href="kuaibao.html">快报</a>  </li>
+                        <li class="navbar-item "><a href="zhuanlan.html">专栏</a>               <ul class="sub-nav">
+                                <li class="navbar-item"><a href="guanyuwomen.html">关于我们</a></li>
+                                <li class="navbar-item"><a href="lianxiwomen.html">联系我们</a></li>
+                                <li class="navbar-item"><a href="naronghezuo.html">内容合作</a></li>
+                              </ul>
+               </li>
+                      </ul>
+        </nav>
+        <div id="m-btn" class="m-btn"><i class="fa fa-bars"></i></div>
+        <div class="pull-right">
+          <div class="jz-search-btn"> <i class="fa fa-search"></i> </div>
+        </div>
+        <div class="pull-right jz-night">
+          <div class="jz-night-btn"> <a href="javascript:switchNightMode()" target="_self" title="关灯"><i class="fa fa-moon-o"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="b-nav-search_wrap ">
+    <div class="b-nav-search_inner">       <form class="b-nav-search_component" method="get" action="/31038/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+        <input type="text" name="keywords" id="keywords" class="b-nav-search_input w-input" maxlength="256" placeholder="请输入关键字..." autocomplete="off">
+        <button type="submit" name="submit"><i class="fa fa-search"></i></button>
+        <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">      </form>
+       </div>
+  </div>
+</header>
+<div id="m-nav" class="m-nav m-open">
+  <div class="sidebar-mobile-header">
+    <div class="media-content" style="background-image: url(static/image/mtop.png)"> <span class="overlay"></span> </div>
+    <div class="sidebar-mobile-action"> <a href="javascript:switchNightMode()" target="_self" class="link-action jz-night-mbtn"><i class="fa fa-moon-o"></i></a> <a href="javascript:;" id="m-btn-cln" class="m-btn"><i class="fa fa-remove"></i></a> </div>
+  </div>
+  <div class="m-wrap">
+    <ul class="mnav">
+      <li class='navbar-item '><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+            <li class="navbar-item "><a href="keji312.html">科技</a>         <ul class="sub-nav">
+                    <li class="navbar-item"><a href="yidong.html">移动</a></li>
+                    <li class="navbar-item"><a href="xiaofei.html">消费</a></li>
+                    <li class="navbar-item"><a href="wanghong.html">网红</a></li>
+                    <li class="navbar-item"><a href="zhibo.html">直播</a></li>
+                    <li class="navbar-item"><a href="jiaodian.html">焦点</a></li>
+                  </ul>
+         </li>
+            <li class="navbar-item active"><a href="">财经</a>  </li>
+            <li class="navbar-item "><a href="jinrong.html">金融</a>  </li>
+            <li class="navbar-item "><a href="chuangtou.html">创投</a>  </li>
+            <li class="navbar-item "><a href="kuaibao.html">快报</a>  </li>
+            <li class="navbar-item "><a href="zhuanlan.html">专栏</a>         <ul class="sub-nav">
+                    <li class="navbar-item"><a href="guanyuwomen.html">关于我们</a></li>
+                    <li class="navbar-item"><a href="lianxiwomen.html">联系我们</a></li>
+                    <li class="navbar-item"><a href="naronghezuo.html">内容合作</a></li>
+                  </ul>
+         </li>
+          </ul>
+  </div>
+</div>
+
+<div class="breadcrumb" id="place"><i class="fa fa-home"></i>  <a href='index.html' class=''>首页</a> &gt; <a href=''>财经</a> </div>
+<main class="container">
+  <div class="content-wrap">
+    <div class="article">
+      <div class="archive-head">
+        <div class="media">
+          <div class="media-content" style="background-image: url(static/image/1-23121Q52332423.jpg);">
+            <div class="overlay-grad"></div>
+          </div>
+        </div>
+        <div class="list-content">
+          <div class="list-body">
+            <div class="headline">
+              <div class="text-xl"><i class="fa fa-folder-open"></i>财经</div>
+              <div class="flex-fill"></div>
+              <div class="text-light"><span></span> </div>
+            </div>
+            <div class="border-white">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="append">         <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="27.html" title="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！"><img src="static/picture/5c7b35df25fbe48d152a35b3b16cbdfe.jpg" alt="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！"></a> </div>
+          <header>
+            <h2> <a href="27.html" title="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！">大败局！万人“围攻”ofo总部，独角兽一地鸡毛！</a> </h2>
+          </header>
+          <p class="post-text">昨天，上千名小黄车用户&quot;围攻&quot;北京总部，从5楼堵到1楼，要求ofo现场退押金。有网友P了张图，戏称这是“ofo车友会”。ofo被迫紧急发布《退押金政策提醒》，称会根据申请顺序进行审...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>126</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！"><img src="static/picture/5779f045abbb0af774b3c0a3a46b4d63.jpg" alt="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！"></a> </div>
+          <header>
+            <h2> <a href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！">国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！</a> </h2>
+          </header>
+          <p class="post-text">据外媒，美国总统特朗普刚刚发布行政令，令联邦政府在12月24日关门。年关难过——这句中国古话，美国总统特朗普这几天大概体会颇深。前两天，他就和参议院民主党领袖舒默等人闹了个不欢而散。原因嘛，还是为了钱...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>252</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么"><img src="static/picture/608ab396cb8dc7cef364eabc85fa0d2d.jpg" alt="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么"></a> </div>
+          <header>
+            <h2> <a href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么">朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么</a> </h2>
+          </header>
+          <p class="post-text">新华社消息，12月16日，朝鲜外务省美国研究所政策研究室室长发表谈话，朝中社刊登了谈话内容：朝美领导人新加坡会晤后的6个月间，美国国务卿等高级政客每天恶意中伤朝鲜，还炮制洗钱、网络攻击等各种借口，近期...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>255</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资"><img src="static/picture/ed8bdd1142c5ffe7ab9d96724f84f520.png" alt="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资"></a> </div>
+          <header>
+            <h2> <a href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资">加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资</a> </h2>
+          </header>
+          <p class="post-text">【环球网报道记者赵衍龙】“美国人把我们置于十分困难的境地”，当地时间17日，加拿大汽车零部件制造商协会(APMA)主席弗拉维奥•沃尔普的担忧声出现在加拿大广播公司(CBC)的报道中。这篇报道说，因为通...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>154</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="23.html" title="两车高速公路上“花样违法”分别被记30分和24分"><img src="static/picture/d2b18f677e199adbd2b210dd57aea511.jpg" alt="两车高速公路上“花样违法”分别被记30分和24分"></a> </div>
+          <header>
+            <h2> <a href="23.html" title="两车高速公路上“花样违法”分别被记30分和24分">两车高速公路上“花样违法”分别被记30分和24分</a> </h2>
+          </header>
+          <p class="post-text">违法车辆　警方供图　摄记者17日从吉林省公安厅高速公路公安局双辽分局获悉，高速交警近日查处两个“任性”驾驶员，均涉嫌遮挡号牌、超速、违法停车。本月14日15时许，吉林省公安厅高速公路公安局双辽分局指挥...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>124</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="22.html" title="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？"><img src="static/picture/2adaf1941553dbab5ff6b9b958361761.jpg" alt="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？"></a> </div>
+          <header>
+            <h2> <a href="22.html" title="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？">万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？</a> </h2>
+          </header>
+          <p class="post-text">王健林的万达继续卖卖卖模式，除了卖掉万达城项目，现在还将手中所持有的百年人寿的股份全部卖了。12月17日，绿城中国公告称，公司与卖方签订股份转让协议，以现金27.18亿元收购百年人寿9亿股股份，占比为...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>195</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="21.html" title="为什么朝鲜弃核至少需要十年？"><img src="static/picture/c940a79ca84a4af3802ee8004fb38ae7.jpg" alt="为什么朝鲜弃核至少需要十年？"></a> </div>
+          <header>
+            <h2> <a href="21.html" title="为什么朝鲜弃核至少需要十年？">为什么朝鲜弃核至少需要十年？</a> </h2>
+          </header>
+          <p class="post-text">西格夫里·赫克。图/斯坦福美国核物理学家西格夫里·赫克展望第二次金特会应就无核化与关系正常化具体步骤达成共识本刊记者/李静本文首发于总第881期《中国新闻周刊》在蓬佩奥与金英哲推迟原定于11月8日在纽...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>292</span> </footer>
+        </article>
+                <div class="pages">  共<strong>1</strong>页&nbsp;<strong>7</strong>条 </div>
+      </div>
+    </div>
+  </div>
+  <aside class="sidebar" id="sidebar">
+  <dl class="function" id="side-new-about-item">
+    <dt class="function_t">网站公告</dt>
+    <dd class="function_c">
+      <div>
+        <div class="widget widget-tie social" id="a">
+          <div class="about_img">             <div class="about_bg"> <img src="static/picture/1-23121Q05101100.png" alt="首页广告一"> </div>
+                        <div class="about_avatar"><img src="static/picture/tx.jpg" alt="关于"></div>
+          </div>
+          <div class="about_name">响应式财经科技新闻博客网站模板</div>
+          <div class="ul ul_distance"> <a href="https://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank" class="social_a social_contact social_qq" rel="nofollow" title="站长QQ"><i class="fa fa-qq"></i></a> <a class="social_a social_contact social_weixin" href="#" title="微信"><i class="fa fa-wechat"></i><span class="weixin wechat"><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="扫描微信"></span></a> <a href="https://weibo.com/" target="_blank" class="social_a social_contact social_weibo" rel="nofollow" title="新浪微博"><i class="fa fa-weibo"></i></a> <a href="mailto:admin@youweb.com" class="social_a social_email social_contact" rel="nofollow" title="给我写信"><i class="fa fa-envelope"></i></a> </div>
+          <p class="about_tag">生活常识网给你实用生活常识、原创生活常识尽在生活常识网！生活中的小知识，小经验，小常识，帮助您的生活更加科学健康。生活常识网是专业的生活常识网站，以交流和传播生活中的一些小常识小窍门为主要目的。从生活中得吃、穿、住、行到日常生活中遇到得一些常识问题都做了很多介绍。生活常识网创建于2010年初，新生的生活常识网将会越来越壮大。生活常识网的目标是帮助人们逐步了解生活中的遇到的各种常识以及小窍门，正确、</p>
+        </div>
+      </div>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="side-tui-article-item">
+    <dt class="function_t">热门阅读</dt>
+    <dd class="function_c">
+      <div>         <article><a href="21.html" title="为什么朝鲜弃核至少需要十年？" class="image"><img src="static/picture/c940a79ca84a4af3802ee8004fb38ae7.jpg" alt="为什么朝鲜弃核至少需要十年？"></a>
+          <h3><a href="21.html" title="为什么朝鲜弃核至少需要十年？">为什么朝鲜弃核至少需要十年？</a></h3>
+        </article>
+                <article><a href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么" class="image"><img src="static/picture/608ab396cb8dc7cef364eabc85fa0d2d.jpg" alt="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么"></a>
+          <h3><a href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么">朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么</a></h3>
+        </article>
+                <article><a href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！" class="image"><img src="static/picture/5779f045abbb0af774b3c0a3a46b4d63.jpg" alt="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！"></a>
+          <h3><a href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！">国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！</a></h3>
+        </article>
+                <article><a href="22.html" title="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？" class="image"><img src="static/picture/2adaf1941553dbab5ff6b9b958361761.jpg" alt="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？"></a>
+          <h3><a href="22.html" title="万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？">万达继续大甩卖：27亿出清保险，15月减债2158亿，负债还有多少？</a></h3>
+        </article>
+                <article><a href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资" class="image"><img src="static/picture/ed8bdd1142c5ffe7ab9d96724f84f520.png" alt="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资"></a>
+          <h3><a href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资">加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资</a></h3>
+        </article>
+         </div>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="divTags">
+    <dt class="function_t">标签列表</dt>
+    <dd class="function_c">
+      <ul>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=7'>懒马</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=6'>金属</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=5'>树木</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=4'>孔雀</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=3'>改革</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=2'>企业</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=1'>科技</a></li>
+              </ul>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="divLinkage">
+    <dt class="function_t">友情链接</dt>
+    <dd class="function_c">
+      <ul>
+                <li><a href="https://www.baidu.com" target="_blank">百度</a></li>
+                <li><a href="https://www.qq.com" target="_blank">腾讯</a></li>
+                <li><a href="https://www.sina.com.cn" target="_blank">新浪</a></li>
+                <li><a href="https://www.jd.com/" target="_blank">京东</a></li>
+                <li><a href="https://www.taobao.com/" target="_blank">淘宝</a></li>
+              </ul>
+    </dd>
+  </dl>
+</aside>
+ </main>
+<footer class="footer-box">
+  <div class="footer-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="widget-box widget widget_text">
+            <h2 class="footer-title">关于我们</h2>
+            <div class="textwidget">
+              <p>生活常识网给你实用生活常识、原创生活常识尽在生活常识网！生活中的小知识，小经验，小常识，帮助您的生活更加科学健康。生活常识网是专业的生活常识网站，以交流和传播生活中的一些小常识小窍门为主要目的。从生活</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">           <div class="widget-box widget widget_text">
+            <h2 class="footer-title"><a href="zhuanlan.html">专栏</a></h2>
+            <div class="textwidget">
+              <ul>
+                                <li><a href="guanyuwomen.html">关于我们</a></li>
+                                <li><a href="lianxiwomen.html">联系我们</a></li>
+                                <li><a href="naronghezuo.html">内容合作</a></li>
+                              </ul>
+            </div>
+          </div>
+           </div>
+        <div class="col-md-4">
+          <div class="widget-box widget widget_text">
+            <h2 class="footer-title">关注交流</h2>
+            <div class="textwidget">
+              <div class="textwidget">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkl">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="微信公众号" width="80" height="80"></p>
+                      <p class="qr-tips">微信公众号</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkc">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="站长微信" width="80" height="80"></p>
+                      <p class="qr-tips">站长微信</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkr">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="QQ交流群" width="80" height="80"></p>
+                      <p class="qr-tips">QQ交流群</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-center">
+          <p><span>Copyright © 2012-2023 某某博客 版权所有</span><span>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="topcontrol" title="返回顶部"><i class="fa fa-angle-up"></i></div>
+<div id="mask" style="display: none;"></div>
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/navigation.js"></script>
+</body>
+</html>

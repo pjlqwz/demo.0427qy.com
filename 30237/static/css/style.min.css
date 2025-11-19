@@ -1,0 +1,24 @@
+﻿.wmmb-title-bar-wrap{position:relative;background-color:#eaeaea}
+.wmmb-custom-post-type .wmmb-title-bar-wrap~.site-content .entry-header{margin-bottom:0}
+.wmmb-advanced-headers-title{line-height:1.2}
+.wmmb-advanced-headers-title .entry-subtitle{margin-top:15px}
+.wmmb-advanced-headers-breadcrumb,.wmmb-advanced-headers-breadcrumb a,.wmmb-advanced-headers-title,.wmmb-advanced-headers-wrap{color:#eaeaea}
+.wmmb-advanced-headers-breadcrumb a:hover{color:#fff}
+.wmmb-advanced-headers-breadcrumb,.wmmb-advanced-headers-wrap{z-index:1;position:relative}
+.taxonomy-description{margin-top:1em}
+.taxonomy-description p{margin:0}
+.wmmb-advanced-headers-breadcrumb,.wmmb-advanced-headers-wrap{word-wrap:break-word}
+.wmmb-advanced-headers-layout{padding-top:1.33333em;padding-bottom:1.33333em}
+.wmmb-merged-advanced-header .wmmb-above-header,.wmmb-merged-advanced-header .wmmb-below-header,.wmmb-merged-advanced-header .main-header-bar{background:0 0}
+.wmmb-merged-advanced-header.wmmb-full-advanced-header{height:100vh}
+.wmmb-advanced-headers-vertical-center{-js-display:flex;display:flex;flex-direction:column;flex-wrap:nowrap;height:100%}
+.wmmb-full-advanced-header .wmmb-inside-advanced-header-content{-js-display:flex;display:flex;flex-direction:column;flex-grow:1;width:100%;align-items:center;justify-content:center}
+.wmmb-advanced-headers.wmmb-theme-transparent-header #masthead{position:static;left:auto;right:auto}
+.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-wrap{align-self:center;flex-grow:1;max-width:75%}
+.wmmb-advanced-headers-layout-1 .wmmb-container{-js-display:flex;display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center}
+@media (max-width:544px){.wmmb-advanced-headers-layout-1 .wmmb-container{display:block}
+}.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-breadcrumb{flex-grow:1;align-self:center;text-align:right;padding-left:20px}
+@media (max-width:544px){.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-breadcrumb,.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-wrap{display:block;width:100%;text-align:center}
+.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-breadcrumb{margin-top:5px;padding-left:0}
+.wmmb-advanced-headers-layout-1 .wmmb-advanced-headers-wrap{max-width:100%}
+}

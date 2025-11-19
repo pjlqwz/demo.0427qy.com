@@ -1,0 +1,314 @@
+﻿button,a,input,select,*:focus {outline: none !important;}
+ol, ul {
+    margin: 0 0 1.5em 1.5em;
+}
+video {
+    max-width: 100%;
+}
+.p-mb0 p,
+.entry-content .p-mb0 p {
+    margin-bottom: 0;
+}
+/***************Header**************/
+.header-widget-area p {
+    margin-bottom: 0;
+}
+/************************************/
+.site-header-above-section-left .header-widget-area:first-child {
+    padding-left: 0;
+}
+.site-header-above-section-right .header-widget-area:last-child {
+    padding-right: 0;
+}
+#secondary {
+    margin: 0;
+}
+.wmmb-right-sidebar #secondary,
+.wmmb-left-sidebar #secondary,
+.wmmb-separate-container.wmmb-two-container.wmmb-left-sidebar #secondary,
+.wmmb-separate-container.wmmb-two-container.wmmb-right-sidebar #secondary,
+.wmmb-separate-container.wmmb-right-sidebar #secondary,
+.wmmb-separate-container.wmmb-left-sidebar #secondary {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+@media (min-width: 922px){
+    .wmmb-left-sidebar #secondary {
+        border-right: none;
+        margin-right: 0;
+    }
+    .wmmb-left-sidebar #primary {
+        border-left: none;
+    }
+    .wmmb-advanced-headers-layout-2 > .wmmb-container {
+        display: block;
+    }
+}
+@media (min-width: 993px) {
+    .wmmb-separate-container #primary,
+    .wmmb-left-sidebar #primary,
+    .wmmb-right-sidebar #primary,
+    .wmmb-separate-container.wmmb-left-sidebar #primary,
+    .wmmb-separate-container.wmmb-right-sidebar #primary {
+        margin: 0;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+}
+@media (max-width: 767px) {
+    .wmmb-right-sidebar #secondary,
+    .wmmb-left-sidebar #secondary,
+    .wmmb-separate-container.wmmb-two-container.wmmb-left-sidebar #secondary,
+    .wmmb-separate-container.wmmb-two-container.wmmb-right-sidebar #secondary,
+    .wmmb-separate-container.wmmb-right-sidebar #secondary,
+    .wmmb-separate-container.wmmb-left-sidebar #secondary {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/*************************************/
+@media (max-width: 560px) {
+    .eywm-element[data-widget_type="web-posts.news"] .web-post-grid__inner, .eywm-element[data-widget_type="web-posts.news"] .web-post-wrapper-featured, .eywm-element[data-widget_type="web-posts.news"] .web-post__inner-wrap, .eywm-element[data-widget_type="web-posts.news"] .web-post_structure-featured {
+        display: block !important;
+    }
+    .eywm-element[data-widget_type="web-posts.news"] .web-post__content-wrap, .eywm-element[data-widget_type="web-posts.news"] .web-post__thumbnail {
+        width: 100% !important;
+    }
+}
+/*************************************/
+#secondary .widget {
+    margin-bottom: 0;
+}
+.wmmb-separate-container .wmmb-separate-posts.wmmb-article-post:last-child {
+    margin-bottom: 0;
+}
+.wmmb-separate-container.wmmb-two-container #secondary .widget:last-child,
+.wmmb-separate-container #secondary .widget:last-child,
+.wmmb-plain-container #secondary .widget:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/**************************************/
+.wmmb-separate-container .post-navigation {
+    padding-left: 0;
+    padding-right: 0;
+}
+.single .post-navigation a {
+    text-align: inherit;
+    padding: 0;
+    display: initial;
+}
+.single .post-navigation a .prev-title,
+.single .post-navigation a .next-title {
+    display: block;
+}
+/**************************************/
+.eycj .widget .star-rating {
+    display: none;
+}
+.eycj ul.products li.product,
+.eycj-page ul.products li.product {
+    margin-bottom: 1.375em;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.eycj div.product div.summary .eycj-product-details__short-description :last-child {
+    margin-bottom: 0;
+}
+.eycj div.product div.summary .inquiry-buttons {
+    margin-top: 2em;
+}
+.single-product .wmmb-article-single {
+    background: #fff;
+    padding: 2em 2em 1em;
+}
+.eycj div.product .product_title {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+.eycj div.product div.images {
+    border: 1px solid #F2F2F2;
+}
+.eycj div.product div.summary ul {
+    margin-left: 0;
+    list-style: none;
+}
+.eycj div.product div.summary ul li b {
+    min-width: 150px;
+    display: inline-block;
+    text-transform:capitalize;
+}
+.eycj div.product .product_meta {
+    font-weight: 600;
+}
+.eycj div.product .product_meta a{
+    font-weight: 400;
+}
+.eycj div.product .eycj-tabs ul.tabs {
+    border-top: 1px solid #ebebeb;
+}
+.eycj .related ul.products {
+    margin-bottom: 0;
+}
+.eycj .related.products > h2,
+.eycj .up-sells > h2,
+.eycj .eycj-tabs > h2 {
+    border-bottom: 1px solid var(--wmmb-border-color);
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+@media (max-width: 767px){
+    .single-product .wmmb-article-single {
+        padding: 10px;
+    }
+    .eycj ul.products,
+    .eycj-page ul.products {
+        column-gap: 10px;
+    }
+    .eycj .site-content > .wmmb-container,
+    .eycj .site-content > .wmmb-container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .eycj ul.products li.product .astra-shop-summary-wrap,
+    .eycj-page ul.products li.product .astra-shop-summary-wrap {
+        padding: 0 0.5em;
+    }
+}
+
+/******************************/
+.wmmb-single-post .wmmb-no-title.entry-header {
+    text-align: center;
+}
+/*.wmmb-single-post .entry-header.wmmb-no-title.wmmb-no-thumbnail {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 1em;
+}*/
+.wmmb-single-post .entry-title,
+.wmmb-single-post .entry-title a {
+    margin-bottom: 0.5em;
+}
+/****************************/
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+/******************************/
+.widget ul li {
+    position: relative;
+}
+.widget ul li .angle {
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    cursor:pointer;
+    background: #F5F5F5;
+}
+.widget ul li span.post-date {
+    color: #999;
+}
+.down-arrow {
+    display :inline-block;
+    position: relative;
+    width: 28px;
+    height: 22px;
+}
+.down-arrow::after {
+    display: inline-block;
+    content: " ";
+    height: 7px;
+    width: 7px;
+    border-width: 0 2px 2px 0;
+    border-color: #777777;
+    border-style: solid;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform-origin: center;
+    transition: transform .3s;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -5px;
+}
+.down-arrow.active::after {
+    transform-origin: center;
+    transform: rotate(-135deg);
+    transition: transform .3s;
+    top: 14px;
+}
+.secondary .widget_categories ul li,
+.secondary .eycj ul.product-categories>li,
+.secondary .widget_product_categories ul li,
+.secondary .widget_nav_menu ul li {
+    background-color: #fff;
+    padding: 0.5em 1em;
+}
+.widget_categories ul.children,
+.widget_nav_menu ul ul.sub-menu,
+.widget_wpkj_related_terms ul.children,
+.widget_product_categories ul.children {
+    margin-top: 8px;
+    padding-left: 0;
+    display: none;
+}
+.widget_categories ul.children li,
+.eycj ul.product-categories>li ul li,
+.widget_wpkj_related_terms ul.children li,
+.widget_product_categories ul.children li,
+.widget_nav_menu ul.sub-menu li {
+    background-color: #f5f5f5;
+    padding: 0.5em 1em;
+}
+.eycj ul.product-categories>li ul li:before {
+    display: none;
+}
+.eycj .widget_product_categories .product-categories .count {
+    float: none;
+}
+
+.widget_nav_menu .current-post-ancestor > ul.sub-menu,
+.widget_nav_menu .current-menu-parent > ul.sub-menu,
+.widget_categories .current-cat-parent > ul.children,
+.widget_wpkj_related_terms .current-cat-parent > ul.children,
+.widget_product_categories .current-cat-parent > ul.children {
+    display: block;
+}
+.widget_nav_menu .current-post-ancestor .current-post-parent > a,
+.widget_nav_menu .current-menu-item > a,
+.widget_categories .current-cat > a, 
+.widget_wpkj_related_terms .current-cat > a,
+.widget_product_categories .current-cat > a {
+    font-weight: 600;
+}
+.widget_recent_entries li {
+    background: #fff;
+    padding: 1em;
+    line-height: 1.5;
+}
+/**************************************/
+.products .inquiry-buttons {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    transition: all .3s;
+    z-index: -1;
+    opacity: 0;
+}
+.products .wmmb-article-post:hover .inquiry-buttons {
+    top: 35%;
+    z-index: 9;
+    opacity: 1;
+}
+/***************************************/
+.web-gallery-parent {
+  overflow: hidden;
+}
+#wmmb-scroll-top.wmmb-scroll-to-top-right {
+    right: 10px;
+}

@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<title>响应式财经科技新闻博客网站模板_响应式财经科技新闻博客网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/31038/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<script language="javascript" type="text/javascript" src="static/js/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+<header class="header" id="header">
+  <div class="containe">
+    <div id="nav-box" class="nav-bar header-nav right">
+      <div class="container">
+        <h2 class="logo"> <a href="" title="响应式财经科技新闻博客网站模板"> <img src="static/picture/1-23121Q01455b6.png" alt="响应式财经科技新闻博客网站模板"> <img src="static/picture/1-23121Q01455b6.png" alt="响应式财经科技新闻博客网站模板" class="nightlogoimg"></a> </h2>
+        <nav class="nav-bar">
+          <ul class="nav">
+            <li class='navbar-item  active'><a href=""><i class="fa fa-home"></i>首页</a></li>
+                        <li class="navbar-item "><a href="keji312.html">科技</a>               <ul class="sub-nav">
+                                <li class="navbar-item"><a href="yidong.html">移动</a></li>
+                                <li class="navbar-item"><a href="xiaofei.html">消费</a></li>
+                                <li class="navbar-item"><a href="wanghong.html">网红</a></li>
+                                <li class="navbar-item"><a href="zhibo.html">直播</a></li>
+                                <li class="navbar-item"><a href="jiaodian.html">焦点</a></li>
+                              </ul>
+               </li>
+                        <li class="navbar-item "><a href="caijing.html">财经</a>  </li>
+                        <li class="navbar-item "><a href="jinrong.html">金融</a>  </li>
+                        <li class="navbar-item "><a href="chuangtou.html">创投</a>  </li>
+                        <li class="navbar-item "><a href="kuaibao.html">快报</a>  </li>
+                        <li class="navbar-item "><a href="zhuanlan.html">专栏</a>               <ul class="sub-nav">
+                                <li class="navbar-item"><a href="guanyuwomen.html">关于我们</a></li>
+                                <li class="navbar-item"><a href="lianxiwomen.html">联系我们</a></li>
+                                <li class="navbar-item"><a href="naronghezuo.html">内容合作</a></li>
+                              </ul>
+               </li>
+                      </ul>
+        </nav>
+        <div id="m-btn" class="m-btn"><i class="fa fa-bars"></i></div>
+        <div class="pull-right">
+          <div class="jz-search-btn"> <i class="fa fa-search"></i> </div>
+        </div>
+        <div class="pull-right jz-night">
+          <div class="jz-night-btn"> <a href="javascript:switchNightMode()" target="_self" title="关灯"><i class="fa fa-moon-o"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="b-nav-search_wrap ">
+    <div class="b-nav-search_inner">       <form class="b-nav-search_component" method="get" action="/31038/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+        <input type="text" name="keywords" id="keywords" class="b-nav-search_input w-input" maxlength="256" placeholder="请输入关键字..." autocomplete="off">
+        <button type="submit" name="submit"><i class="fa fa-search"></i></button>
+        <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">      </form>
+       </div>
+  </div>
+</header>
+<div id="m-nav" class="m-nav m-open">
+  <div class="sidebar-mobile-header">
+    <div class="media-content" style="background-image: url(static/image/mtop.png)"> <span class="overlay"></span> </div>
+    <div class="sidebar-mobile-action"> <a href="javascript:switchNightMode()" target="_self" class="link-action jz-night-mbtn"><i class="fa fa-moon-o"></i></a> <a href="javascript:;" id="m-btn-cln" class="m-btn"><i class="fa fa-remove"></i></a> </div>
+  </div>
+  <div class="m-wrap">
+    <ul class="mnav">
+      <li class='navbar-item  active'><a href=""><i class="fa fa-home"></i>首页</a></li>
+            <li class="navbar-item "><a href="keji312.html">科技</a>         <ul class="sub-nav">
+                    <li class="navbar-item"><a href="yidong.html">移动</a></li>
+                    <li class="navbar-item"><a href="xiaofei.html">消费</a></li>
+                    <li class="navbar-item"><a href="wanghong.html">网红</a></li>
+                    <li class="navbar-item"><a href="zhibo.html">直播</a></li>
+                    <li class="navbar-item"><a href="jiaodian.html">焦点</a></li>
+                  </ul>
+         </li>
+            <li class="navbar-item "><a href="caijing.html">财经</a>  </li>
+            <li class="navbar-item "><a href="jinrong.html">金融</a>  </li>
+            <li class="navbar-item "><a href="chuangtou.html">创投</a>  </li>
+            <li class="navbar-item "><a href="kuaibao.html">快报</a>  </li>
+            <li class="navbar-item "><a href="zhuanlan.html">专栏</a>         <ul class="sub-nav">
+                    <li class="navbar-item"><a href="guanyuwomen.html">关于我们</a></li>
+                    <li class="navbar-item"><a href="lianxiwomen.html">联系我们</a></li>
+                    <li class="navbar-item"><a href="naronghezuo.html">内容合作</a></li>
+                  </ul>
+         </li>
+          </ul>
+  </div>
+</div>
+
+<p class="index-breadcrumb"></p>
+<main class="container">
+  <div class="content-wrap">
+    <div class="article">
+      <div class="slider">
+        <div id="slideBox" class="slideBox">
+          <div class="bd">
+            <ul>
+                            <li> <a href=" https://www.baidu.com/" title="幻灯一"> <img src="static/picture/a2b04561c2f4a9f1c07d03a0203a1598.jpg" alt="幻灯一"> </a> </li>
+                            <li> <a href=" https://www.baidu.com/" title="幻灯二"> <img src="static/picture/f4f0db6c31bea186f7f38b0530c33fd1.jpg" alt="幻灯二"> </a> </li>
+                          </ul>
+          </div>
+          <div class="hd">
+            <ul>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                          </ul>
+          </div>
+          <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-left"></i></a> <a class="next" href="javascript:void(0)"><i class="fa fa-angle-right"></i></a> </div>
+      </div>
+      <script language="javascript" type="text/javascript" src="static/js/superslide.js"></script>
+ 
+      <script>jQuery(".slideBox").slide({mainCell:".bd ul",effect:"topLoop",autoPlay:true,easing:"easeInQuint",interTime:6000});</script>
+      <div class="append">         <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="35.html" title="AI芯片公司Graphcore筹资2亿美元 估值达17亿美元"><img src="static/picture/4deb28aaa56dfde159a8ba8c2e5b5f1c.jpg" alt="AI芯片公司Graphcore筹资2亿美元 估值达17亿美元"></a> </div>
+          <header>
+            <h2> <a href="35.html" title="AI芯片公司Graphcore筹资2亿美元 估值达17亿美元">AI芯片公司Graphcore筹资2亿美元 估值达17亿美元</a> </h2>
+          </header>
+          <p class="post-text">　新浪科技讯北京时间12月19日凌晨消息，总部设在英国港市布里斯托尔（Bristol）的Graphcore已从微软和宝马等投资者那里筹集到了1.58亿英镑（约合2亿美元）资金，该公司的业务是设计AI（人工智能）...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="kuaibao.html">快报</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>189</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="34.html" title="马斯克测试隧道开通！乘车初体验：颠颠簸簸磕磕碰碰"><img src="static/picture/5a049d769e546b9958317aab1b2e80e5.jpg" alt="马斯克测试隧道开通！乘车初体验：颠颠簸簸磕磕碰碰"></a> </div>
+          <header>
+            <h2> <a href="34.html" title="马斯克测试隧道开通！乘车初体验：颠颠簸簸磕磕碰碰">马斯克测试隧道开通！乘车初体验：颠颠簸簸磕磕碰碰</a> </h2>
+          </header>
+          <p class="post-text">　新浪科技讯北京时间12月19日下午消息，埃隆·马斯克的2018年异常坎坷，但至少在他的隧道尽头有一盏明灯。　　这位特斯拉首席执行官表示，这条1.14英里长的隧道是解决根深蒂固的城市交通问题的第一步。2016年...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="kuaibao.html">快报</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>219</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="33.html" title="马云马化腾李彦宏等获改革先锋称号；ofo退押金排队已超900万人"><img src="static/picture/96af46dc9f37cca489e297043707a49f.jpg" alt="马云马化腾李彦宏等获改革先锋称号；ofo退押金排队已超900万人"></a> </div>
+          <header>
+            <h2> <a href="33.html" title="马云马化腾李彦宏等获改革先锋称号；ofo退押金排队已超900万人">马云马化腾李彦宏等获改革先锋称号；ofo退押金排队已超900万人</a> </h2>
+          </header>
+          <p class="post-text">今日要闻马云马化腾李彦宏等获改革先锋称号；京东数字科技控股股比变更，刘强东股权减少为第二大股东；美国法院冻结贾跃亭FF股份？乐视控股：未收到法院裁决；华为何刚：明年目标2.3~2.5亿台；苹果聘请前特斯拉高级设...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>119</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="32.html" title="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死"><img src="static/picture/1b2f38d9e0bf13abcded02cf20c16753.jpg" alt="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死"></a> </div>
+          <header>
+            <h2> <a href="32.html" title="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死">美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死</a> </h2>
+          </header>
+          <p class="post-text">【环球网综合报道】据英国《每日邮报》12月17日报道，来自美国北卡罗来纳州(NorthCarolina)的推特用户家里的马看起来很懒，哪怕暴风雪来了，也懒得进入为它搭建的畜棚里，就是睡觉也是躺着，而不是站着。近...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>297</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="31.html" title="男子野外探险，发现了奇怪金属，专家推测可能来自外星"><img src="https://demoall.5fa.cn/31038/uploads/ueditor/20181219/5c19b21f71209.png" alt="男子野外探险，发现了奇怪金属，专家推测可能来自外星"></a> </div>
+          <header>
+            <h2> <a href="31.html" title="男子野外探险，发现了奇怪金属，专家推测可能来自外星">男子野外探险，发现了奇怪金属，专家推测可能来自外星</a> </h2>
+          </header>
+          <p class="post-text">读：感谢关注，看你想看的奇闻趣事，天下有多大，就有多少奇葩事。科学就是要揭开奥秘的真相，找寻是否不存在的逻辑，但并不是所有的发现，都可以用科学来解释，就比如今天小编要讲的这位男子在野外发现的这一物体，就很难用科...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>154</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="30.html" title="非洲寿命最长的树木，一次可储100吨水，穷人还能当房子住！"><img src="static/picture/5c19acf11e3e3.png" alt="非洲寿命最长的树木，一次可储100吨水，穷人还能当房子住！"></a> </div>
+          <header>
+            <h2> <a href="30.html" title="非洲寿命最长的树木，一次可储100吨水，穷人还能当房子住！">非洲寿命最长的树木，一次可储100吨水，穷人还能当房子住！</a> </h2>
+          </header>
+          <p class="post-text">去到不同的地方、感受不同的世界，欢迎来到新一期的“PALM看世界”。俗话说得好：大树底下好乘凉，但在非洲这个贫穷落后的国家，一棵大树如果只用来乘凉的话，那真的就是太材小用了。在非洲有一种非洲神奇的树，这种树除了...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>140</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="29.html" title="男子野外看到黑鼻上有异样，拍照拿去问村民后，村民解释瞬间明白了"><img src="static/picture/bff12024a4e07168ed7b6c6123fa849c.png" alt="男子野外看到黑鼻上有异样，拍照拿去问村民后，村民解释瞬间明白了"></a> </div>
+          <header>
+            <h2> <a href="29.html" title="男子野外看到黑鼻上有异样，拍照拿去问村民后，村民解释瞬间明白了">男子野外看到黑鼻上有异样，拍照拿去问村民后，村民解释瞬间明白了</a> </h2>
+          </header>
+          <p class="post-text">导读：感谢关注，看你想看的奇闻趣事，天下有多大，就有多少奇葩事。在大自然中，所有的生物每一天都在为自己生存所拼搏，不管是动物还是人都是一样，因为生才是唯一目标，在农村你是否会看见这样的一个场景，那就是在牛的鼻子...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>162</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="28.html" title="农民见到孔雀蛋！"><img src="static/picture/8e877ed42e63578200900d693b3bb4cb.jpg" alt="农民见到孔雀蛋！"></a> </div>
+          <header>
+            <h2> <a href="28.html" title="农民见到孔雀蛋！">农民见到孔雀蛋！</a> </h2>
+          </header>
+          <p class="post-text">奇闻趣事：农民山上捡鸡蛋放鸡窝孵出一物，农民掏出手机就报警当下的社会新闻真是花样百出，读者们也都想看看不一样的人文趣事，小编就专门把这些奇闻趣事搜罗整理出来，展现给读者们，这些趣事新闻都是一些真实写照，和我们的...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="yidong.html">移动</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>169</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="27.html" title="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！"><img src="static/picture/5c7b35df25fbe48d152a35b3b16cbdfe.jpg" alt="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！"></a> </div>
+          <header>
+            <h2> <a href="27.html" title="大败局！万人“围攻”ofo总部，独角兽一地鸡毛！">大败局！万人“围攻”ofo总部，独角兽一地鸡毛！</a> </h2>
+          </header>
+          <p class="post-text">昨天，上千名小黄车用户&quot;围攻&quot;北京总部，从5楼堵到1楼，要求ofo现场退押金。有网友P了张图，戏称这是“ofo车友会”。ofo被迫紧急发布《退押金政策提醒》，称会根据申请顺序进行审核与收集，...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="caijing.html">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>126</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！"><img src="static/picture/5779f045abbb0af774b3c0a3a46b4d63.jpg" alt="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！"></a> </div>
+          <header>
+            <h2> <a href="26.html" title="国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！">国会不给钱修边境墙！特朗普怒发行政令：联邦政府12月24日关门！</a> </h2>
+          </header>
+          <p class="post-text">据外媒，美国总统特朗普刚刚发布行政令，令联邦政府在12月24日关门。年关难过——这句中国古话，美国总统特朗普这几天大概体会颇深。前两天，他就和参议院民主党领袖舒默等人闹了个不欢而散。原因嘛，还是为了钱。据悉，美...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="caijing.html">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>252</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么"><img src="static/picture/608ab396cb8dc7cef364eabc85fa0d2d.jpg" alt="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么"></a> </div>
+          <header>
+            <h2> <a href="25.html" title="朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么">朝鲜强硬警告美国，或重回“交火”状态！特朗普：急什么</a> </h2>
+          </header>
+          <p class="post-text">新华社消息，12月16日，朝鲜外务省美国研究所政策研究室室长发表谈话，朝中社刊登了谈话内容：朝美领导人新加坡会晤后的6个月间，美国国务卿等高级政客每天恶意中伤朝鲜，还炮制洗钱、网络攻击等各种借口，近期，美国更以...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="caijing.html">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>255</span> </footer>
+        </article>
+                <article class="post">
+          <div class="post-img"> <a class="pic float-left" href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资"><img src="static/picture/ed8bdd1142c5ffe7ab9d96724f84f520.png" alt="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资"></a> </div>
+          <header>
+            <h2> <a href="24.html" title="加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资">加媒：孟晚舟事件后 加拿大汽车行业担心失去中企投资</a> </h2>
+          </header>
+          <p class="post-text">【环球网报道记者赵衍龙】“美国人把我们置于十分困难的境地”，当地时间17日，加拿大汽车零部件制造商协会(APMA)主席弗拉维奥•沃尔普的担忧声出现在加拿大广播公司(CBC)的报道中。这篇报道说，因为通用要关闭在...</p>
+          <footer> <span class="author"><i class="fa fa-folder fa-fw"></i><a href="caijing.html">财经</a></span> <span class="time"><i class="fa fa-clock-o fa-fw"></i>2018-12-19</span> <span class="view"><i class="fa fa-eye fa-fw"></i>154</span> </footer>
+        </article>
+         </div>
+    </div>
+  </div>
+  <aside class="sidebar" id="sidebar">
+  <dl class="function" id="side-new-about-item">
+    <dt class="function_t">网站公告</dt>
+    <dd class="function_c">
+      <div>
+        <div class="widget widget-tie social" id="a">
+          <div class="about_img">             <div class="about_bg"> <img src="static/picture/1-23121Q05101100.png" alt="首页广告一"> </div>
+                        <div class="about_avatar"><img src="static/picture/tx.jpg" alt="关于"></div>
+          </div>
+          <div class="about_name">响应式财经科技新闻博客网站模板</div>
+          <div class="ul ul_distance"> <a href="https://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank" class="social_a social_contact social_qq" rel="nofollow" title="站长QQ"><i class="fa fa-qq"></i></a> <a class="social_a social_contact social_weixin" href="#" title="微信"><i class="fa fa-wechat"></i><span class="weixin wechat"><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="扫描微信"></span></a> <a href="https://weibo.com/" target="_blank" class="social_a social_contact social_weibo" rel="nofollow" title="新浪微博"><i class="fa fa-weibo"></i></a> <a href="mailto:admin@youweb.com" class="social_a social_email social_contact" rel="nofollow" title="给我写信"><i class="fa fa-envelope"></i></a> </div>
+          <p class="about_tag">生活常识网给你实用生活常识、原创生活常识尽在生活常识网！生活中的小知识，小经验，小常识，帮助您的生活更加科学健康。生活常识网是专业的生活常识网站，以交流和传播生活中的一些小常识小窍门为主要目的。从生活中得吃、穿、住、行到日常生活中遇到得一些常识问题都做了很多介绍。生活常识网创建于2010年初，新生的生活常识网将会越来越壮大。生活常识网的目标是帮助人们逐步了解生活中的遇到的各种常识以及小窍门，正确、</p>
+        </div>
+      </div>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="side-tui-article-item">
+    <dt class="function_t">热门阅读</dt>
+    <dd class="function_c">
+      <div>         <article><a href="32.html" title="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死" class="image"><img src="static/picture/1b2f38d9e0bf13abcded02cf20c16753.jpg" alt="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死"></a>
+          <h3><a href="32.html" title="美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死">美国一懒马下雪天不进屋 爱躺着睡觉常被误以为已死</a></h3>
+        </article>
+                <article><a href="21.html" title="为什么朝鲜弃核至少需要十年？" class="image"><img src="static/picture/c940a79ca84a4af3802ee8004fb38ae7.jpg" alt="为什么朝鲜弃核至少需要十年？"></a>
+          <h3><a href="21.html" title="为什么朝鲜弃核至少需要十年？">为什么朝鲜弃核至少需要十年？</a></h3>
+        </article>
+                <article><a href="12.html" title="崔永元被谁威胁？天仙哥哥竟然是世界500强真实身份曝光" class="image"><img src="static/picture/5c19aad75f32f.png" alt="崔永元被谁威胁？天仙哥哥竟然是世界500强真实身份曝光"></a>
+          <h3><a href="12.html" title="崔永元被谁威胁？天仙哥哥竟然是世界500强真实身份曝光">崔永元被谁威胁？天仙哥哥竟然是世界500强真实身份曝光</a></h3>
+        </article>
+                <article><a href="2.html" title="东莞一小伙公开售卖肉食孔雀 市民质疑其行为是" class="image"><img src="static/picture/f1f5b4d3519569e626185a0fae112d11.jpg" alt="东莞一小伙公开售卖肉食孔雀 市民质疑其行为是"></a>
+          <h3><a href="2.html" title="东莞一小伙公开售卖肉食孔雀 市民质疑其行为是">东莞一小伙公开售卖肉食孔雀 市民质疑其行为是</a></h3>
+        </article>
+                <article><a href="10.html" title="崔永元举报的彭奋和彭明达是谁？这其中又牵扯到哪些人？" class="image"><img src="static/picture/5c19aa7e692b1.png" alt="崔永元举报的彭奋和彭明达是谁？这其中又牵扯到哪些人？"></a>
+          <h3><a href="10.html" title="崔永元举报的彭奋和彭明达是谁？这其中又牵扯到哪些人？">崔永元举报的彭奋和彭明达是谁？这其中又牵扯到哪些人？</a></h3>
+        </article>
+         </div>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="divTags">
+    <dt class="function_t">标签列表</dt>
+    <dd class="function_c">
+      <ul>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=7'>懒马</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=6'>金属</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=5'>树木</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=4'>孔雀</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=3'>改革</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=2'>企业</a></li>
+                <li><a href='/31038/index.php?m=home&c=Tags&a=lists&tagid=1'>科技</a></li>
+              </ul>
+    </dd>
+  </dl>
+  <dl class="function" id="side-adimg">
+    <dt class="function_t">广告</dt>
+    <dd class="function_c"> <img src="static/picture/1-23121Q431191D.png"> </dd>
+  </dl>
+  <dl class="function" id="divLinkage">
+    <dt class="function_t">友情链接</dt>
+    <dd class="function_c">
+      <ul>
+                <li><a href="https://www.baidu.com" target="_blank">百度</a></li>
+                <li><a href="https://www.qq.com" target="_blank">腾讯</a></li>
+                <li><a href="https://www.sina.com.cn" target="_blank">新浪</a></li>
+                <li><a href="https://www.jd.com/" target="_blank">京东</a></li>
+                <li><a href="https://www.taobao.com/" target="_blank">淘宝</a></li>
+              </ul>
+    </dd>
+  </dl>
+</aside>
+ </main>
+<footer class="footer-box">
+  <div class="footer-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="widget-box widget widget_text">
+            <h2 class="footer-title">关于我们</h2>
+            <div class="textwidget">
+              <p>生活常识网给你实用生活常识、原创生活常识尽在生活常识网！生活中的小知识，小经验，小常识，帮助您的生活更加科学健康。生活常识网是专业的生活常识网站，以交流和传播生活中的一些小常识小窍门为主要目的。从生活</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">           <div class="widget-box widget widget_text">
+            <h2 class="footer-title"><a href="zhuanlan.html">专栏</a></h2>
+            <div class="textwidget">
+              <ul>
+                                <li><a href="guanyuwomen.html">关于我们</a></li>
+                                <li><a href="lianxiwomen.html">联系我们</a></li>
+                                <li><a href="naronghezuo.html">内容合作</a></li>
+                              </ul>
+            </div>
+          </div>
+           </div>
+        <div class="col-md-4">
+          <div class="widget-box widget widget_text">
+            <h2 class="footer-title">关注交流</h2>
+            <div class="textwidget">
+              <div class="textwidget">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkl">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="微信公众号" width="80" height="80"></p>
+                      <p class="qr-tips">微信公众号</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkc">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="站长微信" width="80" height="80"></p>
+                      <p class="qr-tips">站长微信</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 align-center">
+                    <div class="blkr">
+                      <p><img src="static/picture/8a6af8d7a7fde04ff659f1b3a554591b.jpg" alt="QQ交流群" width="80" height="80"></p>
+                      <p class="qr-tips">QQ交流群</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-center">
+          <p><span>Copyright © 2012-2023 某某博客 版权所有</span><span>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="topcontrol" title="返回顶部"><i class="fa fa-angle-up"></i></div>
+<div id="mask" style="display: none;"></div>
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script language="javascript" type="text/javascript" src="static/js/navigation.js"></script>
+	<div style="display:none;"><a href="https://smalltool.github.io/">网站下载工具</a></div>
+</body>
+</html>

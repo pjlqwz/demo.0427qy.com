@@ -1,0 +1,333 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body {
+	color: #000;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	max-width: 1920px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: left;
+	width: 100%;
+	overflow-x: hidden;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img, input {
+	border: 0;
+}
+.wap {
+	display: none;
+}
+body .clear {
+	clear: both;
+	height: 0 !important;
+	width: 0 !important;
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.px1200 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.top {
+	max-width: 1920px;
+	margin: 0 auto;
+	position: relative;
+}
+.top>img {
+	display: block;
+	width: 100%;
+}
+.wap-menu {
+	position: absolute;
+	top: 28px;
+	left: 10px;
+	z-index: 99999;
+}
+.wap-menu img {
+	height: 30px;
+}
+.close-menu {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.nav {
+	background: url(../image/nav-bj-box.png) no-repeat center center;
+	background-size: 100% 100%;
+	height: 84px;
+}
+.nav>ul {
+	padding: 0 60px;
+	background: url(../image/nav-bj.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+	top: -19px;
+}
+.nav>ul>li {
+	float: left;
+	width: 11%;
+	text-align: center;
+	position: relative;
+}
+.nav>ul>li>a {
+	line-height: 85px;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	position: relative;
+}
+.nav>ul>li:hover>a {
+	color: #fae385;
+}
+.nav>ul>li:hover>a::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: #fae385;
+}
+.nav>ul>li.active>a {
+	color: #fae385;
+}
+.nav>ul>li.active>a::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: #fae385;
+}
+.nav>ul>li>span {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	cursor: pointer;
+}
+.nav>ul>li>ul {
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	background: #fff;
+	box-shadow: 0 0 10px #ccc;
+	z-index: 9;
+	display: none;
+}
+.nav>ul>li>ul li a {
+	display: block;
+	padding: 15px 10px;
+	color: #333;
+}
+.nav>ul>li:hover ul {
+	display: block;
+}
+.nav>ul>li>ul li:hover {
+	background: #b5282e;
+}
+.nav>ul>li>ul li a:hover {
+	color: #fff;
+}
+#footer {
+	height: auto !important;
+	background: #b5282e;
+	text-align: center;
+}
+#footer .fp-tableCell {
+	height: auto !important;
+}
+.footer {
+	padding: 20px 20px;
+}
+#footer .footer p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin: 3px 0;
+}
+#footer .footer p a {
+	color: #fff;
+}
+#footer .footer p span {
+	margin-left: 15px;
+}
+.pagination {
+	text-align: center;
+	font-size: 0;
+	padding: 60px 0;
+}
+.pagination a {
+	display: inline-block;
+	border: 1px solid #dcdcdc;
+	padding: 0 12px;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: center;
+	color: #666;
+	margin: 0 7px;
+}
+.pagination a:hover {
+	background: #ba2d35;
+	color: #fff;
+	border: 1px solid #ba2d35;
+}
+.pagination select {
+	height: 37px;
+	padding: 0 5px;
+	outline: none;
+	border-color: #eee;
+}
+ @media screen and (max-width: 1440px) {
+.nav>ul>li>a {
+	font-size: 18px;
+}
+}
+ @media screen and (max-width: 1024px) {
+.pc {
+	display: none;
+}
+.wap {
+	display: block;
+}
+.wap-menu img {
+	height: 25px;
+}
+.nav {
+	position: fixed;
+	z-index: 9999;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: none;
+	opacity: 0;
+	height: 100%;
+}
+.nav>ul {
+	background: none;
+	padding: 0 30px;
+	width: auto;
+	top: 0;
+}
+.nav>ul>li {
+	float: none;
+	width: auto;
+	display: block;
+	text-align: left;
+	padding: 15px 0;
+	margin: 0;
+	height: auto;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav>ul>li>a {
+	font-size: 16px;
+	line-height: normal;
+	font-weight: normal;
+	padding: 0 10px;
+}
+.nav>ul>li:hover>a {
+	color: #fff;
+}
+.nav>ul>li:hover>a::after {
+	content: none;
+}
+.nav>ul>li.active>a::after {
+	content: none;
+}
+.nav>ul>li:hover ul {
+	display: none;
+}
+.nav>ul>li>span {
+	display: block;
+	color: #fff;
+	transition: all 0.3s;
+}
+.nav>ul>li>span.active {
+	transform: rotateZ(90deg);
+}
+.nav>ul>li>ul {
+	position: static;
+	padding: 0;
+	width: auto;
+	background: none;
+	padding-left: 30px;
+	box-shadow: none;
+}
+.nav>ul>li>ul>li {
+	display: block;
+	text-align: left;
+	padding: 15px 0;
+	margin: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav>ul>li>ul>li:last-child {
+	border: none;
+}
+.nav>ul>li>ul>li a {
+	color: #fff;
+	padding: 0;
+}
+.nav>ul>li>ul>li:hover {
+	background: none;
+}
+.nav>ul>li>ul>li a {
+	color: #fff;
+	padding: 0;
+}
+}
+ @media screen and (max-width:768px) {
+.pagination {
+	padding: 30px 0;
+}
+.pagination a {
+	padding: 0 8px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0px 5px;
+}
+.pagination select {
+	height: 32px;
+	font-size: 12px;
+}
+.wap-menu img {
+	height: 25px;
+}
+.link192 .w192 {
+	width: 100% !important;
+	overflow: hidden
+}
+.link192 .web192 {
+	width: 100%
+}
+}
+ @media screen and (max-width:480px) {
+#footer .footer p {
+	font-size: 12px;
+}
+#footer .footer p span {
+	display: block;
+	margin: 0;
+}
+}
