@@ -1,0 +1,789 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="applicable-device" content="pc,mobile">
+<title>响应式网址导航网站模板_响应式网址导航网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/29428/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css">
+<link href="static/css/style.css" rel="stylesheet" media="screen" type="text/css">
+<!--[if lt IE 9]><div class="fuck-ie"><p class="tips">*您的IE浏览器版本过低，为获得更好的体验请使用Chrome、Firefox或其他现代浏览器!</p></div><![endif]-->
+<script language="javascript" type="text/javascript" src="static/js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="h-fix">
+    <div class="container">
+      <h1 class="logo"> <a href="" title="响应式网址导航网站模板"><img src="static/picture/1-230504104212541.png" alt="响应式网址导航网站模板" title="响应式网址导航网站模板"></a> </h1>
+      <div id="m-btn" class="m-btn"><i class="fa fa-bars"></i></div>
+      <div class="search"> <i class="s-btn off fa fa-search"></i>
+        <div class="s-form"> <i class="arrow fa fa-caret-up"></i>           <form class="sform" method="get" action="/29428/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+            <input class="sinput" type="text" name="keywords" id="keywords" placeholder="请输入搜索词">
+            <button type="submit" name="submit"><i class="fa fa-search"></i></button>
+            <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">          </form>
+           </div>
+      </div>
+      <nav class="nav-bar" id="nav-box" data-type="index" data-infoid="">
+        <ul class="nav">
+          <li class="active"><a href="">首页</a></li>
+                    <li class=""><a href="zhanchangchangyong.html">站长常用</a>  </li>
+                    <li class=""><a href="wenyu.html">文娱</a>             <ul class="sub-menu">
+                            <li><a href="yinlefm.html">音乐FM</a></li>
+                            <li><a href="yingshixiaoshuo.html">影视小说</a></li>
+                            <li><a href="youxishijie.html">游戏世界</a></li>
+                            <li><a href="gaoxiaoduanzi.html">搞笑段子</a></li>
+                            <li><a href="mingxingbagua.html">明星八卦</a></li>
+                            <li><a href="erciyuan.html">二次元</a></li>
+                          </ul>
+             </li>
+                    <li class=""><a href="shenghuo.html">生活</a>             <ul class="sub-menu">
+                            <li><a href="difangshequ.html">地方社区</a></li>
+                            <li><a href="jiankangyangsheng.html">健康养生</a></li>
+                            <li><a href="lvyouxiangguan.html">旅游相关</a></li>
+                            <li><a href="wangshanggouwu.html">网上购物</a></li>
+                          </ul>
+             </li>
+                    <li class=""><a href="xingye.html">行业</a>             <ul class="sub-menu">
+                            <li><a href="hulianwang.html">互联网</a></li>
+                            <li><a href="jinrongquan.html">金融圈</a></li>
+                            <li><a href="shejiquan.html">设计圈</a></li>
+                            <li><a href="zhizaoye.html">制造业</a></li>
+                          </ul>
+             </li>
+                    <li class=""><a href="boke.html">博客</a>  </li>
+                    <li class=""><a href="quanqiuquzhan.html">全球趣站</a>  </li>
+                    <li class=""><a href="zixun.html">资讯</a>  </li>
+                  </ul>
+      </nav>
+      <div class="submit fr"> <a href="shenqingshoulu.html" target="_blank" class="a transition"><i class="fa fa-pencil"></i>申请收录</a> </div>
+    </div>
+  </div>
+</header>
+
+<div id="mask"></div>
+<p class="index-breadcrumb"></p>
+<div id="banner-bear" class="preserve3d csstransforms3d">
+  <p class="typing web-font transition">免费收录站长们的网站 - 我的导航</p>
+  <div class="primary-menus">
+    <ul class="selects">
+      <li>常用</li>
+      <li class="current" data-target="search_1"><span>百度</span></li>
+      <li data-target="search_2"><span>Bing</span></li>
+      <li data-target="search_3"><span>360</span></li>
+      <li data-target="search_4"><span>搜狗</span></li>
+      <li data-target="search_5"><span>天猫</span></li>
+      <li data-target="search_6"><span>淘宝</span></li>
+      <li data-target="search_7"><span>知乎</span></li>
+      <li data-target="search_8"><span>站内</span></li>
+    </ul>
+    <div class="cont">
+      <div class="left-cont">
+        <form class="search" id="search_1" action="https://www.baidu.com/s?wd=" method="get" target="_blank">
+          <input type="text" name="wd" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">百度搜索</button>
+        </form>
+        <form class="search hidden" id="search_2" action="https://cn.bing.com/search?q=" method="get" target="_blank">
+          <input type="text" name="q" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">Bing搜索</button>
+        </form>
+        <form class="search hidden" id="search_3" action="https://www.so.com/s?q=" method="get" target="_blank">
+          <input type="text" name="q" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">360搜索</button>
+        </form>
+        <form class="search hidden" id="search_4" action="https://www.sogou.com/web?query=" method="get" target="_blank">
+          <input type="text" name="query" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">搜狗搜索</button>
+        </form>
+        <form class="search hidden" id="search_5" action="https://list.tmall.com/search_product.htm?q=" method="get" target="_blank">
+          <input type="text" name="q" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">天猫搜索</button>
+        </form>
+        <form class="search hidden" id="search_6" action="https://s.taobao.com/search?q=" method="get" target="_blank">
+          <input type="text" name="q" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">淘宝搜索</button>
+        </form>
+        <form class="search hidden" id="search_7" action="https://www.zhihu.com/search?q=" method="get" target="_blank">
+          <input type="text" name="q" class="s" placeholder="请输入关键词">
+          <button type="submit" name="" class="btn">知乎搜索</button>
+        </form>
+                <form class="search hidden" method="get" action="/29428/index.php?m=home&c=Search&a=lists" id="search_8" onsubmit="return searchForm();">
+          <input type="text" name="keywords" id="keywords" class="s" placeholder="请输入关键词">
+          <button type="submit" name="submit" class="btn">站内搜索</button>
+          <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="method" value="1">        </form>
+         </div>
+    </div>
+  </div>
+  <div class="submit fr"> <a href="shenqingshoulu.html" target="_blank" class="a transition"><i class="fa fa-heart"></i>申请收录</a> </div>
+  <div class="banner-wrap scenes-ready"> </div>
+</div>
+<div class="container">   <div class="pcd_ad mb20"><a href="" target="_self"><img src="static/picture/1-23050410545T05.jpg" border="0" width="1240" height="95" alt=""></a></div>
+    <div class="mbd_ad mb20"><a href="" target="_self"><img src='static/picture/1-23050410545T05.jpg' border=0 width='468' height='60' alt=''></a></div>
+    <div class="row row-position">     <div class="col-md-3 col-xs-12 top_model">
+      <div class="part partbtm">
+        <p class="tt topt"> <strong><i class="fa fa-star-o"></i><span class="title_color">站长常用</span><i class="fa fa-star-o"></i></strong> <a href="zhanchangchangyong.html">更多+</a> </p>
+        <div class="items topitems">
+          <div class="row rowtop">             <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="11.html" title="爱站网" target="_blank">
+                <h3>爱站网</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="10.html" title="5118" target="_blank">
+                <h3>5118</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="9.html" title="追词网" target="_blank">
+                <h3>追词网</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="8.html" title="百度指数" target="_blank">
+                <h3>百度指数</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="7.html" title="UC神马站长平台" target="_blank">
+                <h3>UC神马站长平台</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="6.html" title="360站长平台" target="_blank">
+                <h3>360站长平台</h3>
+                </a> </div>
+            </div>
+             </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-3 col-xs-12 top_model">
+      <div class="part partbtm">
+        <p class="tt topt"> <strong><i class="fa fa-star-o"></i><span class="title_color">博客</span><i class="fa fa-star-o"></i></strong> <a href="boke.html">更多+</a> </p>
+        <div class="items topitems">
+          <div class="row rowtop">             <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="56.html" title="Nutssss'blog" target="_blank">
+                <h3>Nutssss'blog</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="55.html" title="Quanyin 说" target="_blank">
+                <h3>Quanyin 说</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="54.html" title="也许吧" target="_blank">
+                <h3>也许吧</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="45.html" title="设计师网址导航" target="_blank">
+                <h3>设计师网址导航</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="44.html" title="一号站目录" target="_blank">
+                <h3>一号站目录</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="3.html" title="站长工具" target="_blank">
+                <h3>站长工具</h3>
+                </a> </div>
+            </div>
+             </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-3 col-xs-12 top_model">
+      <div class="part partbtm">
+        <p class="tt topt"> <strong><i class="fa fa-star-o"></i><span class="title_color">影视小说</span><i class="fa fa-star-o"></i></strong> <a href="yingshixiaoshuo.html">更多+</a> </p>
+        <div class="items topitems">
+          <div class="row rowtop">             <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="26.html" title="天龙高清影院" target="_blank">
+                <h3>天龙高清影院</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="25.html" title="天才影院" target="_blank">
+                <h3>天才影院</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="24.html" title="斗破苍穹小说" target="_blank">
+                <h3>斗破苍穹小说</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="23.html" title="红薯小说网" target="_blank">
+                <h3>红薯小说网</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="19.html" title="西瓜影院" target="_blank">
+                <h3>西瓜影院</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="17.html" title="老杜影院" target="_blank">
+                <h3>老杜影院</h3>
+                </a> </div>
+            </div>
+             </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-3 col-xs-12 top_model">
+      <div class="part partbtm">
+        <p class="tt topt"> <strong><i class="fa fa-star-o"></i><span class="title_color">互联网</span><i class="fa fa-star-o"></i></strong> <a href="hulianwang.html">更多+</a> </p>
+        <div class="items topitems">
+          <div class="row rowtop">             <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="53.html" title="广告联盟交流" target="_blank">
+                <h3>广告联盟交流</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="52.html" title="安卓Q" target="_blank">
+                <h3>安卓Q</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="51.html" title="凤凰社-属于开发人员的技术论坛" target="_blank">
+                <h3>凤凰社-属于开发人员的技术论坛</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="50.html" title="43626网" target="_blank">
+                <h3>43626网</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="49.html" title="百酷猫" target="_blank">
+                <h3>百酷猫</h3>
+                </a> </div>
+            </div>
+                        <div class="rowclum col-xs-6 col-sm-4 col-md-4 top_row">
+              <div class="item"> <a class="a topa" href="48.html" title="个人学习库" target="_blank">
+                <h3>个人学习库</h3>
+                </a> </div>
+            </div>
+             </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-12">       <div class="part index-part" id="cate1" data-title="站长常用">
+        <p class="tt"> <strong><span class="title_color">站长常用</span></strong> <a title="站长常用" href="zhanchangchangyong.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="11.html" title="爱站网" target="_blank"> <img src="static/picture/1-230504163H6351.png" alt="爱站网" title="爱站网">
+                <h3>爱站网</h3>
+                <p>比起站长之家的站长工具，这个总算是越...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>36</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="爱站网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="10.html" title="5118" target="_blank"> <img src="static/picture/1-230504150315560.png" alt="5118" title="5118">
+                <h3>5118</h3>
+                <p>5118通过对SEO各类大数据挖掘,...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>30</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="5118"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="9.html" title="追词网" target="_blank"> <img src="static/picture/1-230504163IH94.jpg" alt="追词网" title="追词网">
+                <h3>追词网</h3>
+                <p>SEO追词网是一个帮助用户挖掘关键词...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="追词网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="8.html" title="百度指数" target="_blank"> <img src="static/picture/1-230504163JRK.png" alt="百度指数" title="百度指数">
+                <h3>百度指数</h3>
+                <p>百度旗下的大数据和SEO挖词分析必备...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="百度指数"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="7.html" title="UC神马站长平台" target="_blank"> <img src="static/picture/1-230504163P0930.png" alt="UC神马站长平台" title="UC神马站长平台">
+                <h3>UC神马站长平台</h3>
+                <p>UC浏览器旗下的站长平台，神马站长平...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="UC神马站长平台"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="6.html" title="360站长平台" target="_blank"> <img src="static/picture/1-230504163Q0X8.png" alt="360站长平台" title="360站长平台">
+                <h3>360站长平台</h3>
+                <p>360站长平台，做360搜索引擎的站...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="360站长平台"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="5.html" title="邮箱大全" target="_blank"> <img src="static/picture/1-230504164026136.png" alt="邮箱大全" title="邮箱大全">
+                <h3>邮箱大全</h3>
+                <p>邮箱网址大全,网盘网址大全,域名网址...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="邮箱大全"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="4.html" title="思齐SEO" target="_blank"> <img src="static/picture/1-23050416412WR.png" alt="思齐SEO" title="思齐SEO">
+                <h3>思齐SEO</h3>
+                <p>武汉思齐SEO拥有8年站长经验,操作...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="思齐SEO"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate1" data-title="文娱">
+        <p class="tt"> <strong><span class="title_color">文娱</span></strong> <a title="文娱" href="wenyu.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="26.html" title="天龙高清影院" target="_blank"> <img src="static/picture/1-23050416451R29.png" alt="天龙高清影院" title="天龙高清影院">
+                <h3>天龙高清影院</h3>
+                <p>天龙影院是我自己经常看的一个资源站，...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="天龙高清影院"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="25.html" title="天才影院" target="_blank"> <img src="static/picture/1-230504164QN08.png" alt="天才影院" title="天才影院">
+                <h3>天才影院</h3>
+                <p>天才影院为大家提供海量免费的在线电影...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="天才影院"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="24.html" title="斗破苍穹小说" target="_blank"> <img src="static/picture/1-230504164926360.png" alt="斗破苍穹小说" title="斗破苍穹小说">
+                <h3>斗破苍穹小说</h3>
+                <p>这里是属于斗气的世界，没有花俏艳丽的...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="斗破苍穹小说"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="23.html" title="红薯小说网" target="_blank"> <img src="static/picture/1-230504164943438.png" alt="红薯小说网" title="红薯小说网">
+                <h3>红薯小说网</h3>
+                <p>红薯小说网是一个老牌的小说站了，南京...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="红薯小说网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="19.html" title="西瓜影院" target="_blank"> <img src="static/picture/1-230504164S01Q.png" alt="西瓜影院" title="西瓜影院">
+                <h3>西瓜影院</h3>
+                <p>西瓜影院提供最全的2019最新电影电...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="西瓜影院"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="17.html" title="老杜影院" target="_blank"> <img src="static/picture/1-230504164UM16.png" alt="老杜影院" title="老杜影院">
+                <h3>老杜影院</h3>
+                <p>老杜影院聚合了新视觉影院,极速影视,...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="老杜影院"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="16.html" title="小小影视" target="_blank"> <img src="static/picture/1-2305041A004449.png" alt="小小影视" title="小小影视">
+                <h3>小小影视</h3>
+                <p>小蚁影视每天收集最新电影电视剧和连载...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="小小影视"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="15.html" title="琪琪看片" target="_blank"> <img src="static/picture/1-2305041A03R02.jpg" alt="琪琪看片" title="琪琪看片">
+                <h3>琪琪看片</h3>
+                <p>免费在线看所有影视资源，从此不再需要...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="琪琪看片"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate1" data-title="生活">
+        <p class="tt"> <strong><span class="title_color">生活</span></strong> <a title="生活" href="shenghuo.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="27.html" title="尚之潮" target="_blank"> <img src="static/picture/1-2305041A15M55.png" alt="尚之潮" title="尚之潮">
+                <h3>尚之潮</h3>
+                <p>尚之潮-第一时尚生活网是为广大网民提...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="尚之潮"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="22.html" title="爱优漫" target="_blank"> <img src="static/picture/1-2305041A20OM.png" alt="爱优漫" title="爱优漫">
+                <h3>爱优漫</h3>
+                <p>正版漫画小说在线看，爱优漫（kaim...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="爱优漫"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="21.html" title="m站" target="_blank"> <img src="static/picture/1-2305041A21O05.png" alt="m站" title="m站">
+                <h3>m站</h3>
+                <p>M站(猫耳FM)是第一家弹幕音图站,...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="m站"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="20.html" title="ASMR" target="_blank"> <img src="static/picture/1-2305041A22G94.png" alt="ASMR" title="ASMR">
+                <h3>ASMR</h3>
+                <p>ASMR,视频,音频,同人音声,pp...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="ASMR"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="18.html" title="酷铃声" target="_blank"> <img src="static/picture/1-2305041A23R27.bmp" alt="酷铃声" title="酷铃声">
+                <h3>酷铃声</h3>
+                <p>酷铃声是一个提供免费手机铃声下载站,...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="酷铃声"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="14.html" title="梦桦小说网" target="_blank"> <img src="static/picture/1-2305041A304212.png" alt="梦桦小说网" title="梦桦小说网">
+                <h3>梦桦小说网</h3>
+                <p>梦桦小说网是广大书友最值得收藏的玄幻...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="梦桦小说网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="13.html" title="天使影视" target="_blank"> <img src="static/picture/1-2305041A60VU.png" alt="天使影视" title="天使影视">
+                <h3>天使影视</h3>
+                <p>本站不存在任何影响观看性质的广告，也...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="天使影视"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="12.html" title="DNF活动专区" target="_blank"> <img src="static/picture/1-2305041AA3362.png" alt="DNF活动专区" title="DNF活动专区">
+                <h3>DNF活动专区</h3>
+                <p>dnf活动专区为大家提供了dnf最新...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="DNF活动专区"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate1" data-title="行业">
+        <p class="tt"> <strong><span class="title_color">行业</span></strong> <a title="行业" href="xingye.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="53.html" title="广告联盟交流" target="_blank"> <img src="static/picture/1-2305041F332938.png" alt="广告联盟交流" title="广告联盟交流">
+                <h3>广告联盟交流</h3>
+                <p>广告联盟资讯站，免费教你做广告联盟怎...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="广告联盟交流"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="52.html" title="安卓Q" target="_blank"> <img src="static/picture/1-2305041F339231.png" alt="安卓Q" title="安卓Q">
+                <h3>安卓Q</h3>
+                <p>AndroidQ社区是一个精品安卓a...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="安卓Q"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="51.html" title="凤凰社-属于开发人员的技术论坛" target="_blank"> <img src="static/picture/1-2305041F34E41.png" alt="凤凰社-属于开发人员的技术论坛" title="凤凰社-属于开发人员的技术论坛">
+                <h3>凤凰社-属于开发人员的技术论坛</h3>
+                <p>凤凰社是一个面对开发人员的小型技术论...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="凤凰社-属于开发人员的技术论坛"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="50.html" title="43626网" target="_blank"> <img src="static/picture/1-2305041F353P7.png" alt="43626网" title="43626网">
+                <h3>43626网</h3>
+                <p>免费的福利赚钱技巧，网赚权重比较高的...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="43626网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="49.html" title="百酷猫" target="_blank"> <img src="static/picture/1-2305041F401530.png" alt="百酷猫" title="百酷猫">
+                <h3>百酷猫</h3>
+                <p>百酷猫 www.baikumao.c...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="百酷猫"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="48.html" title="个人学习库" target="_blank"> <img src="static/picture/1-2305041F410U2.png" alt="个人学习库" title="个人学习库">
+                <h3>个人学习库</h3>
+                <p>收录和整理编程相关的笔记和资料</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="个人学习库"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="47.html" title="升学资讯网" target="_blank"> <img src="static/picture/1-2305041F41W04.png" alt="升学资讯网" title="升学资讯网">
+                <h3>升学资讯网</h3>
+                <p>升学资讯网(5iedu.vip) -...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="升学资讯网"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="46.html" title="城际网站目录" target="_blank"> <img src="static/picture/1-2305041F425419.png" alt="城际网站目录" title="城际网站目录">
+                <h3>城际网站目录</h3>
+                <p>城际网站目录为开放式网站分类目录,免...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="城际网站目录"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate1" data-title="博客">
+        <p class="tt"> <strong><span class="title_color">博客</span></strong> <a title="博客" href="boke.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="56.html" title="Nutssss'blog" target="_blank"> <img src="static/picture/1-2305041FK0E7.png" alt="Nutssss'blog" title="Nutssss'blog">
+                <h3>Nutssss'blog</h3>
+                <p>本站建立与2017年12月，初次接触...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>773</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="Nutssss'blog"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="55.html" title="Quanyin 说" target="_blank"> <img src="static/picture/1-2305041FI3P9.png" alt="Quanyin 说" title="Quanyin 说">
+                <h3>Quanyin 说</h3>
+                <p>博学而笃志，切问而近思。这里是 Qu...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>659</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="Quanyin 说"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="54.html" title="也许吧" target="_blank"> <img src="static/picture/1-2305041FA52W.png" alt="也许吧" title="也许吧">
+                <h3>也许吧</h3>
+                <p>分享是一种乐趣,分享便是生活</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>510</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="也许吧"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="45.html" title="设计师网址导航" target="_blank"> <img src="static/picture/1-2305041F433944.png" alt="设计师网址导航" title="设计师网址导航">
+                <h3>设计师网址导航</h3>
+                <p>小文-设计师网址导航 找图导航 - ...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="设计师网址导航"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="44.html" title="一号站目录" target="_blank"> <img src="static/picture/1-2305041F441Y7.png" alt="一号站目录" title="一号站目录">
+                <h3>一号站目录</h3>
+                <p>一号站目录平台是一个开放式的网站分类...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="一号站目录"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="3.html" title="站长工具" target="_blank"> <img src="static/picture/1-23050416415W31.png" alt="站长工具" title="站长工具">
+                <h3>站长工具</h3>
+                <p>一个老牌的站长统计工具，主站是站长之...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="站长工具"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="2.html" title="麒麟摆渡 - 争取做个做有用的导航 !" target="_blank"> <img src="static/picture/1-230504164210960.gif" alt="麒麟摆渡 - 争取做个做有用的导航 !" title="麒麟摆渡 - 争取做个做有用的导航 !">
+                <h3>麒麟摆渡 - 争取做个做有用的导航 !</h3>
+                <p>导航，网盘，资源问答，问答，影评，社...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="麒麟摆渡 - 争取做个做有用的导航 !"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="1.html" title="百度统计" target="_blank"> <img src="static/picture/1-230504164221Z4.png" alt="百度统计" title="百度统计">
+                <h3>百度统计</h3>
+                <p>百度旗下站长统计工具</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="百度统计"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate1" data-title="全球趣站">
+        <p class="tt"> <strong><span class="title_color">全球趣站</span></strong> <a title="全球趣站" href="quanqiuquzhan.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="64.html" title="千淘万漉" target="_blank"> <img src="static/picture/1-2305041G411345.png" alt="千淘万漉" title="千淘万漉">
+                <h3>千淘万漉</h3>
+                <p>关注计算机、互联网新闻及技术的博客</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>690</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="千淘万漉"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="63.html" title="木子洋博客" target="_blank"> <img src="static/picture/1-2305041G351423.png" alt="木子洋博客" title="木子洋博客">
+                <h3>木子洋博客</h3>
+                <p>木子洋博客-一个沙雕小青年记录成长历...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>807</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="木子洋博客"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="62.html" title="爱搜啊博客" target="_blank"> <img src="static/picture/1-2305041G142312.jpg" alt="爱搜啊博客" title="爱搜啊博客">
+                <h3>爱搜啊博客</h3>
+                <p>爱搜博客,分享路由器刷机,固件编译,...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>691</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="爱搜啊博客"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="61.html" title="辉声辉语" target="_blank"> <img src="static/picture/1-2305041G12W26.jpg" alt="辉声辉语" title="辉声辉语">
+                <h3>辉声辉语</h3>
+                <p>知名众包威客前三强平台操盘手，多年专...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>955</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="辉声辉语"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="60.html" title="boke112导航" target="_blank"> <img src="static/picture/1-2305041G102942.png" alt="boke112导航" title="boke112导航">
+                <h3>boke112导航</h3>
+                <p>boke112导航免费收录个人独立博...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>757</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="boke112导航"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="59.html" title="Can’t Unsee" target="_blank"> <img src="static/picture/1-2305041F930513.jpg" alt="Can’t Unsee" title="Can’t Unsee">
+                <h3>Can’t Unsee</h3>
+                <p>能够在线审视你的设计基本功底，绝对是...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="Can’t Unsee"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="58.html" title="鬼畜点头节奏" target="_blank"> <img src="static/picture/1-2305041F940533.png" alt="鬼畜点头节奏" title="鬼畜点头节奏">
+                <h3>鬼畜点头节奏</h3>
+                <p>可以让静态图动起来唱歌的简单应用，老...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="" rel="nofollow"><i class="autoleft fa fa-share" title="鬼畜点头节奏"></i> </a> </div>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item inner_item"> <img class="angle_fix" src="static/picture/angle.png"> <a class="a" href="57.html" title="CaptionBot" target="_blank"> <img src="static/picture/1-2305041F94T64.png" alt="CaptionBot" title="CaptionBot">
+                <h3>CaptionBot</h3>
+                <p>微软做的在线图片识别，Caption...</p>
+                </a>
+                <div class="article_btm clearfix"> <span class="fl view"><i class="fa fa-eye"></i>0</span> <a class="link fr" target="_blank" href="https://www.baidu.com/" rel="nofollow"><i class="autoleft fa fa-share" title="CaptionBot"></i> </a> </div>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+            <div class="part index-part" id="cate12" data-title="资讯">
+        <p class="tt"> <strong><span class="title_color">资讯</span></strong> <a title="资讯" href="zixun.html">更多+</a> </p>
+        <div class="items">
+          <div class="row">             <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="43.html" title="抖音吸粉技术培训：新手抖商代理必备的3种" target="_blank"> <img class="img-cover" src="https://demoall.5fa.cn/29428/uploads/ueditor/20230504/1-230504163423G9.jpg" alt="抖音吸粉技术培训：新手抖商代理必备的3种" title="抖音吸粉技术培训：新手抖商代理必备的3种"> </a>
+                <h3><a class="" href="43.html" title="抖音吸粉技术培训：新手抖商代理必备的3种" target="_blank">抖音吸粉技术培训：新手抖商代理必备的3种</a></h3>
+                <p>马上就要进入5G时代，在这个时候火了一把，从一开始的社交软件，到现在的短视频电商模式，利用已成为当下自媒体创业者最重要的渠道。那么抖商运营方案怎么做？除了常规的账号定位、视频制作、视频拍摄等，还有哪些...</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="42.html" title="抖音新媒体培训：玩转抖音短视频必备的10" target="_blank"> <img class="img-cover" src="static/picture/1-230504163421527.jpg" alt="抖音新媒体培训：玩转抖音短视频必备的10" title="抖音新媒体培训：玩转抖音短视频必备的10"> </a>
+                <h3><a class="" href="42.html" title="抖音新媒体培训：玩转抖音短视频必备的10" target="_blank">抖音新媒体培训：玩转抖音短视频必备的10</a></h3>
+                <p>玩朋友圈，我们习惯的是随手拍、随手发。 但是时代，不管是在还是在快手等平台，至少需要一些剪辑，而非朋友圈式简单的拍摄和上传。今天小七给大家推荐10个简单易上手的手机剪辑软件，希望对你们玩短视频有帮助。</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="41.html" title="抖音淘宝客：了解抖音运营规则轻松上热门" target="_blank"> <img class="img-cover" src="static/picture/1-230504163420239.jpg" alt="抖音淘宝客：了解抖音运营规则轻松上热门" title="抖音淘宝客：了解抖音运营规则轻松上热门"> </a>
+                <h3><a class="" href="41.html" title="抖音淘宝客：了解抖音运营规则轻松上热门" target="_blank">抖音淘宝客：了解抖音运营规则轻松上热门</a></h3>
+                <p>随着5G时代的到来，自媒体是一个很有前景的发展领域。的用户量庞大，也有很多草根在抖音上赚了不少，传统企业也开始慢慢进入短视频阵地。企业短视频自媒体，抖音代运营，抖音策划，抖音认证服务，抖商，抖店，很多...</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="40.html" title="抖音工作室：抖音养号细节你知道哪些？" target="_blank"> <img class="img-cover" src="static/picture/1-230504163419293.jpg" alt="抖音工作室：抖音养号细节你知道哪些？" title="抖音工作室：抖音养号细节你知道哪些？"> </a>
+                <h3><a class="" href="40.html" title="抖音工作室：抖音养号细节你知道哪些？" target="_blank">抖音工作室：抖音养号细节你知道哪些？</a></h3>
+                <p>是如何给你账号定位的，的定位现在越来越垂直，所以在做抖音之前，要先给自己定好位，要做哪一类型的</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="39.html" title="抖音培训机构：短视频5G赚钱风口你不能犹" target="_blank"> <img class="img-cover" src="static/picture/1-23050416341R00.jpg" alt="抖音培训机构：短视频5G赚钱风口你不能犹" title="抖音培训机构：短视频5G赚钱风口你不能犹"> </a>
+                <h3><a class="" href="39.html" title="抖音培训机构：短视频5G赚钱风口你不能犹" target="_blank">抖音培训机构：短视频5G赚钱风口你不能犹</a></h3>
+                <p>做网红，已经成为了一个不得不运营的根据地，截至2019年1月，抖音日活跃用户已经突破2.5亿，月活跃用户突破了5亿。如彭十六、仙女酵母等耳熟能详的名字，都是众多网红依靠着抖音平台的力量，一跃成为了一线...</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="38.html" title="抖音培训课程靠谱吗：抖音被评级怎么能恢复" target="_blank"> <img class="img-cover" src="static/picture/1-23050416341OR.jpg" alt="抖音培训课程靠谱吗：抖音被评级怎么能恢复" title="抖音培训课程靠谱吗：抖音被评级怎么能恢复"> </a>
+                <h3><a class="" href="38.html" title="抖音培训课程靠谱吗：抖音被评级怎么能恢复" target="_blank">抖音培训课程靠谱吗：抖音被评级怎么能恢复</a></h3>
+                <p>被评级怎么能恢复,抖音评级要多久恢复,抖音评级通知减少推荐怎么办 ?随着抖音审核机制越来越严格，很多小伙伴都接到了抖音账号评级通知，大致分为两种：垃圾广告，视频搬运。后果当然就是减少你的播放量，严重的...</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="37.html" title="抖音电商培训：抖音爆粉运营秘籍" target="_blank"> <img class="img-cover" src="static/picture/1-230504163416436.jpg" alt="抖音电商培训：抖音爆粉运营秘籍" title="抖音电商培训：抖音爆粉运营秘籍"> </a>
+                <h3><a class="" href="37.html" title="抖音电商培训：抖音爆粉运营秘籍" target="_blank">抖音电商培训：抖音爆粉运营秘籍</a></h3>
+                <p>平台的发展趋势十分明显，就是算法推荐机制，用户点赞一个视频的动力远远超过关注一个账号——这对品牌方而言来说并非好事，品牌方更需要的是用户关注账号，以便后续触达、转化。品牌方运营类短视频时，更应该做技能...</p>
+              </div>
+            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 colpad">
+              <div class="item art-item transition"> <a class="art-a" href="36.html" title="讲师李小曼抖音：如何提高抖音短视频带货能" target="_blank"> <img class="img-cover" src="static/picture/1-230504163415225.jpg" alt="讲师李小曼抖音：如何提高抖音短视频带货能" title="讲师李小曼抖音：如何提高抖音短视频带货能"> </a>
+                <h3><a class="" href="36.html" title="讲师李小曼抖音：如何提高抖音短视频带货能" target="_blank">讲师李小曼抖音：如何提高抖音短视频带货能</a></h3>
+                <p>新媒体环境下，伴随客户触媒习惯性的变化，中移动小视频做为这种兴盛的新闻媒体方式和全新升级的信息内容散播方式，变成了移动互联时期受众群体运用碎片时间接受信息内容、娱乐休闲的有效途径。在app的市场竞争布...</p>
+              </div>
+            </div>
+             </div>
+        </div>
+      </div>
+       </div>
+  </div>
+  <div class="f-link part">
+    <p class="tt"><strong><span class="title_color">友情链接</span></strong></p>
+    <ul id="flink" class="container">
+            <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+            <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+            <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+            <li><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+            <li><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+          </ul>
+  </div>
+</div>
+<div class="footer-copyright ">
+  <div class="container">
+    <p> <span>Copyright © 2012-2023 某某网址导航网 版权所有</span><span><a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a></span> </p>
+  </div>
+</div>
+<div id="backtop" class="fa fa-angle-up"></div>
+<script language="javascript" type="text/javascript" src="static/js/main.js"></script>
+<script>
+$('.autoleft').tooltip({
+    align: 'autoLeft',
+    fade: {
+        duration: 200,
+        opacity: 0.8
+    }
+});
+</script> 
+<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/29428/template/pc/skin/js/html5-css3.js?t=1694654647"></script>
+<![endif]--> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+	<a href="https://smalltool.github.io/" style="display:none;">仿站工具</a>
+</body>
+</html>

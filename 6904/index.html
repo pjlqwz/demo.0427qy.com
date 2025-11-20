@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>响应式法律咨询事务所网站模板</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="/6904/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+	<link rel="stylesheet" href="static/css/g.css">
+	<link rel="stylesheet" href="static/css/s.css">
+    <link rel="stylesheet" href="static/css/index.css">
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<script src="https://demoall.kuaituiyun.cn/6904/template/pc/skin/js/jquery-ui.min.js"></script>
+	<script src="static/js/slick.js"></script>
+	<script src="static/js/scrolloverflow.min.notransition.js"></script>
+	<script src="static/js/g.js"></script>
+	
+	<script>
+		$(function () {
+			$(document).click(function () { $('.teambox').remove(); });
+			$('.team .offset .list > li .box').click(function () {
+				$('.teambox').remove();
+				var t = $(this);
+				var b = $('<div class="teambox"><table><tr><td><div class="box"><a href="#" onclick="return false;" class="close">×</a><div class="view"><img class="pic" /><div class="des"><p class="p1"></p><p class="p2"></p><div><pre class="p3"></pre></div></div></div></div></td></tr></table></div>');
+				b.find('.pic').attr('src', t.find('img').attr('src'));
+				b.find('.p1').text(t.find('.p1').text());
+				b.find('.p2').text(t.find('.p2').text());
+				b.find('.p3').html(t.find('.p3').html());
+			
+
+				b.find('.close').click(function () { b.remove() });
+				b.appendTo($(document.body)).find('.box').click(function (event) { event.stopPropagation(); });
+				window.setTimeout(function () { b.find('.box').addClass('show'); }, 10);
+				return false;
+			});
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="static/css/freedom.css">
+	</head>
+	<body>
+<div class="g_header clearfix">
+  <div class="bar"> <a href="#" class="menu"><img src="static/picture/menu.svg"></a>
+    <p class="logo"><a href=""><img src="static/picture/8e8fb4a92d45807e14e6d1d9fdc23b86.png"></a></p>
+  </div>
+  <p class="logo_pc left"><a href=""><img src="static/picture/4dfc32183ee17e2d283319ea9f7032ad.png"></a></p>
+  <div class="main">
+    <div class="con clearfix">
+      <ul class="nav">
+        <li> <a href="" class=" ">
+          <p> <b>网站首页</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="guanyuwomen.html" class="">
+          <p> <b>关于我们</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="yewufanwei.html" class="">
+          <p> <b>业务范围</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="xinwenzhongxin.html" class="">
+          <p> <b>新闻中心</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="zhuanyerenyuan.html" class="">
+          <p> <b>专业人员</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="zhaoxiannashi.html" class="">
+          <p> <b>招贤纳士</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="lianxiwomen.html" class="">
+          <p> <b>联系我们</b> <em class="en"></em> </p>
+          </a> </li>
+              </ul>
+      <p class="lx"><span class="dh">020-88888888</span></p>
+    </div>
+  </div>
+</div>
+
+<div class="banners-pc">       <div class="frame" style="background-image:url(static/image/d169088d640429bc1a345ced27df127d.jpg);">
+    <!--<p class="p1">专注成就专业  品质成就未来</p>
+    <p class="p2">为广大客户提供全方位知识产权代理服务的专业性机构我们拥有丰富的经验以及专业的团队，能够为您提供高品质的知识产权服务</p>-->
+  </div>
+            <div class="frame" style="background-image:url(https://demoall.kuaituiyun.cn/6904/uploads/allimg/20190307/f410d4bb58e82dacffa135e523d94540.jpg);">
+    <!--<p class="p1">专注成就专业  品质成就未来</p>
+    <p class="p2">为广大客户提供全方位知识产权代理服务的专业性机构 我们拥有丰富的经验以及专业的团队，能够为您提供高品质的知识产权服务</p>-->
+  </div>
+       </div>
+<div class="banners-mb" zoom-width="1024" zoom-heigh="700">       <div class="frame" style="background-image:url(https://demoall.kuaituiyun.cn/6904/uploads/allimg/20190307/24649205654987f9717d0fc5ec170724.jpg);"> </div>
+            <div class="frame" style="background-image:url(https://demoall.kuaituiyun.cn/6904/uploads/allimg/20190307/ee1cf4ba9b6e88f995c1e67551d92c81.jpg);"> </div>
+       </div>
+<script>
+		(function () {
+			$('.banners-pc, .banners-mb').slick({ arrows: true, dots: true, slidesToShow: 1, slidesToScroll: 1, autoplay: true, autoplaySpeed: 5000, speed: 500 });
+		})();
+	</script> 
+
+<!--主体内容-->
+
+<div class="main1">       <div class="g_cw">
+    <div class="offset">
+          <ul class="list">
+                <li> <a href="zhuanlixiangguanyewu.html" class="box">
+          <p class="ico"><img src="static/picture/ico_zhuanli.svg" class="ico_1"><img src="static/picture/7caa491434a6ae9636ef48b3fee7ed10.png" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">专利相关业务</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+                <li> <a href="shangbiaoxiangguanyewu.html" class="box">
+          <p class="ico"><img src="static/picture/ico_shangbiao.svg" class="ico_1"><img src="static/picture/3df2e96d933cc7ead77f6b942bbc6752.png" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">商标相关业务</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+                <li> <a href="banquanxiangguanyewu.html" class="box">
+          <p class="ico"><img src="static/picture/ico_banquan.svg" class="ico_1"><img src="static/picture/ico_banquan_b.svg" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">版权相关业务</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+                <li> <a href="susongxiangguanyewu.html" class="box">
+          <p class="ico"><img src="static/picture/ico_susong.svg" class="ico_1"><img src="static/picture/ico_susong_b.svg" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">诉讼相关业务</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+                <li> <a href="zhishichanquanxiangguanyewu.html" class="box">
+          <p class="ico"><img src="static/picture/ico_zscq.svg" class="ico_1"><img src="static/picture/ico_zscq_b.svg" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">知识产权相关业务</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+                <li> <a href="zhishichanquanjiaoyi.html" class="box">
+          <p class="ico"><img src="static/picture/ico_trade.svg" class="ico_1"><img src="static/picture/ico_trade_b.svg" class="ico_2"></p>
+          <div class="font">
+            <p class="p1">知识产权交易</p>
+            <p class="p2">根据委托人的要求具体提供专利策略咨询
+              专利挖掘、专利技术检索</p>
+          </div>
+          </a> </li>
+              </ul>
+        </div>
+  </div>
+       </div>
+<div class="team">
+      <div class="g_title">
+    <p class="l1">专业人员</p>
+    <p class="l2">我们拥有丰富的经验以及专业的团队，能够为您提供高品质的知识产权服务</p>
+  </div>
+      <div class="offset">
+    <div class="g_cw">
+          <ul class="list">
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/6e5e9236decb4158e57c0bf3b0987767.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 周</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/868021e06b171f31e7d2027f0031dbb5.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 赵</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/aaf1e192d4eae198953a68d39fd67e7d.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 陈</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+              </ul>
+        </div>
+    <p class="btn"><a href="zhuanyerenyuan.html" class="more">查看更多 >></a></p>
+  </div>
+    </div>
+<div class="about">
+      <div class="g_title">
+    <p class="l1" style="color:#fff;">关于我们</p>
+    <p class="l2" style="color:rgba(255,255,255,.6);">以专业服务与客户满意度的最高境界为目标而不懈努力</p>
+  </div>
+      <div class="g_cw">
+    <div class="intro">
+          <div class="font">
+        <p class="h1">某某事务所</p>
+        <p class="p1">              核心价值观：诚信、创新、服务企业核心： 诚信&nbsp;企业精神： 团结拼搏、开拓求实、满足用户、科技进步。&nbsp;客户：为客户提供高质量和最大价值的专业化产品和服务，以真诚和实力赢得客户的理解、尊重和支持。市场：为客户降低采购成本和风险，为客户投资提供切实保障。&...
+              </p>
+        <p class="btn"><a href="guanyuwomen.html" class="more">查看更多 >></a></p>
+      </div>
+          <p class="pic"><img src="static/picture/8de8f808c558aad3fd2e622b8d0017a8.jpg" class="g_imgf"></p>
+        </div>
+  </div>
+    </div>
+<div class="news">
+      <div class="g_title">
+    <p class="l1">新闻中心</p>
+    <p class="l2">以专业服务与客户满意度的最高境界为目标而不懈努力</p>
+  </div>
+      <div class="offset">
+    <div class="g_cw">
+          <ul class="list">
+                <li> <a href="24.html" class="box">
+          <p class="p1">数字技术让文物绽放版权之花</p>
+          <p class="p2">近日，法国国家博物馆宣布与腾讯集团（下称腾讯）签署战略合作备忘录，双方将联合启动“国宝全球数字博物馆”“中国新...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+                <li> <a href="23.html" class="box">
+          <p class="p1">2019年政府工作报告中的知识产权要点</p>
+          <p class="p2">十三届全国人大二次会议开幕会5日9时在人民大会堂举行，习近平等党和国家领导人出席大会。　　国务院总理李克强代表...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+                <li> <a href="22.html" class="box">
+          <p class="p1">2018年商丘市商标注册总量3.76万件 位居全省前列</p>
+          <p class="p2">3月6日上午10点，四川省高级人民法院对外发布8例全省法院服务大局典型案例，红星新闻记者获悉，一起以商标组合形...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+                <li> <a href="21.html" class="box">
+          <p class="p1">中国商标海外频被抢注 南存辉建议中企贸易未动、商标先行</p>
+          <p class="p2">全国政协十三届二次会议在京开幕。中国网财经记者获悉，今年两会上，全国政协常委、全国工商联副主席、正泰集团董事长...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+                <li> <a href="20.html" class="box">
+          <p class="p1">注意谨防上当受骗！这八类代理商标机构涉嫌违法</p>
+          <p class="p2">据工商总局网站消息，近期，国家工商总局商标局收到相关投诉，个别商标代理机构侵害委托人合法利益，扰乱商标代理市场...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+                <li> <a href="19.html" class="box">
+          <p class="p1">正确理解发明在新颖性、创造性审查中的重要性</p>
+          <p class="p2">在审查实践中，理解发明既是审查的开始，也是审查全过程中的重要步骤，通过正确理解发明，准确还原申请人的发明构思，...</p>
+          <p class="time">2019-03-07</p>
+          <span class="line"></span> </a> </li>
+              </ul>
+        </div>
+    <p class="btn"><a href="xinwenzhongxin.html" class="more">查看更多 >></a></p>
+  </div>
+    </div>
+ 
+
+<!--主体内容 end--> 
+
+<div class="g_footer">
+  <div class="g_cw">
+    <div class="top clearfix">
+      <ul class="nav left clearfix">
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="guanyuwomen.html">关于我们</a></p>
+            <div class="lb">  </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="yewufanwei.html">业务范围</a></p>
+            <div class="lb">               <p class="p1"><a href="zhuanlixiangguanyewu.html">专利相关业务</a></p>
+                            <p class="p1"><a href="shangbiaoxiangguanyewu.html">商标相关业务</a></p>
+                            <p class="p1"><a href="banquanxiangguanyewu.html">版权相关业务</a></p>
+                            <p class="p1"><a href="susongxiangguanyewu.html">诉讼相关业务</a></p>
+                            <p class="p1"><a href="zhishichanquanxiangguanyewu.html">知识产权相关业务</a></p>
+                            <p class="p1"><a href="zhishichanquanjiaoyi.html">知识产权交易</a></p>
+               </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="xinwenzhongxin.html">新闻中心</a></p>
+            <div class="lb">               <p class="p1"><a href="gongsixinwen.html">公司新闻</a></p>
+                            <p class="p1"><a href="xingyexinwen.html">行业新闻</a></p>
+               </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="zhuanyerenyuan.html">专业人员</a></p>
+            <div class="lb">  </div>
+          </div>
+        </li>
+              </ul>
+      
+      <div class="right">
+        <p class="s1">24小时服务热线</p>
+        <p class="s2">020-88888888</p>
+        <p class="gzh"><img src="static/picture/1af2fdc834fbf97f790a3b649ded108e.jpg" width="101" height="101"></p>
+        <p class="p1">微信公众号</p>
+      </div>
+      <ul class="flink left clearfix">
+       <li class="flink"><a>友情链接： </a></li>
+                <li class="flink"><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                <li class="flink"><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                <li class="flink"><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                <li class="flink"><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+                <li class="flink"><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+              </ul>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="g_cw">
+      <p class="logo">某某事务所</p>
+      <p class="p1">Copyright © 2012-2023 某某公司 版权所有</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+
+	<div style="display:none;"><a href="https://smalltool.github.io/">网站下载工具</a></div>
+</body>
+</html>

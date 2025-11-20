@@ -1,0 +1,459 @@
+﻿@media screen and (max-width: 1200px) {
+img {
+	max-width: 100%;
+	height:100%;
+}
+.wd, .main {
+	width: 100%;
+}
+body {
+	min-width: 100%;
+}
+.headTop {
+	padding: 0 20px;
+}
+.indexMain {
+	margin: 0 20px;
+}
+.newsBoxLeft {
+	width: 780px;
+}
+.newsBoxLeft {
+	float: none;
+	width: 100%;
+}
+.indexNews {
+	float: none;
+	width: auto;
+	margin-left: 405px;
+}
+.newsBox {
+	height: auto;
+	padding-bottom: 30px;
+}
+.newsBoxRight {
+	float: none;
+	width: auto;
+}
+.slideNotice .indexNews {
+	width: 100%;
+	margin-left: 0;
+}
+.iconList li {
+	width: 25%;
+}
+.iconList li a {
+	width: auto;
+}
+.newsDiv {
+	width: 100%;
+	margin-left: 0;
+}
+.newsDiv .indexNews {
+	margin-left: 0;
+}
+.linkSelect li {
+	width: 33%;
+	margin-bottom: 10px;
+}
+.linkDiv {
+	margin-left: 10px;
+}
+.sideTit {
+	display: none;
+}
+.mobileTit {
+	display: block;
+}
+.left {
+	float: none;
+	width: auto;
+	margin: 0 20px;
+}
+.sideMenuNav, .sideContact {
+	display: none;
+}
+.right {
+	margin: 0 20px;
+}
+.meetList {
+	margin: 20px 0 60px;
+}
+.meetList li {
+	margin: 0;
+	width: 25%;
+}
+.meetList li a {
+	width: auto;
+	margin: 30px 15px 0;
+}
+.indexMain {
+	padding: 0 15px;
+}
+}
+ @media screen and (max-width: 1024px) {
+.nav {
+	display: none;
+}
+.mobileIconCon {
+	display: block;
+}
+.mobileIconCon a.searchBtn {
+	display: none;
+}
+.meetList li {
+	width: 33.3333%;
+}
+.wd10 {
+	width: auto;
+	margin: 0 30px;
+}
+.columslideBox {
+	float: none;
+	margin: 0 auto 20px;
+}
+.columnRight {
+	margin-left: 0;
+}
+.columnBoxDiv {
+	width: 100%;
+	float: none !important;
+}
+.columnLink {
+	margin: 0 -10px;
+}
+.columnLink li {
+	margin-left: 0;
+	width: 25%;
+}
+.columnLink li a {
+	margin: 0 10px 20px;
+}
+.columnBoxUl {
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+.cTitle {
+	padding: 0 20px 0 32px;
+}
+.bg3 .cTitle .more {
+	right: 20px;
+}
+.columnMenuTit {
+	display: block;
+}
+.columnMenu ul {
+	display: none;
+}
+.columnMenu ul li {
+	float: none;
+	width: 100%;
+}
+.column {
+	background-size: auto auto;
+}
+}
+ @media screen and (max-width: 980px) {
+.logo {
+	width: 430px;
+	height: 58px;
+	margin-top: 42px;
+}
+.banner .item {
+	height: 370px;
+}
+}
+ @media screen and (max-width: 800px) {
+.searchBtn {
+	display: block;
+}
+.search, .lang {
+	display: none;
+}
+.headRig {
+	padding-top: 23px;
+}
+.headTop {
+	height: 130px;
+}
+.logo {
+	margin-top: 36px;
+}
+.bigImg {
+	height: 250px;
+}
+.organzineText {
+	line-height: 22px;
+}
+.meetList li {
+	width: 50%;
+}
+.article {
+	padding: 17px 46px 20px;
+}
+.article ul li {
+	width: 100%;
+	float: none;
+}
+.article ul li.next div {
+	float: none;
+	text-align: left;
+}
+.article ul li div {
+	height: auto;
+	padding: 5px 0;
+}
+.article ul li span {
+	height: 22px;
+	line-height: 22px;
+}
+.article ul li a {
+	height: auto;
+	margin-left: 0px;
+	float: none;
+	line-height: 22px;
+}
+.columnLink li {
+	width: 50%;
+}
+}
+ @media screen and (max-width: 768px) {
+.slideBox {
+	float: none;
+	margin: 0 auto 20px;
+}
+.indexNews {
+	margin-left: 0;
+}
+.linkSelect li {
+	width: 50%;
+}
+.placeDiv {
+	height: auto;
+	overflow: hidden;
+}
+.placeDiv div {
+	width: 100%;
+	float: none;
+}
+}
+ @media screen and (max-width: 640px) {
+.banner .item {
+	height: 300px;
+}
+.customSelect {
+	text-indent: 4px;
+}
+.footLink a {
+	margin: 0 6px;
+}
+.footer {
+	padding: 29px 10px 45px;
+}
+.linkText {
+	float: none;
+}
+.linkSelect {
+	margin: 20px 0 0 0;
+}
+.linkSelect li {
+	width: 100%;
+}
+.linkDiv {
+	margin-left: 0;
+}
+.mobileIconCon a {
+	height: 45px;
+}
+#mobileNavTit {
+	height: 45px;
+	line-height: 45px;
+}
+.bigImg {
+	height: 200px;
+}
+.eventsInfo {
+	padding-top: 0;
+	line-height: 30px;
+	margin-left: 100px;
+}
+.rightBox, .path {
+	padding: 0 15px;
+}
+.downLoad li a, .organize li a {
+	margin: 0 15px;
+}
+.downLoad li a span {
+	width: 12px;
+	font-size: 0;
+}
+.downLoad li a div {
+	margin: 0 38px 0 22px;
+}
+.path h3 {
+	position: relative;
+	left: auto;
+	top: auto;
+	line-height: 52px;
+}
+.pathdiv {
+	margin-top: 0;
+	padding: 15px 0;
+	line-height: 22px;
+	height: auto;
+}
+.organzineText {
+	margin-left: 115px;
+}
+.organzineText h3 {
+	margin: 8px 0;
+	line-height: 26px;
+	max-height: 52px;
+	overflow: hidden;
+}
+.orInfo {
+	line-height: 22px;
+	max-height: 44px;
+	overflow: hidden;
+}
+.meetList li a {
+	margin: 20px 10px 0;
+}
+.placeDiv div i {
+	margin-left: 15px;
+}
+.placeDiv div span {
+	margin-left: 55px;
+	padding: 15px 0;
+	height: auto;
+	line-height: 28px;
+}
+.newsList li a div {
+	margin: 0 0 0 22px !important;
+}
+.columnMain {
+	padding: 15px;
+}
+.cTitle, .columnHot {
+	padding: 0 15px;
+}
+.columnList, .columnBoxDiv .columnList {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.columnTitle h1 {
+	font-size: 2em;
+}
+.columnTitle p {
+	font-size: 1em;
+}
+.columnFooter {
+	padding: 0 10px 30px;
+}
+.wd10 {
+	margin: 0 15px;
+}
+.columnLink {
+	margin: 0 -5px;
+}
+.columnLink li a {
+	margin: 0 5px 10px;
+}
+.bg3 .cTitle .more {
+	right: 15px;
+}
+.columnText {
+	margin: 23px 20px;
+}
+.slideBox .bd .tit a {
+	margin: 14px 20px 0;
+}
+}
+ @media screen and (max-width: 540px) {
+.logo {
+	width: 350px;
+	height: 47px;
+	margin-top: 44px;
+}
+.iconList li {
+	width: 50%;
+}
+.organzineText h3 {
+	font-size: 1.4em;
+}
+.orInfo {
+	font-size: 1.2em;
+}
+.meetList li {
+	width: 100%;
+}
+.meetList li a {
+	margin: 20px 0 0;
+}
+.columslideBox {
+	width: 100%;
+	height: auto;
+}
+}
+ @media screen and (max-width: 480px) {
+.paged a, .paged .p_info, .paged .current {
+	padding: 0 8px;
+	margin: 0 1px;
+	height: 24px;
+	line-height: 24px;
+}
+}
+ @media screen and (max-width: 414px) {
+.banner .item {
+	height: 230px;
+}
+.slideBox {
+	width: 100%;
+	height: auto;
+}
+.customSelect {
+	font-size: 1.2em;
+}
+.logo {
+	width: 200px;
+	height: auto;
+	margin-top: 25px;
+}
+.headTop {
+	height: 100px;
+}
+.searchBtn {
+	right: 10px;
+	top: 20px;
+}
+.mspan1 {
+	padding: 0;
+	display: block;
+}
+.mspan2 {
+	display: block;
+}
+.left, .right {
+	margin: 0 10px;
+}
+.headTop {
+	padding: 0 10px;
+}
+.columnList li a span {
+	display: none;
+}
+.columnList li a b {
+	margin-right: 0;
+}
+}
+ @media screen and (max-width: 320px) {
+.logo {
+	width: 240px;
+	margin-top: 35px;
+}
+.placeDiv {
+	font-size: 1.2em;
+}
+}

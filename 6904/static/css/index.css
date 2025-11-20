@@ -1,0 +1,327 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+
+.banners-pc {
+	clear: both;
+	height: 920px;
+	position: relative;
+	top: -240px;
+}
+.banners-pc .frame {
+	height: 920px;
+	background: no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.banners-pc .frame .p1 {
+	font-size: 46px;
+	color: #fff;
+	margin-top: 390px;
+}
+.banners-pc .frame .p2 {
+	font-size: 14px;
+	color: rgba(255,255,255,.6);
+	padding-top: 36px;
+	line-height: 24px;
+}
+.banners-mb {
+	display: none;
+	clear: both;
+	height: 700px;
+}
+.banners-mb div {
+	height: 100%;
+}
+.banners-mb .frame {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+ @media (max-width: 1024px) {
+.banners-pc {
+	display: none;
+}
+.banners-mb {
+	display: block;
+}
+}
+.main1 {
+	margin-bottom: 400px;
+}
+.main1 .g_cw {
+	position: relative;
+}
+.main1 .offset {
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,.08);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -368px;
+}
+.main1 .offset .list {
+	margin-left: -130px;
+	margin-bottom: 86px;
+	padding: 90px 70px;
+}
+.main1 .offset .list > li {
+	float: left;
+	width: 33.33%;
+	padding-left: 130px;
+	padding-bottom: 86px;
+}
+.main1 .offset .list > li .box {
+	display: block;
+}
+.main1 .offset .list > li .box .ico {
+	width: 116px;
+	height: 116px;
+	border-radius: 50%;
+	background: #fafbfc;
+	line-height: 116px;
+	text-align: center;
+	margin: 0 auto;
+}
+.main1 .offset .list > li .box .ico img {
+	height: 54px;
+	vertical-align: middle;
+}
+.main1 .offset .list > li .box .ico .ico_2 {
+	display: none;
+}
+.main1 .offset .list > li .box .p1 {
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px 0 16px 0;
+}
+.main1 .offset .list > li .box .p2 {
+	max-width: 254px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 24px;
+}
+.main1 .offset .list > li .box:hover .ico {
+	background: #3e8bff;
+}
+.main1 .offset .list > li .box:hover .ico .ico_1 {
+	display: none;
+}
+.main1 .offset .list > li .box:hover .ico .ico_2 {
+	display: inline-block;
+}
+ @media (max-width: 1024px) {
+.main1 {
+	margin-bottom: 0;
+}
+.main1 .offset {
+	position: unset;
+}
+.main1 .offset .list > li {
+	width: 50%;
+}
+.main1 .offset .list > li .box .p2 {
+	max-width: none;
+}
+}
+ @media (max-width: 600px) {
+.main1 .offset .list > li {
+	width: 100%;
+}
+}
+.about {
+background:url(../image/about_bg.jpg) no-repeat center center;
+background-size:cover;
+height:629px;
+margin-bottom:50px;
+}
+.about .intro {
+	overflow: hidden;
+}
+.about .intro .font {
+	float: left;
+	max-width: 684px;
+	padding-top: 18px;
+}
+.about .intro .font .h1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.about .intro .font .p1 {
+	color: rgba(255,255,255,.6);
+	padding: 28px 0 50px 0;
+	line-height: 28px;
+}
+.about .intro .pic {
+	float: right;
+}
+.about .intro .btn .more {
+	padding: 13px 30px;
+	display: inline-block;
+	border: 2px solid rgba(255,255,255,.5);
+	font-size: 16px;
+	color: #fff;
+}
+.about .intro .btn .more:hover {
+	background: #3e8bff;
+	border: 2px solid #3e8bff;
+}
+.about .g_cw {
+	position: relative;
+}
+.about .state {
+	background: #fff;
+	position: absolute;
+	bottom: -200px;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,.08);
+}
+.about .state .list {
+	overflow: hidden;
+	padding-top: 30px;
+}
+.about .state .list > li {
+	float: left;
+	width: 25%;
+	padding-bottom: 30px;
+}
+.about .state .list > li .box {
+	text-align: center;
+}
+.about .state .list > li .box .p1 {
+	font-size: 48px;
+	color: #333;
+}
+.about .state .list > li .box .p2 {
+	color: #999;
+}
+.br {
+	border-right: 1px solid #f2f2f2;
+}
+ @media (max-width: 1024px) {
+.about {
+	height: auto;
+	padding-bottom: 30px;
+}
+.about .intro .font {
+	float: none;
+	max-width: none;
+}
+.about .intro .btn {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.about .intro .pic {
+	float: none;
+	text-align: center;
+}
+.about .state {
+	position: unset;
+	margin-top: 30px;
+}
+}
+ @media (max-width: 600px) {
+.about .state .list > li {
+	width: 50%;
+}
+}
+.teambox {
+	position: fixed;
+	z-index: 200;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.teambox > table {
+	width: 100%;
+	height: 100%;
+}
+.teambox > table td {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.teambox > table td .box {
+	visibility: hidden;
+	opacity: 0;
+	display: inline-block;
+	position: relative;
+	max-width: 1000px;
+	min-height: 400px;
+	background: #fff;
+	padding: 20px;
+	transition: ease .3s;
+}
+.teambox > table td .box.show {
+	visibility: visible;
+	opacity: 1;
+}
+.teambox > table td .box .view {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.teambox > table td .box .close {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #3e8bff;
+	color: #fff;
+	line-height: 50px;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: lighter;
+	text-align: center;
+	top: -30px;
+	right: 50px;
+}
+.teambox > table td .box .pic {
+	float: left;
+	margin-right: 20px;
+	max-width: 370px;
+}
+.teambox > table td .box .des {
+	overflow: hidden;
+	text-align: left;
+}
+.teambox > table td .box .des .p1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+}
+.teambox > table td .box .des .p2 {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.teambox > table td .box .des .h3 {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 5px;
+}
+.teambox > table td .box .des .p3 {
+	font-size: 14px;
+	color: #888;
+	line-height: 1.8em;
+	padding-top: 30px;
+}
+ @media (max-width: 1023px) {
+.teambox > table td .box .close {
+	top: 0;
+	right: 0;
+}
+.teambox > table td .box .pic {
+	float: none;
+	max-width: 90%;
+	margin-right: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+}

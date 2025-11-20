@@ -1,0 +1,890 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<title>响应式金融证卷产品网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/7868/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/7868/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/7868/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/7868/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/7868/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/7868/template/pc/skin/js/respond.min.js"></script>
+      <script src="/7868/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="w-container w-header w-header-common">
+    <div class="topLogBox topLogBoxPc">
+      <div class="topLogBox-in">
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top clearfix">
+        <div class="column column4">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href=""></a></h1>
+              <a href="" class="w-logo-img" title="某某金融公司"> <img src="static/picture/8d80d05a87a4d6b85c3ad1c0416e0777.png"> </a> </div>
+          </div>
+        </div>
+        <div class="column column8 clearfix">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li class=""><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class=""> 
+                 
+                  <a href="guanyuwomen.html">关于我们 </a> 
+                   
+                  <i class="nav_simpline_cur"></i> 
+                   
+                </li>
+                                <li class=""> 
+                                  <div class="li-parent-div li-parentOne-div"> 
+                  <a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i></a> 
+                  </div> 
+                  <i class="nav_simpline_cur"></i> 
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="jinrongchanpin.html">金融产品 </a></li>
+                                            <li><a href="licaichanpin.html">理财产品 </a></li>
+                                          </ul>
+                  </div>
+                 
+                </li>
+                                <li class=""> 
+                                  <div class="li-parent-div li-parentOne-div"> 
+                  <a href="xinwenzhongxin.html">新闻中心 <i class="fa fa-plus"></i></a> 
+                  </div> 
+                  <i class="nav_simpline_cur"></i> 
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="gongsidongtai.html">公司动态</a></li>
+                                            <li><a href="xingyezixun.html">行业资讯</a></li>
+                                          </ul>
+                  </div>
+                 
+                </li>
+                                <li class=""> 
+                                  <div class="li-parent-div li-parentOne-div"> 
+                  <a href="touzizheguanxi.html">投资者关系 <i class="fa fa-plus"></i></a> 
+                  </div> 
+                  <i class="nav_simpline_cur"></i> 
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="yejibaogao.html">业绩报告 </a></li>
+                                            <li><a href="gongsijianbao.html">公司简报</a></li>
+                                          </ul>
+                  </div>
+                 
+                </li>
+                                <li class=""> 
+                 
+                  <a href="jiaruwomen.html">加入我们 </a> 
+                   
+                  <i class="nav_simpline_cur"></i> 
+                   
+                </li>
+                                <li class=""> 
+                 
+                  <a href="lianxiwomen.html">联系我们</a> 
+                   
+                  <i class="nav_simpline_cur"></i> 
+                   
+                </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li class=""><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class=""> 
+               
+                <a href="guanyuwomen.html">关于我们 </a> 
+                 
+                <i class="nav_simpline_cur"></i> 
+                 
+              </li>
+                            <li class=""> 
+                              <div class="li-parent-div li-parentOne-div"> 
+                <a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i></a> 
+                </div> 
+                <i class="nav_simpline_cur"></i> 
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="jinrongchanpin.html">金融产品 </a></li>
+                                        <li><a href="licaichanpin.html">理财产品 </a></li>
+                                      </ul>
+                </div>
+               
+              </li>
+                            <li class=""> 
+                              <div class="li-parent-div li-parentOne-div"> 
+                <a href="xinwenzhongxin.html">新闻中心 <i class="fa fa-plus"></i></a> 
+                </div> 
+                <i class="nav_simpline_cur"></i> 
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="gongsidongtai.html">公司动态</a></li>
+                                        <li><a href="xingyezixun.html">行业资讯</a></li>
+                                      </ul>
+                </div>
+               
+              </li>
+                            <li class=""> 
+                              <div class="li-parent-div li-parentOne-div"> 
+                <a href="touzizheguanxi.html">投资者关系 <i class="fa fa-plus"></i></a> 
+                </div> 
+                <i class="nav_simpline_cur"></i> 
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="yejibaogao.html">业绩报告 </a></li>
+                                        <li><a href="gongsijianbao.html">公司简报</a></li>
+                                      </ul>
+                </div>
+               
+              </li>
+                            <li class=""> 
+               
+                <a href="jiaruwomen.html">加入我们 </a> 
+                 
+                <i class="nav_simpline_cur"></i> 
+                 
+              </li>
+                            <li class=""> 
+               
+                <a href="lianxiwomen.html">联系我们</a> 
+                 
+                <i class="nav_simpline_cur"></i> 
+                 
+              </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in">
+            <div class="col-com"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner" style="">
+      <div class="bannerPc banner-osSlider">
+        <ul>
+                    <li><a href="https://www.baidu.com/" style="cursor:default;" target="_self"> <img src="static/picture/6f9f05c2223530796a29097d41ea482a.jpg" alt="" title=""></a></li>
+                    <li><a href="https://www.baidu.com/" style="cursor:default;" target="_self"> <img src="https://demoall.kuaituiyun.cn/7868/uploads/allimg/20190618/a5b7e83fd8196df5c372d58bf96bf850.jpg" alt="" title=""></a></li>
+                  </ul>
+      </div>
+    </div>
+  </section>
+  <link rel="stylesheet" href="static/css/style.css">
+  <script type="text/javascript" src="static/js/osslider.js"></script> 
+  <script type="text/javascript">
+    $(function () {
+        var $bswpOs = $('.banner-osSlider');
+        var $bnccimgOs = $bswpOs.find('img');
+        var img = new Image();
+        img.onload = function () {
+            var sliderOS = new osSlider({
+                pNode: $bswpOs,
+                cNode: 'ul li',
+                speed: 5 * 1000,
+                speedRun: 500,
+                autoPlay: true
+            });
+        }
+        img.src = $bnccimgOs.attr("src");
+    });
+</script>
+  <div class="w-container w-main">
+      <div class="w-section pdTop-large pdBottom-large">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-medium pdBottom-default">
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="50%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="tel-hidden not-animated w-simImg" data-animate="bounceInLeft" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="" style="" href="guanyuwomen.html">
+                              <div class="img"> <img src="https://demoall.kuaituiyun.cn/7868/uploads/allimg/20190618/c03d0c83540a1f62b449bc2c89b387f5.png"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="50%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-title w-title30 border_colorleft_main" data-animate="bounceInRight" style="">
+                            <div class="w-title-inner">
+                              <div class="title-h-in">
+                                <div class="tith ">
+                                  <h2 style="" data-type="title">ABOUT US</h2>
+                                  <span class="color_vice_light" style="" data-type="subtitle">关于我们 </span> </div>
+                                <a class="more lineborder aHovercolor_main" target="_blank" href="guanyuwomen.html"> <span>更多</span> </a> </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="bounceInRight" style=""> <br>
+                            <span style="color:#d4a759; font-size: 1.2em;">某某金融公司</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;中国XXXX(集团)股份有限公司（以下简称“中国XX”，“公司”，“集团”）于19XX年诞生于深圳XX，是中国第X家股份制金融企业，至今已发展成 为融保险、证券、投资等金融业务为一体的的整合、紧密、多元的综合金融服务集团。公司为香港联合交易所主板及上海证券交易所两地上市公司，股票代码分别为 23XX8和XXXX318。&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;中国XX的企业使命是：对股东负责，稳定回报...                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:30px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="w-section pdTop-big pdBottom-big" style="background:url(static/image/171691e5aeb49e52a087280cdc9458d6.jpg) no-repeat center;">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="not-animated w-title w-title30 border_colorleft_main" data-animate="bounceInUp" style="">
+              <div class="w-title-inner">
+                <div class="title-h-in">
+                  <div class="tith ">
+                    <h2 style="color:#ffffff;" data-type="title">PRODUCT</h2>
+                    <span class="color_vice_light" style="" data-type="subtitle">产品中心</span> </div>
+                  <a class="more lineborder aHovercolor_main" target="_blank" href="chanpinzhongxin.html"> <span>更多</span> </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <style type="text/css">
+    .w-productList2 .g-fanl{ width:24.99%; *width:24.99%;}
+    @media (max-width:767px){
+        .w-productList2 .w-prd-list-cell{ width:50%;}
+    }
+</style>
+          <div class="li-div" data-comunique="fanl">
+            <div class="not-animated w-productList w-productList2" data-animate="bounceInUp" style="text-align:center;" id="products-fanl">
+              <div class="w-productList-in">
+                <div class="w-productList-inner clearfix">
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="11.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/27ee8f2ceddce11864afce2564fba53c.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="11.html">产品名称八</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="10.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/e16c42aa29ebe588b019668a76cac7d6.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="10.html">产品名称七</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="9.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/c02aa699ab0b4bf886c8639f67a98bc3.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="9.html">产品名称六</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="8.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/ba90c36ca926da06ec45c25fa881c54b.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="8.html">产品名称五</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="7.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/0c070fabb381abc31e94a1638fb6d7ca.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="7.html">产品名称四</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="6.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/5bcef216ee2c7c74c6f1ecffc8284ca7.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="6.html">产品名称三</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="5.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/b5767b79247ea069aa59ef52239a9de4.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="5.html">产品名称二</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-fanl">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox imgScaleBig"><a href="4.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img alt="" title="" src="static/picture/1d679e5c841d8f30c4975f45e675b182.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="4.html">产品名称一</a></h2>
+                          <div class="w-prd-sum" style="">“XX通”包含的3个养老保险产品（分红、万能和投连...</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="prd_pre bg_main aHoverbg_deepen"></div>
+              <div class="prd_next bg_main aHoverbg_deepen"></div>
+              <div class="prd_pageState"></div>
+              <script type="text/javascript">
+            $(function () {
+                var $prdList = $('#products-fanl');
+                (function ($,window,$prdList) {
+                    /* 需要被触发的方法 */
+                    var loadOver = function () {
+                        var prdListChild = $prdList.find('.w-productList-in').html();
+                        var prdSlideX = function () {
+                            var visX;
+                            if ($(window).width() > 767) {
+                                visX = 4;
+                            } else {
+                                visX = 2;
+                            }
+                            $prdList.slideNew({
+                                mainCell: ".w-productList-in .w-productList-inner",
+                                autoPage: true,
+                                effect: "leftLoop",
+                                interTime: 5000,
+                                autoPlay: true,
+                                scroll: visX,
+                                vis: visX,
+                                pageStateCell: ".prd_pageState",
+                                prevCell: ".prd_pre",
+                                nextCell: ".prd_next"
+                            });
+                        };
+                        prdSlideX();
+                        imgCount();
+                        var widthOld = $(window).width();
+                        var widthNew;
+                        $(window).resize(function () {
+                            widthNew = $(window).width();
+                            if (widthOld > 767) {
+                                if (widthNew < 768) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            } else {
+                                if (widthNew > 767) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            }
+                            widthOld = $(window).width();
+                        });
+                    }
+                    /* 获取图片 */
+                    var $thisimg = $prdList.find('img');
+                    var imgNum = $thisimg.length;
+                    $thisimg.each(function(){
+                        $(this).load(function(){
+                            if (!--imgNum) {
+                                loadOver();
+                            }
+                        });
+                        $(this).attr("src",$(this).attr("src"));
+                    });
+                })(jQuery,window,$prdList);
+            });
+        </script> 
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="w-section pdTop-medium pdBottom-medium">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title30 border_colorleft_main" data-animate="bounceInUp" style="">
+              <div class="w-title-inner">
+                <div class="title-h-in">
+                  <div class="tith ">
+                    <h2 style="" data-type="title"></h2>
+                    <span class="color_vice_light" style="" data-type="subtitle">新闻中心 </span> </div>
+                  <a class="more lineborder aHovercolor_main" target="_blank" href="xinwenzhongxin.html"> <span>更多</span> </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div" data-comunique="ewnl" id="article-ewnl" onselectstart="return false" style=" -moz-user-select: none;">
+            <div class="not-animated w-adNews w-adNews5" data-animate="bounceInUp" style="">
+              <div class="w-adNews-in clearfix">
+                <ul>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="14.html" target="_blank">
+                        <div class="aspectRatio" style="padding-bottom:56.25%;"></div>
+                        <div class="img-count-in"><img alt="" title="" src="static/picture/27ee8f2ceddce11864afce2564fba53c.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-h"><a class="" href="14.html" target="_blank" title="澳大利亚去年四季度GDP同环比均低于预期">澳大利亚去年四季度GDP同环比均低于预期</a></div>
+                        <div class="news-sum">3月6日，根据澳洲统计局公布的数据，澳大利亚去年四季度GDP同比上涨2.3%，低于前值2.8%，低于预期2.6%；环比为...</div>
+                        <div class="date">2019-06-19</div>
+                      </div>
+                    </div>
+                  </li>
+                                   <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="13.html" target="_blank">
+                        <div class="aspectRatio" style="padding-bottom:56.25%;"></div>
+                        <div class="img-count-in"><img alt="" title="" src="static/picture/8f4d1fe13b97e8eb9875361c19382572.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-h"><a class="" href="13.html" target="_blank" title="韩国人均国民总收入突破3万美元">韩国人均国民总收入突破3万美元</a></div>
+                        <div class="news-sum">新华社首尔3月5日电（记者何媛）韩国银行（央行）5日公布的数据显示，2018年韩国人均国民总收入（GNI）跨过3万美元大...</div>
+                        <div class="date">2019-06-19</div>
+                      </div>
+                    </div>
+                  </li>
+                                   <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="12.html" target="_blank">
+                        <div class="aspectRatio" style="padding-bottom:56.25%;"></div>
+                        <div class="img-count-in"><img alt="" title="" src="static/picture/afabcd19d1a79eee24f70acebf720700.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-h"><a class="" href="12.html" target="_blank" title="欧洲央行会议召开在即 欧洲经济依然阴晴不定">欧洲央行会议召开在即 欧洲经济依然阴晴不定</a></div>
+                        <div class="news-sum">本周四（7日），欧洲央行会议将如期举行。然而，关于欧洲经济目前是否需要加息，仍剪不断理还乱。阴晴不定的欧洲经济当前欧洲经...</div>
+                        <div class="date">2019-06-19</div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-big pdBottom-medium">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-default">
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="27.035398230088497%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-text" style=""> <font size="4" color="#d6a959">联系方式</font> </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-delimiters-hor" style="margin:9px auto;">
+                            <hr class="delimiters" style="margin:0 auto;background-color:#474747;width:100%;height:1px;">
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <table>
+                              <tbody>
+                                <tr class="firstRow">
+                                  <td style="padding: 5px 2px; word-break: break-all;" valign="middle">电话：400-123-4567</td>
+                                </tr>
+                                <tr>
+                                  <td style="padding: 5px 2px; word-break: break-all;" valign="middle">传真：+86-123-4567</td>
+                                </tr>
+                                <tr>
+                                  <td style="padding: 5px 2px; word-break: break-all;" valign="middle">邮箱：admin@youweb.com</td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:5px 2px;" valign="middle">地址：广东省广州市天河区某某工业园88号</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="tel-hidden w-social" style="padding-top:10px;">
+                            <div class="w-social-in"> 
+                                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+                                <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                                </script>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="9.466077416344026%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="27.178468957411507%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-text" style=""> <font size="4" color="#d6a959">在线留言</font> </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-delimiters-hor" style="margin:9px auto;">
+                            <hr class="delimiters" style="margin:0 auto;background-color:#474747;width:100%;height:1px;">
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-form" style="">
+                                                     <form method="POST" enctype="multipart/form-data" action="/7868/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-shartText">
+                                  <label class="w-label-form"> <span>姓名:</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="text" name="attr_1" id="attr_1">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-Email">
+                                  <label class="w-label-form"> <span>邮箱:</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="email" name="attr_2" id="attr_2">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="li-div">
+                              <div class="w-form-section w-form-UL clearfix" style="">
+                                <div class="w-form-largeText">
+                                  <label class="w-label-form"> 内容: </label>
+                                  <div class="w-form-fr" style="">
+                                    <textarea class="w-textarea-form" style="width:100%;" name="attr_3" id="attr_3"></textarea>
+                                    <input class="w-text-form" type="hidden">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="w-form-submit">
+                              <div class="w-buttom" style="">
+                                <div class="btn-default-w g-form-components" onclick="checkForm();"> <span class="btn-inner">提交</span> </div>
+                              </div>
+                            </div>
+                            <input type="hidden" name="typeid" value="11"><input type="hidden" name="__token__439930749532f6d8cb298564f4fc24d7" id="439930749532f6d8cb298564f4fc24d7" value=""><script type="text/javascript">
+    function ey_fleshVerify(id)
+    {
+        var src = "/7868/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+        if (src.indexOf('?') > -1) {
+            src += '&';
+        } else {
+            src += '?';
+        }
+        src += 'r='+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+    function f7e761a3b6c0f992ee0dbdb0fea730081()
+    {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open("get", "/7868/index.php?m=api&c=Ajax&a=get_token&name=__token__439930749532f6d8cb298564f4fc24d7", true);
+        // 给头部添加ajax信息
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //步骤三:发送请求+数据
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("439930749532f6d8cb298564f4fc24d7").value = ajax.responseText;
+          　}
+        } 
+    }
+    f7e761a3b6c0f992ee0dbdb0fea730081();
+</script>                          </form>
+                              <script type="text/javascript">
+                            function checkForm()
+                            {
+                              if(document.getElementById('attr_1').value.length == 0)
+                              {
+                                alert('请输入您的姓名');
+                                return false;
+                              }
+                              if(document.getElementById('attr_2').value.length == 0)
+                              {
+                                alert('请输入您的邮箱');
+                                return false;
+                              }
+                              document.getElementById('myform').submit();
+                            }
+                          </script> 
+
+                                                  </div>
+                        </div>
+                        
+                        <div class="li-div">
+                          <div class="w-edit-com w-code" style="">
+                            <div class="custom-code">
+                              <div class="code-info">
+                                <style type="text/css">
+									.w-form .w-form-code,.w-form .w-form-submit{ margin-left:3.5em;} 
+									.w-form-submit .w-buttom .btn-default-w{ width:100%;}
+								</style>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="9.432151591883295%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="25.598819698907633%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="tel-hidden w-text" style=""> <font size="4" color="#d6a959">服务热线</font> </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="tel-hidden w-delimiters-hor" style="margin:9px auto;">
+                            <hr class="delimiters" style="margin:0 auto;background-color:#474747;width:100%;height:1px;">
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="tel-hidden w-text" style="">
+                            <div align="center"><font size="6" color="#d6a959">400-123-4567</font></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="tel-hidden w-simImg" style="cursor:pointer;text-align:center;padding-top:10px;padding-bottom:10px;">
+                            <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                              <div class="img"> <img src="static/picture/15f8ee2a25c9d59442c26a596c177636.png" width="110px" height="110px"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-delimiters-hor" style="margin:9px auto;padding-top:20px;padding-bottom:10px;">
+              <hr class="delimiters" style="margin:0 auto;background-color:#454543;width:100%;height:1px;">
+            </div>
+          </div>
+           <div class="m-link1">
+        <div class="item"> <span>友情链接:</span>
+          <ul class="ul-link1">
+                        <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                        <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                        <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                        <li><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+                        <li><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+                      </ul>
+        </div>
+      </div>
+          <div class="li-div">
+            <div class="w-text" style=""> Copyright © 2012-2023 某某公司 版权所有 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-service-fixed">
+      <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+        <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+	<div style="display:none;"><a href="https://smalltool.github.io/">网站下载工具</a></div>
+</body>
+</html>

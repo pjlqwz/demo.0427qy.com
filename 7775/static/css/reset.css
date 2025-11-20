@@ -1,0 +1,34 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+
+/*common css*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,input,textarea,div,tr,td{margin:0;padding:0; list-style:none;font-family:"microsoft yahei", Arial, Helvetica, sans-serif;}
+a{ color:#333; text-decoration:none}
+body{
+    position: relative;
+}
+table{border-collapse:collapse;border-spacing:0;}
+img{ border:none;max-width: 100%;}
+.C{ clear:both}
+div:after,ul:after,li:after { content:'\20'; display:block; height:0; clear:both; }
+.clearfix { *zoom:1;}
+.left{float:left}
+.right{ float:right}
+.padding_7{ padding:0 7.5px;}
+.pagination > li{
+    float: left;
+}
+.pagination{
+    display: inline-block;
+    margin: 40px 0;
+}
+.page_box{
+    text-align: center;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #4BC9A1;
+    border-color: #4BC9A1;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #A19D9D;
+    background-color: #F0F0F0;
+}

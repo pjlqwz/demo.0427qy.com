@@ -1,0 +1,411 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<title>协会章程_响应式安防协会网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/5424/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/5424/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/5424/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/5424/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/5424/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/5424/template/pc/skin/js/respond.min.js"></script>
+      <script src="/5424/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top">
+        <div class="row_top_in clearfix">
+          <div class="column column6">
+            <div class="col-logo">
+              <div class="w-logo">
+               <h1 style="display:none;"><a href="index.html"></a></h1>
+               <a href="index.html" class="w-logo-img"> <img src="static/picture/8a0d32e23403fc4c89f141696ab18861.png"> </a> 
+              </div>
+            </div>
+          </div>
+          <div class="column column6 clearfix">
+            <div class="topLogBox topLogBoxPc">
+              <div class="topLogBox-in clearfix">
+                <div class="cusPc clearfix">
+                  <div class="w-custom">
+                    <div class="li-div">
+                      <div class="w-edit-com w-code" style="">
+                        <div class="custom-code">
+                          <div class="code-info">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="li-div">
+                      <div class="w-searchbox" style="">
+                      
+                        <div class="search-w search-defaut-w">
+                                                <form class="sidebar-search" method="get" action="/5424/index.php?m=home&c=Search&a=lists&lang=cn" name="search">
+                         <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">                          <input class="input-text-w input-search-w" type="text" name="keywords" id="keywords" placeholder="搜索内容">
+                          <input type="hidden" name="search-type" value="site">
+                          <div class="btn-default-w search-btn-w" onclick="javascript:document.search.submit();"> <span class="btn-inner">搜索</span> </div>
+                          </form> 
+                                                </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lscPc clearfix"> </div>
+                <div class="searchPc"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menuPc">
+        <div class="menuPc_in">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="active">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html" class="after">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xiehuijianjie.html">协会简介</a></li>
+                                            <li><a href="">协会章程</a></li>
+                                            <li><a href="xiehuirongyu.html">协会荣誉</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="huiyuanzhichuang.html" class="after">会员之窗<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="ruhuixuzhi.html">入会需知</a></li>
+                                            <li><a href="ruhuibaoming.html">入会报名</a></li>
+                                            <li><a href="huiyuanminglu.html">会员名录</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzhongxin.html" class="after">新闻中心<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                                            <li><a href="zhongyaotongzhi.html">重要通知</a></li>
+                                            <li><a href="xiehuihuodong.html">协会活动</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuifuwu.html" class="after">协会服务<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xinxifuwu.html">信息服务</a></li>
+                                            <li><a href="renzhengzixun.html">认证咨询</a></li>
+                                            <li><a href="chuangxinfuwu.html">创新服务</a></li>
+                                            <li><a href="guojihezuo.html">国际合作</a></li>
+                                            <li><a href="huiyizhanlan.html">会议展览</a></li>
+                                            <li><a href="zhuanxiangpeixun.html">专项培训</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zhengcefagui.html">政策法规</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuikanwu.html">协会刊物</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+           
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="active">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xiehuijianjie.html">协会简介</a></li>
+                                            <li><a href="">协会章程</a></li>
+                                            <li><a href="xiehuirongyu.html">协会荣誉</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="huiyuanzhichuang.html">会员之窗<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="ruhuixuzhi.html">入会需知</a></li>
+                                            <li><a href="ruhuibaoming.html">入会报名</a></li>
+                                            <li><a href="huiyuanminglu.html">会员名录</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzhongxin.html">新闻中心<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                                            <li><a href="zhongyaotongzhi.html">重要通知</a></li>
+                                            <li><a href="xiehuihuodong.html">协会活动</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuifuwu.html">协会服务<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xinxifuwu.html">信息服务</a></li>
+                                            <li><a href="renzhengzixun.html">认证咨询</a></li>
+                                            <li><a href="chuangxinfuwu.html">创新服务</a></li>
+                                            <li><a href="guojihezuo.html">国际合作</a></li>
+                                            <li><a href="huiyizhanlan.html">会议展览</a></li>
+                                            <li><a href="zhuanxiangpeixun.html">专项培训</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zhengcefagui.html">政策法规</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuikanwu.html">协会刊物</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/b86095b7bd0c2f51fb1119fa9cc0b415.jpg" alt="banner" title="" style="">  </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="w-section pdTop-big pdBottom-large">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="22.439024390243905%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="" style="">
+                            <div class="w-com-menu w-com-menu-V">
+  <div class="w-com-menu-in">
+    <div class="systitle">
+      <div class="systitle-in">关于我们 </div>
+      <i class="fa icon_menuControl"></i> </div>
+    <ul class="ul-parent">
+            <li class="li-parent ">
+        <div class="div-parent"> <a href="xiehuijianjie.html" target="_self">协会简介</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+            <li class="li-parent cur">
+        <div class="div-parent"> <a href="" target="_self">协会章程</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+            <li class="li-parent ">
+        <div class="div-parent"> <a href="xiehuirongyu.html" target="_self">协会荣誉</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+          </ul>
+  </div>
+</div>
+
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-delimiters-ver" style="margin:9px auto;height:750px;">
+                            <hr class="delimiters" style="margin:0 auto;background-color:#e2e2e2;width:1px;height:750px;">
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="73.4959349593496%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-title w-title15  border_colorleft_main" style="">
+                            <div class="w-title-in">
+                              <div class="w-title-inner">
+                                <div class="title-h-in">
+                                  <h2 class="color_main" style="" data-type="title">协会章程</h2>
+                                  <span style=""></span> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:26px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text"> <p>第一章 &nbsp;总 &nbsp;则<br style=";padding: 0px"></p><p>&nbsp;</p><p>&nbsp;本会的宗旨是：以公共安全技术防范的创新发展为核心，服务会员，服务行业，服务政府，服务社会。<br></p><p>团结和组织本协会会员，遵守宪法、法律、法规和国家政策，遵守社会公共道德，遵守行业规范和相关技术标准；</p><p>通过政策研究、行业自律、知识产权保护等工作，维护会员及行业的合法权益；</p><p>在政府主管部门的指导下，依靠会员的集体力量，通过开展安防知识普及、推广成果与应用、促进国内外交流与合作等专业化活动，不断提高我省安防企业在国内外市场的竞争力，将广东打造成为全国安防强省、全球安防产业集散地，力争将广东安防产业发展成为广东省支柱产业；</p><p>积极发挥协会的社会公正性、中介协调性、联系广泛性和专业权威性作用，切实起到本会与政府管理部门、社会机构和组织之间的桥梁与纽带作用；</p><p>加强协会自身建设，培养造就一支高素质、职业化的专业化的队伍，努力把本会打造成我省一流的安防专业组织，为广东“科技创安”和社会治安稳定做出贡献。</p><p>本会接受广东省民政厅的监督管理和广东省公安厅行政主管及的业务指导。</p><p>第五条 &nbsp;本会的住所设在广东省广州市内。</p><p><br style=";padding: 0px"></p><p>第二章 &nbsp;业务范围<br style=";padding: 0px"></p><p>&nbsp;</p><p>第六条 &nbsp;本会的主要任务是：</p><p>（一）开展安防产业调查研究、统计分析、信息发布等工作；制定产业规划；向政府提出有关安防产业政策及法规的建议。</p><p>（二）参与制定和宣贯国家标准、地方标准、行业标准。</p><p>（三）协调会员关系，反映会员的意见和要求，维护会员合法权益。</p><p>（四）承接政府相关职能向本会转移的工作。</p><p>（五）开展咨询、培训服务。</p><p>（六）组织广泛的学习、交流及研讨，拓宽视野，促进发展。举办展览、展销、技术大会、讲座、讲学。开展与国内外及港澳台地区同类机构、民间团体及企业的合作和交流活动。组织和建立多样性企业营销平台，拓展国内外市场，提高安防产品的市场占有率。</p><p>（七）宣传和开展知识产权保护相关工作，加强行业自律，扶优抑劣，推行名牌战略。</p><p>（八）加强与政府及科技园区的合作力度，加大对拥有自主知识产权的高科技安防企业的扶持，建设安防产业孵化器基地和产业联盟。加强资源整合，组织和引入投资基金，与政府及金融单位合作，建立产业诚信联保机制，为企业发展提供资金帮助，将我省安防产业的集群优势进一步做大做强。</p><p>（九）加强与新闻媒体的合作，传播国内外安防资讯，推广新产品、新技术、新工艺、新材料和科技成果的应用，推动安防产业的科技进步。</p><p>（十）编辑出版专业刊物、书籍、资料汇编，建立专业网站，做好行业信息交流及宣传工作，为会员单位的发展提供服务。</p><p>（十一）组织开展行业文化建设。</p><p>（十二）接受政府、社会团体、会员的委托，承办有关安防产业发展的其它重大任务，开展有利于推动产业发展的其它活动。</p><p><br style=";padding: 0px"></p><p>第三章 &nbsp;会 &nbsp;员<br style=";padding: 0px"></p><p>&nbsp;</p><p>第七条 &nbsp;本会的会员为从事与安防产业有关工作的经济组织、企事业单位，以及对产业发展有重大影响力的单位或个人，会员种类包括单位会员、团体会员、荣誉会员。</p><p>（一）单位会员是指符合本会会员条件经批准入会的企业、事业等单位。</p><p>（二）团体会员是指符合本会会员条件的其它协会、学会等经批准入会的社会团体。</p><p>（三）荣誉会员主要授予在公共安全领域的学术和实践中有重大贡献的国内外知名专家、学者、企业家，以及关心支持协会工作并有积极贡献的个人和单位负责人、海外侨胞、国际友人。</p><p>第八条 &nbsp;申请加入本会的会员，必须具备下列条件：</p><p>（一）拥护本会的章程；</p><p>（二）有加入本会的意愿；</p><p>（三）应持有工商营业执照等相关证件；</p><p>（四）遵纪守法。</p><p>第九条 &nbsp;会员入会的程序是：</p><p>（一）提交入会申请书；</p><p>（二）单位会员交验工商营业执照（复印件）；</p><p>（三）经本会秘书处审核；</p><p>（四）经理事会讨论通过；&nbsp;</p><p>（五）按规定缴纳会员费；</p><p>（六）由理事会或理事会授权秘书处发给会员证。</p><p>第十条 会员享有下列权利：</p><p>（一）出席会员代表大会，参加协会活动、接受协会提供的服务；</p><p>（二）选举权、被选举权和表决权；</p><p>（三）获得本会服务的优先权；</p><p>（四）对本会工作的提议案权、建议权和监督权；</p><p>（五）入会自愿、退会自由；</p><p>（六）其它应享受的权利。</p><p>第十一条 本会会员必须履行下列义务：</p><p>（一）遵守本会章程；</p><p>（二）执行本会的决议；</p><p>（三）按规定交纳会费；</p><p>（四）维护本会及本行业的合法权益；</p><p>（五）完成本会交办的工作；</p><p>（六）向本会反映情况，提供有关资料；</p><p>（七）积极参加本会组织的各项活动。</p><p>第十二条 本会会员必须遵守并履行以下知识产权保护自律条款</p><p>（一）承诺尊重他人的知识产权，自觉抵制各种侵犯他人知识产权的行为。未经权利人许可，不得实施其专利，不得使用其商标，不得仿冒其版权作品，并不得实施其他不正当竞争行为。</p><p>（二）承诺不断提高本单位保护知识产权的意识和水平，根据本单位的实际情况建立和健全知识产权管理体系和制度。致力于研发和创造自主知识产权，提高专利申请、商标注册和原创性设计的质量。</p><p>（三）致力于加强企业品牌的保护，建立会员之间友好合作、优势互补、共同保护知识产权的机制与和谐发展的良好环境。</p><p>（四）承诺尊重其他会员的技术和管理人才，不以不正当竞争行为聘用或利用其他会员企业的人才。承诺不招聘其他会员企业所属的未解除合约以及虽解除合约但竞业限制期限未满的技术和管理人才。</p><p>（五）自觉加强对商业秘密的保护，不得以不正当手段获取和利用他人的商业秘密。未经商业秘密所有人许可，不得披露、使用或者允许他人使用其商业秘密。</p><p>第十三条会员缴纳会费的标准：</p><p>（一）理事长（会长）单位￥200000元/年；</p><p>（二）常务副理事长（常务副会长）单位￥100000元/年；</p><p>（三）副理事长（副会长）单位￥30000元/年；</p><p>（四）监事单位￥10000元/年；</p><p>（五）常务理事单位￥8000元/年；</p><p>（六）理事单位￥4000元/年；</p><p>（七）单位会员、团体会员￥2000元/年；</p><p>（八）荣誉会员和名誉会长原则上免交会费。</p><p>第十四条 会员退会应书面通知本会，并交回会员证。无故1年不交纳会费或不参加本会活动的，视为自动退会。</p><p>第十五条 会员如不遵守协会章程和会员管理办法，将由本会提出批评、教育；如有严重违反本章程的行为，经理事会议或常务理事会议审议，予以除名。</p><p><br style=";padding: 0px"></p><p>第四章 &nbsp;组织机构和负责人产生、罢免<br style=";padding: 0px"></p><p>&nbsp;</p><p>第十六条　协会的组织机构包括：</p><p>（一）会员代表大会；</p><p>（二）理事会；</p><p>（三）常务理事会；</p><p>（四）理事长办公会议；</p><p>（五）秘书处。</p><p>第十七条会员代表大会。</p><p>本会会员组成会员代表大会，是本会的最高权力机构，依照国家法律、法规和协会章程的规定行使职权。</p><p>会员代表大会每届5年。因特殊情况需提前或延期换届的，须由理事会表决通过，报经社团登记管理机关批准同意。但延期换届最长不超过1年。会员代表大会每两年至少召开一次会议。&nbsp;</p><p>会员代表大会一般应采取集中开会方式。特殊情况下，经常务理事会同意，可以采取电话会议、网络会议、书面通讯会议等形式召开。会员代表大会的召开还应遵循以下原则：</p><p>（一）会员代表大会须有三分之二以上会员代表参加时方能召开。其决议，必须经过参加会议半数以上会员代表通过方为有效。</p><p>（二）理事会认为有必要或者五分之一以上的会员提议，可以召开临时会员代表大会。</p><p>（三）会员代表可以委托代理人出席会员代表大会，代理人应当向本协会提交由该名会员代表签署的授权委托书，并在授权委托书的授权范围内行使表决权。</p><p>（四）会员代表大会应当对所议事项的决定作会议纪要，并向会员公告。</p><p>会员代表大会行使下列职权：</p><p>（一）决定协会在法律、法规规定范围内的业务范围和工作职能；</p><p>（二）选举和罢免理事长（会长）；</p><p>（三）审议理事会、监事会（监事）的年度工作报告和财务报告；</p><p>（四）审议理事会对会员除名的决定；</p><p>（五）对协会变更、解散和清算等事项做出决议；</p><p>（六）改变或者撤销理事会不适当的决定；</p><p>（七）制订或修改章程，确定组织机构的选举办法；</p><p>（八）决定协会终止事宜；</p><p>（九）决定其他重大事宜。</p><p>第十八条理事会。</p><p>本会设理事会。理事会为会员代表大会的常设机构，在会员代表大会闭会期间，依照会员代表大会的决议和协会章程的规定履行职责。</p><p>理事会每年至少召开一次会议；情况特殊的，也可采用通讯形式召开。理事会须有三分之二以上理事参加方能召开，其决议须经全体理事三分之二以上表决通过方能生效。理事会应当对决议形成会议纪要，并向全体理事公告。</p><p>理事会会议由理事长（会长）召集和主持；理事长（会长）因特殊原因不能履行职务时，由理事长（会长）委托常务副理事长（常务副会长）或者秘书长召集和主持。三分之一以上理事可以提议召开理事会。</p><p>理事会的职权是：</p><p>（一）筹备和召集会员代表大会；</p><p>（二）执行会员代表大会的决议，并向会员代表大会报告工作；</p><p>（三）决定协会具体的工作业务；</p><p>（四）制定协会的解散和清算等事项的方案；</p><p>（五）制定协会增加或者减少注册资金的方案；</p><p>（六）决定协会各内部机构的设置，并领导协会内部各机构开展工作；</p><p>（七）决定新申请人的入会和对会员的处分，及对会员的除名（协会成员如有违法违纪、制假贩假、商业贿赂、商业欺诈行为的，经理事会讨论通过予以除名）；</p><p>（八）根据理事长办公会议提名，聘任或者解聘秘书长；</p><p>（九）选举和罢免常务副理事长（常务副会长）、副理事长（副会长）、监事、秘书长;审议对名誉会长、特别顾问的聘免议案；</p><p>（十）决定其他重大事项。</p><p>第十九条常务理事会。</p><p>本会设常务理事会。常务理事会由理事会选举产生，是理事会的常设执行机构，常务理事会对理事会负责。常务理事会由理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、常务理事、秘书长、副秘书长组成。在理事会闭会期间，经理事会授权可以行使本章程第十九条规定的部分职权并负责组建秘书处。常务理事会至少每年召开一次会议；情况特殊的也可采用通讯形式召开。常务理事会做出的决议，必须有半数以上的常务理事通过。</p><p>常务理事会应当对所议事项的决定作会议记录。</p><p>第二十条理事长办公会议</p><p>本会理事会设立理事长办公会议制度。在常务理事会议闭会期间，由理事长（会长）、常务副理事长（常务副会长）、秘书长组成理事长办公会议，必要时可邀请名誉会长、特别顾问、协会指导部门联络人、有关办事机构、分支机构、代表机构主要负责人列席会议。理事长办公会议的职权是：</p><p>（一）决定常务理事会、理事会每次会议的会期及议题，审议有关议案；&nbsp;</p><p>（二）提出名誉会长、特别顾问的聘免议案，并提交理事会或常务理事会审议；</p><p>（三）提出秘书长的聘免议案，并提交理事会审议；</p><p>（四）根据秘书长提名，聘任或者解聘副秘书长；决定协会分支机构、办事机构、代表机构的主要负责人；决定秘书处各部门负责人的聘用、工作人员的配备及工资福利、固定资产购置等；</p><p>（五）指导秘书处根据会员代表大会、理事会、常务理事会通过的工作目标及工作规划组建团队，开展工作；</p><p>（六）协调与政府有关部门的关系，代表协会向政府寻求资源、产业、政策等的支持，达成行业发展目标；</p><p>（七）监督和指导协会各职能部门的有效运作，对日常工作请示和重大、紧急事项进行决策；</p><p>（八）决定发展会员，审议会员违反章程及自律公约等有关问题的处理决定及议案；</p><p>（九）研究秘书长请示的有关工作。&nbsp;</p><p>第二十一条 秘书处</p><p>秘书处是协会常设办事机构。其任务是处理协会日常工作，制定协会的年度财务预算方案等事项的方案。受常务理事会领导及理事长办公会议指导，对常务理事会负责，定期向常务理事会和理事长办公会议报告工作。</p><p>第二十二条本会设立办事机构、分支机构、代表机构的规则、程序：</p><p>（一）由本会秘书处提出设立各机构的具体方案；</p><p>（二）将具体方案提交理事长办公会议讨论通过；</p><p>（三）将通过后的具体方案提交理事会或常务理事会审议批准；</p><p>（四）报社会团体登记管理机关审批。</p><p>第二十三条本会设理事长（会长）一名，执行会长一名，常务副理事长（常务副会长）若干名，副理事长（副会长）若干名。理事长（会长）或秘书长为本会的法定代表人，本会法定代表人不得兼任其它社会团体的法定代表人。</p><p>本会根据发展需要，设名誉会长、特别顾问。名誉会长应授予对本行业发展具有重大影响力或能提供资源帮助，并对本行业有重要贡献的德高望重的政界人士、慈善家、专家学者。特别顾问应授予致力于行业发展，对行业有突出贡献，热衷于协会工作的企业家、专家学者。</p><p>本会常务副理事长（常务副会长）、副理事长（副会长）、秘书长在理事长（会长）领导下开展工作，秘书长对理事会负责。</p><p>当选为本会理事长（会长）、常务副理事长（常务副会长）职务的人选如来自企业，则必须且仅限于由该单位的董事长或总经理等主要负责人担任，广东省外企业可由驻广东省内办事机构总经理担任。</p><p>第二十四条本会理事长（会长）每届任期5年，原则上连任不得超过两届。因工作需要需延长任期的，须经会员代表大会2/3以上会员代表表决通过，报行政业务指导部门审查并经社团登记管理机关批准后，方可任职。</p><p>本会的理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、秘书长、监事必须具备下列条件：</p><p>（一）坚持党的路线、方针、政策，政治素质好；</p><p>（二）在安防领域内有较大影响；</p><p>（三）理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、秘书长最高任职年龄不得超过70周岁，秘书长为专职；</p><p>（四）身体健康，能坚持正常工作；</p><p>（五）未受到任何刑事处罚；</p><p>（六）具有完全民事行为能力。</p><p>第二十五条本会理事长（会长）行使下列职权：</p><p>（一）召集和主持理事会会议、常务理事会会议，主持召开理事长办公会议；</p><p>（二）检查会员代表大会、理事会、常务理事会决议的落实情况；</p><p>（三）代表本会签署有关重要文件；</p><p>（四）提名执行会长人选，提交理事会审议。</p><p>第二十六条本会执行会长行使下列职权：</p><p>（一）受会长委托出席本会重要会议或活动；</p><p>（二）会长授权的其他工作。</p><p>第二十七条本会的秘书长采用聘任制，秘书长和理事长（会长）不能在同一企业中产生，并须在行业内具有广泛的公信力和知名度。理事长（会长）不得兼任秘书长。</p><p>本会秘书长行使下列职权：</p><p>（一）主持开展日常工作，组织实施年度工作计划；</p><p>（二）组织制定、实施年度工作计划和预算、决定；</p><p>（三）协调各办事机构、分支机构、代表机构开展工作；</p><p>（四）提名副秘书长以及各办事机构、分支机构、代表机构主要负责人人选，经理事长办公会议审议批准；</p><p>（五）提名办事机构、分支机构、代表机构专职工作人员的聘用，报理事长办公会议批准；&nbsp;</p><p>（六）决定秘书处工作人员的聘免；</p><p>（七）处理其它日常事务。</p><p>秘书长须出席会员代表大会、理事会、常务理事会、理事长办公会议。秘书长因故不能行使职权时，可指定副秘书长代行其职权。</p><p>第二十八条本会设立至少一名监事，由理事长办公会议提名，提交会员代表大会审议通过。监事任期与理事任期相同，期满可以连任。</p><p>&nbsp; &nbsp; 理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、理事、秘书长不得兼任监事。</p><p>监事行使下列职权：</p><p>（一）向会员代表大会报告监事会（监事）年度工作；</p><p>（二）监督会员代表大会和理事会的选举、罢免；监督理事会履行会员代表大会的决议；</p><p>（三）检查协会财务和会计资料，向登记管理机关以及税务、会计主管部门反映情况；</p><p>（四）监事列席理事会会议，有权向理事会提出质询和建议；</p><p>（五）监督理事会遵守法律和章程的情况。当理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、理事和秘书长、副秘书长等管理人员的行为损害协会利益时，要求其予以纠正，必要时向会员代表大会或政府相关部门报告。</p><p>监事应当遵守有关法律法规和协会章程，接受会员代表大会领导，切实履行职责。</p><p><br style=";padding: 0px"></p><p>第五章 &nbsp;资产管理、使用原则</p><p><br style=";padding: 0px"></p><p>第二十九条 本会经费来源:</p><p>（一）会费;</p><p>（二）捐赠;</p><p>（三）政府和企业资助;</p><p>（四）在核准的业务范围内开展活动或服务的收费；</p><p>（五）利息；</p><p>（六）其它合法收入。</p><p>第三十条协会的经费开支：</p><p>（一）协会的活动经费；</p><p>（二）常设机构的费用及聘任人员的福利酬劳费等；</p><p>（三）国内外交流的费用；</p><p>（四）顾问、专家、作家等咨询服务费、讲课费、稿酬费；</p><p>（七）对协会作出贡献的团体和个人的奖励；</p><p>（八）其它必要的开支。</p><p>第三十一条本会接受捐赠时，应当遵守法律法规，不得以任何形式进行摊派或变相摊派。</p><p>第三十二条捐赠人、资助人或单位、会员、监事有权向协会查询捐赠及资助财产的使用、管理情况，并提出意见和建议。对于捐赠人、资助人或单位、会员、监事的查询，协会应及时如实答复。</p><p>第三十三条会员退会或被除名时，不得请求协会退还已交纳的会费。</p><p>第三十四条本会经费必须用于本章程规定的业务范围和事业的发展，财产以及其它收入受法律保护，任何单位、个人不得侵占、私分和挪用。</p><p>第三十五条协会理事长（会长）、常务副理事长（常务副会长）、副理事长（副会长）、理事、监事、秘书长以及工作人员私分、侵占、挪用协会财产的，应当退还，并在会员代表大会上进行检讨；构成犯罪的，依法追究刑事责任。</p><p>第三十六条本会执行国家统一的会计制度，依法进行会计核算、建立健全内部会计监督制度，保证会计资料合法、真实、准确、完整。</p><p>&nbsp; &nbsp; 本会接受税务、会计主管部门依法实施的税务监督和会计监督。</p><p>第三十七条本会配备具有专业资格的会计人员。会计不得兼任出纳。会计人员必须进行会计核算，实行会计监督。会计人员调动工作或离职时，必须与接管人员办清交接手续。</p><p>第三十八条本会的资产管理必须执行国家规定的财务管理制度，接受会员代表大会和财政部门的监督。资产来源属于国家拨款或者社会捐赠、资助的，必须接受审计机关的监督，并将有关情况以适当方式向社会公布。</p><p>第三十九条本会进行年度报告、换届、变更法定代表人以及清算，必须依法接受登记机关组织的财务审计。</p><p>第四十条本会按照有关规定，于每年3月底前向登记管理机关报送上一年度活动报告、财务报告和本年度的活动安排。</p><p>第四十一条本会专职工作人员实行全员聘任制，面向社会公开招聘，并订立劳动合同。其工资和保险、福利待遇，参照国家对事业单位的有关规定执行。</p><p><br style=";padding: 0px"></p><p>第六章 &nbsp;章程的修改程序<br style=";padding: 0px"></p><p>&nbsp;</p><p>第四十二条对本会章程的修改，须经理事会表决通过后报会员代表大会审议。</p><p>第四十三条本会修改的章程，须在会员代表大会通过后30日内，报登记管理机关核准后生效。</p><p><br style=";padding: 0px"></p><p>第七章 &nbsp;党建工作</p><p>&nbsp;</p><p>协会坚持中国共产党的领导，执行党的路线、方针和政策，走中国特色社会组织发展之路。</p><p>本会按照党章和《中共中央办公厅印发关于加强社会组织党的建设工作的意见（试行）》规定，经上级党组织批准设立党组织，在本会中开展党的工作，并按期进行换届。</p><p>第四十四条党组织是党在本会中的战斗堡垒，发挥政治核心作用。基本职能是保证政治方向，团结凝聚群众，推动行业发展，建设先进文化，服务人才成长，加强党组织自身材建设</p><p>第四十五条社会组织变更、撤并或注销，党组织应及时向上级党组织报告，并做好党员组织关系转移等相关工作。&nbsp;</p><p>本会为党组织开展活动、作好工作提供必要的场地、人员和经费支持，将党建工作经费纳入业务活动成本列支，支持党组织建设活动阵地。</p><p>支持协会领导班子与党组织领导班子交叉任职，优先推荐协会领导班子中的中共正式党员担任党的组织领导。</p><p>第四十六条支持党组织对协会重要事项决策、重要业务活动、大额经费开支、接收大额捐赠、开展涉外活动等提出意见。</p><p><br style=";padding: 0px"></p><p>第八章 &nbsp;终止程序及终止后的财产处理</p><p><br style=";padding: 0px"></p><p>第四十七条本会有以下情形之一，应当终止，并由理事会或常务理事会提出注销动议：</p><p>（一）完成章程规定的宗旨的；</p><p>（二）会员代表大会决议解散的；</p><p>（三）协会发生分立、合并的；</p><p>（四）无法按照章程规定的宗旨继续开展工作的。</p><p>第四十八条本会终止动议须经会员代表大会表决通过，并报社团登记管理机关审查同意。</p><p>第四十九条本会终止前，须在社团登记管理机关及有关单位指导下成立清算小组，清理债权债务，处理善后事宜。清算期间，不开展清算以外的活动。协会应在清算结束之日起十五日内到登记管理机关办理注销登记手续。</p><p>第五十条本会经社团登记管理机关办理注销登记手续后即为终止。</p><p>第五十一条本会终止后的剩余财产用于公益性或者非营利性目的，或者由登记管理机关采取转赠给与该组织性质、宗旨相同的组织等处置方式，并向社会公告。</p><p><br style=";padding: 0px"></p><p><br></p><p><br></p> </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-default pdBottom-default">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="78.33333333333333%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <div style="line-height:2;">
+                              <div>
+                                                            <a href="xiehuijianjie.html">协会简介</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+                                                            <a href="ruhuibaoming.html">入会报名</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+                                                            <a href="lianxiwomen.html">联系我们</a>
+                                                            </div>
+                              <div>地址：广东省广州市天河区88号 &nbsp; 电话：400-123-4567</div>
+                              <div>Copyright © 2012-2028 某某网络 版权所有&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="21.673445042555894%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-simImg" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                              <div class="img"> <img src="static/picture/832887d23bdb1c48bf5c0eff7ca68c20.jpg" width="100" height="100"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <div style=" text-align:center; line-height:2;">微 信</div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:30px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>

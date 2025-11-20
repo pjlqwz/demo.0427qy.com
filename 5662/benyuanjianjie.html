@@ -1,0 +1,432 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>本院简介_响应式科学院研究院网站模板</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/5662/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/5662/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/5662/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/5662/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/5662/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/5662/template/pc/skin/js/respond.min.js"></script>
+      <script src="/5662/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<script type="text/javascript" src="https://demoall.kuaituiyun.cn/5662/template/pc/skin/js/ajax-url.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top">
+        <div class="row_top_in clearfix">
+          <div class="column column6">
+            <div class="col-logo">
+              <div class="w-logo">
+               <h1 style="display:none;"><a href="index.html"></a></h1>
+               <a href="index.html" class="w-logo-img"> <img src="static/picture/bce273dda4c67c7056178d7b00630794.png"> </a> </div>
+            </div>
+          </div>
+          <div class="column column6 clearfix">
+            <div class="topLogBox topLogBoxPc">
+              <div class="topLogBox-in">
+                <div class="lscPc clearfix"> </div>
+                <div class="searchPc clearfix"> </div>
+                <div class="clearfix">
+                  <div class="w-custom">
+                    <div class="li-div">
+                      <div class="w-searchbox" style="text-align:right;">
+                        <div class="search-w search-defaut-w">
+                                                    <form method="get" action="/5662/index.php?m=home&c=Search&a=lists" name="search">
+                          <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">                          <input class="input-text-w input-search-w" type="text" name="keywords" id="keywords" placeholder="搜索内容">
+                          <input type="hidden" name="search-type" value="site">
+                          <div class="btn-default-w search-btn-w" onclick="javascript:document.search.submit();"> <span class="btn-inner">搜索</span> </div>
+                          </form>
+                                                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menuPc">
+        <div class="menuPc_in">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                  <li class=""><a href="index.html">首页</a><i class="nav_simpline_cur"></i></li>
+                                    <li class="active">
+                    <div class="li-parent-div li-parentOne-div"><a href="benyuangaikuang.html">本院概况 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="">本院简介</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="xuezhejieshao.html">学者介绍 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="yanjiuyuan.html">研究员 </a></li>
+                                                <li><a href="lishi.html">理事</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="jigoushezhi.html">机构设置 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="bumenyi.html">部门一</a></li>
+                                                <li><a href="bumener.html">部门二</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="chengguojieshao.html">成果介绍<i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="fenleiyi.html">分类一</a></li>
+                                                <li><a href="fenleier.html">分类二</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="keyandongtai.html">科研动态 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="keyandongtaijvq.html">科研动态</a></li>
+                                                <li><a href="keyanchengguo.html">科研成果</a></li>
+                                                <li><a href="xueshujiaoliu.html">学术交流</a></li>
+                                                <li><a href="yuanchangluntan.html">院长论坛</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="benyuankanwu.html">本院刊物 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="shehuikexue.html">社会科学</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="xinwenzonglan.html">新闻纵览 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="zhongyaoxinwen.html">重要新闻 </a></li>
+                                                <li><a href="zonghexinwen.html">综合新闻 </a></li>
+                                                <li><a href="benyuanxinwen.html">本院新闻 </a></li>
+                                                <li><a href="tupianxinwen.html">图片新闻</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="tonggaotongzhi.html">通告通知 </a></div>
+                    <i class="nav_simpline_cur"></i>  
+                    </li>
+                                  <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+                  <li class=""><a href="index.html">首页</a><i class="nav_simpline_cur"></i></li>
+                                    <li class="active">
+                    <div class="li-parent-div li-parentOne-div"><a href="benyuangaikuang.html">本院概况 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="">本院简介</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="xuezhejieshao.html">学者介绍 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="yanjiuyuan.html">研究员 </a></li>
+                                                <li><a href="lishi.html">理事</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="jigoushezhi.html">机构设置 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="bumenyi.html">部门一</a></li>
+                                                <li><a href="bumener.html">部门二</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="chengguojieshao.html">成果介绍<i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="fenleiyi.html">分类一</a></li>
+                                                <li><a href="fenleier.html">分类二</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="keyandongtai.html">科研动态 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="keyandongtaijvq.html">科研动态</a></li>
+                                                <li><a href="keyanchengguo.html">科研成果</a></li>
+                                                <li><a href="xueshujiaoliu.html">学术交流</a></li>
+                                                <li><a href="yuanchangluntan.html">院长论坛</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="benyuankanwu.html">本院刊物 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="shehuikexue.html">社会科学</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="xinwenzonglan.html">新闻纵览 <i class="fa fa-plus"></i> </a></div>
+                    <i class="nav_simpline_cur"></i>                     <div class="submenu">
+                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                      <ul>
+                                                <li><a href="zhongyaoxinwen.html">重要新闻 </a></li>
+                                                <li><a href="zonghexinwen.html">综合新闻 </a></li>
+                                                <li><a href="benyuanxinwen.html">本院新闻 </a></li>
+                                                <li><a href="tupianxinwen.html">图片新闻</a></li>
+                                              </ul>
+                    </div>
+                     
+                    </li>
+                                    <li class="">
+                    <div class="li-parent-div li-parentOne-div"><a href="tonggaotongzhi.html">通告通知 </a></div>
+                    <i class="nav_simpline_cur"></i>  
+                    </li>
+                                <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/c5b251f0f6cc95aac570b3300e9d98ef.jpg" alt="本院简介" title="" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="w-section pdTop-default pdBottom-medium">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="21.016260162601625%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-edit-com w-code" style="">
+                            <div class="custom-code">
+                              <div class="code-info">
+                                <style type="text/css">
+			.w-com-menu-V{ margin-top:-80px;}
+			@media (max-width:767px){
+			.w-com-menu-V{ margin-top:0;}
+			}
+			</style>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="" style="">
+                            <div class="w-com-menu w-com-menu-V">
+  <div class="w-com-menu-in">
+    <div class="systitle">
+      <div class="systitle-in">本院概况 </div>
+      <i class="fa icon_menuControl"></i> </div>
+    <ul class="ul-parent">
+            <li class="li-parent cur">
+        <div class="div-parent"> <a href="">本院简介</a><span class="menu_simpline_cur"></span></div>
+      </li>
+          </ul>
+  </div>
+</div>
+
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="79.02303556116615%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-edit-com w-code" style="">
+                            <div class="custom-code">
+                              <div class="code-info"> 
+                                <script type="text/javascript">
+								$(function () {
+									$('.menuR').closest('td').css({'background':'#fff','padding':'10px'});
+								});
+								</script>
+                                <div class="menuR"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <div class="crumbs">
+                              <div class="crumbs_in">您当前的位置: &nbsp; <a href='index.html' class='crumb'>首页</a> &gt; <a href='benyuangaikuang.html' class='crumb'>本院概况 </a> &gt; <a href=''>本院简介</a></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <p style="padding:10px 0;" class="p_m"><p>某某社会科学院是深圳市委市政府直属的综合性社会科学研究机构，其前身是某某社会科学研究中心，成立于1992年7月，1997年11月正式更名为某某社会科学院 ， 2006 年 7 月，加挂“邓小平理论、‘三个代表&#39;重要思想和科学发展观研究中心”牌子。</p><div label-module="para">现有 3 个研究所：经济研究所、社会发展研究所、文化研究所； 3 个研究中心：传媒产业研究中心、地产营运中心、房地产研究中心； 2 个行政处室：科研学会处、院办公室； 1 个培训中心：院培训中心； 1 个杂志社：《特区经济》杂志社； 1 个编辑部：《南方论丛》编辑部。共有工作人员 50 余人。其中，研究员 7 人，副研究员 10 人，博士 9 人，硕士 12 人，享受国务院特殊津贴专家 3 人，市优秀专家 1 人。</div><div><a style="color: rgb(19, 110, 194); position: absolute; top: -50px;" name="2"></a><a style="color: rgb(19, 110, 194); position: absolute; top: -50px;" name="sub1541362_2"></a><a style="color: rgb(19, 110, 194); position: absolute; top: -50px;" name="发展历史"></a></div><p>科研成果丰硕，截止2005年底，某某社会科学院在各个学科领域共完成理论研究成果2000余项，在城市发展综合研究、现代化理论与实践研究、开放型经济研究、特区文化建设研究等领域已初步形成了自己的研究专长，并主持编撰《深圳蓝皮书：中国深圳发展报告》、《深圳文化蓝皮书》和《全球创业观察深圳研究报告》。为体现精简高效原则，市社科院与市社科联 、 市邓小平理论、“三个代表”重要思想和科学发展观研究中心合署办公，并兼有社科规划办的职能。作为我国首家成立的特区社会科学院，深圳市社会科学院始终坚持“探求真理，发展学术，服务社会”的办院宗旨，在创新中不断发展。</p><p><br></p><div data-comunique="3ea179309e4e1450c378dd31dfda004e"><div><p>XX市社会科学院以建设“决策智囊、学术高地、社会智库”为办院方针。以“四个建设好、一个努力”为基础，打造一流地方社科院：一是建设好市委市政府的思想库、智囊团，做到“信得过、用得上、离不开”；二是建设好马克思主义中国化理论阵地，做到“有发展、有创新、有建树”；三是建设好繁荣发展首都哲学社会科学主阵地，做到有“话语权、创造性、表现力”；四是建设好新型智库，做到“立得住、叫得响、过得硬”；五是在全盘工作和长远发展上，努力做到“与国际接轨、创国内一流”。<br style="box-sizing: border-box;"><br style="box-sizing: border-box;">XX市社会科学院现有14个研究所（中心）、1个博士后科研工作站、2个民营研究院所、2个编辑部、1个图书信息中心和7个职能处室及12个研究基地（中心）。截止到2015年10月底，有在职人员234人，离退休190人。科研人员184人，占在职人员79%，其中博士120人，硕士研究生46人，博士后13人；研究员25人，副研究员74人，中级职称64人；正处20人，副处29人。先后有24人享受政府特殊津贴，3人被授予XX市有突出贡献的专家称号，13人入选市社科理论人才百人工程，4人入选XX市新世纪百千万人才工程，3人入选XX市“四个一批”理论人才。<br style="box-sizing: border-box;">&nbsp;<br style="box-sizing: border-box;">在建设一流地方社科院进程中，XX市社会科学院在研究中贴近核心决策、贴近社会需求、贴近群众生活，强化交流、开拓视野，基础学科巩固发展，应用对策学科作用明显，特色学科研究独树一帜，产生了一批如《北京通史》、《中国古今官德研究丛书》等具有较高理论水平和应用价值的学术专著；主办的要报《看一眼》提出了建设世界城市、提炼北京精神、建设首都新型智库等建议，为市委市政府决策提供了大量的参考信息，对社会产生了重要影响；举办了总部经济、社会管理、城市问题、满学研究等各类研究论坛，在学术界产生了重要影响。建院以来共完成学术专著一千余部，论文一万余篇，研究报告千余份，以及大量的其他形式的研究成果。在推进马克思主义中国化、时代化、大众化上发挥积极作用，在建设社会主义核心价值体系上发挥了积极作用，在服务市委市政府重大决策上发挥积极了作用，在XX建设世界城市和首都新型智库的历史进程中发挥了积极作用，极大提升了社会科学的决策影响力、学术影响力和社会影响力。</p></div></div><div data-comunique="5dfb25530683cbf92571fd7a6ec74683"><div><div></div></div></div><p><br></p> 
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-medium pdBottom-default">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-text" style="">
+              <div style=" text-align:center; line-height:2;">地址：广东省广州市天河区88号<br>
+                电话：400-123-4567 &nbsp;&nbsp; 传真：+86-123-4657 &nbsp; &nbsp;邮箱：admin@youweb.com</div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-text" style="">
+              <div style="position:relative;">
+                <div style="position:absolute; left:50%; margin-left:-1500px; width:3000px; top:0; bottom:0; background:#262626;"></div>
+                <div style=" position:relative; z-index:1;text-align:center; padding-top:0.5em; padding-bottom:0.5em;"><span style="color: #999;">Copyright © 2012-2023 某某研究院 版权所有&nbsp;&nbsp; &nbsp;&nbsp; <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end --> </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>

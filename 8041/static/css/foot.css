@@ -1,0 +1,133 @@
+﻿#quickbar_form {
+   background-color:red;
+  }
+  .fm{
+   background-color:red;
+  }
+  .quickbar_nav_one li a{
+   color:#ffffff;
+  }
+
+   .quickbar_nav_one ul li .icon:hover{
+   background-color:#bbbbbb;
+  }
+  .model-leftnav-top{
+  background:#aaaaaa;
+  }
+
+  .quickbar_nav_one ul li .icon{
+  background-color:#aaaaaa;
+  }
+
+  .quickbar_nav_one ul li .li_hover{
+   background-color:#aaaaaa;
+  }
+
+.model-leftnav-top{
+background:#aaaaaa !important;
+}
+.model-fixed {
+  width: 100%;
+  padding: 5px 16px;
+  height: 56px;
+ background:#aaaaaa !important;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  z-index: 22;
+}
+.model-fixed .fnavbox {
+  width: 100%;
+  height: auto;
+}
+.model-fixed .fnavbox li {
+  text-align: center;
+  
+  float: left;
+}
+.model-fixed .fnavbox li a,
+.fnavbox li dd {
+   color: #ffffff !important;
+  display: block;
+}
+.model-fixed .fnavbox li .fix_icon {
+  width: 100%;
+  height: 26px;
+  overflow: hidden;
+}
+.model-fixed .fnavbox li .title {
+  overflow: hidden;
+  height: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+.model-fixed .model-ewmimg {
+  display: none;
+  width: 40%;
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  z-index: 23;
+  text-align: center;
+  font-size: 0.58rem;
+  color: #fff;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.model-fixed .model-ewmimg img {
+  width: 100%;
+}
+.model-fixed .share_box {
+   background: #fff;
+   padding-top:10px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+	z-index: 2;
+}
+.model-fixed .share_box .stop{
+    width: 100%;height:80px;
+}
+.model-fixed .share_box .quxiao{
+   width: 100%;height:30px;line-height: 30px;background: #f3f3f3;color: #666;
+}
+.model-fixed .share-icon{
+    position: relative;z-index: 3;
+}
+form#quickbar_form {
+   
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    background: #aaaaaa !important;
+    position: absolute;
+    bottom: 176px;
+    left: 0;
+	padding:0 3%;
+}
+span.s_ipt_w {
+    width:85%;
+    display: block;
+    float: left;color: #fff;
+}
+input#quickbar_kw {
+    width:100%;
+    height: 30px;
+    background: none;
+    color: #fff;
+}
+span.s_btn_wr {
+    width: 15%;
+    float: right;color: #fff;
+}
+input#quickbar_submit {
+    width: 100%;
+	background:none;
+}
+
+.copyM{background:#bbbbbb;}
+
+.quickbar_yc{display:none;}

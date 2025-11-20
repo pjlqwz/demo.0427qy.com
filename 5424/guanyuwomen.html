@@ -1,0 +1,411 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<title>协会简介_响应式安防协会网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/5424/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/5424/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/5424/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/5424/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/5424/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/5424/template/pc/skin/js/respond.min.js"></script>
+      <script src="/5424/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top">
+        <div class="row_top_in clearfix">
+          <div class="column column6">
+            <div class="col-logo">
+              <div class="w-logo">
+               <h1 style="display:none;"><a href="index.html"></a></h1>
+               <a href="index.html" class="w-logo-img"> <img src="static/picture/8a0d32e23403fc4c89f141696ab18861.png"> </a> 
+              </div>
+            </div>
+          </div>
+          <div class="column column6 clearfix">
+            <div class="topLogBox topLogBoxPc">
+              <div class="topLogBox-in clearfix">
+                <div class="cusPc clearfix">
+                  <div class="w-custom">
+                    <div class="li-div">
+                      <div class="w-edit-com w-code" style="">
+                        <div class="custom-code">
+                          <div class="code-info">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="li-div">
+                      <div class="w-searchbox" style="">
+                      
+                        <div class="search-w search-defaut-w">
+                                                <form class="sidebar-search" method="get" action="/5424/index.php?m=home&c=Search&a=lists&lang=cn" name="search">
+                         <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">                          <input class="input-text-w input-search-w" type="text" name="keywords" id="keywords" placeholder="搜索内容">
+                          <input type="hidden" name="search-type" value="site">
+                          <div class="btn-default-w search-btn-w" onclick="javascript:document.search.submit();"> <span class="btn-inner">搜索</span> </div>
+                          </form> 
+                                                </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lscPc clearfix"> </div>
+                <div class="searchPc"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menuPc">
+        <div class="menuPc_in">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="active">
+                  <div class="li-parent-div li-parentOne-div"><a href="" class="after">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xiehuijianjie.html">协会简介</a></li>
+                                            <li><a href="xiehuizhangcheng.html">协会章程</a></li>
+                                            <li><a href="xiehuirongyu.html">协会荣誉</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="huiyuanzhichuang.html" class="after">会员之窗<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="ruhuixuzhi.html">入会需知</a></li>
+                                            <li><a href="ruhuibaoming.html">入会报名</a></li>
+                                            <li><a href="huiyuanminglu.html">会员名录</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzhongxin.html" class="after">新闻中心<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                                            <li><a href="zhongyaotongzhi.html">重要通知</a></li>
+                                            <li><a href="xiehuihuodong.html">协会活动</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuifuwu.html" class="after">协会服务<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xinxifuwu.html">信息服务</a></li>
+                                            <li><a href="renzhengzixun.html">认证咨询</a></li>
+                                            <li><a href="chuangxinfuwu.html">创新服务</a></li>
+                                            <li><a href="guojihezuo.html">国际合作</a></li>
+                                            <li><a href="huiyizhanlan.html">会议展览</a></li>
+                                            <li><a href="zhuanxiangpeixun.html">专项培训</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zhengcefagui.html">政策法规</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuikanwu.html">协会刊物</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+           
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li><a href="index.html">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="active">
+                  <div class="li-parent-div li-parentOne-div"><a href="">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xiehuijianjie.html">协会简介</a></li>
+                                            <li><a href="xiehuizhangcheng.html">协会章程</a></li>
+                                            <li><a href="xiehuirongyu.html">协会荣誉</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="huiyuanzhichuang.html">会员之窗<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="ruhuixuzhi.html">入会需知</a></li>
+                                            <li><a href="ruhuibaoming.html">入会报名</a></li>
+                                            <li><a href="huiyuanminglu.html">会员名录</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzhongxin.html">新闻中心<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xingyexinwen.html">行业新闻</a></li>
+                                            <li><a href="zhongyaotongzhi.html">重要通知</a></li>
+                                            <li><a href="xiehuihuodong.html">协会活动</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuifuwu.html">协会服务<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="xinxifuwu.html">信息服务</a></li>
+                                            <li><a href="renzhengzixun.html">认证咨询</a></li>
+                                            <li><a href="chuangxinfuwu.html">创新服务</a></li>
+                                            <li><a href="guojihezuo.html">国际合作</a></li>
+                                            <li><a href="huiyizhanlan.html">会议展览</a></li>
+                                            <li><a href="zhuanxiangpeixun.html">专项培训</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zhengcefagui.html">政策法规</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xiehuikanwu.html">协会刊物</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们</a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/b86095b7bd0c2f51fb1119fa9cc0b415.jpg" alt="banner" title="" style="">  </div>
+  </section>
+  <div class="w-container w-main">
+    <div class="w-section pdTop-big pdBottom-large">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="22.439024390243905%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="" style="">
+                            <div class="w-com-menu w-com-menu-V">
+  <div class="w-com-menu-in">
+    <div class="systitle">
+      <div class="systitle-in">关于我们 </div>
+      <i class="fa icon_menuControl"></i> </div>
+    <ul class="ul-parent">
+            <li class="li-parent ">
+        <div class="div-parent"> <a href="xiehuijianjie.html" target="_self">协会简介</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+            <li class="li-parent ">
+        <div class="div-parent"> <a href="xiehuizhangcheng.html" target="_self">协会章程</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+            <li class="li-parent ">
+        <div class="div-parent"> <a href="xiehuirongyu.html" target="_self">协会荣誉</a> <span class="menu_simpline_cur"></span> </div>
+      </li>
+          </ul>
+  </div>
+</div>
+
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-delimiters-ver" style="margin:9px auto;height:750px;">
+                            <hr class="delimiters" style="margin:0 auto;background-color:#e2e2e2;width:1px;height:750px;">
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="73.4959349593496%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-title w-title15  border_colorleft_main" style="">
+                            <div class="w-title-in">
+                              <div class="w-title-inner">
+                                <div class="title-h-in">
+                                  <h2 class="color_main" style="" data-type="title">协会简介</h2>
+                                  <span style=""></span> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:26px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text"> <p>广东省某某公共安全技术防范协会于2009年6月17日正式成立，广东省公共安全技术防范协会是在“自愿发起，自选会长，自筹经费，自聘人员，自主会务”的原则基础上，实行无行政级别、无行政事业编制，并在行政业务主管部门的指导下，真正实现民间化和自治化的非营利性行业组织、省一级社团法人组织。凡是在广东省内从事防入侵、防抢劫、防盗窃、防破坏、防爆炸、防伪等活动的产品开发、生产、销售；技防系统工程设计、防伪工程设计、施工、维修、使用等；以及相关的管理、教育培训、咨询服务、信息服务等企事业单位，只要遵守协会章程，均可申请加入。</p><div>作为社会中介组织，广东省公共安全技术防范协会严格遵守国家法规、法令，担负着承上启下、协调和监督的重任，为政府服务，为会员服务，为全行业服务，为广大用户服务，在政府与会员及广大用户之间搭建起畅通的桥梁，维系起紧密的纽带，推动安全防范产品行业健康发展。</div>&nbsp;<div>广东某某安防协会成立之后，将在广东省公安厅科技信息化处的指导下，在广东省民政厅民间组织管理局的监督管理下，举行一系列的活动，更有利于扩大国内、国际安防产品技术交流；并开设业务培训班，培养一批行业业务骨干；开展咨询服务，加强各企业事业单位间的信息沟通；引进并推广先进技术，为企业参与市场竞争创造条件；编制行业规划，提出安防产品行业发展的长远目标；制定行规行约，强化行业自律和行业规范管理。</div>&nbsp;<div>为宣传国家有关方针、政策及刊出本行业的重大活动情况，收集、传播国内外的科技信息和有关企业开发、生产的新型安防产品情况，广东某某安防协会创办了《广东某某安防》期刊，免费发送给会员单位和相关部门；并且建立了“广东某某安防网”，行业内的政策法规以及协会的最新动态都可以得到全面报道，协会利用网络开展各项工作，为各界人士提供更全面的行业信息，有利于提高行业管理效率，加快各种信息的传递；使信息在会员之间的交流，并进一步增进协会与会员的联系。</div>&nbsp;<div>广东省某某公共安全技术防范协会将不断地扩大国际、国内、广东省内同行间的交往与合作，愿与业界朋友共同为安防产品行业的发展和社会公共安全事业贡献力量。</div><p><br></p> </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-default pdBottom-default">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="78.33333333333333%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <div style="line-height:2;">
+                              <div>
+                                                            <a href="xiehuijianjie.html">协会简介</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+                                                            <a href="ruhuibaoming.html">入会报名</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+                                                            <a href="lianxiwomen.html">联系我们</a>
+                                                            </div>
+                              <div>地址：广东省广州市天河区88号 &nbsp; 电话：400-123-4567</div>
+                              <div>Copyright © 2012-2028 某某网络 版权所有&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="21.673445042555894%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-simImg" style="cursor:pointer;text-align:center;">
+                            <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                              <div class="img"> <img src="static/picture/832887d23bdb1c48bf5c0eff7ca68c20.jpg" width="100" height="100"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-text" style="">
+                            <div style=" text-align:center; line-height:2;">微 信</div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:30px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>

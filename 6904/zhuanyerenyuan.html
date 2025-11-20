@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>专业人员_某某事务所</title>
+	<meta name="description" content="我们拥有丰富的经验以及专业的团队，能够为您提供高品质的知识产权服务">
+	<meta name="keywords" content="">
+	<link href="/6904/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+	<link rel="stylesheet" href="static/css/g.css">
+	<link rel="stylesheet" href="static/css/s.css">
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<script src="https://demoall.kuaituiyun.cn/6904/template/pc/skin/js/jquery-ui.min.js"></script>
+	<script src="static/js/slick.js"></script>
+	<script src="static/js/scrolloverflow.min.notransition.js"></script>
+	<script src="static/js/g.js"></script>
+	<style>
+.banners-pc {
+	clear: both;
+	height: 500px;
+	position: relative;
+	top: -240px;
+	margin-bottom: -240px;
+}
+.banners-pc .frame {
+	height: 500px;
+	background: no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.banners-pc .frame .p1 {
+	font-size: 46px;
+	color: #fff;
+	padding-top: 200px;
+}
+.banners-pc .frame .p2 {
+	font-size: 14px;
+	color: rgba(255,255,255,.6);
+	padding-top: 36px;
+	line-height: 24px;
+}
+ @media (max-width: 1024px) {
+.banners-pc {
+	display: none;
+}
+}
+.team {
+	padding-top: 70px;
+}
+.teambox {
+	position: fixed;
+	z-index: 200;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.teambox > table {
+	width: 100%;
+	height: 100%;
+}
+.teambox > table td {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.teambox > table td .box {
+	visibility: hidden;
+	opacity: 0;
+	display: inline-block;
+	position: relative;
+	max-width: 1000px;
+	min-height: 400px;
+	background: #fff;
+	padding: 20px;
+	transition: ease .3s;
+}
+.teambox > table td .box.show {
+	visibility: visible;
+	opacity: 1;
+}
+.teambox > table td .box .view {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.teambox > table td .box .close {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #3e8bff;
+	color: #fff;
+	line-height: 50px;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: lighter;
+	text-align: center;
+	top: -30px;
+	right: 50px;
+}
+.teambox > table td .box .pic {
+	float: left;
+	margin-right: 20px;
+	max-width: 370px;
+}
+.teambox > table td .box .des {
+	overflow: hidden;
+	text-align: left;
+}
+.teambox > table td .box .des .p1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+}
+.teambox > table td .box .des .p2 {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.teambox > table td .box .des .p3 {
+	font-size: 14px;
+	color: #888;
+	line-height: 1.8em;
+	padding-top: 30px;
+}
+ @media (max-width: 1023px) {
+.teambox > table td .box .close {
+	top: 0;
+	right: 0;
+}
+.teambox > table td .box .pic {
+	float: none;
+	max-width: 90%;
+	margin-right: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+}
+</style>
+	<script>
+		$(function () {
+			$(document).click(function () { $('.teambox').remove(); });
+			$('.team .offset .list > li .box').click(function () {
+				$('.teambox').remove();
+				var t = $(this);
+				var b = $('<div class="teambox"><table><tr><td><div class="box"><a href="#" onclick="return false;" class="close">×</a><div class="view"><img class="pic" /><div class="des"><p class="p1"></p><p class="p2"></p><div><pre class="p3"></pre></div></div></div></div></td></tr></table></div>');
+				b.find('.pic').attr('src', t.find('img').attr('src'));
+				b.find('.p1').text(t.find('.p1').text());
+				b.find('.p2').text(t.find('.p2').text());
+				b.find('.p3').html(t.find('.p3').html());
+			
+
+				b.find('.close').click(function () { b.remove() });
+				b.appendTo($(document.body)).find('.box').click(function (event) { event.stopPropagation(); });
+				window.setTimeout(function () { b.find('.box').addClass('show'); }, 10);
+				return false;
+			});
+		});
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="static/css/freedom.css">
+	</head>
+	<body>
+<div class="g_header clearfix">
+  <div class="bar"> <a href="#" class="menu"><img src="static/picture/menu.svg"></a>
+    <p class="logo"><a href="index.html"><img src="static/picture/8e8fb4a92d45807e14e6d1d9fdc23b86.png"></a></p>
+  </div>
+  <p class="logo_pc left"><a href="index.html"><img src="static/picture/4dfc32183ee17e2d283319ea9f7032ad.png"></a></p>
+  <div class="main">
+    <div class="con clearfix">
+      <ul class="nav">
+        <li> <a href="index.html" class=" ">
+          <p> <b>网站首页</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="guanyuwomen.html" class="">
+          <p> <b>关于我们</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="yewufanwei.html" class="">
+          <p> <b>业务范围</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="xinwenzhongxin.html" class="">
+          <p> <b>新闻中心</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="" class="on">
+          <p> <b>专业人员</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="zhaoxiannashi.html" class="">
+          <p> <b>招贤纳士</b> <em class="en"></em> </p>
+          </a> </li>
+                <li> <a href="lianxiwomen.html" class="">
+          <p> <b>联系我们</b> <em class="en"></em> </p>
+          </a> </li>
+              </ul>
+      <p class="lx"><span class="dh">020-88888888</span></p>
+    </div>
+  </div>
+</div>
+
+<div class="banners-pc">
+      <div class="frame" style="background-image:url(static/image/77ee99b3e6526b3010c13ab6d2a1f91e.jpg);">
+    <p class="p1">专业人员</p>
+    <p class="p2">我们拥有丰富的经验以及专业的团队，能够为您提供高品质的知识产权服务</p>
+  </div>
+    </div>
+
+<!--主体内容-->
+<div class="page">
+      <div class="g_cw"> 你当前位置： <a href='index.html' class='crumb'>首页</a> &gt; <a href=''>专业人员</a></div>
+    </div>
+<div class="team">
+      <div class="offset">
+    <div class="g_cw">
+          <ul class="list">
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/6e5e9236decb4158e57c0bf3b0987767.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 周</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/868021e06b171f31e7d2027f0031dbb5.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 赵</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/aaf1e192d4eae198953a68d39fd67e7d.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 陈</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/868021e06b171f31e7d2027f0031dbb5.jpg"></p>
+          <div class="font">
+            <p class="p1">律师李</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/6e5e9236decb4158e57c0bf3b0987767.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 王</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+                <li> <a href="#" class="box">
+          <p class="pic"><img src="static/picture/aaf1e192d4eae198953a68d39fd67e7d.jpg"></p>
+          <div class="font">
+            <p class="p1">律师 张</p>
+            <p class="p2">华东理工大学     专利代理，商标代理</p>
+            <p class="p3">熟悉中国及日本的专利体系和制度；长期以来为国内外诸多知名企业代理了大量复审和无效案件、权利鉴定、侵权诉讼、查处、知识产权相关咨询等业务；来自一线的丰富的执业经验，能有效地帮助企业量身定制专利、商标等申请、保护战略。</p>
+          </div>
+          </a> </li>
+              </ul>
+        </div>
+    <div class="g_page" n="_pi" p="1" style="margin-bottom:80px;">
+          <div class="next1">  共<strong>1</strong>页&nbsp;<strong>6</strong>条</div>
+        </div>
+  </div>
+    </div>
+
+<!--主体内容 end--> 
+
+<div class="g_footer">
+  <div class="g_cw">
+    <div class="top clearfix">
+      <ul class="nav left clearfix">
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="guanyuwomen.html">关于我们</a></p>
+            <div class="lb">  </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="yewufanwei.html">业务范围</a></p>
+            <div class="lb">               <p class="p1"><a href="zhuanlixiangguanyewu.html">专利相关业务</a></p>
+                            <p class="p1"><a href="shangbiaoxiangguanyewu.html">商标相关业务</a></p>
+                            <p class="p1"><a href="banquanxiangguanyewu.html">版权相关业务</a></p>
+                            <p class="p1"><a href="susongxiangguanyewu.html">诉讼相关业务</a></p>
+                            <p class="p1"><a href="zhishichanquanxiangguanyewu.html">知识产权相关业务</a></p>
+                            <p class="p1"><a href="zhishichanquanjiaoyi.html">知识产权交易</a></p>
+               </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="xinwenzhongxin.html">新闻中心</a></p>
+            <div class="lb">               <p class="p1"><a href="gongsixinwen.html">公司新闻</a></p>
+                            <p class="p1"><a href="xingyexinwen.html">行业新闻</a></p>
+               </div>
+          </div>
+        </li>
+                <li class="f_br">
+          <div class="box">
+            <p class="h1"><a href="">专业人员</a></p>
+            <div class="lb">  </div>
+          </div>
+        </li>
+              </ul>
+      
+      <div class="right">
+        <p class="s1">24小时服务热线</p>
+        <p class="s2">020-88888888</p>
+        <p class="gzh"><img src="static/picture/1af2fdc834fbf97f790a3b649ded108e.jpg" width="101" height="101"></p>
+        <p class="p1">微信公众号</p>
+      </div>
+      <ul class="flink left clearfix">
+       <li class="flink"><a>友情链接： </a></li>
+                <li class="flink"><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                <li class="flink"><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                <li class="flink"><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                <li class="flink"><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+                <li class="flink"><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+              </ul>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="g_cw">
+      <p class="logo">某某事务所</p>
+      <p class="p1">Copyright © 2012-2023 某某公司 版权所有</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+
+</body>
+</html>
