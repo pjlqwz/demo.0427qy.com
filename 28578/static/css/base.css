@@ -1,0 +1,240 @@
+﻿
+
+/* CSS Document */
+/*Reset*/
+
+html {
+	height: 100%
+}
+body {
+	min-height: 100%
+}
+body {
+	_height: 100%
+}
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, input, select, textarea, button, p, blockquote, th, td, figure {
+	margin: 0;
+	padding: 0
+}
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, p, blockquote, figure, header, footer, nav, article, section, aside, address, figcaption {
+*zoom: 1
+}
+iframe, frame, fieldset, img {
+	border: 0 none
+}
+img {
+	vertical-align: top
+}
+input[type=text], input[type=password], input[type=file], textarea {
+	-webkit-border-radius: 0;
+	-webkit-appearance: normal
+}
+input[type=search] {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box
+}
+textarea {
+	overflow: auto;
+	resize: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	content: none
+}
+caption, th {
+	text-align: left
+}
+th {
+	font-weight: normal
+}
+em, cite, address, i {
+	font-style: normal
+}
+sup {
+	vertical-align: text-top
+}
+sub {
+	vertical-align: text-bottom
+}
+ol, ul, li {
+	list-style: none;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym, fieldset, img {
+	border: 0 none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+input[type="text"], textarea {
+	outline: none;
+}
+input[type="radio"], input[type="checkbox"] {
+	vertical-align: middle;
+}
+input[type="submit"], input[type="button"], input[type="reset"], button {
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.clf:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clf {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .clf {
+	zoom: 1;
+} /* IE7 */
+.fixed:after, .clf:after, .cf:after, .header:after, .main:after, .footer:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+.fixed, .clf, .cf, .header, .main, .footer {
+*zoom: 1
+}
+.cl {
+	display: block!important;
+	float: none!important;
+	clear: both;
+	width: auto!important;
+	max-width: none!important;
+	min-width: 0!important;
+	max-height: none!important;
+	min-height: 0!important;
+	overflow: hidden;
+	margin: 0!important;
+	padding: 0!important;
+	border: 0 none!important;
+	font-size: 0!important;
+	line-height: 0!important
+}
+.tl {
+	text-align: left;
+}
+.tc {
+	text-align: center;
+}
+.tr {
+	text-align: right;
+}
+.vt {
+	vertical-align: top;
+}
+.vm {
+	vertical-align: middle;
+}
+.vb {
+	vertical-align: bottom;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.fl, .fr {
+	display: inline;
+}
+.ti2 {
+	text-indent: 2em;
+}
+em {
+	font-weight: 900;
+}
+body, input, select, button, textarea {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #000;
+	line-height: 21px;
+}
+body {
+	text-align: left;
+	margin: 0 auto;
+	behavior: url("https://demoall.5fa.cn/28578/template/pc/skin/css/csshover.htc");
+}
+a * {
+*cursor: pointer
+}
+:focus {
+	outline: none
+}
+a:focus {
+	outline: none;
+}
+a {
+blr:expression(this.onFocus=this.blur());
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.font30 {
+	font-size: 30px;
+}
+.font26 {
+	font-size: 26px;
+}
+.font24 {
+	font-size: 24px;
+}
+.font18 {
+	font-size: 18px;
+}
+.font16 {
+	font-size: 16px;
+}
+.font15 {
+	font-size: 15px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font12 {
+	font-size: 12px
+}
+/**/
+.page {
+	text-align: center;
+	padding: 30px 0px 30px 0;
+	width: 100%;
+}
+.page a {
+	display: inline-block;
+	height: 26px;
+	padding: 0 10px;
+	line-height: 26px;
+	margin-left: 3px;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+}
+.page a:hover, .page a.on {
+	background-color: #d8202f;
+	color: #fff;
+}

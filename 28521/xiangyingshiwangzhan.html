@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>响应式网站</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/28521/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="author" content="zhipinit">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="static/css/common.css">
+<link rel="stylesheet" type="text/css" href="static/css/index.css">
+<link rel="stylesheet" type="text/css" href="static/css/web_site.css">
+<link rel="stylesheet" href="static/css/page-html5-canvas.css">
+<link rel="stylesheet" type="text/css" href="static/css/respond.css">
+<script src="https://demoall.5fa.cn/28521/template/pc/skin/css/weixin/js/jquery-3.7.0.min.js"></script>
+<script src="static/js/common.js" type="text/javascript"></script>
+</head>
+<body class="body1200">
+<div class="header">
+  <div class="zcon">
+    <div class="head">
+      <div class="logo"> <a href="index.html" title="响应式营销网站定制公司网站模板"><img alt="响应式营销网站定制公司网站模板" src="static/picture/1-220530151622262.png"></a> </div>
+      <div class="center_intrl">
+        <h4 class="">全网<b>整合营销</b>服务商</h4>
+        <p>电脑端+手机端+微信端=数据同步管理</p>
+      </div>
+      <div class="top_tel">
+        <p><i>免费咨询热线：</i><span>4009-999-999</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="zcon">
+      <ul class="nav-box" id="nav-box">
+        <li class="first"><a href="index.html" title="">首页</a><span></span></li>
+                <li class="drop-down"><a href="weixinkaifa.html">微信开发</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="shoujishangcheng.html">手机商城</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="xiaochengxu.html">小程序</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="yingxiaoxingwangzhan.html">营销型网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="">响应式网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="jiejuefangan.html">解决方案</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="anlizhanshi.html">案例展示</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="yingxiaoxingwangzhan596.html">营销型网站</a></li>
+                        <li><a href="pinpaixingwangzhan.html">品牌型网站</a></li>
+                        <li><a href="gaoduandingzhiwangzhan.html">高端定制网站</a></li>
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="news.html">新闻资讯</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="guanyuwomen.html">关于我们</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="qiyejianjie.html">企业简介</a></li>
+                        <li><a href="qiyewenhua.html">企业文化</a></li>
+                        <li><a href="lianxiwomen.html">联系我们</a></li>
+                      </ul>
+        </li>
+              </ul>
+    </div>
+  </div>
+  <a href="javascript:" id="pull" onclick=''><img src="static/picture/menu.png" title="menu"></a>
+  <div class="menu_bg" id="menu_bg"></div>
+</div>
+<div class="sidemenu" id="side-menu">
+  <ul>
+    <li class="homeli"><a href='index.html'>首页</a></li>
+        <li class=""><a href='weixinkaifa.html'>微信开发</a></li>
+        <li class=""><a href='shoujishangcheng.html'>手机商城</a></li>
+        <li class=""><a href='xiaochengxu.html'>小程序</a></li>
+        <li class=""><a href='yingxiaoxingwangzhan.html'>营销型网站</a></li>
+        <li class="active"><a href=''>响应式网站</a></li>
+        <li class=""><a href='jiejuefangan.html'>解决方案</a></li>
+        <li class=""><a href='anlizhanshi.html'>案例展示</a></li>
+        <li class=""><a href='news.html'>新闻资讯</a></li>
+        <li class=""><a href='guanyuwomen.html'>关于我们</a></li>
+      </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#pull').click(function(){
+		if(parseInt($("#side-menu").css("right"))<=-165)
+		{
+			$("#side-menu").animate({right:0},"fast").css("display","block");
+			$("body").animate({right:165},"fast");
+			$('#menu_bg').addClass('menu_bg_active');
+		}
+	})
+	$('#menu_bg').click(function(){
+		$("#side-menu").animate({right:-165},"fast").css("display","none");
+		$("body").animate({right:0},"fast");
+		$('#menu_bg').removeClass('menu_bg_active');
+	})
+})
+</script>
+<div class="page-h5-banner">
+  <div>
+    <div class="zcon">
+      <h1>HTML5响应式网站</h1>
+      <h2>无止境设计追求</h2>
+      <h3><b>+</b>
+        <c>WELCOME TO HMTL5响应式网站时代</c>
+      </h3>
+      <h5>聚焦 深度 转型与改变</h5>
+      <h4> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">项目咨询</a> <a href="anlizhanshi.html" id="p-5-b-a" target="_blank">查阅案例</a> </h4>
+    </div>
+  </div>
+  <video width="100%" preload="true" onclick="this.play();" autoplay loop>
+    <source src="/28521/template/pc/skin/css/img20170107/html5.webm" type="video/webm">
+  </video>
+</div>
+<div class="solu_list">
+  <div class="stitlelist">
+    <div class="page-h5-one">
+      <div class="zcon">
+        <p>手机网站设计，技术实施攻略</p>
+        <i></i>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>兼容性强,灵活设计</b>
+            <c>普通网站设计项目只适用固定部分终端，分辨率很难兼容。移动终端新尺寸不断更新换代，响应式HTML5设计可以提前预防并解决问题。</c>
+          </h2>
+        </div>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>HTML5响应趋势</b>
+            <c>移动终端用户量已远超PC用户，互联网移动终端用户作为互动的主流趋势，研究表明80%以上移动用户期待响应式网站访问全覆盖。</c>
+          </h2>
+        </div>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>程序代码清晰</b>
+            <c>HTML5网站设计开发代码，科学布局及分割，同时伪静态程序命名规则，代码标准更规范逻辑性更强，统一代码HTML样式。</c>
+          </h2>
+        </div>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>布局设计嵌入匹配</b>
+            <c>实现文字背景分离更高清，布局按照扁平化准则设计实施布局，管理方便整站信息一体化，SVG,ICON，等嵌入更明了。</c>
+          </h2>
+        </div>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>品质高效提升</b>
+            <c>感触网页设计视觉新动向，视觉上变得更具吸引力设计趋势，多元素化设计同时充满活力的新时间理念，网站品质脱颖而出。</c>
+          </h2>
+        </div>
+        <div>
+          <h3><img src="static/picture/page-h5-one-icon.png"></h3>
+          <h2><b>整屏响应</b>
+            <c>设计潮流以及网页设计技术一起格式化，视觉上变得更具吸引力设计趋势，，多元素化设计，高端网站设计布局的浏览体验。</c>
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="page-h5-two"> <img src="https://demoall.5fa.cn/28521/template/pc/skin/css/img20170107/page-h5-two-bg.jpg">
+      <div>
+        <h3>HTML5响应式网站建设执行准则</h3>
+        <p></p>
+        <h2><b>全程规划</b>
+          <c>网站项目设计开发布局特效，全程规划整理构思</c>
+        </h2>
+        <h2><b>设计100%</b>
+          <c>网站首页及内页设计风格，无修改次数限制，甲方满意确认</c>
+        </h2>
+        <h2><b>多元素支持</b>
+          <c>整个网站设计项目所有素材图，提供特效设计开发，等多元素技术支持</c>
+        </h2>
+        <h2><b>确认方可</b>
+          <c>整体设计 + 特效质量 + 设计品质 + 资料排版确认满意为止</c>
+        </h2>
+      </div>
+    </div>
+    <div class="page-h5-dt">
+      <div class="headline-bg index-headline-bg wavesWapper">
+        <canvas id="waves" class="waves"></canvas>
+      </div>
+      <div class="txt">
+        <h5>创造深度用户体验</h5>
+        <h2>未来网站设计更注重手机用户</h2>
+        <h3></h3>
+        <h4><a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">立即咨询</a> <a class="zixun_phone" href="http://p.qiao.baidu.com/cps/chat?siteId=10661362&userId=23731119">立即咨询</a></h4>
+      </div>
+    </div>
+    <div class="page-fn-two">
+      <div>
+        <h3>项目咨询</h3>
+        <h4>项目用户咨询</h4>
+        <h4>了解需求</h4>
+        <h4>报价确认</h4>
+        <h4>签约服务合同</h4>
+        <h4>支付首付款项</h4>
+      </div>
+      <div>
+        <h3>执行启动</h3>
+        <h4>项目重新评估</h4>
+        <h4>定位设计</h4>
+        <h4>效果定位部署</h4>
+        <h4>文案交接</h4>
+        <h4>栏目结构规划</h4>
+        <h4>周期进度</h4>
+      </div>
+      <div>
+        <h3>项目部署</h3>
+        <h4>技术人员分配</h4>
+        <h4>重点确认</h4>
+        <h4>开通测试地址</h4>
+        <h4>服务器搭建</h4>
+        <h4>信息整理</h4>
+      </div>
+      <div>
+        <h3>效果设计</h3>
+        <h4>网页设计效果</h4>
+        <h4>HTML动态设计</h4>
+        <h4>调试确认</h4>
+        <h4>素材</h4>
+        <h4>定稿</h4>
+      </div>
+      <div>
+        <h3>程序开发</h3>
+        <h4>HTML对接</h4>
+        <h4>栏目部署</h4>
+        <h4>目录确认</h4>
+        <h4>数据库开发</h4>
+        <h4>后台程序</h4>
+        <h4>整合阶段</h4>
+      </div>
+      <div>
+        <h3>测试验收</h3>
+        <h4>最后阶段测试</h4>
+        <h4>用户体验</h4>
+        <h4>确认验收</h4>
+        <h4>上线运作</h4>
+        <h4>全线OVER</h4>
+      </div>
+    </div>
+    <div class="page-h5-case">
+      <h2>HTML5 • 手机网站 • 项目案例</h2>
+      <h3></h3>
+      <div id="section3" init="false" class="section section3">
+        <ul id="da-thumbs" class="da-thumbs fix">
+                    <li> <a href="19.html"> <img src="static/picture/1-151105125522F0.jpg" alt=""> </a> </li>
+                    <li> <a href="18.html"> <img src="static/picture/1-1P12612541Db.png" alt=""> </a> </li>
+                    <li> <a href="17.html"> <img src="static/picture/1-1P922131P4N2.jpg" alt=""> </a> </li>
+                    <li> <a href="16.html"> <img src="static/picture/1-16102015591C18.jpg" alt=""> </a> </li>
+                    <li> <a href="15.html"> <img src="static/picture/1-1F503140401R3.jpg" alt=""> </a> </li>
+                    <li> <a href="14.html"> <img src="static/picture/1-1P1251A55Ib.png" alt=""> </a> </li>
+                    <li> <a href="13.html"> <img src="static/picture/1-1P1251K00c95.png" alt=""> </a> </li>
+                    <li> <a href="3.html"> <img src="https://demoall.5fa.cn/28521/uploads/180919/1-1P919193241601.png" alt=""> </a> </li>
+                  </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="imsg">
+      <div class="zcon">
+        <h2>填写您的项目需求给我们。</h2>
+        <div class="s1">   <form method="POST" action="/28521/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" enctype="multipart/form-data" onsubmit="return submitadf937e78909968e66aa1b71febad47d(this);">
+    <input class="s1-a" id='attr_26' name='attr_26' type="text" placeholder="称呼姓名">
+    <input class="s1-a" id='attr_27' name='attr_27' type="text" placeholder="联系电话">
+    <input class="s1-b" id='attr_28' name='attr_28' type="text" placeholder="请您在这里描述您的需求！">
+    <input class="s1-c" type="submit" name="submit" value="提交项目需求">
+    <input type="hidden" name="gourl" id="gourl_adf937e78909968e66aa1b71febad47d" value="https%3A%2F%2Fdemoall.5fa.cn%2F28521"><input type="hidden" name="typeid" value="19"><input type="hidden" name="__token__adf937e78909968e66aa1b71febad47d" id="adf937e78909968e66aa1b71febad47d" value=""><input type="hidden" name="form_type" value="0"><script type="text/javascript">
+    function submitadf937e78909968e66aa1b71febad47d(elements)
+    {
+        if (document.getElementById('gourl_adf937e78909968e66aa1b71febad47d')) {
+            document.getElementById('gourl_adf937e78909968e66aa1b71febad47d').value = encodeURIComponent(window.location.href);
+        }
+            var x = elements;
+    for (var i=0;i<x.length;i++) {
+        
+                            if(x[i].name == 'attr_27' && x[i].value.length == 0){
+                                alert('电话不能为空！');
+                                return false;
+                            }
+                         
+                    if(x[i].name == 'attr_27' && !(/^1\d{10}$/.test( x[i].value)) && x[i].value.length > 0){
+                        alert('电话格式不正确！！');
+                        return false;
+                    }
+                   
+    }
+        
+        elements.submit();
+    }
+
+    function ey_fleshVerify_1710123048(id)
+    {
+        var token = id.replace(/verify_/g, '__token__');
+        var src = "/28521/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn&token="+token;
+        src += "&r="+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+
+    function f1366a04aa02ea38e8c8fcb91e98a5ef7()
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_token", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send("name=__token__adf937e78909968e66aa1b71febad47d");
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+                document.getElementById("adf937e78909968e66aa1b71febad47d").value = ajax.responseText;
+                document.getElementById("gourl_adf937e78909968e66aa1b71febad47d").value = encodeURIComponent(window.location.href);
+          　}
+        } 
+    }
+    f1366a04aa02ea38e8c8fcb91e98a5ef7();
+    function getNext1598839807(id,name,level) {
+        var input = document.getElementById('attr_'+name);
+        var first = document.getElementById('first_id_'+name);
+        var second = document.getElementById('second_id_'+name);
+        var third = document.getElementById('third_id_'+name);
+        var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+
+        if (level == 1){
+            if (second) {
+                second.style.display = 'none';
+                second.innerHTML  = ''; 
+            }
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            input.value = fvalue;
+            value = fvalue;
+        } else if (level == 2){
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            if (svalue) {
+                input.value = fvalue+','+svalue;
+                value = svalue;
+            }else{
+                input.value = fvalue;
+            }
+        } else if (level == 3){
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            tindex = third.selectedIndex;
+            tvalue = third.options[tindex].value;
+            if (tvalue) {
+                input.value = fvalue+','+svalue+','+tvalue;
+                value = tvalue;
+            }else{
+                input.value = fvalue+','+svalue;
+            }
+        } 
+        if (value) {
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).options.add(new Option('请选择','')); 
+                var ajax = new XMLHttpRequest();
+                //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_region", true);
+                // 给头部添加ajax信息
+                ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //步骤三:发送请求+数据
+                ajax.send("pid="+value);
+                //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                ajax.onreadystatechange = function () {
+                    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                    if (ajax.readyState==4 && ajax.status==200) {
+                        var data = JSON.parse(ajax.responseText).data;
+                        if (data) {
+                            data.forEach(function(item) {
+                                document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                                document.getElementById(id).style.display = "block";
+                            });
+                        }
+                  　}
+                }
+            }
+        }
+    }
+</script>  </form>
+   </div>
+<p>*请认真填写需求信息，我们会在24小时内与您取得联系。</p>
+ </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="zcon">
+    <div class="l lianxi"> Copyright © 2002-2024 某某网络设计有限公司 版权所有  &nbsp;  <br>
+      联系电话： 4009-999-999 &nbsp; E-mail：88888888@qq.com <br>
+      公司地址：广东省广州市番禺经济开发区<br>
+      主营业务：网站定制、营销型网站建设、微商城制作、三级分销系统开发</div>
+    <div class="r foot_erweima" style="float: right;width: 108px;height: 108px;background: url(static/image/1-220530152J5B9.jpg) no-repeat;margin-right: 10px;margin-top: 12px;
+}"> </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="yb_conct">
+  <div class="yb_bar">
+    <ul>
+      <li class="yb_top">返回顶部</li>
+      <li class="yb_phone">4009-999-999</li>
+      <li class="yb_QQ"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" title="网站开发咨询">QQ在线</a> </li>
+      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+        <img class="hd_qr" src="static/picture/1-220530152J5B9.jpg" alt=""> </li>
+    </ul>
+  </div>
+</div>
+<div class="phone_foot">
+  <div class="pfoot_box">
+    <div class="pfoot_col"><a class="" href="tel:4009-999-999">电话沟通</a></div>
+    <div class="pfoot_col"><a class="pfoot_col_qiao" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes">在线客服</a></div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+		$('.nav li').hover(function(){
+			$('span',this).stop().css('height','2px');
+			$('span',this).animate({
+				left:'0',
+				width:'100%',
+				right:'0'
+			}, 200);
+		},function(){
+			$('span',this).stop().animate({
+				left:'50%',
+				width:'0'
+			}, 200);
+		});
+		$('.nav li').click(function(){
+			 $(this).addClass("current").siblings().removeClass("current");
+		});		
+		// 悬浮窗口
+		$(".yb_conct").hover(function() {
+			$(".yb_conct").css("right", "5px");
+			$(".yb_bar .yb_ercode").css('height', '190px');
+		}, function() {
+			$(".yb_conct").css("right", "-127px");
+			$(".yb_bar .yb_ercode").css('height', '53px');
+		});
+		// 返回顶部
+		$(".yb_top").click(function() {
+			$("html,body").animate({
+				'scrollTop': '0px'
+			}, 300)
+		});
+	});
+
+</script> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+<script src="static/js/page-html5-canvas2.js"></script>
+</body>
+</html>

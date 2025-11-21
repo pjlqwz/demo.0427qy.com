@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>微信开发</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/28521/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="static/css/common.css">
+<link rel="stylesheet" href="static/css/uikit.css">
+<link rel="stylesheet" href="static/css/iven.css">
+<link rel="stylesheet" href="static/css/jquery.bxslider.css">
+<link rel="stylesheet" href="static/css/responsive.css">
+<link rel="stylesheet" href="static/css/sticky.css">
+<link rel="stylesheet" type="text/css" href="static/css/respond.css">
+<script src="https://demoall.5fa.cn/28521/template/pc/skin/css/weixin/js/jquery-3.7.0.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="/28521/template/pc/skin/css/weixin/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="header">
+  <div class="zcon">
+    <div class="head">
+      <div class="logo"> <a href="index.html" title="响应式营销网站定制公司网站模板"><img alt="响应式营销网站定制公司网站模板" src="static/picture/1-220530151622262.png"></a> </div>
+      <div class="center_intrl">
+        <h4 class="">全网<b>整合营销</b>服务商</h4>
+        <p>电脑端+手机端+微信端=数据同步管理</p>
+      </div>
+      <div class="top_tel">
+        <p><i>免费咨询热线：</i><span>4009-999-999</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="zcon">
+      <ul class="nav-box" id="nav-box">
+        <li class="first"><a href="index.html" title="">首页</a><span></span></li>
+                <li class="drop-down"><a href="">微信开发</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="shoujishangcheng.html">手机商城</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="xiaochengxu.html">小程序</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="yingxiaoxingwangzhan.html">营销型网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="xiangyingshiwangzhan.html">响应式网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="jiejuefangan.html">解决方案</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="anlizhanshi.html">案例展示</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="yingxiaoxingwangzhan596.html">营销型网站</a></li>
+                        <li><a href="pinpaixingwangzhan.html">品牌型网站</a></li>
+                        <li><a href="gaoduandingzhiwangzhan.html">高端定制网站</a></li>
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="news.html">新闻资讯</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="guanyuwomen.html">关于我们</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="qiyejianjie.html">企业简介</a></li>
+                        <li><a href="qiyewenhua.html">企业文化</a></li>
+                        <li><a href="lianxiwomen.html">联系我们</a></li>
+                      </ul>
+        </li>
+              </ul>
+    </div>
+  </div>
+  <a href="javascript:" id="pull" onclick=''><img src="static/picture/menu.png" title="menu"></a>
+  <div class="menu_bg" id="menu_bg"></div>
+</div>
+<div class="sidemenu" id="side-menu">
+  <ul>
+    <li class="homeli"><a href='index.html'>首页</a></li>
+        <li class="active"><a href=''>微信开发</a></li>
+        <li class=""><a href='shoujishangcheng.html'>手机商城</a></li>
+        <li class=""><a href='xiaochengxu.html'>小程序</a></li>
+        <li class=""><a href='yingxiaoxingwangzhan.html'>营销型网站</a></li>
+        <li class=""><a href='xiangyingshiwangzhan.html'>响应式网站</a></li>
+        <li class=""><a href='jiejuefangan.html'>解决方案</a></li>
+        <li class=""><a href='anlizhanshi.html'>案例展示</a></li>
+        <li class=""><a href='news.html'>新闻资讯</a></li>
+        <li class=""><a href='guanyuwomen.html'>关于我们</a></li>
+      </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#pull').click(function(){
+		if(parseInt($("#side-menu").css("right"))<=-165)
+		{
+			$("#side-menu").animate({right:0},"fast").css("display","block");
+			$("body").animate({right:165},"fast");
+			$('#menu_bg').addClass('menu_bg_active');
+		}
+	})
+	$('#menu_bg').click(function(){
+		$("#side-menu").animate({right:-165},"fast").css("display","none");
+		$("body").animate({right:0},"fast");
+		$('#menu_bg').removeClass('menu_bg_active');
+	})
+})
+</script>
+<div class="page-banner">
+  <div id="container"></div>
+  <div class="banner_des">
+    <div class="slogan"> 打造精品微信平台 </div>
+    <div class="description"> 帮助传统企业品牌突破发展瓶颈 </div>
+    <div class="conbtn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">立即咨询</a> </div>
+  </div>
+</div>
+<div class="web-content-1">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-1 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 您是不是经常遇到以下问题 <span>WEIXIN COMMON PROBLEM</span> </h3>
+    <div class="uk-grid uk-grid-collapse">
+      <div class="uk-width-medium-1-3 uk-scrollspy-init-inview">
+        <div class="web-content1-box uk-text-right">
+          <h3>微信申请了，没有管理不知道发送什么内容？</h3>
+          <p>微信每日推播没有固定的计划、内容，不知道发送的内容粉丝是否感兴趣。</p>
+          <h3>同行微信营销做的很好，自己的却一般般？</h3>
+          <p>自己一直无法通过微信获得订单和询盘，却不知道问题出在哪里。</p>
+          <h3>微信公众号除了二维码，不知道如何更好推广？</h3>
+          <p>一直推广的方式只限于名片、宣传册、二维码，无法获取其他的推广途径和方式。</p>
+        </div>
+      </div>
+      <div class="uk-width-medium-1-3 uk-text-center"> <a href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank"><img src="static/picture/six-questions.png" alt="微信营销"></a></div>
+      <div class="uk-width-medium-1-3 uk-scrollspy-init-inview">
+        <div class="web-content1-box uk-text-left">
+          <h3>微信公众号没有粉丝，就算有粉丝也是僵尸粉？</h3>
+          <p>每次文章推播阅读量极低，没有粉丝互动，没有转发量。</p>
+          <h3>有账号，有粉丝，却一直无法挖掘粉丝价值？</h3>
+          <p>无法利用粉丝实现SNS营销特点。</p>
+          <h3>微信只有一个公众号，没有其他功能？</h3>
+          <p>受微信功能的局限性，无法通过微信更好展示自己企业的形象和品牌价值。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="weixin-content-2">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-2" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 六大微信系统 <span>10年互联网实战经验，广泛市场资源整合助您打开移动营销之门</span> </h3>
+    <div class="uk-grid weixin-content2-box uk-text-center">
+      <div class="uk-width-medium-1-3"> <a href="javascript:"> <i class="uk-icon-home yellow"></i>
+        <h3 class="yellow">微官网</h3>
+        </a>
+        <p>基于微信开发者模式孕育而生，不仅仅是一个手机网站，更是<b>移动互联网时代的企业应用与商业服务平台</b>，创新性地结合了移动互联网技术与企业信息化建设，实现了企业品牌展现、互动营销、商业交易与服务功能。 </p>
+      </div>
+      <div class="uk-width-medium-1-3"> <a href="anlizhanshi.html"> <i class="uk-icon-shopping-cart green"></i>
+        <h3 class="green">微商城</h3>
+        </a>
+        <p>基于微信而研发的一款社会化电子商务系统，同时又是一款传统互联网、移动互联网、微信商城、易信商城、APP商城五网一体化的<b>企业购物系统</b>。消费者只要通过微信商城平台，就可以实现商品查询、选购、体验、互动、订购与支付的<b>线上线下一体化</b>服务模式。 </p>
+      </div>
+      <div class="uk-width-medium-1-3"> <a href="javascript:"> <i class="uk-icon-users blue"></i>
+        <h3 class="blue">微分销</h3>
+        </a>
+        <p>基于微信公众平台上的三级分销商城，<b>三级分销做到无限循环模式</b>，在微信营销的网络经济时代企业营销模式的一种创新。是伴随着微信营销的火热而兴起的一种网络营销方式。 </p>
+      </div>
+      <div class="uk-width-medium-1-3"> <a href="javascript:"> <i class="uk-icon-tasks zhise"></i>
+        <h3 class="zhise">微行业</h3>
+        </a>
+        <p>根据不同的行业特点，结合微信公众平台应用接口，完美实现行业功能与微信应用体验之间的转换，提供包括微餐饮、微外卖、微排号、微教育、微装修、农产品、珠宝等多个行业微信应用解决方案。 </p>
+      </div>
+      <div class="uk-width-medium-1-3"> <a href="javascript:"> <i class="uk-icon-pie-chart red"></i>
+        <h3 class="red">多商家</h3>
+        </a>
+        <p>多商家轻松入住，快速打造店中店，专业针对平台类电商服务，实现线上平台和第三方多商户销售并存的经营模式，为多商户提供入驻平台经营的渠道，有利于商城经营的多元化、综合性发展。 </p>
+      </div>
+      <div class="uk-width-medium-1-3"> <a href="javascript:"> <i class="uk-icon-credit-card chengse"></i>
+        <h3 class="chengse">小程序</h3>
+        </a>
+        <p> 近似APP商城的功能却无需下载和安装，用完即退出；依托微信平台，资金流安全有保障，接口更稳定；方便快捷，面对中小企业解决线上销售困境大大降低电商创业门槛。 </p>
+      </div>
+    </div>
+    <div class="uk-text-center"> <a class="qq_icon qq_icon_weixin zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">咨询报价</a> </div>
+  </div>
+</div>
+<div class="weixin-content-3">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-2" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 微信系统优势 <span>技术的革新，只为做好的产品</span> </h3>
+    <div class="uk-grid uk-grid-small weixin-content3-box">
+      <div class="uk-width-medium-1-2"> <img src="static/picture/advantage.png" alt="微信开发"> </div>
+      <div class="uk-width-medium-1-2">
+        <p>多款行业模板随意选择，多种内页列表表现方式，布局采用DIV+CSS,简洁大方，拓展性强，无限制页面数量与容量，页面图片任意编辑，自动适应屏幕比例，移动客户端界面视觉效果强，版面丰富，布局灵活，扩展性强。</p>
+        <p>应用HTML5技术提升浏览体验与交互性能，访问速度更快，更安全，用户体验更佳</p>
+        <p>内置一键导航功能，可个性化定制功能模块，自定义微网站导航</p>
+        <p>提供在线支付，购物，等多种电商移动互联网开发</p>
+        <p>平台使用培训，微信营销顾问咨询</p>
+        <p>不用注册域名更方便</p>
+        <p>不用购买空间更节约</p>
+        <p>不用进行网站备案更省时</p>
+        <a href="anlizhanshi.html" class="wx-view-btn">查看案例+</a> </div>
+    </div>
+  </div>
+</div>
+<div class="weixin-content-4">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-2" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 微信系统特点 <span>多维度品牌形象展示，提高企业曝光率、加深印象</span> </h3>
+    <div class="uk-grid weixin-content4-box"> <img src="static/picture/system-point.jpg" alt="微信营销"> </div>
+  </div>
+</div>
+<div class="web-content-5">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-1 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 微信开发流程 <span>专业标准化流程，是网络营销决胜千里的前提</span> </h3>
+    <ul class="uk-grid uk-grid-width-1-2 uk-grid-width-medium-1-6 uk-text-center web-content5-bigbox">
+      <li class="uk-scrollspy-init-inview">
+        <div class="web-content5-box"> <span>01</span>
+          <h3>需求明确</h3>
+          <p>DEMAND CLEAR</p>
+        </div>
+      </li>
+      <li class="">
+        <div class="web-content5-box"> <span>02</span>
+          <h3>市场分析</h3>
+          <p>MARKET ANAL YSIS</p>
+        </div>
+      </li>
+      <li class="">
+        <div class="web-content5-box"> <span>03</span>
+          <h3>平台定位</h3>
+          <p>SITE LOCATION</p>
+        </div>
+      </li>
+      <li class="">
+        <div class="web-content5-box"> <span>04</span>
+          <h3>逻辑策划</h3>
+          <p>LOGICAL PLANNING</p>
+        </div>
+      </li>
+      <li class="">
+        <div class="web-content5-box"> <span>05</span>
+          <h3>视觉布局</h3>
+          <p>VISUAL YAYOUT</p>
+        </div>
+      </li>
+      <li class="">
+        <div class="web-content5-box"> <span>06</span>
+          <h3>营销决策</h3>
+          <p>MARKETING DECISION</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="web-content-6">
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid">
+      <div class="uk-width-medium-1-3 uk-scrollspy-init-inview"> <img src="static/picture/2015-09-22_192803.png" alt="微信营销"> </div>
+      <div class="uk-width-medium-2-3">
+        <div class="web-content6-box uk-scrollspy-init-inview">
+          <h3><span>01</span>自网站上线之日起网站<b>1年免费</b>更新维护</h3>
+          <h3><span>02</span>免费更新范围限于网站的文本、图片、静态页面、<b>不触动总体的网站框架</b>，不增加新的功能模块</h3>
+          <h3><span>03</span>我们提供<b>EMAIL、QQ及电话</b>等方便的服务支持</h3>
+          <h3><span>04</span>如客户在使用网站的期间有任何问题，我们可以在<b>两个工作日内</b>解决</h3>
+          <h3><span>05</span>免费对合同中规定的网站程序在正常使用过程中出现的BUG进行<b>修复、完善</b></h3>
+          <h3><span>06</span>免费提供<b>产品使用培训</b>，及网络营销顾问</h3>
+        </div>
+      </div>
+    </div>
+    <div class="online24 uk-position-bottom uk-hidden-small uk-scrollspy-init-inview" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;,delay:300,repeat:true}">
+      <p>7*24小时售后在线，6大服务保障</p>
+    </div>
+  </div>
+</div>
+<div class="web-content-7 uk-hidden-small">
+  <div class="uk-container uk-container-center">
+    <h3 class="web-title-1 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:&#39;uk-animation-scale-up&#39;,repeat:true}"> 我们的服务团队 <span>10年互联网运营团队专项服务模式</span> </h3>
+    <ul class="uk-grid uk-grid-small uk-grid-width-medium-1-6 web-content7-box uk-text-center">
+      <li class="uk-scrollspy-init-inview"><span class="bwWrapper"><img src="static/picture/people-1.png" alt="成都微信运营"></span>
+        <h3>商务代表</h3>
+      </li>
+      <li class=""><span class="bwWrapper"><img src="static/picture/people-2.png" alt="成都微信开发"></span>
+        <h3>文案策划</h3>
+      </li>
+      <li class=""><span class="bwWrapper"><img src="static/picture/people-3.png" alt="成都微信营销策划"></span>
+        <h3>创意策划</h3>
+      </li>
+      <li class=""><span class="bwWrapper"><img src="static/picture/people-4.png" alt="成都微信网站开发"></span>
+        <h3>美术指导</h3>
+      </li>
+      <li class=""><span class="bwWrapper"><img src="static/picture/people-5.png" alt="成都微信网站开发"></span>
+        <h3>程序专员</h3>
+      </li>
+      <li class=""><span class="bwWrapper"><img src="static/picture/people-6.png" alt="成都微信网站开发"></span>
+        <h3>售后客服</h3>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="imsg">
+  <div class="zcon">
+    <h2>填写您的项目需求给我们。</h2>
+    <div class="s1">   <form method="POST" action="/28521/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" enctype="multipart/form-data" onsubmit="return submit375311bfe88863a3728f610d046d92b8(this);">
+    <input class="s1-a" id='attr_26' name='attr_26' type="text" placeholder="称呼姓名">
+    <input class="s1-a" id='attr_27' name='attr_27' type="text" placeholder="联系电话">
+    <input class="s1-b" id='attr_28' name='attr_28' type="text" placeholder="请您在这里描述您的需求！">
+    <input class="s1-c" type="submit" name="submit" value="提交项目需求">
+    <input type="hidden" name="gourl" id="gourl_375311bfe88863a3728f610d046d92b8" value="https%3A%2F%2Fdemoall.5fa.cn%2F28521"><input type="hidden" name="typeid" value="19"><input type="hidden" name="__token__375311bfe88863a3728f610d046d92b8" id="375311bfe88863a3728f610d046d92b8" value=""><input type="hidden" name="form_type" value="0"><script type="text/javascript">
+    function submit375311bfe88863a3728f610d046d92b8(elements)
+    {
+        if (document.getElementById('gourl_375311bfe88863a3728f610d046d92b8')) {
+            document.getElementById('gourl_375311bfe88863a3728f610d046d92b8').value = encodeURIComponent(window.location.href);
+        }
+            var x = elements;
+    for (var i=0;i<x.length;i++) {
+        
+                            if(x[i].name == 'attr_27' && x[i].value.length == 0){
+                                alert('电话不能为空！');
+                                return false;
+                            }
+                         
+                    if(x[i].name == 'attr_27' && !(/^1\d{10}$/.test( x[i].value)) && x[i].value.length > 0){
+                        alert('电话格式不正确！！');
+                        return false;
+                    }
+                   
+    }
+        
+        elements.submit();
+    }
+
+    function ey_fleshVerify_1710123047(id)
+    {
+        var token = id.replace(/verify_/g, '__token__');
+        var src = "/28521/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn&token="+token;
+        src += "&r="+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+
+    function f1366a04aa02ea38e8c8fcb91e98a5ef7()
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_token", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send("name=__token__375311bfe88863a3728f610d046d92b8");
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+                document.getElementById("375311bfe88863a3728f610d046d92b8").value = ajax.responseText;
+                document.getElementById("gourl_375311bfe88863a3728f610d046d92b8").value = encodeURIComponent(window.location.href);
+          　}
+        } 
+    }
+    f1366a04aa02ea38e8c8fcb91e98a5ef7();
+    function getNext1598839807(id,name,level) {
+        var input = document.getElementById('attr_'+name);
+        var first = document.getElementById('first_id_'+name);
+        var second = document.getElementById('second_id_'+name);
+        var third = document.getElementById('third_id_'+name);
+        var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+
+        if (level == 1){
+            if (second) {
+                second.style.display = 'none';
+                second.innerHTML  = ''; 
+            }
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            input.value = fvalue;
+            value = fvalue;
+        } else if (level == 2){
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            if (svalue) {
+                input.value = fvalue+','+svalue;
+                value = svalue;
+            }else{
+                input.value = fvalue;
+            }
+        } else if (level == 3){
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            tindex = third.selectedIndex;
+            tvalue = third.options[tindex].value;
+            if (tvalue) {
+                input.value = fvalue+','+svalue+','+tvalue;
+                value = tvalue;
+            }else{
+                input.value = fvalue+','+svalue;
+            }
+        } 
+        if (value) {
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).options.add(new Option('请选择','')); 
+                var ajax = new XMLHttpRequest();
+                //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_region", true);
+                // 给头部添加ajax信息
+                ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //步骤三:发送请求+数据
+                ajax.send("pid="+value);
+                //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                ajax.onreadystatechange = function () {
+                    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                    if (ajax.readyState==4 && ajax.status==200) {
+                        var data = JSON.parse(ajax.responseText).data;
+                        if (data) {
+                            data.forEach(function(item) {
+                                document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                                document.getElementById(id).style.display = "block";
+                            });
+                        }
+                  　}
+                }
+            }
+        }
+    }
+</script>  </form>
+   </div>
+<p>*请认真填写需求信息，我们会在24小时内与您取得联系。</p>
+ </div>
+</div>
+<script src="static/js/sticky.min.js"></script> 
+<script src="static/js/jquery.easing.1.3.js"></script> 
+<script src="static/js/countup.js"></script> 
+<script src="static/js/common.js" type="text/javascript"></script> 
+<script src="static/js/weixin.js"></script> 
+<div class="footer">
+  <div class="zcon">
+    <div class="l lianxi"> Copyright © 2002-2024 某某网络设计有限公司 版权所有  &nbsp;  <br>
+      联系电话： 4009-999-999 &nbsp; E-mail：88888888@qq.com <br>
+      公司地址：广东省广州市番禺经济开发区<br>
+      主营业务：网站定制、营销型网站建设、微商城制作、三级分销系统开发</div>
+    <div class="r foot_erweima" style="float: right;width: 108px;height: 108px;background: url(static/image/1-220530152J5B9.jpg) no-repeat;margin-right: 10px;margin-top: 12px;
+}"> </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="yb_conct">
+  <div class="yb_bar">
+    <ul>
+      <li class="yb_top">返回顶部</li>
+      <li class="yb_phone">4009-999-999</li>
+      <li class="yb_QQ"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" title="网站开发咨询">QQ在线</a> </li>
+      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+        <img class="hd_qr" src="static/picture/1-220530152J5B9.jpg" alt=""> </li>
+    </ul>
+  </div>
+</div>
+<div class="phone_foot">
+  <div class="pfoot_box">
+    <div class="pfoot_col"><a class="" href="tel:4009-999-999">电话沟通</a></div>
+    <div class="pfoot_col"><a class="pfoot_col_qiao" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes">在线客服</a></div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+		$('.nav li').hover(function(){
+			$('span',this).stop().css('height','2px');
+			$('span',this).animate({
+				left:'0',
+				width:'100%',
+				right:'0'
+			}, 200);
+		},function(){
+			$('span',this).stop().animate({
+				left:'50%',
+				width:'0'
+			}, 200);
+		});
+		$('.nav li').click(function(){
+			 $(this).addClass("current").siblings().removeClass("current");
+		});		
+		// 悬浮窗口
+		$(".yb_conct").hover(function() {
+			$(".yb_conct").css("right", "5px");
+			$(".yb_bar .yb_ercode").css('height', '190px');
+		}, function() {
+			$(".yb_conct").css("right", "-127px");
+			$(".yb_bar .yb_ercode").css('height', '53px');
+		});
+		// 返回顶部
+		$(".yb_top").click(function() {
+			$("html,body").animate({
+				'scrollTop': '0px'
+			}, 300)
+		});
+	});
+
+</script> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

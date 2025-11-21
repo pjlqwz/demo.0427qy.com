@@ -1,0 +1,506 @@
+﻿/************************************
+*
+*  media   css 
+*
+*************************************/
+body {
+	overflow-x: auto;
+	min-width: 290px;
+}
+/* index.html */
+#indexPage {
+	width: 100%;
+	overflow: hidden;
+}
+#header ul li.submenu>i.fa {
+	display: none;
+}
+.tactRow .tactR #map {
+	width: 700px;
+	height: 550px;
+	border: #ccc solid 1px;
+	font-size: 12px;
+}
+ @media screen and (max-width:1200px) {
+/* index.html */
+#indexPage #mslider ul li {
+	height: 500px!important;
+}
+#projectlist {
+	width: 100%;
+}
+#projectlist .wrapper {
+	margin: 0px auto;
+	width: 720px;
+}
+#projectlist .projectitem {
+	margin: 0 10px 80px 10px;
+}
+#projectlist.list2 .projectitem {
+	margin: 0 20px 80px 20px;
+}
+.fw {
+	width: auto;
+	padding: 0 10px;
+}
+#mservice .wrap {
+	margin: 0px auto;
+	width: 900px;
+}
+#mservice .serviceitem {
+	width: 280px;
+	margin: 20px 10px 0;
+}
+#indexPage #mSenary .slider_wrapper .slider, .caseCon .slider, .sCon .slider {
+	width: 960px;
+}
+.senaryitem {
+	margin: 0 20px 40px 20px;
+	width: 100%;
+}
+#mpage .module-slider {
+	width: 70%;
+}
+#newslist {
+	width: 740px;
+}
+/* project.html */
+#category a {
+	padding: 5px 20px;
+}
+#category li {
+	margin-bottom: 12px;
+}
+/* detail.html */
+.pdCon .sect1 .brief {
+	padding-right: 350px;
+}
+.pdCon .sect2 .secL .secCon {
+	border-right: none;
+}
+.pdCon .sect2 .secR {
+	float: none;
+	clear: both;
+}
+.pdCon .sect2 .secR:before, .pdCon .sect2 .secR:after {
+	content: '';
+	display: block;
+	height: 40px;
+	clear: both;
+}
+/* about.html */
+.abouRow .pic {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	clear: both;
+	text-align: center;
+}
+.abouRow .pic:after {
+	content: '';
+	display: block;
+	height: 50px;
+	clear: both;
+}
+.abouRow .txt {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	clear: both;
+}
+/*contact.html*/
+.tactRow {
+	width: 748px;
+	margin: 0 auto;
+}
+.tactRow .tactL {
+	width: 100%;
+	float: none;
+	clear: both;
+}
+.tactRow .tactR {
+	width: 100%;
+	float: none;
+	clear: both;
+}
+.tactRow .tactL:after {
+	content: '';
+	display: block;
+	height: 50px;
+	clear: both;
+}
+}
+@media screen and (max-width:992px) {
+/* index.html */	
+#header .content {
+	padding: 0 20px 10px 20px;
+}
+#header #logo {
+	margin-right: 0;
+}
+#indexPage #mslider {
+	height: 500px;
+}
+#indexPage #mslider ul li {
+	height: 500px!important;
+}
+#projectlist .wrapper {
+	width: 480px;
+}
+#mservice .wrap {
+	width: 600px;
+}
+#indexPage #mSenary .slider_wrapper .slider, .caseCon .slider, .sCon .slider {
+	width: 640px;
+}
+#indexPage #mpage .bgmask img {
+	width: 200%;
+	height: auto;
+}
+#mpage .content {
+	width: 100%;
+	margin: 0px;
+}
+#indexPage #mcontact .content {
+	width: 748px;
+}
+#contactinfo {
+	width: 348px;
+}
+/* project.html */
+#category {
+	text-align: left;
+	padding: 0 20px 50px;
+}
+/* detail.html */
+.npagePage #banner {
+	height: 300px;
+}
+.pdCon .sect1 .brief {
+	padding-right: 0px;
+}
+.pdCon .picShow {
+	padding-top: 80px;
+}
+.pdCon .picShow .share {
+	top: 10px;
+}
+/*service.html*/
+.senaryitem div p.description {
+	margin-top: 0px;
+	height: 50px;
+	visibility: visible;
+	padding: 5px 0;
+}
+.senaryitem:hover div p.description {
+	margin-top: 0;
+	visibility: visible;
+}
+.senaryitem div p.description .mask {
+	opacity: 0;
+ filter:alpha(opacity:0);
+}
+}
+@media screen and (max-width:768px) {
+/* index.html */
+#headSHBtn {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	line-height: 40px;
+	color: #999;
+}
+#header.mini #headSHBtn {
+	line-height: 20px;
+}
+#header .flags {
+	margin-right: 45px;
+}
+#header ul#nav {
+	padding-top: 10px;
+	display: none;
+	position: absolute;
+	top: 101%;
+	left: 0;
+	float: none;
+	background: #fff;
+	width: 100%;
+	padding: 0;
+	transition: none;
+}
+#header.mini ul#nav {
+	padding: 0px;
+}
+#header ul li.navitem {
+	padding: 0;
+	float: none;
+	width: 100%;
+	text-indent: 40px;
+	position: relative;
+}
+#header.mini ul li.navitem {
+	padding: 0;
+}
+#header ul li.navitem a {
+	padding: 10px 0px;
+	display: inline-block;
+	line-height: 20px;
+	text-indent: 0;
+}
+#header ul li.navitem a.active, #header ul li.navitem:hover a {
+	padding: 10px 0;
+	background: none;
+}
+#header ul li.submenu i.fa {
+	cursor: pointer;
+	font-style: normal;
+	display: block;
+	padding: 10px 0;
+	position: absolute;
+	right: 40px;
+	top: 0;
+	line-height: 20px;
+}
+#header ul li.navitem ul.subnav {
+	display: none;
+	position: relative;
+	width: 100%;
+	border-top: none;
+	top: auto !important;
+	opacity: 1;
+	visibility: visible;
+	transition: none;
+	transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+}
+#header ul li.navitem ul.subnav li a {
+	padding: 14px 0px;
+	width: 100%;
+	text-indent: 60px;
+}
+#indexPage #mslider {
+	height: 460px;
+}
+#indexPage #mslider ul li {
+	height: 460px!important;
+	background-size: 130% 100%;
+}
+#projectlist .wrapper {
+	width: 300px;
+}
+#mservice .wrap {
+	width: 300px;
+}
+#indexPage #mSenary .slider_wrapper .slider, .caseCon .slider, .sCon .slider {
+	width: 300px;
+}
+.senaryitem {
+	margin: 0 auto 0px auto;
+}
+#mpage .module-slider {
+	width: auto;
+	padding: 0 10px;
+}
+#newslist {
+	width: 320px;
+}
+#newslist .newstitem {
+	float: none;
+	margin: 0 auto 80px auto;
+	width: 320px;
+	zoom: 1;
+}
+#newslist .newstitem:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+#indexPage #mcontact {
+	height: auto;
+}
+#indexPage #mcontact .content {
+	width: 100%;
+	padding: 0;
+}
+#contactinfo {
+	width: 360px;
+	float: none;
+	clear: both;
+	margin: 0 auto;
+}
+#contactform {
+	float: none;
+	margin: 0 auto;
+	clear: both;
+}
+#contactinfo:after, #contactform:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 40px;
+}
+.content .header {
+	padding-top: 50px;
+}
+/* detail.html */
+.npagePage #banner {
+	height: 0px;
+}
+.pdCon .sect1 .sm {
+	width: 100%;
+	height: 300px;
+	line-height: 300px;
+}
+.pdCon .sect2 .secL, .pdCon .sect2 .secR {
+	width: 100%;
+}
+.pdCon .sect2 .secR li {
+	width: 120px;
+}
+/*contact.html*/
+.tactRow {
+	width: 460px;
+	margin: 0 auto;
+}
+.tactRow .tactL:after {
+	content: '';
+	display: block;
+	height: 30px;
+	clear: both;
+}
+.tactRow .tactR #map {
+	width: 460px;
+	height: 400px;
+}
+#projectlist .projectitem {
+	margin: 0 0px 80px 0px;
+}
+#projectlist.list2 .projectitem {
+	margin: 0 0px 80px 0px;
+}
+#projectlist .projectitem, #projectlist.list2 .projectitem {
+	width: 50%;
+}
+#projectlist .projectitem .project_info p.title {
+	font-size: 12px;
+}
+#projectlist .projectitem .project_info p.subtitle {
+	font-size: 10px;
+}
+}
+@media screen and (max-width:480px) {
+/* index.html */
+#header {
+	padding-top: 5px;
+}
+#header .content {
+	padding: 0 10px 10px 10px;
+}
+#headSHBtn {
+	top: 8px;
+	right: 16px;
+}
+#header.mini #headSHBtn {
+	line-height: 40px;
+}
+#header #logo img {
+	height: 26px;
+	width: auto;
+	padding-top: 10px;
+}
+.content .header p.title {
+	font-size: 20px;
+}
+.content .header {
+	padding: 30px 0;
+}
+#indexPage #mslider {
+	height: 240px;
+}
+#indexPage #mslider ul li {
+	height: 240px!important;
+	background-size: 140% 100%;
+}
+#projectmore, #projectmore:hover {
+	height: 50px;
+	line-height: 50px;
+	width: 260px;
+}
+#indexPage a.more {
+	width: 260px;
+	height: 50px;
+	margin: 50px auto 80px;
+	line-height: 50px;
+}
+#newslist .newstitem {
+	width: 280px;
+}
+#indexPage a.more {
+	width: 260px;
+	height: 50px;
+	margin: 50px auto 80px;
+	line-height: 50px;
+}
+#indexPage #mcontact {
+	padding: 0 10px;
+}
+#contactinfo {
+	width: 100%;
+	max-width: 360px;
+}
+#contactform {
+	width: 100%;
+	max-width: 360px;
+}
+#contactform p .inputtxt {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* project.html */
+#category {
+	padding: 0 10px 35px;
+}
+/* about.html */
+.abouRow .pic {
+	width: 100%;
+}
+.abouRow .txt {
+	width: 100%;
+}
+/*contact.html*/
+.tactRow {
+	width: 100%;
+}
+.tactRow .tactL:after {
+	content: '';
+	display: block;
+	height: 30px;
+	clear: both;
+}
+.tactRow .tactR #map {
+	width: 100%;
+	height: 300px;
+}
+}
+@media screen and (max-width:320px) {
+/* index.html */
+#projectlist .wrapper {
+	width: 280px;
+}
+#projectlist .projectitem, #projectlist.list2 .projectitem {
+	margin: 0 auto 80px auto;
+}
+#mservice .wrap {
+	width: 280px;
+}
+#mservice .serviceitem {
+	margin: 20px auto 0 auto;
+}
+}

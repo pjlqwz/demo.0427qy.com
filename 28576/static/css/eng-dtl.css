@@ -1,0 +1,208 @@
+﻿.inside-all {
+    position: relative;
+}
+.eng-title {
+    font-size: 30px;
+    font-family: "fzlt";
+    font-weight: bold;
+    text-align: center;
+    color: #00693e;
+}
+.eng-title-II {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 40px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #00693e;
+}
+.eng-top {
+    margin-bottom: 60px;
+}
+.eng-top img {
+    width: 100%;
+}
+
+.eng-desc {
+    margin-bottom: 60px;
+}
+.eng-logo,
+.eng-words {
+    display: inline-block;
+    vertical-align: top;
+}
+.eng-logo {
+    margin-right: 17px;
+}
+.eng-words p {
+    margin-bottom: 17px;
+    margin-left: 6em;
+    text-indent: -6em;
+    line-height: 18px;
+    font-size: 18px;
+    color: #333;
+}
+.eng-desc-desc .eng-words {
+    width: 100%;
+}
+.eng-desc-desc .eng-words p {
+    margin-left: 0;
+    text-indent: 0;
+    line-height: 24px;
+}
+.eng-words p:last-child {
+    margin-bottom: 0;
+}
+.eng-words p span {
+    margin-right: .3em;
+}
+.width-2em {
+    display: inline-block;
+    width: 2em;
+}
+.eng-words {
+    width: 83%;
+}
+
+.eng-list {
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #ccc;
+}
+.eng-list img {
+    max-width: 100%;
+}
+.eng-list > ul {
+    font-size: 0;
+}
+.eng-list > ul > li {
+    display: inline-block;
+    padding-right: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.eng-list ul li:nth-child(even) {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.eng-list ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 75em) {
+    .eng-words {
+        width: 80%;
+    }
+}
+
+@media (max-width: 62em) {
+    .eng-title {
+        font-size: 26px;
+    }
+    .eng-title-II {
+        padding-bottom: 50px;
+        margin-bottom: 34px;
+        font-size: 38px;
+    }
+
+    .eng-words {
+        width: 74%;
+    }
+
+    .eng-top {
+        margin-bottom: 50px;
+    }
+    .eng-desc {
+        margin-bottom: 50px;
+    }
+
+    .eng-list {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 48em) {
+    .eng-title {
+        font-size: 22px;
+    }
+    .eng-title-II {
+        padding-bottom: 30px;
+        margin-bottom: 28px;
+        font-size: 32px;
+    }
+
+    .eng-top {
+        margin-bottom: 40px;
+    }
+    .eng-desc {
+        margin-bottom: 40px;
+    }
+    .eng-list {
+        padding-top: 40px;
+    }
+	.eng-list img{
+        width: 100% !important;
+		height:auto !important;
+    }
+
+    .eng-words {
+        width: 100%;
+    }
+
+    .eng-logo {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .eng-logo > img {
+        width: 150px;
+    }
+    .eng-words p {
+        margin-bottom: 15px;
+        line-height: 16px;
+        font-size: 16px;
+        color: #333;
+    }
+    .eng-desc-desc .eng-words p {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 34em) {
+    .eng-logo > img {
+        width: 120px;
+    }
+    .eng-words p {
+        margin-bottom: 8px;
+        line-height: 14px;
+        font-size: 14px;
+    }
+    .eng-top {
+        margin-bottom: 30px;
+    }
+    .eng-desc {
+        margin-bottom: 30px;
+    }
+    .eng-list {
+        padding-top: 30px;
+    }
+
+    .eng-list > ul > li {
+        width: 100%;
+        /*padding-right: 5px;*/
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+    .eng-list > ul > li:nth-child(even) {
+        /*padding-left: 5px;*/
+        padding-left: 0;
+    }
+
+    .eng-title-II {
+        font-size: 26px;
+    }
+}

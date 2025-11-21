@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<title>手机商城</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/28521/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" href="static/css/swiper.css">
+<link rel="stylesheet" type="text/css" href="static/css/common.css">
+<link rel="stylesheet" href="static/css/index1.css">
+<link rel="stylesheet" type="text/css" href="static/css/respond.css">
+<link rel="stylesheet" type="text/css" href="static/css/respond1.css">
+<script src="https://demoall.5fa.cn/28521/template/pc/skin/css/weixin/js/jquery-3.7.0.min.js"></script>
+<script src="static/js/swiper.min.js"></script>
+<script src="static/js/home.min.js" type="text/javascript"></script>
+<script src="static/js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="all_cont"> <div class="header">
+  <div class="zcon">
+    <div class="head">
+      <div class="logo"> <a href="index.html" title="响应式营销网站定制公司网站模板"><img alt="响应式营销网站定制公司网站模板" src="static/picture/1-220530151622262.png"></a> </div>
+      <div class="center_intrl">
+        <h4 class="">全网<b>整合营销</b>服务商</h4>
+        <p>电脑端+手机端+微信端=数据同步管理</p>
+      </div>
+      <div class="top_tel">
+        <p><i>免费咨询热线：</i><span>4009-999-999</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="zcon">
+      <ul class="nav-box" id="nav-box">
+        <li class="first"><a href="index.html" title="">首页</a><span></span></li>
+                <li class="drop-down"><a href="weixinkaifa.html">微信开发</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="">手机商城</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="xiaochengxu.html">小程序</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="yingxiaoxingwangzhan.html">营销型网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="xiangyingshiwangzhan.html">响应式网站</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="jiejuefangan.html">解决方案</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="anlizhanshi.html">案例展示</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="yingxiaoxingwangzhan596.html">营销型网站</a></li>
+                        <li><a href="pinpaixingwangzhan.html">品牌型网站</a></li>
+                        <li><a href="gaoduandingzhiwangzhan.html">高端定制网站</a></li>
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="news.html">新闻资讯</a><span></span>
+          <ul class="drop-down-content">
+                      </ul>
+        </li>
+                <li class="drop-down"><a href="guanyuwomen.html">关于我们</a><span></span>
+          <ul class="drop-down-content">
+                        <li><a href="qiyejianjie.html">企业简介</a></li>
+                        <li><a href="qiyewenhua.html">企业文化</a></li>
+                        <li><a href="lianxiwomen.html">联系我们</a></li>
+                      </ul>
+        </li>
+              </ul>
+    </div>
+  </div>
+  <a href="javascript:" id="pull" onclick=''><img src="static/picture/menu.png" title="menu"></a>
+  <div class="menu_bg" id="menu_bg"></div>
+</div>
+<div class="sidemenu" id="side-menu">
+  <ul>
+    <li class="homeli"><a href='index.html'>首页</a></li>
+        <li class=""><a href='weixinkaifa.html'>微信开发</a></li>
+        <li class="active"><a href=''>手机商城</a></li>
+        <li class=""><a href='xiaochengxu.html'>小程序</a></li>
+        <li class=""><a href='yingxiaoxingwangzhan.html'>营销型网站</a></li>
+        <li class=""><a href='xiangyingshiwangzhan.html'>响应式网站</a></li>
+        <li class=""><a href='jiejuefangan.html'>解决方案</a></li>
+        <li class=""><a href='anlizhanshi.html'>案例展示</a></li>
+        <li class=""><a href='news.html'>新闻资讯</a></li>
+        <li class=""><a href='guanyuwomen.html'>关于我们</a></li>
+      </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#pull').click(function(){
+		if(parseInt($("#side-menu").css("right"))<=-165)
+		{
+			$("#side-menu").animate({right:0},"fast").css("display","block");
+			$("body").animate({right:165},"fast");
+			$('#menu_bg').addClass('menu_bg_active');
+		}
+	})
+	$('#menu_bg').click(function(){
+		$("#side-menu").animate({right:-165},"fast").css("display","none");
+		$("body").animate({right:0},"fast");
+		$('#menu_bg').removeClass('menu_bg_active');
+	})
+})
+</script> 
+  <div class="banner nbanner about-banner">
+  <div id="nbanner">
+    <ul>
+      <li><img src="https://demoall.5fa.cn/28521/uploads/allimg/20220530/1-220530214620224.png" alt=""></li>
+    </ul>
+  </div>
+</div>
+
+  <div class="artical01 artical">
+    <div class="zcon artical01_">
+      <div class="art_title">
+        <h4>移动商城·整体解决方案</h4>
+        <p>打造优质的用户体验，搭建生态化电商系统</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="info_item"> <img src="static/picture/045.png" alt="">
+          <h4>物品交易</h4>
+          <span>商品管理</span> <span>订单管理</span> <span>配送物流</span> <span>多样支付</span> <span>评价维权</span> <span>......</span> </div>
+        <div class="info_item"> <img src="static/picture/047.png" alt="">
+          <h4>吸粉拉新</h4>
+          <span>找人代付</span> <span>活动海报</span> <span>大转盘</span> <span>超级海报</span> <span>九宫格</span> <span>......</span> </div>
+        <div class="info_item"> <img src="static/picture/048.png" alt="">
+          <h4>让利促活</h4>
+          <span>优惠券</span> <span>满减满折</span> <span>套餐优惠</span> <span>拼团</span> <span>砍价</span> <span>......</span> </div>
+        <div class="info_item"> <img src="static/picture/049.png" alt="">
+          <h4>忠粉复购</h4>
+          <span>会员卡</span> <span>积分签到</span> <span>充值优惠</span> <span>任务中心</span> <span>积分商城</span> <span>......</span> </div>
+        <div class="info_item"> <img src="static/picture/044.png" alt="">
+          <h4>井喷裂变</h4>
+          <span>多级分销</span> <span>O2O模式</span> <span>全民股东</span> <span>区域代理</span> <span>多商户</span> <span>......</span> </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">立即咨询</a> </div>
+    </div>
+  </div>
+  <div class="artical02 artical">
+    <div class="zcon hidden artical02_">
+      <div class="art_title">
+        <h4>移动商城·多场景应用</h4>
+        <p>支持多种交易场景，应用范围广，更支持定制</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="info_item"> <img src="static/picture/050.png" alt="">
+          <h4>B2C微商城</h4>
+          <p>适用于电商商家，拥有好的产品，想靠移动互联网销售推广</p>
+        </div>
+        <div class="info_item"> <img src="static/picture/051.png" alt="">
+          <h4>O2O多门店</h4>
+          <p>适用于电商商家，拥有好的产品，想靠移动互联网销售推广</p>
+        </div>
+        <div class="info_item"> <img src="static/picture/052.png" alt="">
+          <h4>B2B2C微商城</h4>
+          <p>适用于想拓展线上商城的线下门店，想要拓展线上市场，支持多门店</p>
+        </div>
+        <div class="info_item"> <img src="static/picture/053.png" alt="">
+          <h4>微商多级分销</h4>
+          <p>“供货-批发-分销-零售”全销售渠道综合商城</p>
+        </div>
+        <div class="info_item"> <img src="static/picture/054.png" alt="">
+          <h4>产品可追溯商城</h4>
+          <p>适用于有机食品、生鲜农蔬等特殊行业，用户端实现产品可追溯来源</p>
+        </div>
+        <div class="info_item"> <img src="static/picture/055.png" alt="">
+          <h4>玩转积分的商城</h4>
+          <p>玩转商城积分，多渠道获取积分，可使用、转送、提现、捐赠......</p>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">了解更多</a> </div>
+    </div>
+  </div>
+  <div class="artical03 artical">
+    <div class="zcon artical03_">
+      <div class="art_title">
+        <h4>移动商城·丰富的营销模块</h4>
+        <p>集圈粉、宣传、推广、提升用户黏度于一体的营销方式，实现流量、销量齐增长</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="info_item">
+          <div class="item_head"> <i>优惠<br>
+            更多</i> <u></u> </div>
+          <div class="item_tail"> <span> <img src="static/picture/004.png" alt="">
+            <h4>营销管理</h4>
+            <p>满减、满邮、积分、充值、套餐、赠品、优惠券......</p>
+            </span> <span> <img src="static/picture/005.png" alt="">
+            <h4>砍价活动</h4>
+            <p>邀请好友砍价，用户得到便宜价格，商家获得大量会员</p>
+            </span> <span> <img src="static/picture/006.png" alt="">
+            <h4>整点秒杀</h4>
+            <p>固定时间，低价秒杀，拼手气，聚人气</p>
+            </span> <span> <img src="static/picture/007.png" alt="">
+            <h4>超级拼团</h4>
+            <p>可自由设置拼团人数和时间限制，获得团购价格</p>
+            </span> </div>
+        </div>
+        <div class="info_item">
+          <div class="item_head"> <i>传播<br>
+            更广</i> <u></u> </div>
+          <div class="item_tail"> <span> <img src="static/picture/008.png" alt="">
+            <h4>超级海报</h4>
+            <p>智能生成商城、小店、商品、关注海报</p>
+            </span> <span> <img src="static/picture/009.png" alt="">
+            <h4>任务中心</h4>
+            <p>海报任务、单次任务、周期任务，做任务，得奖励</p>
+            </span> <span> <img src="static/picture/010.png" alt="">
+            <h4>游戏营销</h4>
+            <p>大转盘、刮刮卡、九宫格，与多场景无缝链接</p>
+            </span> <span> <img src="static/picture/011.png" alt="">
+            <h4>活动海报</h4>
+            <p>通过海报将活动与奖励互相关联，让营销更容易</p>
+            </span> </div>
+        </div>
+        <div class="info_item">
+          <div class="item_head"> <i>黏度<br>
+            更深</i> <u></u> </div>
+          <div class="item_tail"> <span> <img src="static/picture/012.png" alt="">
+            <h4>积分签到</h4>
+            <p>签到、连签、满签、特殊奖励，补签规则，玩法齐备</p>
+            </span> <span> <img src="static/picture/013.png" alt="">
+            <h4>全民社区</h4>
+            <p>打造社区，创建话题，推荐版主，增强用户黏度</p>
+            </span> <span> <img src="static/picture/014.png" alt="">
+            <h4>兑换中心</h4>
+            <p>将会员积分用于营销推广，属于会员的专属福利</p>
+            </span> <span> <img src="static/picture/015.png" alt="">
+            <h4>积分商城</h4>
+            <p>将会员积分用于营销推广，属于会员的专属福利</p>
+            </span> </div>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">咨询客服</a> </div>
+    </div>
+  </div>
+  <div class="artical04 artical">
+    <div class="zcon artical04_">
+      <div class="art_title">
+        <h4>移动商城·稳定实用的框架</h4>
+        <p>因为用心，稳定的、实用的，也是卓越的</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="art_tab">
+          <div class="tab active" data-item="1"> <span> <b>实用基础框架</b> <i>自主开发，避免代码冗余</i> </span> </div>
+          <div class="tab" data-item="2"> <span> <b>四大分销模块</b> <i>拓展您赚钱的速度和数量</i> </span> </div>
+        </div>
+        <div class="art_box">
+          <div class="art_item art_item1"> <span> <img src="static/picture/016.png" alt="">
+            <div class="wd_">
+              <h4>商品管理</h4>
+              <p>可设置商品分类、分组、标签，支持商品规格设置</p>
+            </div>
+            </span> <span> <img src="static/picture/017.png" alt="">
+            <div class="wd_">
+              <h4>会员管理</h4>
+              <p>会员资料、订单、积分、余额管理，可设置等级和分组</p>
+            </div>
+            </span> <span> <img src="static/picture/018.png" alt="">
+            <div class="wd_">
+              <h4>订单管理</h4>
+              <p>订单分类管理和统计，可自定义导出和批量发货</p>
+            </div>
+            </span> <span> <img src="static/picture/019.png" alt="">
+            <div class="wd_">
+              <h4>财务管理</h4>
+              <p>充值、提现、余额、明细管理，多种条件筛选，可导出数据</p>
+            </div>
+            </span> <span> <img src="static/picture/020.png" alt="">
+            <div class="wd_">
+              <h4>数据统计</h4>
+              <p>包含销售统计、订单统计、转化率统计、商品统计、会员统计</p>
+            </div>
+            </span> <span> <img src="static/picture/021.png" alt="">
+            <div class="wd_">
+              <h4>支付配置</h4>
+              <p>支持微信支付、支付宝支付、货到付款、余额支付、银联支付、转账汇款</p>
+            </div>
+            </span> </div>
+          <div class="art_item art_item2"> <span>
+            <div class="tt_"> <img src="static/picture/062.png" alt="">
+              <h4>单品分销模块</h4>
+            </div>
+            <div class="wd_"> 爆品分销，只要一款产品就能燃爆社交圈，带来流量和销量，为整个平台做推广 </div>
+            </span> <span>
+            <div class="tt_"> <img src="static/picture/063.png" alt="">
+              <h4>N级分销三级提成模块</h4>
+            </div>
+            <div class="wd_"> 不限等级，三级分佣，佣金可灵活设置，支持多种分销商升级模式 </div>
+            </span> <span>
+            <div class="tt_"> <img src="static/picture/064.png" alt="">
+              <h4>全名股东模块</h4>
+            </div>
+            <div class="wd_"> 全民股东，全民分红，充分调动粉丝积极性，促进平台发展壮大 </div>
+            </span> <span>
+            <div class="tt_"> <img src="static/picture/065.png" alt="">
+              <h4>区域代理模块</h4>
+            </div>
+            <div class="wd_"> 线下代理无缝接入线上，继续推广返利，线上线下并驾齐驱，让代理更爱拼 </div>
+            </span> </div>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">申请体验</a> </div>
+    </div>
+  </div>
+  <script>
+        $(function(){
+            $(".art_tab > .tab").hover(function(){
+                var $data=$(this).attr("data-item");
+                $(this).addClass("active").siblings().removeClass("active");
+                $(".art_item"+$data).css({"display":"block"}).siblings().css({"display":"none"});
+                if($(window).width()<760){
+                    $(".art_item"+$data).css({"display":"flex"}).siblings().css({"display":"none"});
+                }
+            });
+        })
+	</script>
+  <div class="artical05 artical">
+    <div class="zcon artical05_">
+      <div class="art_title">
+        <h4>移动商城·充分自定义才叫个性化</h4>
+        <p>自定义设置店铺装修、分销和分红规则，打造个性化商城</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="left_item _item">
+          <div class="inner_item"> <img src="static/picture/037.png" alt=""> <span>
+            <h4>系统页面自定义</h4>
+            <p>支持商城首页、商品详情页、会员中心</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/039.png" alt=""> <span>
+            <h4>应用页面自定义</h4>
+            <p>支持分销中心、积分商城、兑换中心</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/041.png" alt=""> <span>
+            <h4>专题页自定义</h4>
+            <p>根据需求任意定制专题页，并分享推广</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/042.png" alt=""> <span>
+            <h4>其他组件自定义</h4>
+            <p>商城菜单、咨询按钮、悬浮框、启动广告等</p>
+            </span> </div>
+        </div>
+        <div class="center_item"> <img src="static/picture/022.png" alt=""> </div>
+        <div class="right_item _item">
+          <div class="inner_item"> <img src="static/picture/038.png" alt=""> <span>
+            <h4>分销规则自定义</h4>
+            <p>分销等级、分销商称呼、分销商条件等</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/040.png" alt=""> <span>
+            <h4>分红规则自定义</h4>
+            <p>分红形式、分红比例、分红条件等</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/036.png" alt=""> <span>
+            <h4>供应商入驻自定义</h4>
+            <p>自定义入驻申请表单、条件和入驻协议</p>
+            </span> </div>
+          <div class="inner_item"> <img src="static/picture/043.png" alt=""> <span>
+            <h4>促销规则自定义</h4>
+            <p>游戏、签到、活动、积分等，规则统统自定义</p>
+            </span> </div>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">联系我们</a> </div>
+    </div>
+  </div>
+  <div class="artical06 artical">
+    <div class="zcon artical06_">
+      <div class="art_title">
+        <h4>移动商城·支持深度定制开发</h4>
+        <p>商城、分销、积分返利、产品定制、定点扶持......</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="head_tab"> <span class="active"> <i> <img class="nor" src="static/picture/023.png" alt=""> <img class="on" src="static/picture/023_.png" alt=""> </i> </span> <span> <i> <img class="nor" src="static/picture/024.png" alt=""> <img class="on" src="static/picture/024_.png" alt=""> </i> </span> <span> <i> <img class="nor" src="static/picture/025.png" alt=""> <img class="on" src="static/picture/025_.png" alt=""> </i> </span> <span> <i> <img class="nor" src="static/picture/026.png" alt=""> <img class="on" src="static/picture/026_.png" alt=""> </i> </span> </div>
+        <div class="tab_info_cont">
+          <div class="tab_info_item">
+            <h4>阿贝阿妈</h4>
+            <div class="intrl_">阿贝阿妈是将在线教育培训与商城结合的移动端产品。培训课程包含视频课程和音频课程。可以购买实物商品、单课程、套餐课程、文章课程。同时还可以通过分享商品和课程给朋友来赚取佣金。用户也可以自制课程并分享到平台，与平台共享课程收益。</div>
+            <p>项目关键词：微商城、在线教育、课程、语音网站、视频网站</p>
+          </div>
+          <div class="tab_info_item">
+            <h4>Sideyou在你身边</h4>
+            <div class="intrl_">sideyou是一个珠宝定制微商城。在这里，用户可以直接购买品牌原创设计的限量级珠宝，同时也可以通过该平台预约设计师，定制专属级珠宝。或者留下于自己有特殊含义的纪念日，定制纪念日系列珠宝。</div>
+            <p>项目关键词：微商城、珠宝设计、珠宝定制</p>
+          </div>
+          <div class="tab_info_item">
+            <h4>益禾田</h4>
+            <div class="intrl_">益禾田是一款微商城与精准扶贫相结合，专注于原生态农产品销售的定制微商城。除了传统的农产品微商城部分，项目更是加入了巴中下属县乡的贫困农户资料以及他们的能提供的产品。用户能够指定购买想要精准帮扶的农户家的产品。商城农产品也可追溯来源。</div>
+            <p>项目关键词：微商城、农产品销售、精准扶贫、产品可追溯</p>
+          </div>
+          <div class="tab_info_item">
+            <h4>智慧女人</h4>
+            <div class="intrl_">智慧女人项目是3M四川代理商定制开发的3M产品销售项目。该项目是线上线下相结合的模式，用户可通过商城下单，选择配送或附近门店取货。也可通过线下门店的地图定位，前往门店购买商品。该项目是PC、WAP、微信三网合一。项目的目标是，3米之内，必有3M。</div>
+            <p>项目关键词：微商城、O2O、门店管理、3M代理、三网合一</p>
+          </div>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">深入了解</a> </div>
+    </div>
+  </div>
+  <script>
+        $(function(){
+            $(".head_tab > span").hover(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+                $(".artical06").find(".tab_info_cont > .tab_info_item").eq($(this).index()).css({"display":"block"}).siblings().css({"display":"none"});
+            })
+        })
+	</script>
+  <div class="artical07 artical">
+    <div class="zcon artical07_">
+      <div class="art_title">
+        <h4>移动商城·更多解决方案</h4>
+        <p>提供多行业资深解决方案，或许您疑惑的，正好能找到答案</p>
+      </div>
+      <div class="art_info hidden">
+        <div class="right_item" style="width: 100%">
+          <div class="fa_title">专业服务团队</div>
+          <div class="td_list hidden">
+            <div class="td_item"> <img src="static/picture/028.png" alt=""> <span>商务专员</span> </div>
+            <div class="td_item"> <img src="static/picture/030.png" alt=""> <span>文案策划</span> </div>
+            <div class="td_item"> <img src="static/picture/031.png" alt=""> <span>产品经理</span> </div>
+            <div class="td_item"> <img src="static/picture/032.png" alt=""> <span>创意设计</span> </div>
+            <div class="td_item"> <img src="static/picture/029.png" alt=""> <span>程序开发</span> </div>
+            <div class="td_item"> <img src="static/picture/027.png" alt=""> <span>售后服务</span> </div>
+          </div>
+          <div class="aside_center"> <img src="static/picture/059.png" alt=""> </div>
+          <div class="bottom_td hidden"> <span>首年<br>
+            免费维护</span> <span>7*24h<br>
+            售后支持</span> <span>免费<br>
+            操作培训</span> <span>首年赠送<br>
+            域名和10G空间</span> <span>免费<br>
+            程序升级</span> <span>项目<br>
+            安全防护</span> </div>
+        </div>
+      </div>
+      <div class="zx_btn"> <a class="zixun_web" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" target="_blank">联系我们</a> </div>
+    </div>
+  </div>
+  <div class="apply_info">
+    <div class="zcon apply_">
+      <div class="art_title">
+        <h4>留言享免费建站策划</h4>
+      </div>
+       <form method="POST" action="/28521/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" enctype="multipart/form-data" onsubmit="return submitb09e86fa2695ba0fd49eff62371b49a2(this);">
+  <div class="input_table">
+    <input class="name" id='attr_26' name='attr_26' type="text" placeholder="您的姓名">
+    <input class="phone" id='attr_27' name='attr_27' id="phone" placeholder="您的联系电话">
+    <input class="xq" id='attr_28' name='attr_28' type="text" placeholder="请告诉我们您的需求">
+  </div>
+  <div class="send_apply">
+    <button type="submit">发送您的需求</button>
+  </div>
+  <input type="hidden" name="gourl" id="gourl_b09e86fa2695ba0fd49eff62371b49a2" value="https%3A%2F%2Fdemoall.5fa.cn%2F28521"><input type="hidden" name="typeid" value="19"><input type="hidden" name="__token__b09e86fa2695ba0fd49eff62371b49a2" id="b09e86fa2695ba0fd49eff62371b49a2" value=""><input type="hidden" name="form_type" value="0"><script type="text/javascript">
+    function submitb09e86fa2695ba0fd49eff62371b49a2(elements)
+    {
+        if (document.getElementById('gourl_b09e86fa2695ba0fd49eff62371b49a2')) {
+            document.getElementById('gourl_b09e86fa2695ba0fd49eff62371b49a2').value = encodeURIComponent(window.location.href);
+        }
+            var x = elements;
+    for (var i=0;i<x.length;i++) {
+        
+                            if(x[i].name == 'attr_27' && x[i].value.length == 0){
+                                alert('电话不能为空！');
+                                return false;
+                            }
+                         
+                    if(x[i].name == 'attr_27' && !(/^1\d{10}$/.test( x[i].value)) && x[i].value.length > 0){
+                        alert('电话格式不正确！！');
+                        return false;
+                    }
+                   
+    }
+        
+        elements.submit();
+    }
+
+    function ey_fleshVerify_1710123048(id)
+    {
+        var token = id.replace(/verify_/g, '__token__');
+        var src = "/28521/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn&token="+token;
+        src += "&r="+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+
+    function f1366a04aa02ea38e8c8fcb91e98a5ef7()
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_token", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send("name=__token__b09e86fa2695ba0fd49eff62371b49a2");
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+                document.getElementById("b09e86fa2695ba0fd49eff62371b49a2").value = ajax.responseText;
+                document.getElementById("gourl_b09e86fa2695ba0fd49eff62371b49a2").value = encodeURIComponent(window.location.href);
+          　}
+        } 
+    }
+    f1366a04aa02ea38e8c8fcb91e98a5ef7();
+    function getNext1598839807(id,name,level) {
+        var input = document.getElementById('attr_'+name);
+        var first = document.getElementById('first_id_'+name);
+        var second = document.getElementById('second_id_'+name);
+        var third = document.getElementById('third_id_'+name);
+        var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+
+        if (level == 1){
+            if (second) {
+                second.style.display = 'none';
+                second.innerHTML  = ''; 
+            }
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            input.value = fvalue;
+            value = fvalue;
+        } else if (level == 2){
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            if (svalue) {
+                input.value = fvalue+','+svalue;
+                value = svalue;
+            }else{
+                input.value = fvalue;
+            }
+        } else if (level == 3){
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            tindex = third.selectedIndex;
+            tvalue = third.options[tindex].value;
+            if (tvalue) {
+                input.value = fvalue+','+svalue+','+tvalue;
+                value = tvalue;
+            }else{
+                input.value = fvalue+','+svalue;
+            }
+        } 
+        if (value) {
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).options.add(new Option('请选择','')); 
+                var ajax = new XMLHttpRequest();
+                //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                ajax.open("post", "/28521/index.php?m=api&c=Ajax&a=get_region", true);
+                // 给头部添加ajax信息
+                ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //步骤三:发送请求+数据
+                ajax.send("pid="+value);
+                //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                ajax.onreadystatechange = function () {
+                    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                    if (ajax.readyState==4 && ajax.status==200) {
+                        var data = JSON.parse(ajax.responseText).data;
+                        if (data) {
+                            data.forEach(function(item) {
+                                document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                                document.getElementById(id).style.display = "block";
+                            });
+                        }
+                  　}
+                }
+            }
+        }
+    }
+</script></form>
+<div class="aside_info"> 感谢您的信任，我们将在一个工作日内与您取得联系。您还可以直接来电咨询：<b></b> </div>
+ </div>
+  </div>
+  <div class="footer">
+  <div class="zcon">
+    <div class="l lianxi"> Copyright © 2002-2024 某某网络设计有限公司 版权所有  &nbsp;  <br>
+      联系电话： 4009-999-999 &nbsp; E-mail：88888888@qq.com <br>
+      公司地址：广东省广州市番禺经济开发区<br>
+      主营业务：网站定制、营销型网站建设、微商城制作、三级分销系统开发</div>
+    <div class="r foot_erweima" style="float: right;width: 108px;height: 108px;background: url(static/image/1-220530152J5B9.jpg) no-repeat;margin-right: 10px;margin-top: 12px;
+}"> </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="yb_conct">
+  <div class="yb_bar">
+    <ul>
+      <li class="yb_top">返回顶部</li>
+      <li class="yb_phone">4009-999-999</li>
+      <li class="yb_QQ"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes" title="网站开发咨询">QQ在线</a> </li>
+      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+        <img class="hd_qr" src="static/picture/1-220530152J5B9.jpg" alt=""> </li>
+    </ul>
+  </div>
+</div>
+<div class="phone_foot">
+  <div class="pfoot_box">
+    <div class="pfoot_col"><a class="" href="tel:4009-999-999">电话沟通</a></div>
+    <div class="pfoot_col"><a class="pfoot_col_qiao" href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes">在线客服</a></div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+		$('.nav li').hover(function(){
+			$('span',this).stop().css('height','2px');
+			$('span',this).animate({
+				left:'0',
+				width:'100%',
+				right:'0'
+			}, 200);
+		},function(){
+			$('span',this).stop().animate({
+				left:'50%',
+				width:'0'
+			}, 200);
+		});
+		$('.nav li').click(function(){
+			 $(this).addClass("current").siblings().removeClass("current");
+		});		
+		// 悬浮窗口
+		$(".yb_conct").hover(function() {
+			$(".yb_conct").css("right", "5px");
+			$(".yb_bar .yb_ercode").css('height', '190px');
+		}, function() {
+			$(".yb_conct").css("right", "-127px");
+			$(".yb_bar .yb_ercode").css('height', '53px');
+		});
+		// 返回顶部
+		$(".yb_top").click(function() {
+			$("html,body").animate({
+				'scrollTop': '0px'
+			}, 300)
+		});
+	});
+
+</script> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> </div>
+</body>
+<script>
+    $(function(){
+        function animate(a) {
+            a.addClass("active");
+        }
+        var jumbotron = $(".art_title");
+        $(window).scroll(function() {
+            var top = $(document).scrollTop();
+            if (top > ($(window).height()-100)) jumbotron.removeClass("active");
+            jumbotron.each(function() {
+                var $this = $(this),
+                    jumbotronTop = $this.offset().top;
+                if (top > (jumbotronTop - ($(window).height()-100))) animate($this);
+                else return false;
+            })
+        })
+        var swiper02=new Swiper(".swiper-container_fa",{
+            autoplay: 1900,
+            autoHeight: true,
+            autoplayDisableOnInteraction : false,
+            onTransitionEnd: function(swiper){
+                var $index=swiper.activeIndex;
+                $(".slide_tab > span").eq($index).addClass("active").siblings().removeClass("active");
+            }
+        });
+        $(".slide_tab > span").hover(function(){
+            $index=$(this).index();
+            $(this).addClass("active").siblings().removeClass("active");
+            swiper02.slideTo($index,500,false);
+        })
+        // 右侧公共菜单
+
+    })
+</script>

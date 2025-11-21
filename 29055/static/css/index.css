@@ -1,0 +1,58 @@
+﻿.progress-wrap {
+	position: fixed;
+	z-index: 3;
+	right: 5.8%;
+	bottom: 15%;
+	display: none;
+	transition: all 0.4s ease-in 0s;
+	-webkit-transition: all 0.4s ease-in 0s;
+	-moz-transition: all 0.4s ease-in 0s;
+	-ms-transition: all 0.4s ease-in 0s;
+	-o-transition: all 0.4s ease-in 0s;
+	opacity: 0;
+	visibility: hidden;
+}
+.progress-wrap.active {
+	opacity: 1;
+	visibility: visible;
+}
+.progress-wrap a {
+	outline: none;
+	border: none;
+	text-decoration: none;
+	width: 3.25em;
+	height: 3.25em;
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #fff;
+	-webkit-filter: drop-shadow(0px 0px 12px rgba(44, 75, 114, 0.1));
+	filter: drop-shadow(0px 0px 12px rgba(44, 75, 114, 0.1));
+}
+.progress-wrap a svg path {
+	fill: none;
+}
+.progress-wrap a svg.progress-circle path {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	stroke-width: 4;
+	stroke: #009999;
+	transition: all 0.4s linear 0s;
+	-webkit-transition: all 0.4s linear 0s;
+	-moz-transition: all 0.4s linear 0s;
+	-ms-transition: all 0.4s linear 0s;
+	-o-transition: all 0.4s linear 0s;
+}
+.progress-wrap a span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.progress-wrap {
+	display: inline-block;
+}

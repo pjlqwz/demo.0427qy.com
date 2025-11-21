@@ -1,0 +1,249 @@
+﻿
+.section-5 .full-one-inside {
+	background: #f2f2f2; 
+}
+
+.ide-title-img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.inside-title-img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.inside-title-img span.zhong{
+    font-size: 48px;
+    color: #00693e;
+}
+.inside-title-img span.en{
+    font-size: 18px;
+    color: #999;
+}
+
+/*.section-5*/
+.ind-all {
+	margin-top: 55px;
+}
+.ind-l {
+}
+.ind-l > a {
+	display: block;
+	/*width: 640px;
+	height: 420px;*/
+	width: 580px;
+	height: 380px;
+	overflow: hidden;
+}
+.ind-l img {
+	width: 100%;
+	height: 100%;
+	-o-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.ind-l:hover img {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.ind-l-title {
+	margin-top: 20px;
+    max-width: 580px;
+    max-height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.ind-l-title a {
+    color: #333;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+}
+.ind-l-title a:hover {
+	color: #00693e;
+}
+.ind-l,
+.ind-r {
+	display: inline-block;
+	vertical-align: top;
+}
+.ind-r {
+	float: right;
+}
+.ind-list > ul > li {
+}
+.ind-one {
+	padding-bottom: 33px;
+	width: 1399.99px;
+}
+.ind-one span{
+	margin-bottom: 27px;
+    line-height: 52px;
+    color: #999;
+}
+.ind-one-line {
+	border-bottom: 1px dashed #c2c2c2;
+	-o-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+.ind-one:hover .ind-one-line {
+	border-bottom: 1px dashed #333;
+}
+.ind-time {
+	margin-bottom: 33px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #999;
+	-o-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+.ind-one:hover .ind-time {
+	color: #333;
+}
+.ind-one h3 {
+	margin-bottom: 30px;
+	height: 20px;
+	line-height: 18px;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.ind-one h3 a {
+	color: #333;
+	-o-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.ind-one h3 a:hover {
+	color: #00693e;
+}
+.ind-one h3 img {
+	margin-top: -4px;
+	margin-left: 12px;
+	-o-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+.ind-one h3:hover img {
+	-webkit-transform: translateX(14px);
+	   -moz-transform: translateX(14px);
+	    -ms-transform: translateX(14px);
+	     -o-transform: translateX(14px);
+	        transform: translateX(14px);
+}
+.ind-up-down {
+	padding-top: 4px;
+	font-size: 0;
+}
+.ind-up,
+.ind-line,
+.ind-down {
+	display: inline-block;
+}
+.ind-up,
+.ind-down {
+	position: relative;
+	cursor: pointer;
+}
+.ind-up-h,
+.ind-down-h {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	-o-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+.ind-up:hover .ind-up-h,
+.ind-down:hover .ind-down-h {
+	opacity: 1;
+}
+
+@media (max-width: 1399px) {
+	/*.section-5*/
+	.ind-l > a {
+		width: 450px;
+		height: auto;
+	}
+	.ind-one {
+		padding-bottom: 25px;
+		width: 500px;
+	}
+	.ind-time {
+	    margin-bottom: 23px;
+	}
+	.ind-one h3 {
+	    margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 62em) {
+	/*.section-5*/
+	.ind-all {
+	    margin-top: 30px;
+	    text-align: center;
+	}
+	.ind-l {
+		width: 100%;
+	}
+	.ind-l > a {
+		display: inline-block;
+	    width: 350px;
+	    height: auto;
+	}
+	.ind-l-title {
+		margin-bottom: 26px;
+	    max-width: 100%;
+	}
+	.ind-r {
+	    float: none;
+	    width: 80%;
+	    text-align: left;
+	}
+	.ind-one {
+	    padding-bottom: 10px;
+	    width: 100%;
+	}
+	.ind-time {
+	    display: none;
+	}
+	.ind-one h3 {
+	    margin-bottom: 10px;
+	    line-height: 20px;
+	    font-size: 16px;
+	}
+	.ind-one span{ display:none;
+}
+}
+
+@media (max-width: 34em) {
+	/*.section-5*/
+	.ind-l > a{
+	    width: 100%;
+	    height: auto;
+	}
+	.ind-l-title {
+		margin-top: 10px;
+		margin-bottom: 14px;
+	}
+	.ind-r {
+	    width: 100%;
+	}
+	.ind-one h3 {
+	    margin-bottom: 6px;
+	    line-height: 20px;
+	    font-size: 14px;
+	}
+	.section-1 {
+	}
+}
