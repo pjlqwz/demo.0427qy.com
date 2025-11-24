@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--首页seo标题-->
+<title>响应式企业通信管家服务网站模板_响应式企业通信管家服务网站模板</title>
+<!--首页seo描述-->
+<meta name="description" content="">
+<!--首页seo关键词-->
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico">
+<link href="static/css/jquery.fancybox.css" rel="stylesheet">
+<link href="static/css/bootstrap.css" rel="stylesheet">
+<link href="static/css/jquery.fullpage.css" rel="stylesheet">
+<link href="static/css/site.css" rel="stylesheet" type="text/css">
+<script src="static/js/jquery-1.10.2.min.js"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/jquery.easings.min.js"></script>
+<script src="static/js/scrolloverflow.js"></script>
+<script src="https://demoall.5fa.cn/28545/template/pc/skin/js/jquery.fullpage.js"></script>
+<script src="https://demoall.5fa.cn/28545/template/pc/skin/js/jquery.nicescroll.js"></script>
+<link href="static/css/swiper.css" rel="stylesheet">
+<script src="https://demoall.5fa.cn/28545/template/pc/skin/js/swiper.js"></script>
+<script src="static/js/jquery.fancybox.js"></script>
+<script src="static/js/jquery.mousewheel.pack.js"></script>
+<link href="static/css/video-js.css" rel="stylesheet">
+<!-- If you'd like to support IE8 -->
+<script src="static/js/videojs-ie8.js"></script>
+<!--可删 生成二微码-->
+<script src="static/js/jquery.qrcode.min.js"></script>
+<script src="static/js/page.js"></script>
+<script>
+$(function () {
+    
+
+    var fcid = 0;
+    loading(fcid);
+    $(".about3-nav a").click(function () {
+
+        $(this).siblings().removeClass("active");
+        $(this).addClass("active");
+        fcid = $(this).data("id");
+        loading(fcid);
+        return false;
+    })
+
+    $('#indexbox').fullpage({
+        navigation: true,
+
+        afterLoad: function (anchorLink, index) {
+
+        },
+        onLeave: function (index, direction) {
+
+        }
+
+        //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+        //'navigation': true,
+    });
+
+    $(window).resize(function () {
+        autoScrolling();
+    });
+
+    function autoScrolling() {
+        var $ww = $(window).width();
+        if ($ww < 1024) {
+            $.fn.fullpage.setAutoScrolling(false);
+        } else {
+            $.fn.fullpage.setAutoScrolling(true);
+        }
+    }
+
+    //autoScrolling();
+
+    var swiper = new Swiper('.section3 .swiper-container', {
+        pagination: '.section3 .swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.section3 .swiper-button-next',
+        prevButton: '.section3 .swiper-button-prev',
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loopedSlides: 20,
+        loopAdditionalSlides: 20,
+        breakpoints: {
+            1400: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            750: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+        },
+    });
+
+    var swiperss = new Swiper('.section5 .pc .swiper-container', {
+        //pagination: '.section5 .pc .swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.section5 .pc .swiper-button-next',
+        prevButton: '.section5 .pc .swiper-button-prev',
+        slidesPerView: 1,
+        spaceBetween: 0,
+    });
+
+    var swiper5 = new Swiper('.section5 .mo .swiper-container', {
+        pagination: '.section5 .mo .swiper-pagination',
+        paginationClickable: true,
+        //nextButton: '.swiper-button-next',
+        //prevButton: '.swiper-button-prev',
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loopedSlides: 20,
+        loopAdditionalSlides: 20,
+        breakpoints: {
+            1400: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            750: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+        },
+    });
+var pwidth = $(window).outerWidth(true); 
+if (pwidth < 768) {
+    $("#section1").css({ "background": "url(/28545/template/pc/skin/img/20170308115729_9539.jpg) no-repeat 0 0", "background-size": "cover" })
+} else {
+
+    $("#section1").css({ "  background": "url(/28545/template/pc/skin/img/20170308115723_1327.jpg) no-repeat 0 0", "background-size": "cover" })
+}
+
+
+});
+var loading = function (fcid) {
+
+    
+    return false
+}
+</script>
+<meta name="viewport" content="width=device-width">
+<link href="/28545/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<header>
+  <div class="nav-logo"> <a href=""><img src="static/picture/1-220615095245B6.png"></a> </div>
+  <div class="container">
+    <div id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="">首页</a></li>
+                <li class=""><a href="guanjiafuwu.html">管家服务</a></li>
+                <li class=""><a href="daibiaoxiangmu.html">代表项目</a></li>
+                <li class=""><a href="youxiuanli.html">优秀案例</a></li>
+                <li class=""><a href="hezuohuoban.html">合作伙伴</a></li>
+                <li class=""><a href="xinwenzhongxin.html">新闻中心</a></li>
+                <li class=""><a href="guanyuwomen.html">关于我们</a></li>
+                <li class=""><a href="lianxiwomen.html">联系我们</a></li>
+              </ul>
+    </div>
+  </div>
+  <div class="nav-menu">
+    <button type="button"> <cite>MENU</cite>
+    <p> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </p>
+    </button>
+  </div>
+</header>
+<div class="pc-menu">
+  <ul>
+        <li> <a href="guanjiafuwu.html">管家服务</a>       <ul>
+                <li><a href="louyuzhinenhua.html">楼宇智能化</a></li>
+                <li><a href="wuyefuwushengji.html">物业服务升级</a></li>
+                <li><a href="qiyebangongguanjia.html">企业办公管家</a></li>
+                <li><a href="bailinghudong.html">白领互动</a></li>
+              </ul>
+       </li>
+        <li> <a href="daibiaoxiangmu.html">代表项目</a>  </li>
+        <li> <a href="youxiuanli.html">优秀案例</a>       <ul>
+                <li><a href="daxiawuliuguanli.html">大厦物流管理</a></li>
+                <li><a href="wuyefuwupingtai.html">物业服务平台</a></li>
+                <li><a href="huodong.html">活动</a></li>
+              </ul>
+       </li>
+        <li> <a href="hezuohuoban.html">合作伙伴</a>  </li>
+        <li> <a href="xinwenzhongxin.html">新闻中心</a>       <ul>
+                <li><a href="qiyedongtai.html">企业动态</a></li>
+                <li><a href="xingyexinwen.html">行业新闻</a></li>
+              </ul>
+       </li>
+        <li> <a href="guanyuwomen.html">关于我们</a>       <ul>
+                <li><a href="gongsijianjie.html">公司简介</a></li>
+                <li><a href="rongyuzizhi.html">荣誉资质</a></li>
+              </ul>
+       </li>
+        <li> <a href="lianxiwomen.html">联系我们</a>  </li>
+      </ul>
+</div>
+
+<div id="indexbox">
+  <div class="section section1" id="section1">
+    <div class="ibox1">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="txt"> <h2> 一站式企业管家服务平台</h2>
+<h4> 帮企业只专注业务，让企业更省时、更省力、更省心</h4> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="section section2">
+    <div class="visible-xs" style="height:100%;">
+      <div class="title">携手物业、企业、白领，打造全新写字楼场景服务生态圈 </div>
+            <div class="item item1">
+        <div> <a href="louyuzhinenhua.html"> <i></i> <span>Intelligent building</span>
+          <h2>楼宇智能化</h2>
+          </a> </div>
+      </div>
+            <div class="item item2">
+        <div> <a href="wuyefuwushengji.html"> <i></i> <span>Upgrading of property services</span>
+          <h2>物业服务升级</h2>
+          </a> </div>
+      </div>
+            <div class="item item3">
+        <div> <a href="qiyebangongguanjia.html"> <i></i> <span>Office Butler</span>
+          <h2>企业办公管家</h2>
+          </a> </div>
+      </div>
+            <div class="item item4">
+        <div> <a href="bailinghudong.html"> <i></i> <span>experience</span>
+          <h2>白领互动</h2>
+          </a> </div>
+      </div>
+       </div>
+    <div class="hidden-xs">
+      <div class="section2s">
+        <div class="img"> <img src="https://demoall.5fa.cn/28545/uploads/180516/1-1P516141ZD55.png"> </div>
+        <div class="title">携手物业、企业、白领，打造全新写字楼场景服务生态圈</div>
+                <div class="item item1">
+          <div> <a href="louyuzhinenhua.html"> <i></i>
+            <h2>楼宇智能化</h2>
+            </a> </div>
+        </div>
+                <div class="item item2">
+          <div> <a href="wuyefuwushengji.html"> <i></i>
+            <h2>物业服务升级</h2>
+            </a> </div>
+        </div>
+                <div class="item item3">
+          <div> <a href="qiyebangongguanjia.html"> <i></i>
+            <h2>企业办公管家</h2>
+            </a> </div>
+        </div>
+                <div class="item item4">
+          <div> <a href="bailinghudong.html"> <i></i>
+            <h2>白领互动</h2>
+            </a> </div>
+        </div>
+         </div>
+    </div>
+  </div>
+    <div class="section section3">
+    <div class="title">
+      <h2> 代表项目 <small></small> </h2>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">         <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="39.html"><img src="static/picture/1-1P51P920300-L.jpg"></a></div>
+            <div class="txt"> <a href="39.html"> <b>津滨腾越大厦</b>
+              <p>津滨腾越大厦地处珠江新城CBD中轴线门户，坐镇华夏路与华强路交汇处，毗邻黄埔大道、广州大道、华南干线三条主干道，紧靠市民...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="38.html"><img src="static/picture/1-1P51P919570-L.jpg"></a></div>
+            <div class="txt"> <a href="38.html"> <b>广州市长大厦</b>
+              <p>广州市长大厦是一座功能齐全的智慧型酒店及商厦，楼高28层，建筑面积2.3万平方米，建筑风格独特，外墙壁采用最新金色玻璃幕...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="37.html"><img src="static/picture/1-1P51P919240-L.jpg"></a></div>
+            <div class="txt"> <a href="37.html"> <b>广州中泰国际广场</b>
+              <p>广州中泰国际广场地处广州市火车东站，毗邻威尼国际大厦，核心商区天河北中心、汇聚中信广场、天河城等商贸中心。天河北历来是顶...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="36.html"><img src="static/picture/1-1P51P91U60-L.jpg"></a></div>
+            <div class="txt"> <a href="36.html"> <b>广州环球广场</b>
+              <p>座落于广州市交通要道东风西路与人民北路交界处的环球广场，由东峻集团投资人民币近十亿元，精心设计建设，总建筑面积达4万多平...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="35.html"><img src="static/picture/1-1P51P91R30-L.jpg"></a></div>
+            <div class="txt"> <a href="35.html"> <b>英皇集团中心</b>
+              <p>英皇集团中心位处朝阳区建国门外大街永安里，长安街最后一块宝地，于中央商务区核心占重要席位。稀缺至宝的地理位置和无缝连接的...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="34.html"><img src="static/picture/1-1P51P91J90-L.jpg"></a></div>
+            <div class="txt"> <a href="34.html"> <b>北京国贸中心</b>
+              <p>其位于北京中央商务区，2007年建成，高330米，80层，由国贸中心和郭氏兄弟集团联合投资建设。其与国贸一期、国贸二期一...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="33.html"><img src="static/picture/1-1P51P91A00-L.jpg"></a></div>
+            <div class="txt"> <a href="33.html"> <b>总部基地</b>
+              <p>北京总部基地项目位于北京西南四环，自2003年6月19日奠基开工以来，已建成约400栋独具特色的总部楼，并以智能化、低密...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="32.html"><img src="static/picture/1-1P51P916190-L.jpg"></a></div>
+            <div class="txt"> <a href="32.html"> <b>北京银泰中心</b>
+              <p>北京银泰中心由北京银泰置业有限公司开发，位于CBD东三环国贸桥西南角，由世界著名建筑师John C. Portman担纲...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="31.html"><img src="static/picture/1-1P51P915460-L.jpg"></a></div>
+            <div class="txt"> <a href="31.html"> <b>东方梅地亚中心</b>
+              <p>东方梅地亚中心位于北京市朝阳区光华路4号，是北京市CBD核心区唯一一个为传媒行业量身打造的顶级写字楼项目。项目总建筑面积...</p>
+              </a> </div>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="item">
+            <div class="img"><a href="30.html"><img src="static/picture/1-1P51P915120-L.jpg"></a></div>
+            <div class="txt"> <a href="30.html"> <b>理想国际大厦</b>
+              <p>理想国际大厦是由理想产业发展集团开发的5A级商务大厦，位于北京市海淀区中关村广场（即：原中关村西区）2号地，紧邻北四环路...</p>
+              </a> </div>
+          </div>
+        </div>
+         </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    <div class="section section4">
+    <div class="title">
+      <h3> 合作伙伴 <small>Cooperative partner</small> </h3>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <table>
+            <tbody>
+              <tr>                 <td><img src="static/picture/1-1P5161J0380-L.png"></td>
+                                <td><img src="static/picture/1-1P5161J0220-L.png"></td>
+                                <td><img src="static/picture/1-1P5161IJ40-L.png"></td>
+                                <td><img src="static/picture/1-1P5161IH90-L.png"></td>
+                 </tr>
+              <tr>                 <td><img src="static/picture/1-1P5161IG70-L.png"></td>
+                                <td><img src="static/picture/1-1P5161I5190-L.png"></td>
+                                <td><img src="static/picture/1-1P5161I5080-L.png"></td>
+                                <td><img src="static/picture/1-1P5161I4540-L.png"></td>
+                 </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table>
+            <tbody>
+              <tr>                 <td><img src="static/picture/1-1P5161I4420-L.png"></td>
+                                <td><img src="static/picture/1-1P5161I4300-L.jpg"></td>
+                 </tr>
+              <tr>  </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+
+var swiper4 = new Swiper('.section4 .swiper-container', {
+pagination: '.section4 .swiper-pagination',
+paginationClickable: true,
+nextButton: '.swiper-button-next',
+prevButton: '.swiper-button-prev',
+slidesPerView: 1,
+spaceBetween: 0,
+});
+
+
+</script> 
+  </div>
+    <div class="section section5">
+    <div class="title">
+      <h2> 新闻中心 <small>LATEST NEWS</small> </h2>
+      <a href="xinwenzhongxin.html"> 更多 + </a> </div>
+    <div class="pc visible-lg">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="item">               <div class="item1 ">
+                <div class="img"> <a href="29.html"><img src="static/picture/1-1P5161SH00-L.jpg"></a> </div>
+                <div class="txt"> <a href="29.html"> <span>2018.05.16</span> <b>腾讯游戏营收比重连续两个季度下降，支付、</b>
+                  <p>腾讯不仅在阿里怂恿大家花钱的双十一之际高调派钱，如今财报的高速增长业务也刚好跟支付宝和阿里云对标。 今日晚间，腾讯发布今天公布未经审核的第三季度财报。报告显示，腾讯...</p>
+                  </a> </div>
+              </div>
+                            <div class="item2 ">
+                <div class="img"> <a href="28.html"><img src="static/picture/1-1P5161S5310-L.jpg"></a> </div>
+                <div class="txt"> <a href="28.html"> <span>2018.05.16</span> <b>获 3800 万元 A+ 轮投资，乐摇摇</b>
+                  <p>36氪获悉，线下公众号推广公司乐摇摇科技已完成 3800 万元 A+ 轮融资，投资方为广发信德。 众所周知，如今线上流量昂贵，大家的目光开始聚焦线下。除了传统的地铁、电梯广告，线下...</p>
+                  </a> </div>
+              </div>
+                            <div class="item3 ">
+                <div class="img"> <a href="27.html"><img src="static/picture/1-1P5161S5150-L.jpg"></a> </div>
+                <div class="txt"> <a href="27.html"> <span>2018.05.16</span> <b>借网生大势赚了两年快钱后，考拉娱乐开始切</b>
+                  <p>从2014年起，网络大电影这个词逐渐进入人们的眼球，当时满地都是几十万制作成本博得百万票房的故事，考拉娱乐便是在那个网生内容的蛮荒时代入的局。 在接受36氪采访时，考拉娱乐...</p>
+                  </a> </div>
+              </div>
+                            <div class="item4 ">
+                <div class="img"> <a href="26.html"><img src="static/picture/1-1P5161S4470-L.jpg"></a> </div>
+                <div class="txt"> <a href="26.html"> <span>2018.05.16</span> <b>独家 | 传滴滴即将接入ofo，共享单车</b>
+                  <p>36氪从ofo内部获得消息，可能在今年4月份，ofo将会接入到滴滴出行的App上，届时用户可以直接在滴滴上面使用ofo的服务。 这件事最近被频繁地提上日程，内部消息是下个月就有可能接入...</p>
+                  </a> </div>
+              </div>
+               </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">               <div class="item1 ">
+                <div class="img"> <a href="25.html"><img src="static/picture/1-1P5161S4180-L.jpg"></a> </div>
+                <div class="txt"> <a href="25.html"> <span>2018.05.16</span> <b>点击在线求助，应答的却都是机器人，这样真</b>
+                  <p>编者按：人工智能技术的发展正在不断地改变着人们的生活与工作方式，它在一定程度上推动了社会的发展与进步，这一点是毋庸置疑的。但人工智能并不是万能的，因为机器并不具备...</p>
+                  </a> </div>
+              </div>
+                            <div class="item2 ">
+                <div class="img"> <a href="24.html"><img src="static/picture/1-1P5161S3580-L.jpg"></a> </div>
+                <div class="txt"> <a href="24.html"> <span>2018.05.16</span> <b>美业信息化规模将现，门庭管店为他们提供了</b>
+                  <p>数据显示，2015年，我国服务业同比增长8.3%，分别高于国内生产总值和第二产业增加值增速1.4和2.3个百分点，占国内生产总值的比重达到50.5%，首次过半，而与发达国家相比，我国服务业...</p>
+                  </a> </div>
+              </div>
+                            <div class="item3 ">
+                <div class="img"> <a href="23.html"><img src="static/picture/1-1P5161S3150-L.jpg"></a> </div>
+                <div class="txt"> <a href="23.html"> <span>2018.05.16</span> <b>腾讯500万美元领投AI创企ObEN，进</b>
+                  <p>除了做基础技术的研究外，腾讯曾表示要通过业务驱动来推动各种应用场景的人工智能化。 结合腾讯的主营业务，也不难猜到未来公司要在游戏、社交、内容和平台工具型四大应用方向...</p>
+                  </a> </div>
+              </div>
+                            <div class="item4 ">
+                <div class="img"> <a href="22.html"><img src="static/picture/1-1P5161R9230-L.jpg"></a> </div>
+                <div class="txt"> <a href="22.html"> <span>2018.05.16</span> <b>无人便利店风口正当时，“便利家”获联创永</b>
+                  <p>36氪获悉，无人便利店便利家已获得数百万人民币天使轮投资，资方为联创永宣冯涛。 无人便利店风口正当时，缤果盒子、F5未来商店、深兰科技、Easy Go等一众玩家云集，亚马逊、罗森...</p>
+                  </a> </div>
+              </div>
+               </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">               <div class="item1 ">
+                <div class="img"> <a href="21.html"><img src="static/picture/1-1P5161R6360-L.jpg"></a> </div>
+                <div class="txt"> <a href="21.html"> <span>2018.05.16</span> <b>旅游市场将迎来内容红利？河马旅居想做旅游</b>
+                  <p>内容为王这句话在哪个时代都不会过时。随着消费升级，日益庞大的中国高端群体对高品质的生活方式与旅行体验的需求为高端出境旅游市场带来巨大市场机遇。现今的旅游产品也更向...</p>
+                  </a> </div>
+              </div>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="mo hidden-lg">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">           <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="29.html"><img src="static/picture/1-1P5161SH00-L.jpg"></a> </div>
+              <div class="txt"> <a href="29.html"> <span>2018.05.16</span> <b>腾讯游戏营收比重连续两个季度下降，支付、</b>
+                <p> 腾讯不仅在阿里怂恿大家花钱的双十一之际高调派钱，如今财报的高速增长业务也刚好跟支付宝和阿里云对标。 今日晚间，腾讯发布今天公布未经审核的第三季度财报。报告显示，腾讯...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="28.html"><img src="static/picture/1-1P5161S5310-L.jpg"></a> </div>
+              <div class="txt"> <a href="28.html"> <span>2018.05.16</span> <b>获 3800 万元 A+ 轮投资，乐摇摇</b>
+                <p> 36氪获悉，线下公众号推广公司乐摇摇科技已完成 3800 万元 A+ 轮融资，投资方为广发信德。 众所周知，如今线上流量昂贵，大家的目光开始聚焦线下。除了传统的地铁、电梯广告，线下...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="27.html"><img src="static/picture/1-1P5161S5150-L.jpg"></a> </div>
+              <div class="txt"> <a href="27.html"> <span>2018.05.16</span> <b>借网生大势赚了两年快钱后，考拉娱乐开始切</b>
+                <p> 从2014年起，网络大电影这个词逐渐进入人们的眼球，当时满地都是几十万制作成本博得百万票房的故事，考拉娱乐便是在那个网生内容的蛮荒时代入的局。 在接受36氪采访时，考拉娱乐...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="26.html"><img src="static/picture/1-1P5161S4470-L.jpg"></a> </div>
+              <div class="txt"> <a href="26.html"> <span>2018.05.16</span> <b>独家 | 传滴滴即将接入ofo，共享单车</b>
+                <p> 36氪从ofo内部获得消息，可能在今年4月份，ofo将会接入到滴滴出行的App上，届时用户可以直接在滴滴上面使用ofo的服务。 这件事最近被频繁地提上日程，内部消息是下个月就有可能接入...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="25.html"><img src="static/picture/1-1P5161S4180-L.jpg"></a> </div>
+              <div class="txt"> <a href="25.html"> <span>2018.05.16</span> <b>点击在线求助，应答的却都是机器人，这样真</b>
+                <p> 编者按：人工智能技术的发展正在不断地改变着人们的生活与工作方式，它在一定程度上推动了社会的发展与进步，这一点是毋庸置疑的。但人工智能并不是万能的，因为机器并不具备...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="24.html"><img src="static/picture/1-1P5161S3580-L.jpg"></a> </div>
+              <div class="txt"> <a href="24.html"> <span>2018.05.16</span> <b>美业信息化规模将现，门庭管店为他们提供了</b>
+                <p> 数据显示，2015年，我国服务业同比增长8.3%，分别高于国内生产总值和第二产业增加值增速1.4和2.3个百分点，占国内生产总值的比重达到50.5%，首次过半，而与发达国家相比，我国服务业...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="23.html"><img src="static/picture/1-1P5161S3150-L.jpg"></a> </div>
+              <div class="txt"> <a href="23.html"> <span>2018.05.16</span> <b>腾讯500万美元领投AI创企ObEN，进</b>
+                <p> 除了做基础技术的研究外，腾讯曾表示要通过业务驱动来推动各种应用场景的人工智能化。 结合腾讯的主营业务，也不难猜到未来公司要在游戏、社交、内容和平台工具型四大应用方向...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="22.html"><img src="static/picture/1-1P5161R9230-L.jpg"></a> </div>
+              <div class="txt"> <a href="22.html"> <span>2018.05.16</span> <b>无人便利店风口正当时，“便利家”获联创永</b>
+                <p> 36氪获悉，无人便利店便利家已获得数百万人民币天使轮投资，资方为联创永宣冯涛。 无人便利店风口正当时，缤果盒子、F5未来商店、深兰科技、Easy Go等一众玩家云集，亚马逊、罗森...</p>
+                </a> </div>
+            </div>
+          </div>
+                    <div class="swiper-slide">
+            <div class="item">
+              <div class="img"> <a href="21.html"><img src="static/picture/1-1P5161R6360-L.jpg"></a> </div>
+              <div class="txt"> <a href="21.html"> <span>2018.05.16</span> <b>旅游市场将迎来内容红利？河马旅居想做旅游</b>
+                <p> 内容为王这句话在哪个时代都不会过时。随着消费升级，日益庞大的中国高端群体对高品质的生活方式与旅行体验的需求为高端出境旅游市场带来巨大市场机遇。现今的旅游产品也更向...</p>
+                </a> </div>
+            </div>
+          </div>
+           </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+    <div class="section sectionfooter"> <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="footer-nav">
+          <ul>
+                        <li class="xian1 "> <strong><a href="guanjiafuwu.html">管家服务</a></strong>
+              <ul>
+                                <li><a href="louyuzhinenhua.html">楼宇智能化</a></li>
+                                <li><a href="wuyefuwushengji.html">物业服务升级</a></li>
+                                <li><a href="qiyebangongguanjia.html">企业办公管家</a></li>
+                                <li><a href="bailinghudong.html">白领互动</a></li>
+                              </ul>
+            </li>
+                        <li class="xian2 "> <strong><a href="daibiaoxiangmu.html">代表项目</a></strong>
+              <ul>
+                              </ul>
+            </li>
+                        <li class="xian3 "> <strong><a href="youxiuanli.html">优秀案例</a></strong>
+              <ul>
+                                <li><a href="daxiawuliuguanli.html">大厦物流管理</a></li>
+                                <li><a href="wuyefuwupingtai.html">物业服务平台</a></li>
+                                <li><a href="huodong.html">活动</a></li>
+                              </ul>
+            </li>
+                        <li class="xian4 "> <strong><a href="hezuohuoban.html">合作伙伴</a></strong>
+              <ul>
+                              </ul>
+            </li>
+                        <li class="xian5 "> <strong><a href="xinwenzhongxin.html">新闻中心</a></strong>
+              <ul>
+                                <li><a href="qiyedongtai.html">企业动态</a></li>
+                                <li><a href="xingyexinwen.html">行业新闻</a></li>
+                              </ul>
+            </li>
+                      </ul>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="footer-lx">
+          <h3> 响应式企业通信管家服务网站模板</h3>
+          <h2> 一站式企业管家服务平台</h2>
+<h4> 帮企业只专注业务，让企业更省时、更省力、更省心</h4>          <p> 地址：广东省广州市天河区88号<br>
+            邮箱： admin@admin.com<br>
+            电话： 400-123-4567<br>
+            传真： +86-123-4567</p>
+        </div>
+        <div class="footer-wx"> <b>关注我们</b> <img src="static/picture/1-22061509543YX.jpg" height="80px" width="80px"> <img src="static/picture/1-22061509543YX.jpg" height="80px" width="80px"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="pull-left"> Copyright © 2002-2023 某某企业管家有限公司 版权所有<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤IP*******</a> </div>
+      <div class="pull-right"> 友情链接： 
+         <a href='http://www.sina.com.cn'>新浪</a>  <a href='http://www.qq.com/'>腾讯</a>  <a href='http://www.163.com/'>网易</a>  <a href='http://www.google.com/'>谷歌</a>  <a href='http://www.baidu.com/'>百度</a>  </div>
+    </div>
+  </div>
+</footer>
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> </div>
+</div>
+</body>
+</html>

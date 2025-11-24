@@ -1,0 +1,143 @@
+﻿article.main {
+    padding-top: 36px;
+}
+
+.news-dtl-all {
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+.news-belong {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e0e0;
+    margin-bottom: 38px;
+    text-align: center;
+}
+.news-belong h2 {
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #505050;
+}
+.news-belong-dtl {
+    font-size: 12px;
+    color: #969696;
+}
+.news-belong-dtl > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.news-belong-more {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.prev-next {
+    padding-top: 20px;
+    margin-top: 15px;
+    border-top: 1px solid #e6e0e0;
+    /*line-height: 24px;*/
+    font-size: 12px;
+}
+.prev-next > ul > li {
+    text-indent: -4em;
+    margin-left: 4em;
+}
+.prev-next > ul > li:not(:first-child) {
+    margin-top: 6px;
+}
+.prev-next a {
+    color: #7a7a7a;
+    -o-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+}
+.prev-next a:hover {
+    color: #0150a3;
+}
+
+.news-one-belongs {
+    line-height: 14px;
+    font-size: 0;
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.news-dtl {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.news-dtl img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-dtl p.p-1 {
+    line-height: 36px;
+    font-size: 14px;
+}
+.news-dtl p.p-2 {
+    height: 15px;
+}
+
+.media-one-desc p.tips {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: #333;
+}
+.media-one-desc p.tips i {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-right: 13px;
+    width: 15px;
+    height: 18px;
+    line-height: 18px;
+}
+
+@media (max-width: 48em) {
+    article.main {
+        padding-top: 24px;
+    }
+
+    .news-belong h2 {
+        font-size: 20px;
+    }
+
+    .news-dtl p.p-1 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .news-dtl p.p-2 {
+        height: 8px;
+    }
+}
+@media (max-width: 34em) {
+    .news-dtl-all {
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+    .news-belong {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .news-belong h2 {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+    .news-belong-dtl > ul > li {
+        display: block;
+    }
+    .news-dtl {
+        margin-bottom: 40px;
+    }
+    .news-one-belongs {
+        width: 74%;
+    }
+}

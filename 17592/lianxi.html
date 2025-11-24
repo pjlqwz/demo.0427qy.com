@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>留言模型_响应式品牌建材瓷砖网站模板</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="static/css/common.css" rel="stylesheet">
+<link href="static/css/swiper.min.css" rel="stylesheet">
+<link href="static/css/animate.min.css" rel="stylesheet">
+<link href="static/css/shuwon.css" rel="stylesheet">
+<link href="/17592/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body class="main">
+<div class="mlogo"> <a href="index.html"> <img src="static/picture/1-22012F92153U8.png" alt="响应式品牌建材瓷砖网站模板"> </a> </div>
+<nav>
+  <div class="logo"> <a href="index.html"> <img src="static/picture/1-22012F92104962.png" alt="响应式品牌建材瓷砖网站模板"> </a> </div>
+  <div class="nav-right">
+    <ul>
+      <a href="index.html">
+      <li> 首页</li>
+      </a>  <a href="pinpai.html">
+      <li class="">品牌</li>
+      </a>  <a href="chanpin.html">
+      <li class="">产品</li>
+      </a>  <a href="xinwen.html">
+      <li class="">新闻</li>
+      </a>  <a href="jiameng.html">
+      <li class="">加盟</li>
+      </a>  <a href="">
+      <li class="activeNav">联系</li>
+      </a>  <span class="hover-layout"></span>
+    </ul>
+    <div class="imessage">
+      <div class="search d6">         <form method="get" action="/17592/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+          <input type="text" name="keywords" id="keywords" placeholder="搜索从这里开始...">
+          <img src="static/picture/serach.png"> <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">        </form>
+         </div>
+    </div>
+  </div>
+</nav>
+
+<div class="m-nav" style="display:none;">
+  <p></p>
+  <p></p>
+</div>
+<div class="sub_banner">
+  <div class="pic" style="background-image:url(static/image/c.jpg)"></div>
+</div>
+<section class="sub_main2">
+  <div class="_contact_box">
+    <div class="sub_title2">
+      <p>CONTACT US</p>
+      <b>联系</b> </div>
+    <div class="_contact_box-information">
+      <div class="c_list"> <a href="tel:400-000-0000">
+        <div class="icon">
+          <div class="img"><img src="static/picture/tel_icon.png"></div>
+          <p>全国招商热线</p>
+        </div>
+        <div class="txt">400-000-8888</div>
+        </a> </div>
+      <div class="_contact_box-input">         <form method="POST" enctype="multipart/form-data" action="/17592/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" onsubmit="return checkForm();">
+          <div class="contactForm-input-2">
+            <input type="text" id='attr_1' name='attr_1' placeholder="姓名">
+          </div>
+          <div class="contactForm-input-2 input2">
+            <input type="text" id='attr_2' name='attr_2' placeholder="手机号" maxlength="11">
+          </div>
+          <textarea id='attr_3' name='attr_3' cols="30" rows="10" placeholder="留言"></textarea>
+          <button style="border:none;background-color: #f1f1f1;">
+          <div class="submit-2">提交留言</div>
+          </button>
+          <input type="hidden" name="gourl" id="gourl_61eeac4abf357c14510264d3fa025083" value="https%3A%2F%2Fdemoall.5fa.cn%2F17592"><input type="hidden" name="typeid" value="12"><input type="hidden" name="__token__61eeac4abf357c14510264d3fa025083" id="61eeac4abf357c14510264d3fa025083" value=""><script type="text/javascript">
+    function submit61eeac4abf357c14510264d3fa025083(elements)
+    {
+        if (document.getElementById('gourl_61eeac4abf357c14510264d3fa025083')) {
+            document.getElementById('gourl_61eeac4abf357c14510264d3fa025083').value = encodeURIComponent(window.location.href);
+        }
+            var x = elements;
+    for (var i=0;i<x.length;i++) {
+        
+                            if(x[i].name == 'attr_1' && x[i].value.length == 0){
+                                alert('姓名不能为空！');
+                                return false;
+                            }
+                        
+                            if(x[i].name == 'attr_2' && x[i].value.length == 0){
+                                alert('手机号不能为空！');
+                                return false;
+                            }
+                        
+    }
+        
+        elements.submit();
+    }
+
+    function ey_fleshVerify_1695887790(id)
+    {
+        var token = id.replace(/verify_/g, '__token__');
+        var src = "/17592/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn&token="+token;
+        src += "&r="+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+
+    function fb839f35141008d3445071eddba9f4669()
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("post", "/17592/index.php?m=api&c=Ajax&a=get_token", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send("name=__token__61eeac4abf357c14510264d3fa025083");
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+                document.getElementById("61eeac4abf357c14510264d3fa025083").value = ajax.responseText;
+                document.getElementById("gourl_61eeac4abf357c14510264d3fa025083").value = encodeURIComponent(window.location.href);
+          　}
+        } 
+    }
+    fb839f35141008d3445071eddba9f4669();
+    function getNext1598839807(id,name,level) {
+        var input = document.getElementById('attr_'+name);
+        var first = document.getElementById('first_id_'+name);
+        var second = document.getElementById('second_id_'+name);
+        var third = document.getElementById('third_id_'+name);
+        var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+
+        if (level == 1){
+            if (second) {
+                second.style.display = 'none';
+                second.innerHTML  = ''; 
+            }
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            input.value = fvalue;
+            value = fvalue;
+        } else if (level == 2){
+            if (third) {
+                third.style.display = 'none';
+                third.innerHTML  = '';
+            }
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            if (svalue) {
+                input.value = fvalue+','+svalue;
+                value = svalue;
+            }else{
+                input.value = fvalue;
+            }
+        } else if (level == 3){
+            findex = first.selectedIndex;
+            fvalue = first.options[findex].value;
+            sindex = second.selectedIndex;
+            svalue = second.options[sindex].value;
+            tindex = third.selectedIndex;
+            tvalue = third.options[tindex].value;
+            if (tvalue) {
+                input.value = fvalue+','+svalue+','+tvalue;
+                value = tvalue;
+            }else{
+                input.value = fvalue+','+svalue;
+            }
+        } 
+        if (value) {
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).options.add(new Option('请选择','')); 
+                var ajax = new XMLHttpRequest();
+                //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                ajax.open("post", "/17592/index.php?m=api&c=Ajax&a=get_region", true);
+                // 给头部添加ajax信息
+                ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                //步骤三:发送请求+数据
+                ajax.send("pid="+value);
+                //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                ajax.onreadystatechange = function () {
+                    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                    if (ajax.readyState==4 && ajax.status==200) {
+                        var data = JSON.parse(ajax.responseText).data;
+                        if (data) {
+                            data.forEach(function(item) {
+                                document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                                document.getElementById(id).style.display = "block";
+                            });
+                        }
+                  　}
+                }
+            }
+        }
+    }
+</script>        </form>
+         </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-wrap">
+    <div class="left">
+      <div class="logo"> <img src="static/picture/1-22012F92153U8.png"> </div>
+      <div class="text">
+        <p>在现代主义风格发展的基础上，逐渐延伸出一种更强调&ldquo;本质&rdquo;、更减少设计的主观意识，更简化复杂作品理念的设计风格，momou称之为&ldquo;简意&rdquo;式风格。源自意大利的momou品牌是以&ldquo;简意，更需要范儿&rdquo;为定位的高端陶瓷品牌这是一种文化的思维碰撞，是视觉的相互交融，也是对生活潮流认可的态度，momou聚焦年轻群体，把&ldquo;简意&r...</p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="nav">
+        <ul>
+           <a href="pinpai.html">
+          <li class="">品牌</li>
+          </a> <a href="chanpin.html">
+          <li class="">产品</li>
+          </a> <a href="xinwen.html">
+          <li class="">新闻</li>
+          </a> <a href="jiameng.html">
+          <li class="">加盟</li>
+          </a> <a href="">
+          <li class="thisclass">联系</li>
+          </a>        </ul>
+      </div>
+      <div class="text">
+        <p class="phone">400-000-8888</p>
+        <div class="wechatHover"> <img class="wechat" src="static/picture/wechat.png">
+          <div class="QRcode"> <a><img src="static/picture/1-22012F921315C.png"></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="tips">
+      <p>Copyright © 2002-2023 某某品牌瓷砖设计有限公司 版权所有 </p>
+      <p>备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxx号</a></p>
+    </div>
+    <div class="backTop animate _templateIcon"></div>
+  </div>
+</footer>
+<!--footer结束--> 
+<script src="static/js/jquery-3.3.1.min.js"></script> 
+<script src="static/js/modernizr.js"></script> 
+<script src="static/js/smooth.min.js"></script> 
+<script src="static/js/jquery.lazyload.js"></script> 
+<script src="static/js/wow.min.js"></script> 
+<script src="static/js/swiper.min.js"></script> 
+<script src="static/js/util.js"></script> 
+<script src="static/js/shuwon.js"></script> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

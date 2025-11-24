@@ -1,0 +1,384 @@
+﻿ 
+/*最大768px*/
+@media (max-width: 768px) {
+.hidden-l {
+	display: none;
+}
+.hidden-g {
+	display: block;
+}
+/*banner*/
+.banner {
+	border-top: 0;
+	top: 0;
+	margin-top: 60px;
+}
+/*main*/
+.main-title {
+	padding: 25px 0;
+}
+.main-title2 {
+	padding: 60px 0 20px 0;
+}
+.main-title h3 {
+	font-size: 24px;
+	background: url("../image/title.png") no-repeat center;
+	background-size: 615px;
+}
+.main-title small {
+	font-size: 17px;
+}
+/*product*/
+.product {
+	padding-bottom: 25px;
+}
+.pro-type {
+	text-align: center;
+}
+.pro-type ul {
+	width: 100%;
+	margin-left: 5px;
+}
+.pro-type ul li {
+	margin: 0 10px 10px 0;
+	width: 30%;
+}
+.pro-type ul li a {
+	font-size: 12px;
+}
+.pdc-list li b {
+	height: 110px;
+}
+.pdc-list li span {
+	line-height: 32px;
+}
+/*company*/
+.company {
+	background: url("../image/about.jpg") no-repeat right;
+	height: 540px;
+	padding-top: 45px;
+}
+.company .com-right .com-title b {
+	font-size: 30px;
+}
+.company .com-right {
+	width: 100%;
+}
+.company .com-right span {
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+.company .container > p {
+	font-size: 14px;
+	background-size: 25px;
+	padding-right: 40px;
+	line-height: normal;
+	bottom: 7px;
+	right: 10px;
+}
+.company .container > p b {
+	font-size: 20px;
+}
+/*news*/
+.news ul li:after {
+	display: none;
+}
+.news ul li {
+	margin-bottom: 25px;
+}
+.news ul li a div:after {
+	display: none;
+}
+.news ul li a div:before {
+	display: none;
+}
+.news ul li a div {
+	padding-bottom: 0;
+}
+.news ul li a > small {
+	margin-top: 10px;
+}
+/*adv*/
+.adv ul li {
+	margin-bottom: 20px;
+}
+.adv ul li p {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+}
+.adv ul li p span {
+	font-size: 15px;
+}
+.adv ul li div strong {
+	font-size: 16px;
+}
+.adv ul li div b {
+	font-size: 12px;
+}
+.adv ul li div {
+	width: 80%;
+}
+/*contact*/
+.contact {
+	text-align: center;
+	height: 182px;
+}
+.contact h2 {
+	margin: 20px auto 0 auto;
+	width: 100%;
+	background-size: contain;
+}
+.contact small {
+	font-size: 12px;
+}
+.contact_info_list b {
+	margin-top: 0;
+}
+.contact a {
+	left: 50%;
+	margin-left: -23%;
+	width: 46%;
+	background-size: contain;
+	bottom: -58px;
+}
+footer .row {
+	padding: 15px 0;
+}
+footer .f-bottom {
+	padding: 10px 0;
+	text-align: center;
+}
+footer .gtop {
+	position: fixed;
+	right: 15px;
+	top: 92%;
+	background: rgba(244, 49, 54, 0.5);
+}
+.info_maps {
+	margin-left: 8.333333% !important;
+	margin-top: 20px;
+}
+.input-group {
+	padding-right: 25px;
+	width: 100%;
+}
+.input-group input[type=text] {
+	width: 100%;
+}
+.input-group textarea {
+	width: 100%;
+}
+#submit {
+	margin-left: 0;
+}
+.input-group textarea:focus {
+	width: 100%;
+}
+.input-group input[type=text]:focus {
+	width: 100%;
+}
+/*info*/
+#info {
+	margin-top: 0;
+	;
+	padding-bottom: 35px;
+}
+.location {
+	padding: 10px 0;
+}
+.location p {
+	float: none;
+}
+.location ul {
+	display: none;
+}
+.info_news_ul .col-md-7 {
+	padding: 15px;
+	margin-top: 10px;
+}
+.n_left {
+	width: 100%;
+	float: none;
+}
+.n_left ._title {
+	font-size: 24px;
+}
+.message-img {
+	display: block;
+	margin-top: 15px;
+}
+}
+
+/*最小768px*/
+@media (min-width: 768px) {
+.hidden-l {
+	display: none;
+}
+.hidden-g {
+	display: block;
+}
+}
+ @media (max-width: 992px) {
+}
+
+/*768px至992px*/
+@media (min-width: 768px) and (max-width: 992px) {
+.hidden-l {
+	display: none;
+}
+.hidden-g {
+	display: block;
+}
+/*banner*/
+.banner {
+	border-top: 0;
+	top: 0;
+	margin-top: 60px;
+}
+/*product*/
+.pro-type ul {
+	width: 100%;
+}
+.pro-type ul li {
+	margin: 0 14px 12px 0;
+	width: 106px;
+}
+.pdc-list li b {
+	height: 170px;
+}
+/*news*/
+.news ul li:after {
+	bottom: 114px;
+}
+/*company*/
+.company .com-right span {
+	font-size: 18px;
+}
+.company .container > p {
+	background-size: 48px;
+	padding-right: 59px;
+}
+.company .container > p b {
+	font-size: 30px;
+}
+/*adv*/
+.adv ul li p {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.adv ul li div strong {
+	font-size: 20px;
+}
+.adv ul li div b {
+	font-size: 12px;
+}
+.adv ul li div {
+	width: 81%;
+}
+/*contact*/
+.contact small {
+	font-size: 12px;
+}
+footer .f-links ul li {
+	width: 100%;
+}
+footer .f-links ul {
+	border-left: 0;
+}
+footer .f-links ul li {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+footer .f-links {
+	margin-top: 0;
+}
+/*info*/
+#info {
+	margin-top: 0
+}
+.location ul li {
+	width: 9%;
+}
+.banner .container h3 {
+	width: 120px;
+	line-height: 45px;
+	top: -45px;
+}
+.info_contact ul li {
+	background-position: 9px center;
+	padding: 18px 0 18px 52px;
+	background-size: 36px;
+}
+.info_contact ul li b {
+	font-size: 16px;
+}
+.info_contact ul li small {
+	font-size: 12px;
+}
+.message-img {
+	display: block;
+	margin-top: 15px;
+}
+}
+
+/*992px至1200pox*/
+@media (min-width: 992px) and (max-width: 1200px) {
+.hidden-l {
+	display: block;
+}
+.hidden-g {
+	display: none;
+}
+/*product*/
+.pdc-list li b {
+	height: 170px;
+}
+.pdc-list .hidden-lg {
+	display: none;
+}
+/*company*/
+.company .com-right span {
+	margin-bottom: 35px;
+}
+/*adv*/
+.adv ul li div {
+	width: 80%;
+}
+/*contact*/
+.contact small {
+	font-size: 16px;
+}
+footer .f-links ul li {
+	width: 100%;
+}
+footer .f-links img {
+	margin-top: 35px;
+}
+.info_contact ul li {
+	background-position: 11px center;
+	padding: 18px 0 18px 66px;
+	background-size: 47px;
+}
+.input-group textarea {
+	width: 340px;
+}
+.input-group textarea:focus {
+	width: 350px;
+}
+}
+
+/*最小1200px*/
+@media (min-width: 1200px) {
+.hidden-l {
+	display: block;
+}
+.hidden-g {
+	display: none;
+}
+.adv ul {
+	margin-top: 45px;
+}
+}

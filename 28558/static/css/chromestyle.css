@@ -1,0 +1,65 @@
+﻿.chromestyle {
+	display: block;
+	float: right;
+	margin: 0px auto;
+	width: 70%;
+	height: 100%;
+}
+#menulink_8 a {
+	color: #cfc5a8
+}
+#menulink_8 a:hover {
+	color: #FFF
+}
+.chromestyle ul { /*Add margin between menu and rest of content in Firefox*/
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	border: 0;
+	display: block;
+	width: 100%;
+}
+.chromestyle ul li {
+	float: left;
+	width: 16.6%;
+	display: block;
+}
+.chromestyle ul li a {
+	color: #cfc5a8;
+	line-height: 100%;
+	padding-top: 50px;
+	padding-bottom: 37px;
+	display: block;
+	font-family: "΢���ź�", "Microsoft YaHei";
+	font-size: 16px;
+	font-weight: bold;
+	background: url(../image/icon1.png) no-repeat 8% 50px;
+}
+.chromestyle ul li a:hover, .chromestyle ul li a.selected { /*script dynamically adds a class of "selected" to the current active menu item*/
+	color: #ffbf00;
+	background: url(../image/icon1.png) no-repeat 8% 50px;
+}
+.dropmenudiv {
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	visibility: hidden;
+	margin: 0px 0px 0px 0px;
+	background-color: #6d5d45;
+}
+.dropmenudiv a {
+	display: block;
+	float: left;
+	line-height: 36px;
+	color: #fff7d1;
+	font-family: "΢���ź�", "Microsoft YaHei";
+	font-size: 14px;
+	padding: 4px 16px;
+}
+* html .dropmenudiv a { /*IE only hack*/
+}
+.dropmenudiv a:hover { /*THEME CHANGE HERE*/
+	color: #FFF;
+	background-color: #ffbf00;
+}

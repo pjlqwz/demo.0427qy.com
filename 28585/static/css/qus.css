@@ -1,0 +1,106 @@
+﻿.qus {
+	padding-bottom: 90px;
+}
+h2.h2-1 {
+	margin-top: 100px;
+	margin-bottom: 128px;
+}
+
+.qus-list {
+	margin: 0 auto;
+	width: 1000px;
+}
+.qus-one {
+	padding-bottom: 25px;
+	border-bottom: 1px dashed #8e8e8e;
+	margin-bottom: 31px;
+	transition: .3s;
+}
+.qus-one:hover {
+	border-bottom: 1px dashed #083388;
+}
+.qus-one a {
+	position: relative;
+	line-height: 15px;
+	font-size: 15px;
+	color: #666;
+	transition: .3s;
+}
+.qus-one:hover a {
+	color: #083388;
+}
+
+a.qus-one-desc {
+	margin-left: 23px;
+}
+a.qus-one-desc::before {
+	content: '·';
+	position: absolute;
+    top: 1px;
+    left: -21px;
+    font-size: 48px;
+	color: #2f2f2f;
+	transition: .3s;
+}
+.qus-one:hover a::before {
+	color: #083388;
+}
+
+a.qus-one-more {
+	float: right;
+	margin-right: 27px;
+	font-family: arrow;
+	font-weight: bold;
+	transition: .3s;
+}
+.qus-one:hover a.qus-one-more {
+	transform: translateX(10px);
+	color: #083388;
+}
+
+@media (max-width: 1020px) {
+	.qus-list { 
+		width: calc(100% - 30px);
+	}
+}
+
+@media (min-width: 48em) {
+	.inside-banner-bg {
+	    background-image: url(https://demoall.5fa.cn/28585/template/pc/skin/img/banner-support.jpg);
+	}
+}
+
+@media (max-width: 48em) {
+	h2.h2-1 {
+	    margin-top: 66px;
+	    margin-bottom: 84px;
+	}
+
+	.qus {
+	    padding-bottom: 60px;
+	}
+
+	.page-ctrl {
+	    margin-top: 38px;
+	}
+
+	.qus-one {
+	    padding-bottom: 18px;
+	    margin-bottom: 20px;
+	}
+	.qus-one a {
+	    line-height: 14px;
+	    font-size: 14px;
+	}
+	a.qus-one-desc::before {
+	    top: 0px;
+	    left: -20px;
+	    font-size: 40px;
+	}
+}
+
+@media (max-width: 34em) {
+	a.qus-one-more {
+		display: none;
+	}
+}
