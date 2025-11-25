@@ -1,0 +1,641 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>响应式创业园区管委会网站模板_响应式创业园区管委会网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/17091/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="static/css/swiper.min.css">
+<link href="static/css/bootstrap.min.css" rel="stylesheet">
+<link href="static/css/style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="/17091/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/17091/template/pc/skin/js/respond.min.js"></script>
+<![endif]-->
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<style>
+.swiper-slide {
+	float: left;
+	height: auto;
+}
+.pagination {
+	position: absolute;
+	z-index: 20;
+	bottom: 0;
+	text-align: right;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	height: 40px;
+	padding-right: 30px;
+}
+.swiper-pagination-switch {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background: #222;
+	margin-right: 5px;
+	opacity: 0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.swiper-visible-switch {
+	background: #aaa;
+}
+.swiper-active-switch {
+	background: #fff;
+}
+.swiper-slide2 {
+	float: left;
+	height: auto;
+}
+.pagination2 {
+	position: absolute;
+	z-index: 20;
+	bottom: 0;
+	text-align: right;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	height: 40px;
+	padding-right: 30px;
+}
+.swiper-pagination-switch2 {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background: #222;
+	margin-right: 5px;
+	opacity: 0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.swiper-visible-switch2 {
+	background: #aaa;
+}
+.swiper-active-switch2 {
+	background: #fff;
+}
+</style>
+</head>
+<body>
+<script>
+	$(document).ready(
+	function()
+	{
+		$(".nav li").mouseover(
+			function(){
+				$(".nav li").removeClass('active');
+				$(this).addClass('active');
+			}
+		);
+	});
+</script> 
+<script src="static/js/idangerous.swiper.min.js"></script> 
+<script src="static/js/idangerous.swiper.progress.min.js"></script> 
+<header>
+  <div class="main_banner">
+    <div class="device"> <a class="arrow-left" href="javascript:;"></a> <a class="arrow-right" href="javascript:;"></a>
+      <div class="swiper-container2">
+        <div class="swiper-wrapper">           <div class="swiper-slide"><a href=""><img src="static/picture/1-1P32Q633080-L.jpg" class="img-responsive" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="static/picture/1-1P32Q633220-L.jpg" class="img-responsive" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="static/picture/1-1P32Q634040-L.jpg" class="img-responsive" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="https://demoall.5fa.cn/17091/uploads/allimg/180328/1-1P32Q634170-L.jpg" class="img-responsive" alt=""></a></div>
+           </div>
+      </div>
+      <div class="pagination2"></div>
+    </div>
+    <script>
+var mySwiper = new Swiper('.swiper-container2',{
+ autoplay:2500,//过度时间
+  loop:true,//循环模式 是/否
+      progress:true,
+      onProgressChange: function(swiper){
+        for (var i = 0; i < swiper.slides.length; i++){
+          var slide = swiper.slides[i];
+          var progress = slide.progress;
+          var translate = progress*swiper.width;
+          var opacity = 1 - Math.min(Math.abs(progress),1);
+          slide.style.opacity = opacity;
+          swiper.setTransform(slide,'translate3d('+translate+'px,0,0)');
+        }
+      },
+      onTouchStart:function(swiper){
+        for (var i = 0; i < swiper.slides.length; i++){
+          swiper.setTransition(swiper.slides[i], 0);
+        }
+      },
+      onSetWrapperTransition: function(swiper, speed) {
+        for (var i = 0; i < swiper.slides.length; i++){
+          swiper.setTransition(swiper.slides[i], speed);
+        }
+      }
+    })
+  </script> 
+  </div>
+  <div class="nav_bg">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href=""><span>首&nbsp;&nbsp;页</span></a></li>
+                            <li class=""><a href="yuanqugaikuang.html"><span>走进园区</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="yuanqugaikuang492.html">园区概况</a></li>
+                                        <li><a href="yuanquguihua.html">园区规划</a></li>
+                                        <li><a href="chanyebuju.html">产业布局</a></li>
+                                        <li><a href="yuanqulingdao.html">园区领导</a></li>
+                                        <li><a href="meilifengmao.html">魅力风貌</a></li>
+                                      </ul>
+                </div>
+              </li>
+                            <li class=""><a href="xinxigongkai.html"><span>信息公开</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="wuxianggongkai.html">五项公开</a></li>
+                                        <li><a href="zhongdianlingyu.html">重点领域</a></li>
+                                        <li><a href="gongchengxinxi.html">工程信息</a></li>
+                                        <li><a href="renshigongkai.html">人事公开</a></li>
+                                        <li><a href="jihuazongjie.html">计划总结</a></li>
+                                        <li><a href="dangjiangongzuo.html">党建工作</a></li>
+                                      </ul>
+                </div>
+              </li>
+                            <li class=""><a href="xinwenzhongxin.html"><span>新闻中心</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="xinwendongtai.html">新闻动态</a></li>
+                                        <li><a href="tongzhigonggao.html">通知公告</a></li>
+                                      </ul>
+                </div>
+              </li>
+                            <li class=""><a href="touziyuanqu.html"><span>投资园区</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="zhaoshangdongtai.html">招商动态</a></li>
+                                        <li><a href="touzizhinan.html">投资指南</a></li>
+                                        <li><a href="zhongdianqiye.html">重点企业</a></li>
+                                        <li><a href="xianjinzhuangbei.html">先进装备</a></li>
+                                      </ul>
+                </div>
+              </li>
+                            <li class=""><a href="fuwuqiye.html"><span>服务企业</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="zhengcejiedu.html">政策解读</a></li>
+                                        <li><a href="shenbaogonggao.html">申报公告</a></li>
+                                        <li><a href="gonggongfuwu.html">公共服务</a></li>
+                                        <li><a href="tongjigongzuo.html">统计工作</a></li>
+                                        <li><a href="fuchiqiye.html">扶持企业</a></li>
+                                      </ul>
+                </div>
+              </li>
+                            <li class=""><a href="lianxiwomen.html"><span>联系我们</span></a>
+                <div>
+                  <ul class="list-unstyled" style="padding:0 0 0 100px;">
+                                        <li><a href="lianxiwomen816.html">联系我们</a></li>
+                                        <li><a href="zixuntousu.html">咨询投诉</a></li>
+                                      </ul>
+                </div>
+              </li>
+                          </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="height20 visible-lg visible-md"></div>
+      <div class="height10 visible-lg visible-md"></div>
+      <div class="height20"></div>
+      <div class="main_slide col-xs-12 col-lg-7">
+        <div class="device"> <a class="arrow-left" href="javascript:;"></a> <a class="arrow-right" href="javascript:;"></a>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">               <div class="swiper-slide"><a href="45.html" class="slide_link">
+                <div class="slide_title">沐溪工业园新村安置小区基础设施工程施工招标资格评审结果及中标公告</div>
+                <img src="static/picture/default.png" style="background-image:url(https://demoall.5fa.cn/17091/uploads/180329/1-1P3291201444S.png);display:block;" alt="沐溪工业园新村安置小区基础设施工程施工招标资格评审结果及中标公告" class="img-responsive" height="440"></a></div>
+                            <div class="swiper-slide"><a href="43.html" class="slide_link">
+                <div class="slide_title">东莞（韶关）产业转移工业园创业文化广场工程</div>
+                <img src="static/picture/default.png" style="background-image:url(https://demoall.5fa.cn/17091/uploads/180329/1-1P32912010N58.png);display:block;" alt="东莞（韶关）产业转移工业园创业文化广场工程" class="img-responsive" height="440"></a></div>
+                            <div class="swiper-slide"><a href="34.html" class="slide_link">
+                <div class="slide_title">关于切实加强机关工作作风建设的通知</div>
+                <img src="static/picture/default.png" style="background-image:url(static/image/1-1P3291200492F.jpg);display:block;" alt="关于切实加强机关工作作风建设的通知" class="img-responsive" height="440"></a></div>
+                            <div class="swiper-slide"><a href="33.html" class="slide_link">
+                <div class="slide_title">粤北工业开发区政务信息主动公开和依申请公开制度（试行）</div>
+                <img src="static/picture/default.png" style="background-image:url(https://demoall.5fa.cn/17091/uploads/180329/1-1P32911595b35.png);display:block;" alt="粤北工业开发区政务信息主动公开和依申请公开制度（试行）" class="img-responsive" height="440"></a></div>
+               </div>
+          </div>
+          <div class="pagination"></div>
+        </div>
+        <script>
+  //swiper banner start
+var mySwiper = new Swiper('.swiper-container',{
+ pagination: '.pagination',
+ loop:true,//循环模式 是/否
+ grabCursor: true,//光标属性 当为true时，光标移动到banner上变成手掌的样式
+ paginationClickable: false,//生成分页控件
+ calculateHeight:true,//响应式容器高度
+ autoplay:5000//过度时间
+})
+$(window).resize(function(){
+ var h=$(".swiper-slide").find("img").height();
+ $(".swiper-wrapper,.swiper-slide").css("height",h)
+})
+
+$('.arrow-left').on('click', function(e){
+ e.preventDefault()
+ mySwiper.swipePrev()
+})
+$('.arrow-right').on('click', function(e){
+ e.preventDefault()
+ mySwiper.swipeNext()
+})
+</script> 
+      </div>
+      <div class="main_news col-xs-12 col-lg-5">
+        <div class="main_search">
+          <div class="search_bg">             <form method="get" action="/17091/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+              <input name="keywords" id="keywords" maxlength="20" type="text">
+              <input name="se-btn" id="submit" type="submit" value="" class="search_bt">
+              <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">            </form>
+             </div>
+        </div>
+        <div class="height10"></div>
+        <script type="text/javascript" language="javascript">
+				function setTab(m,n){
+				var tli=document.getElementById("main_news_tab"+m).getElementsByTagName("span");
+				var mli=document.getElementById("main_news_tablist"+m).getElementsByTagName("dl");
+				for(i=0;i<tli.length;i++){
+						 tli[i].className=i==n?"hover":"";
+						 mli[i].style.display=i==n?"block":"none";
+				}
+				}
+</script> 
+                <div class="main_news_tab" id="main_news_tab0">  <span class="hover" onmouseover=" setTab(0,0 )" onclick="location='/17091/xinwenzhongxin/xinwendongtai/';">新闻动态</span>  <span onmouseover=" setTab(0,1 )" onclick="location='/17091/xinwenzhongxin/tongzhigonggao/';">通知公告</span>  <a href="xinwenzhongxin.html">更多+</a></div>
+                <div class="main_news_tablist" id="main_news_tablist0">           <dl class="block">
+            <dt class="row">               <div class="col-xs-12">
+                <div class="main_ntl_title"><a href="82.html">德国制造业发展注重研发</a></div>
+                <div class="main_ntl_text">德国主要的经济发展点就是德国的汽车工业、机床和设备、化工业和高科技产业，高科技产业包括半导体和航空业。 近几年来，整个机...</div>
+                <div class="main_ntl_more"><a href="82.html">更多+</a></div>
+              </div>
+               </dt>
+            <dd>
+              <ul class="list-unstyled">
+                                <li><a href="81.html">核心技术永葆企业活力</a>[03-29]</li>
+                                <li><a href="80.html">搭建人力资源服务平台，探索校企对接新路</a>[03-29]</li>
+                                <li><a href="79.html">园区体制改革正式迈步</a>[03-29]</li>
+                                <li><a href="78.html">特色行业 串起一个经济强国</a>[03-29]</li>
+                                <li><a href="77.html">重点从六个方面开拓发展的新局面</a>[03-29]</li>
+                                <li><a href="76.html">突出机械装备特色产业的发展方向</a>[03-29]</li>
+                                <li><a href="75.html">坚持“四保方针”，力推“名优共建工程”</a>[03-29]</li>
+                                <li><a href="5.html">韶关高新区获两项“国字号”殊荣</a>[03-28]</li>
+                              </ul>
+            </dd>
+          </dl>
+                    <dl>
+            <dt class="row">               <div class="col-xs-12">
+                <div class="main_ntl_title"><a href="90.html">粤北工业开发区政府信息公开保密审查工作自</a></div>
+                <div class="main_ntl_text">市政府信息公开工作领导小组办公室： 根据市政府信息公开工作领导小组办公室《关于加强政府信息公开保密审查工作的通知》（韶政...</div>
+                <div class="main_ntl_more"><a href="90.html">更多+</a></div>
+              </div>
+               </dt>
+            <dd>
+              <ul class="list-unstyled">
+                                <li><a href="89.html">关于加强入园项目跟踪管理有关问题的通知</a>[03-29]</li>
+                                <li><a href="88.html">关于开展“三合一”场所火灾隐患专项整治行</a>[03-29]</li>
+                                <li><a href="87.html">关于开展年度大事评选活动的通知</a>[03-29]</li>
+                                <li><a href="86.html">粤北工业开发区管委会计算机及移动存储介质</a>[03-29]</li>
+                                <li><a href="85.html">关于要求做好政府信息公开有关工作的通知</a>[03-29]</li>
+                                <li><a href="84.html">关于开展安全生产百日督查专项行动的通知</a>[03-29]</li>
+                                <li><a href="83.html">关于加快开发区工业企业发展的若干意见</a>[03-29]</li>
+                              </ul>
+            </dd>
+          </dl>
+           </div>
+      </div>
+      <div class="height10"></div>
+      <script src="static/js/scrollpic.js" type="text/javascript" language="javascript"></script>
+      <div class="main_hot col-xs-12 visible-lg">
+        <div class="main_hot_bg">
+          <div class="main_hot_title"><img src="static/picture/index_21.jpg" class="img-responsive" alt="热点专题"></div>
+          <div class="main_hot_list" id="ISL_Cont_1">  <a href="86.html"><img src="static/picture/1-1P329120312K1.jpg" alt="粤北工业开发区管委会计算机及移动存储介质保密工作实施意见" class="img-responsive"></a>  <a href="77.html"><img src="static/picture/1-1P329120345546.jpg" alt="重点从六个方面开拓发展的新局面" class="img-responsive"></a>  <a href="67.html"><img src="static/picture/1-1P32912041G12.jpg" alt="于成立中共韶关市泰铭压铸有限公司支部委员会的批复" class="img-responsive"></a>  </div>
+          <script language=javascript type=text/javascript>
+		var scrollPic_02 = new ScrollPic();
+		scrollPic_02.scrollContId   = "ISL_Cont_1"; //内容容器ID
+		//scrollPic_02.arrLeftId      = "LeftArr";//左箭头ID
+		//scrollPic_02.arrRightId     = "RightArr"; //右箭头ID
+
+		scrollPic_02.frameWidth     = 920;//显示框宽度
+		scrollPic_02.pageWidth      = 307; //翻页宽度
+
+		scrollPic_02.speed          = 10; //移动速度(单位毫秒，越小越快)
+		scrollPic_02.space          = 10; //每次移动像素(单位px，越大越快)
+		scrollPic_02.autoPlay       = true; //自动播放
+		scrollPic_02.autoPlayTime   = 3; //自动播放间隔时间(秒)
+
+		scrollPic_02.initialize(); //初始化
+</script>
+          <div class="height5"></div>
+        </div>
+      </div>
+      <div class="main_hot col-xs-12 hidden-lg">
+        <div class="main_hot_bg2">
+          <div class="main_hot_title2">热点专题</div>
+          <div class="main_hot_list2 row">
+            <ul class="list-unstyled">
+                            <li class="col-xs-6"><a href="86.html"><img src="static/picture/1-1P329120312K1.jpg" alt="粤北工业开发区管委会计算机及移动存储介质保密工作实施意见" class="img-responsive"></a></li>
+                            <li class="col-xs-6"><a href="77.html"><img src="static/picture/1-1P329120345546.jpg" alt="重点从六个方面开拓发展的新局面" class="img-responsive"></a></li>
+                            <li class="col-xs-6"><a href="67.html"><img src="static/picture/1-1P32912041G12.jpg" alt="于成立中共韶关市泰铭压铸有限公司支部委员会的批复" class="img-responsive"></a></li>
+                          </ul>
+          </div>
+          <div class="height5"></div>
+        </div>
+      </div>
+      <div class="main_article">         <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>五项公开</strong><a href="wuxianggongkai.html">更多+</a></div>
+                        <div class="main_art_title"><a href="34.html">关于切实加强机关工作作风建设的通知</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="33.html">粤北工业开发区政务信息主动公开和依申请公</a>[03-29]</li>
+                            <li><a href="32.html">粤北工业开发区政府信息公开工作社会评议制</a>[03-29]</li>
+                            <li><a href="31.html">粤北工业开发区政府信息公开工作考核制度（</a>[03-29]</li>
+                            <li><a href="30.html">粤北工业开发区新闻发言人制度（试行）</a>[03-29]</li>
+                            <li><a href="29.html">粤北工业开发区政府信息公开工作责任追究制</a>[03-29]</li>
+                            <li><a href="28.html">粤北工业开发区政府信息公开第三方意见征询</a>[03-29]</li>
+                            <li><a href="27.html">粤北工业开发区政府信息发布协调制度(试行</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+                <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>招商动态</strong><a href="zhaoshangdongtai.html">更多+</a></div>
+                        <div class="main_art_title"><a href="100.html">两企业意向到园区投资</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="99.html">武江片四举措促园区建设</a>[03-29]</li>
+                            <li><a href="98.html">甘棠3宗地顺利摘牌</a>[03-29]</li>
+                            <li><a href="97.html">促电动叉车项目早日试产</a>[03-29]</li>
+                            <li><a href="96.html">招商引资项目简介</a>[03-29]</li>
+                            <li><a href="95.html">对“1+3” 配套工程兴趣浓厚</a>[03-29]</li>
+                            <li><a href="94.html">实现资源共享 促进信息宣传交流</a>[03-29]</li>
+                            <li><a href="93.html">促进韶澳广泛交流合作</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+                <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>政策解读</strong><a href="zhengcejiedu.html">更多+</a></div>
+                        <div class="main_art_title"><a href="129.html">女职工劳动保护特别规定</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="128.html">广东省专利条例</a>[03-29]</li>
+                            <li><a href="127.html">广东省党政领导干部廉政守则（试行）</a>[03-29]</li>
+                            <li><a href="126.html">关于选派干部进驻企业开展服务进企业活动的</a>[03-29]</li>
+                            <li><a href="125.html">关于开展服务进企业活动的通知</a>[03-29]</li>
+                            <li><a href="124.html">韶关工业园区抓收入保增长实施意见</a>[03-29]</li>
+                            <li><a href="123.html">促进园区企业经济增长实施方案</a>[03-29]</li>
+                            <li><a href="122.html">韶关工业园培育规模以上企业奖励办法</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+                <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>投资指南</strong><a href="touzizhinan.html">更多+</a></div>
+                        <div class="main_art_title"><a href="110.html">城市国有土地使用权出让转让规划管理办法</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="109.html">《建设工程质量管理条例》</a>[03-29]</li>
+                            <li><a href="108.html">评标委员会和评标方法暂行规定</a>[03-29]</li>
+                            <li><a href="107.html">关于印发广东省政府核准的投资项目目录（2</a>[03-29]</li>
+                            <li><a href="106.html">国家发改委[2004]第19号令:企业投</a>[03-29]</li>
+                            <li><a href="105.html">外商投资产业指导目录</a>[03-29]</li>
+                            <li><a href="104.html">关税</a>[03-29]</li>
+                            <li><a href="103.html">外商投资企业和外国企业所得税法</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+                <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>申报公告</strong><a href="shenbaogonggao.html">更多+</a></div>
+                        <div class="main_art_title"><a href="142.html">关于继续开展开发区年度大事评选活动的通知</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="141.html">粤北工业开发区关于举办创卫工作培训的通知</a>[03-29]</li>
+                            <li><a href="140.html">关于调整政务公开工作领导小组成员的通知</a>[03-29]</li>
+                            <li><a href="139.html">关于韶关宏大齿轮有限公司迁建工程招标</a>[03-29]</li>
+                            <li><a href="138.html">关于韶关市伟光液压油缸有限公司厂房扩建</a>[03-29]</li>
+                            <li><a href="137.html">关于成立爱国卫生工作领导小组的通知</a>[03-29]</li>
+                            <li><a href="136.html">关于成立粤北工业开发区建设工程质量</a>[03-29]</li>
+                            <li><a href="135.html">广东省粤北工业开发区入园企业标准的</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+                <div class="main_article_list col-xs-12 col-md-4">
+          <div class="main_article_bg">
+            <div class="main_title"><strong>党建工作</strong><a href="dangjiangongzuo.html">更多+</a></div>
+                        <div class="main_art_title"><a href="74.html">关于加强党建工作的通知</a></div>
+                        <ul class="list-unstyled">
+                            <li><a href="73.html">关于开展生态保护志愿服务活动的通知</a>[03-29]</li>
+                            <li><a href="72.html">开发区非公企业党建工作取得新突破</a>[03-29]</li>
+                            <li><a href="71.html">关于成立中共韶关市振北保安押运有限公司支</a>[03-29]</li>
+                            <li><a href="70.html">中共韶关工业园区委员会2010年务虚研讨</a>[03-29]</li>
+                            <li><a href="69.html">粤北工业开发区管委会党组议事制度</a>[03-29]</li>
+                            <li><a href="68.html">关于成立中共韶关市万立齿轮有限公司支部委</a>[03-29]</li>
+                            <li><a href="67.html">于成立中共韶关市泰铭压铸有限公司支部委员</a>[03-29]</li>
+                          </ul>
+          </div>
+        </div>
+         </div>
+            <div class="main_ad col-xs-12"><a href=""><img src="https://demoall.5fa.cn/17091/uploads/allimg/20220107/1-22010G53036431.gif" class="img-responsive" alt=""></a></div>
+            <div class="main_open col-xs-12 col-md-6">
+        <div class="main_open_bg">
+          <div class="main_title"><strong>信息公开</strong></div>
+          <div class="height20"></div>
+          <div class="main_open_bt col-xs-12 col-md-5">
+            <ul class="list-unstyled row">
+                            <li class="col-xs-3 col-md-6"><a href="zhongdianlingyu.html">重点领域</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="touzizhinan.html">投资指南</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="shenbaogonggao.html">申报公告</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="gongchengxinxi.html">工程信息</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="zhongdianqiye.html">重点企业</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="gonggongfuwu.html">公共服务</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="renshigongkai.html">人事公开</a></li>
+                            <li class="col-xs-3 col-md-6"><a href="tongjigongzuo.html">统计工作</a></li>
+                          </ul>
+          </div>
+          <div class="main_open_list col-xs-12 col-md-7">             <div class="main_title2"><strong>重点领域</strong><a href="zhongdianlingyu.html">更多+</a></div>
+            <ul class="list-unstyled">
+                            <li><a href="39.html">2017年广东韶关工业园区财政局部门预算</a></li>
+                            <li><a href="38.html">2017年广东韶关工业园区管委会部门预算</a></li>
+                            <li><a href="37.html">2018年度韶关市韶关工业园区财政局 市</a></li>
+                            <li><a href="36.html">2018年度韶关市韶关工业园区管委会 市</a></li>
+                            <li><a href="35.html">2018年度韶关市华南先进装备产业园管委</a></li>
+                          </ul>
+                        <div class="main_open_br"></div>
+                        <div class="main_title2"><strong>工程信息</strong><a href="gongchengxinxi.html">更多+</a></div>
+            <ul class="list-unstyled">
+                            <li><a href="47.html">东莞（韶关）产业转移工业园阳山片区基础设</a></li>
+                            <li><a href="46.html">阳山片区岭南制药、中药饮片土石方及其附属</a></li>
+                            <li><a href="45.html">沐溪工业园新村安置小区基础设施工程施工招</a></li>
+                            <li><a href="44.html">沐溪工业园新村安置小区基础设施工程施工招</a></li>
+                            <li><a href="43.html">东莞（韶关）产业转移工业园创业文化广场工</a></li>
+                            <li><a href="42.html">东莞（韶关）产业转移工业园高科技创新服务</a></li>
+                          </ul>
+             </div>
+          <div class="height5"></div>
+        </div>
+      </div>
+      <div class="main_service col-xs-12 col-md-6">
+        <div class="main_service_bg">
+          <div class="main_title"><strong>公共服务</strong></div>
+          <div class="main_ser_bg">
+            <ul class="list-unstyled">
+              <li class="main_serbt1"><a href="javascript:;">网上办事</a></li>
+              <li class="main_serbt2"><a href="javascript:;">政务审批</a></li>
+              <li class="main_serbt3"><a href="javascript:;">投资审批</a></li>
+              <li class="main_serbt4"><a href="javascript:;">政民互动</a></li>
+              <li class="main_serbt5"><a href="javascript:;">效能督察</a></li>
+            </ul>
+          </div>
+          <div class="main_ser_bt">
+            <ul class="list-unstyled">
+              <li class="main_serbt6 col-xs-3"><a href="javascript:;">个人办事</a></li>
+              <li class="main_serbt7 col-xs-3"><a href="javascript:;">企业办事</a></li>
+              <li class="main_serbt8 col-xs-3"><a href="javascript:;">部门服务</a></li>
+              <li class="main_serbt9 col-xs-3"><a href="javascript:;">政务查询</a></li>
+            </ul>
+          </div>
+          <div class="height10"></div>
+        </div>
+      </div>
+      <div class="height10"></div>
+            <div class="main_photo col-xs-12">
+        <div class="main_photo_bg">
+          <div class="main_title"><strong>魅力风貌</strong><a href="meilifengmao.html">更多+</a></div>
+          <ul class="list-unstyled">
+                        <li class="col-xs-12 main_photo_big"> <a href="25.html"> <span style="background-image:url(https://demoall.5fa.cn/17091/uploads/allimg/180329/1-1P32Z953550-L.png);"><img src="static/picture/index_49x.png" class="img-responsive"></span>
+              <p>创智城（效果图—夜景）</p>
+              </a> </li>
+                        <li class="col-xs-6"> <a href="24.html"><span style="background-image:url(https://demoall.5fa.cn/17091/uploads/allimg/180329/1-1P32Z950330-L.png);"><img src="static/picture/pic_03x.png" class="img-responsive"></span>
+              <p>黄沙坪园区</p>
+              </a> </li>
+                        <li class="col-xs-6"> <a href="23.html"><span style="background-image:url(https://demoall.5fa.cn/17091/uploads/allimg/180329/1-1P32Z946490-L.png);"><img src="static/picture/pic_03x.png" class="img-responsive"></span>
+              <p>香樟公寓</p>
+              </a> </li>
+                        <li class="col-xs-6"> <a href="22.html"><span style="background-image:url(https://demoall.5fa.cn/17091/uploads/allimg/180329/1-1P32Z945480-L.jpg);"><img src="static/picture/pic_03x.png" class="img-responsive"></span>
+              <p>黄沙坪园区</p>
+              </a> </li>
+                        <li class="col-xs-6"> <a href="21.html"><span style="background-image:url(https://demoall.5fa.cn/17091/uploads/allimg/180329/1-1P32Z944360-L.jpg);"><img src="static/picture/pic_03x.png" class="img-responsive"></span>
+              <p>梅岭石印</p>
+              </a> </li>
+                      </ul>
+          <div class="height5"></div>
+        </div>
+      </div>
+            <div class="main_ph_right col-xs-12">
+        <div class="row">
+          <div class="main_fbk col-xs-12  col-md-3">
+            <div class="main_phright_bg">
+              <div class="main_title"><strong>园企互动</strong></div>
+              <ul class="list-unstyled">
+                <li class="main_fbk_bt1 col-xs-3 col-md-6"><a href="zixuntousu.html">我要咨询</a></li>
+                <li class="main_fbk_bt2 col-xs-3 col-md-6"><a href="zixuntousu.html">我要投诉</a></li>
+                <li class="main_fbk_bt3 col-xs-3 col-md-6"><a href="zixuntousu.html">我要建议</a></li>
+                <li class="main_fbk_bt4 col-xs-3 col-md-6"><a href="zixuntousu.html">征集调查</a></li>
+              </ul>
+              <div class="height10"></div>
+            </div>
+          </div>
+                    <div class="main_culture col-xs-12  col-md-5">
+            <div class="main_phright_bg2">
+              <div class="main_title"><strong>投资指南</strong><a href="touzizhinan.html">更多+</a></div>
+              <ul class="list-unstyled">
+                                <li><a href="110.html">城市国有土地使用权出让转让规划管理办法</a>[03-29]</li>
+                                <li><a href="109.html">《建设工程质量管理条例》</a>[03-29]</li>
+                                <li><a href="108.html">评标委员会和评标方法暂行规定</a>[03-29]</li>
+                                <li><a href="107.html">关于印发广东省政府核准的投资项目目录（2</a>[03-29]</li>
+                                <li><a href="106.html">国家发改委[2004]第19号令:企业投</a>[03-29]</li>
+                                <li><a href="105.html">外商投资产业指导目录</a>[03-29]</li>
+                                <li><a href="104.html">关税</a>[03-29]</li>
+                              </ul>
+            </div>
+          </div>
+                    <div class="main_culture col-xs-12  col-md-4">
+            <div class="main_phright_bg2">
+              <div class="main_title"><strong>重点企业</strong><a href="zhongdianqiye.html">更多+</a></div>
+              <ul class="list-unstyled">
+                                <li><a href="120.html">中小企业“中层之痛”</a>[03-29]</li>
+                                <li><a href="119.html">韶关市韶仁机械厂</a>[03-29]</li>
+                                <li><a href="118.html">韶关市鸿伟家具厂</a>[03-29]</li>
+                                <li><a href="117.html">韶关市新金路制衣有限公司</a>[03-29]</li>
+                                <li><a href="116.html">韶关浪奇有限公司</a>[03-29]</li>
+                                <li><a href="115.html">韶关亿康环保实业有限公司</a>[03-29]</li>
+                                <li><a href="114.html">凯迪技术开发有限公司</a>[03-29]</li>
+                              </ul>
+            </div>
+          </div>
+           </div>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="height20"></div>
+<footer>
+  <div class="container">
+    <div class="main_link">  <a href='http://www.youku.com/'>优酷</a>  <a href='https://weibo.com/'>微博</a>  <a href='https://www.sina.com.cn/'>新浪</a>  <a href='http://www.qq.com/'>腾讯</a>  <a href='http://www.jd.com/'>京东</a>  <a href='https://www.taobao.com/'>淘宝</a>  <a href='https://www.baidu.com/'>百度</a>  </div>
+    <div class="main_copy">
+      <p>Copyright © 2002-2023 某某园区管委会有限公司 版权所有<br>
+        &nbsp; &nbsp; &nbsp;　地址：广东省广州市天河区88号&nbsp;电话：400-123-4567　&nbsp;传真：+86-123-4567 &nbsp; E-mail：admin@admin.com<br>
+        &nbsp; &nbsp; &nbsp;　网站备案：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤IP********</a><br>
+      </p>
+      <p></p>
+    </div>
+    <script type="text/javascript">
+$(document).ready(function() {
+	  $("#right_mobile").hover(function(){
+			$("#right_mobile_qr").show();
+		},function(){
+			$("#right_mobile_qr").hide();
+		});
+
+	  $("#right_weixin").hover(function(){
+			$("#right_weixin_qr").show();
+		},function(){
+			$("#right_weixin_qr").hide();
+		});
+
+//float start
+		var allw=document.body.scrollWidth;
+		var bodyw=1200;
+		var rightw=(allw-bodyw)/2;
+		var floatpos_left=bodyw+rightw;
+
+		$("#float_right").css("left",floatpos_left+"px");
+//float end
+
+    $('.scrolltopa').click(function(){
+        $('html, body').animate({scrollTop:0}, 'slow');
+    });
+});
+</script> 
+  </div>
+</footer>
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+	<div style="display:none;"><a href="https://smalltool.github.io/">网站整站下载器</a></div>
+</body>
+</html>

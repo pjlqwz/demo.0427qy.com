@@ -1,0 +1,16 @@
+﻿
+body {
+	background-color: #ffffff;
+	background-position: center top;
+	font-family: 'Microsoft YaHei', 'Simsun', Arial;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666666;
+}
+a {
+	color: #666666;
+}
+a:hover {
+	color: #559f55;
+}
+.page_list li{float: left;}

@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>杯赛</title>
+<meta name="description" content="世界杯栏目，每天更新及时的世界杯新闻，包含世界杯预选赛的最新战况，比分状况，积分排名，也将全面报道世界杯新闻。">
+<meta name="keywords" content="">
+<link href="/17038/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="static/css/base.css" rel="stylesheet">
+<link href="static/css/m.css" rel="stylesheet">
+<script src="static/js/jquery-1.8.3.min.js"></script>
+<script src="static/js/main.js"></script>
+<!--[if lt IE 9]>
+<script src="/17038/template/pc/skin/js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+  <div class="tip">
+    <div class="box">
+      <div class="welcome">欢迎访问足球赛事资讯网站源码！</div>
+      <div class="tipr"> <a href="lianxi.html" target="_blank">联系</a> <a href="/17038/index.php?m=home&c=Tags&a=index" target="_blank">TAG聚合</a> <a href="gy.html">关于</a> </div>
+    </div>
+  </div>
+  <div class="logo-section box">
+    <div class="search">       <form method="get" action="/17038/index.php?m=home&c=Search&a=lists" class="s-form container" onsubmit="return searchForm();">
+        <input name="keywords" id="keywords" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}" type="text">
+        <input name="submit" class="input_submit" value="搜索" type="submit">
+        <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">      </form>
+       </div>
+    <div class="logo"><a href="index.html"><img src="static/picture/1-211231145U9D9.png" alt="响应式足球赛事比分视频体育网站模板">
+      <h2 class="logo-title">足球赛事</h2>
+      <p class="logo-text">实时足球赛事、足球直播，体育赛事发布</p>
+      </a> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="topnav">
+    <h2><a href="index.html">足球赛事</a></h2>
+    <nav>
+      <ul id="starlist">
+        <li><a href="index.html">网站首页</a></li>
+                <li class="menu"><a href="tiyuzixun.html" class="">体育资讯</a>           <ul class="sub">
+                        <li><a href="zuqiuzixun.html">足球资讯</a></li>
+                        <li><a href="lanqiuzixun.html">篮球资讯</a></li>
+                      </ul>
+          <span></span> </li>
+                <li><a href="zuqiuzhibo.html" class="">足球直播</a>  </li>
+                <li><a href="saishibifen.html" class="">赛事比分</a>  </li>
+                <li class="menu"><a href="NBAsaishi.html" class="">NBA赛事</a>           <ul class="sub">
+                        <li><a href="NBAzixun.html">NBA资讯</a></li>
+                        <li><a href="remensaishi.html">热门赛事</a></li>
+                        <li><a href="mingxingqiuyuan.html">明星球员</a></li>
+                        <li><a href="titanzuixin.html">体坛最新</a></li>
+                      </ul>
+          <span></span> </li>
+                <li class="menu"><a href="guojizuqiu.html" class="">国际足球</a>           <ul class="sub">
+                        <li><a href="yingchao.html">英超</a></li>
+                        <li><a href="xijia.html">西甲</a></li>
+                        <li><a href="yijia.html">意甲</a></li>
+                        <li><a href="dejia.html">德甲</a></li>
+                        <li><a href="ouguan.html">欧冠</a></li>
+                      </ul>
+          <span></span> </li>
+                <li class="menu"><a href="quanchangluxiang.html" class="">全场录像</a>           <ul class="sub">
+                        <li><a href="zuqiuluxiang.html">足球录像</a></li>
+                        <li><a href="NBAluxiang.html">NBA录像</a></li>
+                      </ul>
+          <span></span> </li>
+                <li class="menu"><a href="" class="hover">杯赛</a>           <ul class="sub">
+                        <li><a href="yazhoubei.html">亚洲杯</a></li>
+                        <li><a href="ouzhoubei.html">欧洲杯</a></li>
+                        <li><a href="meizhoubei.html">美洲杯</a></li>
+                      </ul>
+          <span></span> </li>
+              </ul>
+    </nav>
+    <h2 id="mnavh"><span class="navicon"></span></h2>
+  </div>
+  <div class="is-search">
+    <section><i></i>请输入关键字词</section>
+  </div>
+  <div class="search-page">
+    <div class="go-left"></div>
+    <div class="search">       <form method="get" class="s-form container" action="/17038/index.php?m=home&c=Search&a=lists" onsubmit="return searchForm();">
+        <input type="text" name="keywords" id="keywords" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}">
+        <input name="submit" class="input_submit" value="搜索" type="submit">
+        <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">      </form>
+       </div>
+    <div class="clear"></div>
+  </div>
+</header>
+
+<div class="clear blank"></div>
+<article>
+  <div class="wztitle left-box">
+    <div class="whitebg lanmu">
+      <h1><a href=''>杯赛</a></h1>
+      <p>&nbsp;世界杯栏目，每天更新及时的世界杯新闻，包含世界杯预选赛的最新战况，比分状况，积分排名，也将全面报道世界杯新闻。</p>
+    </div>
+    <div class="clear blank"></div>
+    <div class="wztitle-box whitebg">
+      <div class="news-title"> <span class="hnav">  <a href="yazhoubei.html" class="">亚洲杯</a>  <a href="ouzhoubei.html" class="">欧洲杯</a>  <a href="meizhoubei.html" class="">美洲杯</a> </span>
+        <h2>杯赛</h2>
+      </div>
+      <div class="wztitle-list">
+        <ul>
+                    <li><span>2019-12-12</span><a href="83.html" title="男篮世界杯X因素！总冠军后卫或演李楠奇兵 国产">男篮世界杯X因素！总冠军后卫或演李楠奇兵 国产</a></li>
+                    <li><span>2019-12-12</span><a href="82.html" title="半场得分王超阿联！男篮最被质疑之人翻身，北">半场得分王超阿联！男篮最被质疑之人翻身，北</a></li>
+                    <li><span>2019-12-12</span><a href="81.html" title="李楠最争议选人！5年落选3届大赛热身赛坐穿板凳">李楠最争议选人！5年落选3届大赛热身赛坐穿板凳</a></li>
+                    <li><span>2019-12-12</span><a href="80.html" title="NBA最前线|利拉德超级顶薪提前续约达成 4年总价">NBA最前线|利拉德超级顶薪提前续约达成 4年总价</a></li>
+                    <li><span>2019-12-12</span><a href="79.html" title="NBA最前线|疯狂一天！小乔丹赴布鲁克林 篮网组三">NBA最前线|疯狂一天！小乔丹赴布鲁克林 篮网组三</a></li>
+                    <li><span>2019-12-12</span><a href="78.html" title="国际足球|巴黎前瞻：出征魔鬼出场需防冷 内马尔">国际足球|巴黎前瞻：出征魔鬼出场需防冷 内马尔</a></li>
+                    <li><span>2019-12-12</span><a href="77.html" title="恒大生死战日子特殊！同仇敌忾艾克森展示中国">恒大生死战日子特殊！同仇敌忾艾克森展示中国</a></li>
+                    <li><span>2019-12-12</span><a href="76.html" title="中国男篮他等来机会！李楠死亡五小奇兵，世界">中国男篮他等来机会！李楠死亡五小奇兵，世界</a></li>
+                    <li><span>2019-12-12</span><a href="75.html" title="世界杯男篮首战来了！李楠三招可避免开门黑，">世界杯男篮首战来了！李楠三招可避免开门黑，</a></li>
+                    <li><span>2019-12-12</span><a href="74.html" title="央视预测男篮首发！辽宁双子星加翟晓川，周易">央视预测男篮首发！辽宁双子星加翟晓川，周易</a></li>
+                    <li><span>2019-12-12</span><a href="73.html" title="中国男篮12人名单难产！李楠遇4选2难题，带这两">中国男篮12人名单难产！李楠遇4选2难题，带这两</a></li>
+                    <li><span>2019-12-12</span><a href="72.html" title="两战输世界第十9分！男篮小组出线有戏，李楠死">两战输世界第十9分！男篮小组出线有戏，李楠死</a></li>
+                    <li><span>2019-12-12</span><a href="16.html" title="中国以多项记录横扫举重世界">中国以多项记录横扫举重世界</a></li>
+                    <li><span>2019-12-12</span><a href="15.html" title="中国在女子排球世界杯上连续第八次夺冠肯尼亚">中国在女子排球世界杯上连续第八次夺冠肯尼亚</a></li>
+                    <li><span>2019-12-12</span><a href="14.html" title="卡塔尔首次捧杯创历史 国足止步八强里皮告别">卡塔尔首次捧杯创历史 国足止步八强里皮告别</a></li>
+                    <li><span>2019-12-12</span><a href="13.html" title="美国打破混合接力世界纪录，弗雷泽-普赖斯夺回">美国打破混合接力世界纪录，弗雷泽-普赖斯夺回</a></li>
+                  </ul>
+      </div>
+      <div class="pages">
+        <ul>
+           共<strong>1</strong>页 <strong>16</strong>条        </ul>
+      </div>
+    </div>
+  </div>
+  <aside class="side-section right-box">
+  <div class="whitebg suiji">
+    <h2 class="side-title">站长推荐</h2>
+    <ul>
+            <li><a href="82.html" title="半场得分王超阿联！男篮最被质疑之人翻身，" target="_blank">半场得分王超阿联！男篮最被质疑之人翻身，</a></li>
+            <li><a href="15.html" title="中国在女子排球世界杯上连续第八次夺冠肯尼" target="_blank">中国在女子排球世界杯上连续第八次夺冠肯尼</a></li>
+          </ul>
+  </div>
+  <div class="clear blank"></div>
+  <div class="whitebg paihang">
+    <h2 class="side-title">点击排行</h2>
+    <ul>
+            <li><i></i><a href="81.html" title="李楠最争议选人！5年落选3届大赛热身赛坐" target="_blank">李楠最争议选人！5年落选3届大赛热身赛坐</a></li>
+            <li><i></i><a href="83.html" title="男篮世界杯X因素！总冠军后卫或演李楠奇兵" target="_blank">男篮世界杯X因素！总冠军后卫或演李楠奇兵</a></li>
+            <li><i></i><a href="82.html" title="半场得分王超阿联！男篮最被质疑之人翻身，" target="_blank">半场得分王超阿联！男篮最被质疑之人翻身，</a></li>
+            <li><i></i><a href="13.html" title="美国打破混合接力世界纪录，弗雷泽-普赖斯" target="_blank">美国打破混合接力世界纪录，弗雷泽-普赖斯</a></li>
+            <li><i></i><a href="73.html" title="中国男篮12人名单难产！李楠遇4选2难题" target="_blank">中国男篮12人名单难产！李楠遇4选2难题</a></li>
+            <li><i></i><a href="75.html" title="世界杯男篮首战来了！李楠三招可避免开门黑" target="_blank">世界杯男篮首战来了！李楠三招可避免开门黑</a></li>
+            <li><i></i><a href="72.html" title="两战输世界第十9分！男篮小组出线有戏，李" target="_blank">两战输世界第十9分！男篮小组出线有戏，李</a></li>
+            <li><i></i><a href="15.html" title="中国在女子排球世界杯上连续第八次夺冠肯尼" target="_blank">中国在女子排球世界杯上连续第八次夺冠肯尼</a></li>
+          </ul>
+  </div>
+  <div class="ad ad-small">
+    <div style="border:#EB3D41 1px dashed; height:250px; line-height:250px">广告位</div>
+  </div>
+  <div class="whitebg cloud">
+    <h2 class="side-title">标签云</h2>
+    <ul>
+       <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=256'>冠军</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=232'>机会</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=234'>大生</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=235'>死战</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=236'>日子</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=237'>特殊</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=238'>出征</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=239'>最前线</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=240'>疯狂</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=244'>拉德</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=245'>超级</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=246'>李楠最</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=247'>争议</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=248'>选人</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=249'>5年</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=250'>落选</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=251'>得分</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=252'>王超</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=253'>阿联</a>  <a href='/17038/index.php?m=home&c=Tags&a=lists&tagid=254'>因素</a>     </ul>
+  </div>
+  <div class="clear blank"></div>
+  <div class="whitebg suiji">
+    <h2 class="side-title">猜你喜欢</h2>
+    <ul>
+            <li><a href="81.html" title="李楠最争议选人！5年落选3届大赛热身赛坐">李楠最争议选人！5年落选3届大赛热身赛坐</a></li>
+            <li><a href="82.html" title="半场得分王超阿联！男篮最被质疑之人翻身，">半场得分王超阿联！男篮最被质疑之人翻身，</a></li>
+            <li><a href="83.html" title="男篮世界杯X因素！总冠军后卫或演李楠奇兵">男篮世界杯X因素！总冠军后卫或演李楠奇兵</a></li>
+            <li><a href="72.html" title="两战输世界第十9分！男篮小组出线有戏，李">两战输世界第十9分！男篮小组出线有戏，李</a></li>
+            <li><a href="73.html" title="中国男篮12人名单难产！李楠遇4选2难题">中国男篮12人名单难产！李楠遇4选2难题</a></li>
+            <li><a href="74.html" title="央视预测男篮首发！辽宁双子星加翟晓川，周">央视预测男篮首发！辽宁双子星加翟晓川，周</a></li>
+            <li><a href="75.html" title="世界杯男篮首战来了！李楠三招可避免开门黑">世界杯男篮首战来了！李楠三招可避免开门黑</a></li>
+            <li><a href="76.html" title="中国男篮他等来机会！李楠死亡五小奇兵，世">中国男篮他等来机会！李楠死亡五小奇兵，世</a></li>
+          </ul>
+  </div>
+</aside>
+ </article>
+<div class="clear blank"></div>
+<footer>
+  <div class="footer box" id="ikzbkgffif">
+    <div class="endnav">
+      <p><b><a href="index.html">首页</a> <a href="gy254.html">关于</a> <a href="guanggao.html">广告</a> <a href="shengming.html">声明</a> <a href="lianxi.html">联系</a></b></p>
+      <p>所有文章未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任。举报邮箱：admin@youweb.com</p>
+      <p>Copyright © 2002-2023 某某体育资讯网 版权所有 网站备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxxx号</a> <a href="/17038/index.php?m=home&c=Tags&a=index" target="_blank">TAG聚合</a></p>
+    </div>
+  </div>
+</footer>
+<a href="#" title="返回顶部" class="icon-top"></a> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end --> 
+<script src="static/js/hc-sticky.js"></script> 
+<script src="static/js/aside-sticky.js"></script>
+</body>
+</html>

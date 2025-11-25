@@ -1,0 +1,596 @@
+﻿
+@media only screen and (max-width : 1919px) {
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width : 1500px) {}
+@media only screen and (max-width : 1300px) {
+  .webmain {
+    min-width: 1200px;
+  }
+  .content {
+    width: 1200px;
+  }
+  .inmuen ul li a {
+    padding: 0 28px;
+  }
+  .inpro .leftnav {
+    width: 250px;
+  }
+  .inpro .right {
+    width: 930px;
+  }
+  .inyoushi .nr .li .pic {
+    width: 530px;
+  }
+  .incase .nr .hd ul li {
+    padding: 48px 10px;
+  }
+  .incase .nr .hd {
+    width: 350px;
+  }
+  .incase .nr {
+    padding-right: 370px;
+  }
+  .innews .list ul li {
+    height: 40px;
+    line-height: 40px;
+  }
+  .footer .fnav {
+    margin-right: 40px;
+  }
+  .footer .fcon {
+    width: 340px;
+  }
+  .incase .nr {
+    min-height: 600px;
+  }
+  .tem_inner {
+    width: 1200px;
+  }
+  .met_section {
+    width: 1200px;
+  }
+  .met_module3_list ul.lists_1 li {
+    width: 304px;
+  }
+  #imglist ul.lists_1 li {
+    width: 300px;
+  }
+  .xgcasenr .bd ul li a {
+    padding: 0 10px;
+  }
+  .xgcasenr .prev {
+    left: 0;
+    z-index: 99;
+  }
+  .xgcasenr .next {
+    right: 0;
+    z-index: 99;
+  }
+}
+@media only screen and (max-width : 1024px) {}
+@media only screen and (max-width : 910px) {}
+@media only screen and (max-width : 850px) {
+  .webmain {
+    min-width: initial;
+  }
+  .content {
+    width: auto;
+    padding: 0 10px;
+  }
+  .intop .fl {
+    display: none;
+  }
+  .header {
+    padding: 0;
+  }
+  .header .logo {
+    padding: 10px 0;
+    border: 0;
+  }
+  .header .logo img {
+    height: 30px;
+    width: auto;
+  }
+  .header .title, .header .phone {
+    display: none;
+  }
+  .nav_handle {
+    display: block;
+  }
+  .inmuen {
+    display: none;
+    line-height: 35px;
+    padding: 10px 0;
+  }
+  .inmuen ul li {
+    float: none;
+  }
+  .inmuen ul li a {
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  .banner .pagination {
+    bottom: 0;
+  }
+  .banner .pagination .swiper-pagination-switch {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+  }
+  .inkey {
+    display: none;
+  }
+  .injiagong {
+    padding: 20px 0;
+  }
+  .injiagong .lmtit {
+    font-size: 20px;
+  }
+  .injiagong .lmjj {
+    margin-bottom: 20px;
+  }
+  .injiagong .bd ul li {
+    width: 50%;
+  }
+  .injiagong .bd ul li .wz {
+    padding: 45px 10px 0;
+  }
+  .injiagong .bd ul li .jj {
+    font-size: 12px;
+  }
+  .inpro {
+    padding: 20px 0;
+  }
+  .inpro .leftnav {
+    width: auto;
+    float: none;
+    margin-bottom: 20px;
+    display: none;
+  }
+  .inpro .right {
+    width: auto;
+    float: none;
+  }
+  .inpro .right ul li {
+    width: 48%;
+  }
+  .inpro .right ul li .tit {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .inpro .right ul li.last {
+    display: none;
+  }
+  .inyoushi {
+    padding: 20px 0;
+  }
+  .inyoushi .lmtit {
+    font-size: 20px;
+  }
+  .inyoushi .lmtit span {
+    font-size: 35px;
+  }
+  .inyoushi .lmjj {
+    margin-bottom: 20px;
+  }
+  .inyoushi .nr .xian {
+    display: none;
+  }
+  .inyoushi .nr {
+    height: auto;
+  }
+  .inyoushi .nr .li {
+    position: static;
+  }
+  .inyoushi .nr .li .pic {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .inyoushi .nr .li .sz {
+    display: none;
+  }
+  .inyoushi .nr .li .wz {
+    width: auto;
+    float: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .inyoushi .nr .li .wz .tit {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .inyoushi .nr .li .wz .jj {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .inyoushi .nr .li.li2 .wz {
+    width: auto;
+  }
+  .inyoushi .nr .li.li2 .wz .tit {
+    text-align: left;
+  }
+  .inpinzhi {
+    padding: 20px 0;
+  }
+  .inpinzhi .lmtit {
+    font-size: 20px;
+  }
+  .inpinzhi .hd {
+    padding: 20px 0;
+  }
+  .inpinzhi .hd ul li {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .inpinzhi .bd ul .li {
+    width: auto;
+    float: none;
+    margin: 0;
+  }
+  .inpinzhi .bd ul li {
+    margin-bottom: 10px;
+  }
+  .inpinzhi .bd ul li.one {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .incase {
+    padding: 20px 0;
+  }
+  .incase .lmtit {
+    font-size: 20px;
+  }
+  .incase .lmjj {
+    margin-bottom: 20px;
+  }
+  .incase .nr {
+    padding: 0;
+    min-height: inherit;
+  }
+  .incase .nr .hd {
+    position: static;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .incase .nr .hd ul li {
+    padding: 10px 0 15px;
+  }
+  .incase .nr .bd ul li .wz .tit {
+    font-size: 16px;
+  }
+  .innews {
+    padding: 20px 0;
+  }
+  .innews .lmtit {
+    font-size: 20px;
+  }
+  .innews .lmjj {
+    margin-bottom: 20px;
+  }
+  .innews .list {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .innews .list .slmtit {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .innews .list .slmtit span {
+    font-size: 20px;
+  }
+  .innews .list .one .jj {
+    font-size: 14px;
+  }
+  .innews .list ul {
+    padding: 15px;
+  }
+  .innews .list ul li {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .innews .right {
+    width: auto;
+    float: none;
+  }
+  .innews .zhichi .slmtit {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .innews .zhichi .slmtit span {
+    font-size: 20px;
+  }
+  .innews .zhichi .nr ul li {
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: initial;
+  }
+  .innews .zhichi .nr ul li .pic {
+    position: static;
+    width: auto;
+  }
+  .innews .inque .slmtit {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .inabout {
+    padding: 20px 0;
+  }
+  .inabout .lmtit {
+    font-size: 20px;
+  }
+  .inabout .lmjj {
+    margin-bottom: 20px;
+  }
+  .inabout .nr {
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .inabout .more {
+    width: 150px;
+    font-size: 14px;
+  }
+  .footer {
+    padding-top: 20px;
+  }
+  .footer .fnav {
+    display: none;
+  }
+  .footer .fcon {
+    width: auto;
+    float: none;
+  }
+  .footer .banq {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .Bottomerkg, .Bottomer {
+    display: block;
+  }
+  .page-down {
+    right: 10px;
+    bottom: 74px;
+  }
+  .nybanner {
+    height: 200px;
+  }
+  .tem_inner {
+    width: auto;
+    padding: 0 10px;
+    height: auto;
+  }
+  .key-serch {
+    height: auto;
+    padding: 10px 0;
+  }
+  .met_position {
+    height: auto;
+    line-height: 25px;
+    float: none;
+    font-size: 12px;
+    color: #999;
+  }
+  .key-serch .search {
+    margin: 10px 0 0;
+    float: none;
+  }
+  .key-serch .search span.navsearch_input {
+    float: none;
+  }
+  .key-serch .search span.navsearch_input input {
+    width: 80%;
+    height: 35px;
+    line-height: 35px;
+    box-sizing: border-box;
+    display: block;
+  }
+  .key-serch .search .searchgo {
+    width: 20%;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    outline: none;
+  }
+  .met_section {
+    width: auto;
+    padding: 10px 10px 0;
+  }
+  .met_section aside {
+    float: none;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .met_section aside section h2 {
+    font-size: 20px;
+    padding: 15px 0 15px 60px;
+  }
+  .met_section aside .met_aside dl dt a {
+    font-size: 14px;
+    padding: 5px 10px 5px 15px;
+  }
+  .nycon1 {
+    display: none;
+  }
+  .met_section article .met_article {
+    margin: 0;
+  }
+  .met_section article {
+    margin: 0;
+    width: auto;
+    float: none;
+  }
+  .met_article_head {
+    margin-bottom: 10px;
+  }
+  .met_module1 {
+    padding: 0;
+  }
+  .met_module3_list ul.lists_1 {
+    position: relative;
+    width: 102%;
+    left: -1%;
+    margin: 0;
+  }
+  .met_module3_list ul.lists_1 li {
+    width: 48%;
+    margin: 1%;
+    float: left;
+  }
+  .met_module3_list ul.lists_1 li i {
+    display: none;
+  }
+  .met_module3_list ul.lists_1 li .product_detail {
+    padding: 10px;
+  }
+  .met_pager {
+    padding: 10px 0 0;
+  }
+  .met_pager a, .met_pager .PreA, .met_pager .NextA {
+    margin: 0 2px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: auto;
+    min-width: initial;
+    padding: 0 5px;
+  }
+  .xgcase {
+    padding: 20px 0;
+  }
+  .xgcase .lmtit {
+    margin-bottom: 20px;
+  }
+  .xgcase .lmtit .cn {
+    font-size: 20px;
+  }
+  .xgcasenr .bd ul li {
+    width: 50%;
+  }
+  .xgcasenr .bd ul li a {
+    padding: 0 5px;
+  }
+  .xgcasenr .bd ul li .tit {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .showproleft {
+    padding: 0;
+  }
+  .showprojj {
+    min-height: initial;
+  }
+  .box {
+    position: static;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .tb-s310, .tb-s310, .tb-s310 a {
+    width: 300px;
+    height: 300px;
+  }
+  .tb-thumb li {
+    height: 47px;
+  }
+  .tb-s40, .tb-s40 a {
+    width: 45px;
+    height: 47px;
+  }
+  .tb-thumb .tb-selected {
+    height: 47px;
+  }
+  .tb-s40 a img {
+    width: 45px;
+    height: 45px;
+  }
+  .zoomDiv {
+    display: none !important;
+  }
+  .slideTxtBox .bd ul {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 15px 0;
+  }
+  .met_section article {
+    padding-bottom: 20px;
+  }
+  #imglist ul.lists_1 {
+    position: relative;
+    width: 102%;
+    left: -1%;
+    margin: 0;
+  }
+  #imglist ul.lists_1 li {
+    width: 48%;
+    margin: 1%;
+  }
+  #imglist ul.lists_1 li a {
+    padding: 0;
+  }
+  .met_module2 {
+    padding: 10px
+  }
+  .met_module2 h1.met_title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .nyabout {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .met_tools {
+    height: auto;
+  }
+  .met_tools .met_page {
+    position: static;
+  }
+  .met_tools .met_page li {
+    float: unset !important;
+    display: block;
+    margin: 0;
+  }
+  .tb-pic a img {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+  .p14-infolist-1-list dl {
+    padding: 15px;
+  }
+  .p14-infolist-1-list dt {
+    width: auto;
+    float: none;
+    margin: 0 0 10px;
+  }
+  .p14-infolist-1-list-desc {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width : 640px) {
+  .nybanner {
+    height: 150px;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .nybanner {
+    height: 100px;
+  }
+}
+@media only screen and (max-width : 360px) {
+  .nybanner {
+    height: 80px;
+  }
+}
