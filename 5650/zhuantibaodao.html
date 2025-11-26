@@ -1,0 +1,364 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>专题报道_易优Cms-演示站</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/5650/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/5650/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/5650/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/5650/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/5650/template/pc/skin/js/respond.min.js"></script>
+      <script src="/5650/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<script type="text/javascript" src="static/js/ajax-url.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top">
+        <div class="row_top_in clearfix">
+          <div class="column column6">
+            <div class="col-logo">
+              <div class="w-logo">
+            <h1 style="display:none;"><a href="index.html"></a></h1>
+            <a href="index.html" class="w-logo-img"> <img src="static/picture/4219eee0b2e95f12a0c669ff735c2b9a.png"> </a> </div>
+            </div>
+          </div>
+          <div class="column column6 clearfix">
+            <div class="topLogBox topLogBoxPc">
+              <div class="topLogBox-in">
+                <div class="lscPc clearfix"> </div>
+                <div class="searchPc clearfix"> </div>
+                <div class="clearfix">
+                  <div class="w-custom">
+                    <div class="li-div">
+                      <div class="w-text" style="">
+                        <div style="overflow:hidden;">
+                          <div style="float:right;"><img src="static/picture/59f2a2f3cfdf2.jpg" style="float:left; margin-top:5px; ">
+                            <div style="font-style:italic; color:#666; margin-left:50px;">咨询热线<br>
+                              <span style="color:#000; font-size:20px; font-weight:bold;margin-right: 10px;">400-123-4567</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menuPc">
+        <div class="menuPc_in">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li class=""><a href="index.html">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="active">
+                <div class="li-parent-div li-parentOne-div"><a href="xinwendongtai.html">新闻动态 <i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="xingyedongtai.html">行业动态 </a></li>
+                                        <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                                        <li><a href="">专题报道</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心 <i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="chanpinfenleiyi.html">产品分类一</a></li>
+                                        <li><a href="chanpinfenleier.html">产品分类二</a></li>
+                                        <li><a href="chanpinfenleisan.html">产品分类三</a></li>
+                                        <li><a href="chanpinfenleisi.html">产品分类四</a></li>
+                                        <li><a href="chanpinfenleiwu.html">产品分类五</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="shouhoufuwu.html">售后服务  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zhaoshangjiameng.html">招商加盟  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="jishuzhichi.html">技术支持  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                              <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+           
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li class=""><a href="index.html">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="active">
+                <div class="li-parent-div li-parentOne-div"><a href="xinwendongtai.html">新闻动态 <i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="xingyedongtai.html">行业动态 </a></li>
+                                        <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                                        <li><a href="">专题报道</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心 <i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="chanpinfenleiyi.html">产品分类一</a></li>
+                                        <li><a href="chanpinfenleier.html">产品分类二</a></li>
+                                        <li><a href="chanpinfenleisan.html">产品分类三</a></li>
+                                        <li><a href="chanpinfenleisi.html">产品分类四</a></li>
+                                        <li><a href="chanpinfenleiwu.html">产品分类五</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="shouhoufuwu.html">售后服务  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zhaoshangjiameng.html">招商加盟  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="jishuzhichi.html">技术支持  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zaixianliuyan.html">在线留言  </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner"> <img src="static/picture/d62feed6760c71d5bf72d5f84aab730f.jpg" alt="专题报道" title="" style=""><span style="display:none;">none</span></div>
+  </section>
+  <div class="w-container w-main">
+    <div class="row">
+      <div class="wrap-content-in w-system w-productcom">
+        <div class="w-system-in"> 
+          <div class="side_bar">
+            <div class="w-com-menu w-com-menu-V">
+              <div class="w-com-menu-in">
+                <div class="systitle">
+                  <div class="systitle-in">新闻动态 </div>
+                  <i class="fa icon_menuControl"></i></div>
+                <ul class="ul-parent">
+                                <li class="li-parent ">
+                  <div class="div-parent"> <a href="xingyedongtai.html">行业动态 </a><span class="menu_simpline_cur"></span></div>
+                </li>
+                                <li class="li-parent ">
+                  <div class="div-parent"> <a href="gongsixinwen.html">公司新闻 </a><span class="menu_simpline_cur"></span></div>
+                </li>
+                                <li class="li-parent cur">
+                  <div class="div-parent"> <a href="">专题报道</a><span class="menu_simpline_cur"></span></div>
+                </li>
+                                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="side_left">
+            <div class="crumbs">
+              <div class="crumbs_in">您当前的位置: &nbsp; <a href='index.html' class='crumb'>首页</a> &gt; <a href='xinwendongtai.html' class='crumb'>新闻动态 </a> &gt; <a href=''>专题报道</a></div>
+            </div>
+            <div class="w-News-list w-News-list3">
+              <div class="w-News-list-in clearfix">
+                <ul>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="" class="news-kind" title="专题报道">【专题报道】</a> <a href="17.html" title=" 新型显示屏聚酰亚胺树脂屏幕可洗涤"> 新型显示屏聚酰亚胺树脂屏幕可洗涤</a> </div>
+                          <div class="date">2019-01-03</div>
+                        </div>
+                        <div class="news-sum">记者获悉，新型显示屏于近日面世。该显示屏为使用化合物InGaZnO TFT的有源矩阵型显示屏，使用了聚酰亚胺树脂，可贴在布上使用，还能洗涤。另外，松下也参加了该显示屏的开发。　　荷兰研究机构Holst Centre、比利时微电子研究中心(IMEC)以及由IMEC出资的比利时根特大学(Ghent University)的...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="" class="news-kind" title="专题报道">【专题报道】</a> <a href="16.html" title=" PVC现货市场出货压力增大 基本面偏空"> PVC现货市场出货压力增大 基本面偏空</a> </div>
+                          <div class="date">2019-01-03</div>
+                        </div>
+                        <div class="news-sum">&nbsp; &nbsp; &nbsp; 泰山盐化PVC10万吨/年装置开工7成左右，今日价格下调30元/吨，电石法5型料执行4750元/吨承兑，外销省外略低，近期出货较为一般。　　价格：日本石脑油CF日本报311.62美元/吨，跌16.5;石脑油FOB新加坡报32.94美元/桶，跌1.81。乙烯CFR东北亚报995美...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="" class="news-kind" title="专题报道">【专题报道】</a> <a href="15.html" title=" 连塑短期维持偏强震荡 建议依托五日线做多"> 连塑短期维持偏强震荡 建议依托五日线做多</a> </div>
+                          <div class="date">2019-01-03</div>
+                        </div>
+                        <div class="news-sum">&nbsp; &nbsp; &nbsp; 本周聚乙烯石化装置整体开工率在86%附近，比上周下周6个百分点。其中华南及华东地区因统计周期内多套装置停车，使得该地区平均开工水平明显下降。　　价格：日本石脑油CF日本报311.62美元/吨，跌16.5;石脑油FOB新加坡报32.94美元/桶，跌1.81。乙烯CFR东北亚报99...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="" class="news-kind" title="专题报道">【专题报道】</a> <a href="14.html" title=" LLDPE现货市场货源偏紧 PP反弹高度受限"> LLDPE现货市场货源偏紧 PP反弹高度受限</a> </div>
+                          <div class="date">2019-01-03</div>
+                        </div>
+                        <div class="news-sum">LLDPE：昨夜原油继续下跌，目前现货市场货源偏紧，各大区线性和高压上涨50-150元/吨不等，目前国内LLDPE主流报价在8500-9050元/吨，不过市场普遍预计春节期间石化会有账库情况，短期还有继续上涨动能，中长期空单等待机会介入。　　PP:上游原油继续下跌，石化华北、中油华北上调出厂价，华东市场拉丝主流报价在6...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-com">
+                        <div class="news-together">
+                          <div class="news-h"> <a href="" class="news-kind" title="专题报道">【专题报道】</a> <a href="13.html" title=" L/PP贴水大幅回补 关注现货情况"> L/PP贴水大幅回补 关注现货情况</a> </div>
+                          <div class="date">2019-01-03</div>
+                        </div>
+                        <div class="news-sum">甲醇:国内甲醇现货市场表现不一。除西北地区较为坚挺外,其他地区以下滑为主。港口库存低位及需求偏弱共存,加之外围宏观股市、原油等偏弱因素影响,短期或仍以偏弱震荡行情为主,不排除部分港口低价出货可能,关注下周期货交割及进口到货情况,而内地基本面偏弱,局部也有调低售价,如山西等地.各地下游按需采购为主,且传统下游需求进一步弱...</div>
+                      </div>
+                    </div>
+                  </li>
+                                </ul>
+              </div>
+            </div>
+            <div class="next1">  共<strong>1</strong>页&nbsp;<strong>5</strong>条</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-big pdBottom-big">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-default" data-id="521382" data-type="31">
+          <div class="li-div" data-comunique="cd01d5532bec73202c485ed5e9231abf">
+            <div class="w-text" style="">
+              <p>咨询热线：400-123-4567&nbsp;&nbsp;&nbsp;&nbsp;客服QQ：1234567890&nbsp;&nbsp;&nbsp;&nbsp;联系人：张生</p>
+              <p>公司地址：广东省广州市天河区88号</p>
+              <p>Copyright © 2012-2018 某某公司 版权所有 &nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-service-fixed">
+      <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+        <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+    </div>
+  </div>
+<!-- 应用插件标签 start -->
+ <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.news_list.js"></script> 
+</body>
+</html>

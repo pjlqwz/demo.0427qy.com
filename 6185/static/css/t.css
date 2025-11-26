@@ -1,0 +1,215 @@
+﻿/* eyoucms.com 易优CMS -- 好用,免费,安全 */
+/*um-right*/
+html.theme-um-right.um body { left: auto; right: 0; }
+html.theme-um-right.um.navon body { left: auto; margin-left: auto; right: 100%; margin-right: -70px; }
+
+html.theme-um-right.um.navon .g_header { left: auto; margin-left: 0; right: 100%; margin-right: -70px; }
+html.theme-um-right.um .g_header .top > .menu { left: auto; right: 0; }
+
+html.theme-um-right.um .g_header .nav { transform: translateX(100%); left: 0; right: 70px; left: 70px; right: 0; }
+html.theme-um-right.um.navon .g_header .nav { transform: translateX(0); box-shadow: -5px 0 10px rgba(0,0,0,0.2); }
+
+
+/*back-black*/
+html.theme-back-black { background: #333; }
+html.theme-back-black body { background: #333; color: #ccc; }
+html.theme-back-black body a { color: #ccc; }
+html.theme-back-black .g_footer { color: #aaa; background: rgba(255,255,255,0.1); }
+
+html.theme-back-black .g_tool > li > a { background: #333; }
+
+
+/*fore-green*/
+html.theme-fore-green .slick-prev:hover,
+html.theme-fore-green .slick-prev:focus,
+html.theme-fore-green .slick-next:hover,
+html.theme-fore-green .slick-next:focus { background: #00b609; }
+
+
+html.theme-fore-green .g_page > ul.list > li a:hover,
+html.theme-fore-green .g_page > ul.list > li a.on { background: #00b609; }
+html.theme-fore-green .g_page > ul.list > li.prev a,
+html.theme-fore-green .g_page > ul.list > li.next a { background: none; }
+html.theme-fore-green .g_page > ul.list > li.prev a:hover,
+html.theme-fore-green .g_page > ul.list > li.next a:hover { color: #00b609; }
+
+
+html.theme-fore-green .g_header .top .right .tel .l1 { color: #00b609; }
+
+html.theme-fore-green .g_header .nav .items > li:hover a,
+html.theme-fore-green .g_header .nav .items > li a:hover,
+html.theme-fore-green .g_header .nav .items > li.on a { background: #009d07; }
+html.theme-fore-green .g_header .nav .items > li .sub > li a:hover { background-color: rgba(0,157,7,0.9); }
+
+html.theme-fore-green.um .g_header { background: #00b609; }
+
+html.theme-fore-green .g_header .nav { background: #00b609; }
+html.theme-fore-green.um .g_header .nav { background: linear-gradient(to top right, rgba(0,182,9,1), rgba(0,182,9,.8), rgba(0,182,9,1)); }
+html.theme-fore-green.um .g_header .nav .items > li a:hover,
+html.theme-fore-green.um .g_header .nav .items > li.on a { background: none; }
+
+
+html.theme-fore-green .g_book:hover table .btn { background: #00b609; }
+
+html.theme-fore-green .g_tool > li > a:hover { background: #00b609; border: 1px solid #00b609; }
+
+
+html.theme-fore-green .g_cate a:hover,
+html.theme-fore-green .g_cate a.on { background: #00b609; }
+
+
+html.theme-fore-green .bannerhome .frames .txt .t1 { color: #00b609; }
+
+html.theme-fore-green .bannersingle .txt .t1 { color: #00b609; }
+
+
+html.theme-fore-green .newslist > ul.cate > li a { border-bottom: 1px solid rgba(0,182,9,0.3); }
+html.theme-fore-green .newslist > ul.cate > li a.on, html.theme-fore-green .newslist > ul.cate > li a:hover { color: #00b609; }
+html.theme-fore-green .newslist > ul.cate > li a:before { background: #00b609; }
+
+html.theme-fore-green .newslist > ul.list > li { border-bottom: 1px solid rgba(0,182,9,0.5); }
+
+
+html.theme-fore-green .contacthome .book:hover table .btn { background: #00b609; }
+
+
+html.theme-fore-green .servicelist > .list > li:hover .btn em { background: #00b609; border: 1px solid #00b609; }
+
+html.theme-fore-green .servicedetail .right .title:before { background: #00b609; }
+html.theme-fore-green .servicedetail .right > .list > li:hover .btn em { background: #00b609; border: 1px solid #00b609; }
+
+
+html.theme-fore-green .expertlist > .list > li:hover .btn em { background: #00b609; border: 1px solid #00b609; }
+
+
+
+
+
+
+
+
+/*fore-orange*/
+html.theme-fore-orange .slick-prev:hover,
+html.theme-fore-orange .slick-prev:focus,
+html.theme-fore-orange .slick-next:hover,
+html.theme-fore-orange .slick-next:focus { background: #fa6300; }
+
+
+html.theme-fore-orange .g_page > ul.list > li a:hover,
+html.theme-fore-orange .g_page > ul.list > li a.on { background: #fa6300; }
+html.theme-fore-orange .g_page > ul.list > li.prev a,
+html.theme-fore-orange .g_page > ul.list > li.next a { background: none; }
+html.theme-fore-orange .g_page > ul.list > li.prev a:hover,
+html.theme-fore-orange .g_page > ul.list > li.next a:hover { color: #fa6300; }
+
+
+html.theme-fore-orange .g_header .top .right .tel .l1 { color: #fa6300; }
+
+html.theme-fore-orange .g_header .nav { background: #fa6300; }
+html.theme-fore-orange.um .g_header .nav { background: linear-gradient(to top right, rgba(250,99,0,1), rgba(250,99,0,.8), rgba(250,99,0,1)); }
+
+html.theme-fore-orange .g_header .nav .items > li:hover a,
+html.theme-fore-orange .g_header .nav .items > li a:hover,
+html.theme-fore-orange .g_header .nav .items > li.on a { background: #d55400; }
+html.theme-fore-orange .g_header .nav .items > li .sub > li a:hover { background-color: rgba(213,84,0,0.9); }
+
+html.theme-fore-orange.um .g_header { background: #fa6300; }
+html.theme-fore-orange.um .g_header .nav .items > li a:hover,
+html.theme-fore-orange.um .g_header .nav .items > li.on a { background: none; }
+
+
+html.theme-fore-orange .g_book:hover table .btn { background: #fa6300; }
+
+html.theme-fore-orange .g_tool > li > a:hover { background: #fa6300; border: 1px solid #fa6300; }
+
+
+html.theme-fore-orange .g_cate a:hover,
+html.theme-fore-orange .g_cate a.on { background: #fa6300; }
+
+
+html.theme-fore-orange .bannerhome .frames .txt .t1 { color: #fa6300; }
+
+html.theme-fore-orange .bannersingle .txt .t1 { color: #fa6300; }
+
+
+html.theme-fore-orange .newslist > ul.cate > li a { border-bottom: 1px solid rgba(250,99,0,0.3); }
+html.theme-fore-orange .newslist > ul.cate > li a.on, html.theme-fore-orange .newslist > ul.cate > li a:hover { color: #fa6300; }
+html.theme-fore-orange .newslist > ul.cate > li a:before { background: #fa6300; }
+
+html.theme-fore-orange .newslist > ul.list > li { border-bottom: 1px solid rgba(250,99,0,0.5); }
+
+
+html.theme-fore-orange .contacthome .book:hover table .btn { background: #fa6300; }
+
+
+html.theme-fore-orange .servicelist > .list > li:hover .btn em { background: #fa6300; border: 1px solid #fa6300; }
+
+html.theme-fore-orange .servicedetail .right .title:before { background: #fa6300; }
+html.theme-fore-orange .servicedetail .right > .list > li:hover .btn em { background: #fa6300; border: 1px solid #fa6300; }
+
+
+html.theme-fore-orange .expertlist > .list > li:hover .btn em { background: #fa6300; border: 1px solid #fa6300; }
+
+
+
+/*fore-purple*/
+html.theme-fore-purple .slick-prev:hover,
+html.theme-fore-purple .slick-prev:focus,
+html.theme-fore-purple .slick-next:hover,
+html.theme-fore-purple .slick-next:focus { background: #9700bb; }
+
+
+html.theme-fore-purple .g_page > ul.list > li a:hover,
+html.theme-fore-purple .g_page > ul.list > li a.on { background: #9700bb; }
+html.theme-fore-purple .g_page > ul.list > li.prev a,
+html.theme-fore-purple .g_page > ul.list > li.next a { background: none; }
+html.theme-fore-purple .g_page > ul.list > li.prev a:hover,
+html.theme-fore-purple .g_page > ul.list > li.next a:hover { color: #9700bb; }
+
+
+html.theme-fore-purple .g_header .top .right .tel .l1 { color: #9700bb; }
+
+html.theme-fore-purple .g_header .nav { background: #9700bb; }
+html.theme-fore-purple.um .g_header .nav { background: linear-gradient(to top right, rgba(151,0,187,1), rgba(151,0,187,.8), rgba(151,0,187,1)); }
+
+html.theme-fore-purple .g_header .nav .items > li:hover a,
+html.theme-fore-purple .g_header .nav .items > li a:hover,
+html.theme-fore-purple .g_header .nav .items > li.on a { background: #70008b; }
+html.theme-fore-purple .g_header .nav .items > li .sub > li a:hover { background-color: rgba(112,0,139,0.9); }
+
+html.theme-fore-purple.um .g_header { background: #9700bb; }
+html.theme-fore-purple.um .g_header .nav .items > li a:hover,
+html.theme-fore-purple.um .g_header .nav .items > li.on a { background: none; }
+
+
+html.theme-fore-purple .g_book:hover table .btn { background: #9700bb; }
+
+html.theme-fore-purple .g_tool > li > a:hover { background: #9700bb; border: 1px solid #9700bb; }
+
+
+html.theme-fore-purple .g_cate a:hover,
+html.theme-fore-purple .g_cate a.on { background: #9700bb; }
+
+
+html.theme-fore-purple .bannerhome .frames .txt .t1 { color: #9700bb; }
+
+html.theme-fore-purple .bannersingle .txt .t1 { color: #9700bb; }
+
+
+html.theme-fore-purple .newslist > ul.cate > li a { border-bottom: 1px solid rgba(151,0,187,0.3); }
+html.theme-fore-purple .newslist > ul.cate > li a.on, html.theme-fore-purple .newslist > ul.cate > li a:hover { color: #9700bb; }
+html.theme-fore-purple .newslist > ul.cate > li a:before { background: #9700bb; }
+
+html.theme-fore-purple .newslist > ul.list > li { border-bottom: 1px solid rgba(151,0,187,0.5); }
+
+
+html.theme-fore-purple .contacthome .book:hover table .btn { background: #9700bb; }
+
+
+html.theme-fore-purple .servicelist > .list > li:hover .btn em { background: #9700bb; border: 1px solid #9700bb; }
+
+html.theme-fore-purple .servicedetail .right .title:before { background: #9700bb; }
+html.theme-fore-purple .servicedetail .right > .list > li:hover .btn em { background: #9700bb; border: 1px solid #9700bb; }
+
+
+html.theme-fore-purple .expertlist > .list > li:hover .btn em { background: #9700bb; border: 1px solid #9700bb; }

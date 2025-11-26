@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>响应式3D打印设备网站模板</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="/6902/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+	<link rel="stylesheet" href="static/css/g.css">
+	<link rel="stylesheet" href="static/css/s.css">
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<script src="https://demoall.kuaituiyun.cn/6902/template/pc/skin/js/jquery-ui.min.js"></script>
+	<script src="static/js/slick.js"></script>
+	<script src="static/js/scrolloverflow.min.notransition.js"></script>
+	<script src="static/js/g.js"></script>
+	<style>
+.banners-pc {
+	clear: both;
+	height: 700px;
+}
+.banners-pc .frame {
+	height: 700px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+.banners-mb {
+	display: none;
+	clear: both;
+	height: 700px;
+}
+.banners-mb div {
+	height: 100%;
+}
+.banners-mb .frame {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+ @media (max-width: 1024px) {
+.banners-pc {
+	display: none;
+}
+.banners-mb {
+	display: block;
+}
+}
+.main1 {
+	margin-top: 60px;
+}
+.main1 .offset .list {
+	margin-left: -27px;
+	margin-bottom: -28px;
+	overflow: hidden;
+}
+.main1 .offset .list > li {
+	float: left;
+	width: 25%;
+	padding-left: 27px;
+	padding-bottom: 28px;
+}
+.main1 .offset .list > li:nth-child(4n+1) {
+	clear: both;
+}
+.main1 .offset .list > li .box {
+	display: block;
+	border: 1px solid #e3e4e6;
+}
+.main1 .offset .list > li .box .pic {
+	text-align: center;
+}
+.main1 .offset .list > li .box .pic img {
+	display: block;
+	width: 100%;
+}
+.main1 .offset .list > li .box .p1 {
+	text-align: center;
+	background: #e3e4e6;
+	height: 63px;
+	line-height: 63px;
+}
+.main1 .offset .list > li .box:hover {
+	border: 1px solid #2977da;
+}
+.main1 .offset .list > li .box:hover .p1 {
+	background: #2977da;
+	color: #fff;
+}
+.main1 .offset .list > li .box2 {
+	display: block;
+	background: #2977da;
+}
+.main1 .offset .list > li .box2 .more {
+	text-align: center;
+	padding-top: 63px;
+}
+.main1 .offset .list > li .box2 .s1 {
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	padding-bottom: 60px;
+}
+ @media (max-width: 1024px) {
+.main1 .offset .list > li {
+	width: 50%;
+}
+.main1 .offset .list > li:nth-child(n) {
+	clear: none;
+}
+.main1 .offset .list > li:nth-child(2n+1) {
+	clear: both;
+}
+}
+ @media (max-width: 600px) {
+.main1 .offset .list > li {
+	width: 100%;
+}
+.main1 .offset .list > li:nth-child(n) {
+	clear: none;
+}
+}
+.main2 {
+	background: #f5f5f5;
+	padding: 50px 0 100px 0;
+	margin-top: 70px;
+}
+.main2 .offset .list {
+	margin-left: -33px;
+	margin-bottom: -42px;
+	overflow: hidden;
+}
+.main2 .offset .list > li {
+	float: left;
+	width: 33.33%;
+	padding-left: 33px;
+	padding-bottom: 42px;
+}
+.main2 .offset .list > li:nth-child(3n+1) {
+	clear: both;
+}
+.main2 .offset .list > li .box {
+	display: block;
+	position: relative;
+}
+.main2 .offset .list > li .box .pic img {
+	display: block;
+	width: 100%;
+}
+.main2 .offset .list > li .box .pic:before {
+	content: '';
+	position: absolute;
+	left: 26px;
+	top: 21px;
+	right: 26px;
+	bottom: 21px;
+	background: red;
+	opacity: 0;
+}
+.main2 .offset .list > li .box .font {
+	position: absolute;
+	left: 26px;
+	top: 21px;
+	right: 26px;
+	bottom: 21px;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	transition: .3s ease;
+	background: rgba(0,0,0,.8);
+}
+.main2 .offset .list > li .box .font .s1 {
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	padding-top: 70px;
+}
+.main2 .offset .list > li .box .font .line {
+	width: 28px;
+	height: 1px;
+	background: #a2a5a3;
+	display: block;
+	margin: 13px auto;
+}
+.main2 .offset .list > li .box .font .s2 {
+	font-size: 12px;
+	color: rgba(255,255,255,.6);
+	display: block;
+	padding-bottom: 28px;
+}
+.main2 .offset .list > li .box .font .gd {
+	padding: 10px 23px;
+	background: #e30210;
+	font-size: 12px;
+	display: inline-block;
+}
+.main2 .offset .list > li .box:hover .font {
+	opacity: 1;
+}
+.main2 .offset .list > li .box .pic:before {
+}
+ @media (max-width: 1024px) {
+.main2 .offset .list > li {
+	width: 50%;
+}
+.main2 .offset .list > li:nth-child(n) {
+	clear: none;
+}
+.main2 .offset .list > li:nth-child(2n+1) {
+	clear: both;
+}
+}
+ @media (max-width: 600px) {
+.main2 .offset .list > li {
+	width: 100%;
+}
+.main2 .offset .list > li:nth-child(n) {
+	clear: none;
+}
+}
+.about {
+	margin: 80px 0;
+}
+.about .left {
+	float: left;
+	max-width: 540px;
+}
+.about .left .title {
+	font-size: 28px;
+	color: #1c1c1c;
+	padding-bottom: 46px;
+}
+.about .left .title .line {
+	width: 37px;
+	height: 8px;
+	background: #2977da;
+	display: inline-block;
+}
+.about .left .p1 {
+	line-height: 33px;
+	font-size: 14px;
+	color: #757575;
+	padding-bottom: 30px;
+}
+.about .left .p1 .h1 {
+	color: #2977da;
+	font-size: 18px;
+}
+.about .left .more {
+	color: #2977da;
+	font-size: 12px;
+}
+.about .right {
+	float: right;
+}
+ @media (max-width: 1024px) {
+.about .left {
+	float: none;
+	max-width: none;
+}
+.about .left .more {
+	text-align: center;
+	display: block;
+	margin-bottom: 30px;
+}
+.about .right {
+	float: none;
+	text-align: center;
+}
+}
+.coop {
+	background: #f5f5f5;
+	padding: 50px 0 100px 0;
+}
+.coop .hz .list {
+	overflow: hidden;
+}
+.coop .hz .list > li {
+	float: left;
+	width: 16.66%;
+}
+.coop .hz .list2 {
+	text-align: center;
+	margin-top: -80px;
+}
+.coop .hz .list2 > li {
+	display: inline-block;
+}
+.coop .offset {
+	display: none;
+}
+.coop .offset .list {
+	overflow: hidden;
+	text-align: center;
+}
+.coop .offset .list > li {
+	float: left;
+	width: 25%;
+}
+.coop .offset .list > li .pic img {
+	width: 100%;
+}
+.coop .offset .list > li:nth-child(4n+1) {
+	clear: both;
+}
+ @media (max-width: 1024px) {
+.coop .hz {
+	display: none;
+}
+.coop .offset {
+	display: block;
+}
+}
+ @media (max-width: 750px) {
+.coop .offset .list > li {
+	width: 33.33%;
+}
+.coop .offset .list > li:nth-child(n) {
+	clear: none;
+}
+.coop .offset .list > li:nth-child(3n+1) {
+	clear: both;
+}
+}
+ @media (max-width: 600px) {
+.coop .offset .list > li {
+	width: 50%;
+}
+.coop .offset .list > li:nth-child(n) {
+	clear: none;
+}
+.coop .offset .list > li:nth-child(2n+1) {
+	clear: both;
+}
+}
+</style>
+	<script>
+		$(function () {
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="static/css/freedom.css">
+	</head>
+	<body>
+<div class="g_header">
+  <div class="top">
+    <div class="g_cw">
+      <p class="logo"><a href=""><img src="static/picture/798f8af102bfaebc6ad1f61e065d6773.png"></a></p>
+      <div class="right">
+        <p class="tel"><span class="ico"><img src="static/picture/ico_phone.svg" style="height:18px;"></span>咨询热线：<em class="h1">020-88888888</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="bar"> <a href="" class="logo"><img src="static/picture/798f8af102bfaebc6ad1f61e065d6773.png"> </a> <a href="#" class="menu"><img src="static/picture/menu.svg"></a> </div>
+  <div class="nav">
+    <div class="g_cw">
+      <ul class="list">
+        <li><a href="" class="on"><b>网站首页</b></a></li>
+                <li><a href="chanpinzhongxin.html" class=""><b>产品中心</b></a></li>
+                <li><a href="fuwuxiangmu.html" class=""><b>服务项目</b></a></li>
+                <li><a href="guanyuwomen.html" class=""><b>关于我们</b></a></li>
+                <li><a href="zaixianliuyan.html" class=""><b>在线留言</b></a></li>
+                <li><a href="lianxiwomen.html" class=""><b>联系我们</b></a></li>
+              </ul>
+      <div class="search"> 
+              <form method="get" action="/6902/index.php?m=home&c=Search&a=lists&lang=cn" name="serch" id="serch">
+          <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">          <input type="text" name="keywords" placeholder="请输入产品关键字" class="input_1">
+          <span class="ico" onclick="javascript:$('#serch').submit();"><img src="static/picture/ico_fdj.svg"></span>
+          
+        </form>
+         
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="banners-pc">       <div class="frame" style="background-image:url(static/image/17de788421d1ef62182e214da9240dcd.jpg);"></div>
+            <div class="frame" style="background-image:url(static/image/321fd8f88878139d7b6f165cab497923.jpg);"></div>
+       </div>
+<div class="banners-mb" zoom-width="1024" zoom-heigh="700">       <div class="frame" style="background-image:url(static/image/382d3bec24d0f0f544ce5fcb7a8c34ff.jpg);"></div>
+            <div class="frame" style="background-image:url(static/image/0a32791a90b92844bef6e967927b7894.jpg);"></div>
+       </div>
+<script>
+		(function () {
+			$('.banners-pc, .banners-mb').slick({ arrows: true, dots: true, slidesToShow: 1, slidesToScroll: 1, autoplay: true, autoplaySpeed: 5000, speed: 500 });
+		})();
+	</script> 
+
+<!--主体内容-->
+
+<div class="main1">       <div class="g_cw">
+    <div class="g_title">
+          <p class="l1">产品中心</p>
+          <p class="l2">Products CenterProducts Center</p>
+          <p class="l3 clearfix"> <em class="left"></em> </p>
+        </div>
+    <div class="offset">
+          <ul class="list">
+                <li> <a href="10.html" class="box">
+          <p class="pic"><img src="static/picture/9c7acf6d47149b743e7c4d69c3d53770.jpg"></p>
+          <p class="p1">软件</p>
+          </a> </li>
+                <li> <a href="9.html" class="box">
+          <p class="pic"><img src="static/picture/9c7acf6d47149b743e7c4d69c3d53770.jpg"></p>
+          <p class="p1">多材料3D打印a</p>
+          </a> </li>
+                <li> <a href="8.html" class="box">
+          <p class="pic"><img src="static/picture/51da5279a92a101c7d51fff2ec8f40d5.jpg"></p>
+          <p class="p1">多材料3D打印b</p>
+          </a> </li>
+                <li> <a href="7.html" class="box">
+          <p class="pic"><img src="static/picture/09a134600da2e96c7ec1e78c8b6af70c.jpg"></p>
+          <p class="p1">EVO-X3a-copy</p>
+          </a> </li>
+                <li> <a href="6.html" class="box">
+          <p class="pic"><img src="static/picture/d542b995494de40c13bfe9b6d8562083.jpg"></p>
+          <p class="p1">galeria8</p>
+          </a> </li>
+                <li> <a href="5.html" class="box">
+          <p class="pic"><img src="static/picture/51da5279a92a101c7d51fff2ec8f40d5.jpg"></p>
+          <p class="p1">EVO- X柔性三坐标关节臂</p>
+          </a> </li>
+                <li> <a href="4.html" class="box">
+          <p class="pic"><img src="static/picture/9c7acf6d47149b743e7c4d69c3d53770.jpg"></p>
+          <p class="p1">NiceScan3D蓝光三维扫描仪</p>
+          </a> </li>
+                <li> <a href="3.html" class="box">
+          <p class="pic"><img src="static/picture/09a134600da2e96c7ec1e78c8b6af70c.jpg"></p>
+          <p class="p1">EVO- X柔性三坐标关节臂</p>
+          </a> </li>
+              </ul>
+        </div>
+  </div>
+       </div>
+<div class="main2">       <div class="g_cw">
+    <div class="g_title">
+          <p class="l1">服务项目</p>
+          <p class="l2">Service project</p>
+          <p class="l3 clearfix"> <em class="left"></em> </p>
+        </div>
+    <div class="offset">
+          <ul class="list">
+                <li> <a href="3ddayinjishuyingyongpeixun.html" class="box">
+          <p class="pic"><img src="static/picture/8d37aefadb2b5f898ddd11e1ab864e44.jpg"></p>
+          <div class="font"> <span class="s1">3D打印技术应用培训</span> <span class="line"></span> <span class="s2">3D打印技术应用培训</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+                <li> <a href="kuaisumoju.html" class="box">
+          <p class="pic"><img src="static/picture/cbd0e50fd2f5076da0d783353252dc68.jpg"></p>
+          <div class="font"> <span class="s1">快速模具</span> <span class="line"></span> <span class="s2">快速模具</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+                <li> <a href="jiguangnadiao.html" class="box">
+          <p class="pic"><img src="static/picture/157e4d973c9b42f5cbaa8a6f2df78042.jpg"></p>
+          <div class="font"> <span class="s1">激光内雕</span> <span class="line"></span> <span class="s2">激光内雕</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+                <li> <a href="cncjiagong.html" class="box">
+          <p class="pic"><img src="static/picture/b6a41f38595f40c230fbe088d4557ec4.jpg"></p>
+          <div class="font"> <span class="s1">CNC加工</span> <span class="line"></span> <span class="s2">CNC加工</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+                <li> <a href="gongyesheji_nixiangsheji.html" class="box">
+          <p class="pic"><img src="static/picture/6802cc563f7b1c02bb377adf79821988.jpg"></p>
+          <div class="font"> <span class="s1">工业设计、逆向设计</span> <span class="line"></span> <span class="s2">工业设计、逆向设计</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+                <li> <a href="slachanpinjiagong.html" class="box">
+          <p class="pic"><img src="static/picture/a704dbd01c01097ce09f836d2273f363.jpg"></p>
+          <div class="font"> <span class="s1">SLA产品加工</span> <span class="line"></span> <span class="s2">SLA产品加工</span> <span class="gd">查看详情</span> </div>
+          </a> </li>
+              </ul>
+        </div>
+  </div>
+       </div>
+<div class="about">
+      <div class="g_cw">
+    <div class="left">
+          <p class="title">ABOUT <span class="line"></span></p>
+          <p class="p1">        核心价值观：诚信、创新、服务企业核心： 诚信&nbsp;企业精神： 团结拼搏、开拓求实、满足用户、科技进步。&nbsp;客户：为客户提供高质量和最大价值的专业化产品和服务，以真诚和实力赢得客户的理解、尊重和支持。市场：为客户降低采购成本和风险，为客户投资提供切实保障。&...
+        </p>
+          <a href="guanyuwomen.html" class="more">| 了解更多 |</a> </div>
+    <div class="right"><img src="static/picture/8bfd0191e1d7e60807c03c48e18dacf2.jpg" class="g_imgf"></div>
+  </div>
+    </div>
+<div class="coop">       <div class="g_cw">
+    <div class="g_title">
+          <p class="l1">合作伙伴</p>
+          <p class="l2">cooperative enterprise</p>
+          <p class="l3 clearfix"> <em class="left"></em> </p>
+        </div>
+    <div class="hz">
+          <ul class="list">
+                <li>
+              <p class="pic"><img src="static/picture/101d5315d0e0dd1c7feb71e449e7b783.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/b293214cae2f772a27d0dcb5d7e1df98.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/f81e792ef4b60ffdbdf90dcbf2f0aae9.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/b9d99caf071bf82ae2a29fad584b09f9.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/d2ae99e810f4adb4cda4641655793ad0.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/2107d3540e7748e77c266cc295ea8d70.png"></p>
+            </li>
+              </ul>
+          <ul class="list2">
+                <li>
+              <p class="pic"><img src="static/picture/3508706eee1f8a13f400088649cab66b.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/c8ef65db962063ab5aa9f1ef46d8f068.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/101d5315d0e0dd1c7feb71e449e7b783.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/abd02f39ba9195f2bfeb6bb77ba322fb.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/fc2a681b19935e15b0f415f3864b71e1.png"></p>
+            </li>
+              </ul>
+        </div>
+    <div class="offset">
+          <ul class="list">
+                <li>
+              <p class="pic"><img src="static/picture/101d5315d0e0dd1c7feb71e449e7b783.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/b293214cae2f772a27d0dcb5d7e1df98.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/f81e792ef4b60ffdbdf90dcbf2f0aae9.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/b9d99caf071bf82ae2a29fad584b09f9.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/d2ae99e810f4adb4cda4641655793ad0.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/2107d3540e7748e77c266cc295ea8d70.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/3508706eee1f8a13f400088649cab66b.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/c8ef65db962063ab5aa9f1ef46d8f068.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/101d5315d0e0dd1c7feb71e449e7b783.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/abd02f39ba9195f2bfeb6bb77ba322fb.png"></p>
+            </li>
+                <li>
+              <p class="pic"><img src="static/picture/fc2a681b19935e15b0f415f3864b71e1.png"></p>
+            </li>
+              </ul>
+        </div>
+  </div>
+       </div>
+
+<!--主体内容 end--> 
+
+<div class="g_footer">   <div class="top">
+    <div class="g_cw">
+      <div class="left">
+        <p class="title">CONTACT <span class="line"></span></p>
+        <p class="p1"> 感谢您来到某某制造有限公司，若您有合作意向，请您使用 以下方式联系我们我们将尽快给你回复，并为您提供最真诚的设计服务，谢谢！</p>
+        <div class="lx">
+          <p class="s1"><img src="static/picture/ico_phone2.svg" style="height:23px;"> 020-88888888</p>
+          <p class="s1"><img src="static/picture/ico_youxiang.svg" style="height:23px;"> admin@youweb.com</p>
+          <p class="s1"><img src="static/picture/ico_address.svg" style="height:23px;"> 江西省南昌市</p>
+        </div>
+      </div>
+      <div class="right"><img src="static/picture/2db368960d98e628e59b5a29c721541c.png" class="g_imgf"></div>
+    </div>
+  </div>
+    <div class="bottom">
+   <ul class="link tc">
+            <li>友情链接 :</li>
+                        <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                        <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                        <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                        <li><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+                        <li><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+                      </ul>
+    <p>Copyright © 2012-2023 某某公司 版权所有</p>
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

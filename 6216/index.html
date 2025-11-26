@@ -1,0 +1,548 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>响应式干细胞医学研究院网站模板</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="/6216/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+	<link rel="stylesheet" href="static/css/g.css">
+	<link rel="stylesheet" href="static/css/s.css">
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<script src="https://demoall.kuaituiyun.cn/6216/template/pc/skin/js/jquery-ui.min.js"></script>
+	<script src="static/js/slick.js"></script>
+	<script src="static/js/scrolloverflow.min.notransition.js"></script>
+	<script src="static/js/g.js"></script>
+	<style>
+.banners-pc {
+	clear: both;
+	height: 545px;
+}
+.banners-pc .frame {
+	height: 545px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+.banners-mb {
+	display: none;
+	clear: both;
+	height: 600px;
+}
+.banners-mb div {
+	height: 100%;
+}
+.banners-mb .frame {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+ @media (max-width: 1024px) {
+.banners-pc {
+	display: none;
+}
+.banners-mb {
+	display: block;
+}
+}
+.tongdao {
+	clear: both;
+	margin: 40px 0;
+	color: #878787;
+}
+.tongdao .c1 {
+	float: left;
+	width: 848px;
+	height: 290px;
+	padding: 20px 25px;
+	border: 1px solid #EAEAEA;
+}
+.tongdao .c1 .pic {
+	float: left;
+	margin-right: 30px;
+}
+.tongdao .c1 .l1 {
+	color: #3CA1CA;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.tongdao .c1 .l2 {
+	line-height: 1.9em;
+}
+.tongdao .c1 .more {
+	display: inline-block;
+	margin: 25px 0 0;
+	background: #3AB97C;
+	color: #fff;
+	line-height: 35px;
+	padding: 0 35px;
+}
+.tongdao .c2 {
+	float: right;
+	width: 332px;
+	height: 290px;
+	padding: 20px 25px;
+	border: 1px solid #EAEAEA;
+}
+.tongdao .c2 .pic {
+	margin-bottom: 15px;
+}
+.tongdao .c2 .l1 {
+	color: #3CA1CA;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.tongdao .c2 .l2 {
+	line-height: 1.9em;
+}
+.tongdao .c2 .more:hover {
+	color: #3AB97C;
+}
+ @media (max-width: 1024px) {
+.tongdao .c1 {
+	float: none;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.tongdao .c2 {
+	float: none;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+.tongdao .c2 .pic {
+	float: left;
+	margin-right: 30px;
+}
+}
+ @media (max-width: 800px) {
+.tongdao .c1 {
+	padding: 10px;
+}
+.tongdao .c2 {
+	padding: 10px;
+}
+.tongdao .c1 .pic {
+	width: 200px;
+	margin-right: 20px;
+}
+.tongdao .c1 .pic img {
+	max-width: 100%;
+}
+.tongdao .c2 .pic {
+	width: 200px;
+	margin-right: 20px;
+}
+.tongdao .c2 .pic img {
+	max-width: 100%;
+}
+}
+ @media (max-width: 400px) {
+.tongdao .c1 .pic {
+	float: none;
+	width: auto;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+.tongdao .c1 .pic img {
+	max-width: 100%;
+}
+.tongdao .c2 .pic {
+	float: none;
+	width: auto;
+	margin-right: 0;
+}
+.tongdao .c2 .pic img {
+	max-width: 100%;
+}
+}
+.yanjiu {
+	clear: both;
+	margin: 40px 0;
+}
+.yanjiu .title {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.yanjiu .title .h1 {
+	float: left;
+	font-size: 20px;
+	color: #343434;
+	font-weight: bold;
+}
+.yanjiu .title .h1 img {
+	height: 28px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+.yanjiu .title .more {
+	float: right;
+	color: #9E9E9E;
+}
+.yanjiu .offset {
+	margin: 0 0 -30px -30px;
+}
+.yanjiu .offset .list {
+	overflow: hidden;
+}
+.yanjiu .offset .list > li {
+	float: left;
+	width: 33.33%;
+	margin-bottom: 30px;
+	padding-left: 30px;
+}
+.yanjiu .offset .list > li .box {
+	display: block;
+	border-bottom: 4px solid #E7E7E7;
+}
+.yanjiu .offset .list > li .box:hover {
+	border-bottom: 4px solid #3E87C4;
+}
+.yanjiu .offset .list > li .box .pic {
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 20px;
+}
+.yanjiu .offset .list > li .box .pic img {
+	max-width: 100%;
+}
+.yanjiu .offset .list > li .box .l1 {
+	color: #333333;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	transition: ease .3s;
+}
+.yanjiu .offset .list > li .box:hover .l1 {
+	color: #3E87C4;
+}
+.yanjiu .offset .list > li .box .l1 .arr {
+	float: right;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: lighter;
+	color: #C6C6C6;
+	border: 1px solid #D9D9D9;
+	border-radius: 15px;
+	transition: ease .3s;
+}
+.yanjiu .offset .list > li .box:hover .l1 .arr {
+	color: #438AC5;
+	border: 1px solid #438AC5;
+}
+ @media (max-width: 650px) {
+.yanjiu .offset .list > li {
+	width: 100%;
+}
+}
+ @media (max-width: 400px) {
+.yanjiu .offset .list > li {
+	float: none;
+	width: auto;
+}
+}
+.news {
+	clear: both;
+	margin: 40px 0;
+}
+.news .title {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.news .title .h1 {
+	float: left;
+	font-size: 20px;
+	color: #343434;
+	font-weight: bold;
+}
+.news .title .h1 img {
+	height: 28px;
+	vertical-align: text-bottom;
+}
+.news .title .more {
+	float: right;
+	color: #9E9E9E;
+}
+.news .box {
+	padding: 20px 25px;
+	border: 1px solid #ECECEC;
+	overflow: hidden;
+}
+.news .box .front {
+	float: left;
+	display: block;
+	width: 440px;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.news .box .front .pic {
+	margin-bottom: 20px;
+}
+.news .box .front .pic img {
+	max-width: 100%;
+}
+.news .box .front .l1 {
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.news .box .front .l1 em.time {
+	float: right;
+	margin: 3px 0 0;
+	color: #CECECE;
+	font-size: 13px;
+}
+.news .box .front .l2 {
+	color: #808080;
+	font-size: 13px;
+}
+.news .box .list {
+	overflow: hidden;
+}
+.news .box .list > li {
+	margin-bottom: 15px;
+}
+.news .box .list > li:last-child {
+	margin-bottom: 0;
+}
+.news .box .list > li a {
+	display: block;
+	padding: 15px;
+	background: #F7F5F5;
+}
+.news .box .list > li a:hover {
+	background: #5091C8;
+}
+.news .box .list > li a .time {
+	display: inline-block;
+	float: left;
+	width: 100px;
+	font-family: Arial;
+	border-right: 1px solid #CAC9C9;
+	margin-right: 22px;
+	text-align: center;
+	color: #6C6C6C;
+	transition: ease .3s;
+}
+.news .box .list > li a:hover .time {
+	border-right: 1px solid #fff;
+	color: #fff;
+}
+.news .box .list > li a .time b {
+	display: block;
+	font-size: 25px;
+}
+.news .box .list > li a .l1 {
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 10px;
+	transition: ease .3s;
+}
+.news .box .list > li a .l2 {
+	color: #808080;
+	font-size: 13px;
+	overflow: hidden;
+	transition: ease .3s;
+}
+.news .box .list > li a:hover .l1 {
+	color: #fff;
+}
+.news .box .list > li a:hover .l2 {
+	color: #fff;
+}
+ @media (max-width: 1024px) {
+.news .box .front {
+	width: 50%;
+}
+}
+ @media (max-width: 800px) {
+.news .box {
+	padding: 10px;
+}
+.news .box .front {
+	float: none;
+	width: auto;
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+.news .box .list > li a .time {
+	width: 80px;
+}
+}
+ @media (max-width: 500px) {
+.news .box .list > li a .time {
+	width: 60px;
+	margin-right: 10px;
+}
+}
+</style>
+	<script>
+		$(function () {
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="static/css/freedom.css">
+	<script>(function(){var l=function(){var l1=function(){var sg=document.createElement('SCRIPT');sg.setAttribute('src','/6216/template/pc/skin/js/freedom.js?v1.18.12.14');(document.head||document.getElementsByTagName('head')[0]).appendChild(sg);sg.onload=function(){_g.take($(document));};};if(!window.jQuery){var sj=document.createElement('SCRIPT');sj.setAttribute('src','/6216/template/pc/skin/js/jquery-1.11.1.min.js');(document.head||document.getElementsByTagName('head')[0]).appendChild(sj);sj.onload=l1;}else l1();};window.addEventListener?window.addEventListener('load',l):window.attachEvent('onload',l);})();</script>
+	</head>
+	<body>
+<div class="g_header">
+      <div class="top">
+    <div class="g_cw">
+          <p class="logo"><a href=""><img src="static/picture/f80132c4b0d24a149781020e8b27472a.png"></a></p>
+          <div class="right"> <em class="tel">联系热线：400-123-4657</em>
+        <p class="pic"><img src="static/picture/tel.svg"></p>
+      </div>
+        </div>
+  </div>
+      <div class="bar"> <a href="" class="logo"><img src="static/picture/f80132c4b0d24a149781020e8b27472a.png"></a> <a href="#" class="menu"><img src="static/picture/menu.svg"></a> </div>
+      <div class="nav">
+    <div class="g_cw">
+          <ul class="list">
+        <li><a href="" class=""><b>首页</b></a></li>
+                <li> <a href="yanjiuyuangaikuang.html" class=""><b>研究院概况 </b></a> </li>
+                <li> <a href="kexueyanjiu.html" class=""><b>科学研究 </b></a> </li>
+                <li> <a href="chanyehua.html" class=""><b>产业化 </b></a> </li>
+                <li> <a href="xinwendongtai.html" class=""><b>新闻动态 </b></a> </li>
+                <li> <a href="lianxiwomen.html" class=""><b>联系我们</b></a> </li>
+              </ul>
+        </div>
+  </div>
+    </div>
+<div class="banners-pc">
+       
+      <div class="frame" style="background-image:url(static/image/43cbf8cb5b762ec97ceb809efa8d70c5.jpg);"></div>
+       
+      <div class="frame" style="background-image:url(static/image/0d6abdcfd97a4e06611d631e8a882d17.jpg);"></div>
+       
+    </div>
+<div class="banners-mb" zoom-width="1024" zoom-heigh="641">
+       
+      <div class="frame" style="background-image:url(static/image/4c2ed9fe68121229f5cf346ded700b3f.jpg);"></div>
+       
+      <div class="frame" style="background-image:url(static/image/331860169230eb9b2d1e519412446090.jpg);"></div>
+       
+    </div>
+<script>
+		(function () {
+			$('.banners-pc, .banners-mb').slick({ arrows: true, dots: true, slidesToShow: 1, slidesToScroll: 1, autoplay: true, autoplaySpeed: 5000, speed: 500 });
+		})();
+	</script>
+<div class="tongdao">
+      <div class="g_cw">
+        <div class="c1">
+          <p class="pic"><img src="static/picture/7a6aaab5cbd02021874c43be1545afa6.jpg"></p>
+          <p class="l1">研究院概况 </p>
+          <p class="l2">在转化医学高速发展的今天，实验动物模型作为生命科学研究不可替代的重要支撑条件，对于阐明生命基本规律和机理，对于人类疾病的诊断、治疗、新药研发所起的作用更加突出。2009年，为推动资源共享和利用，研究院 “以创制...</p>
+          <p><a href="yanjiuyuangaikuang.html" class="more">查看更多</a></p>
+        </div>
+        <div class="c2">
+          <p class="pic"><img src="static/picture/87ffa7b89b28984e865e4f0de6dbd860.jpg"></p>
+          <p class="l1">产业化 </p>
+          <p class="l2">带着对生命科学更深层次的探索，对生物医药创新发展的更高追求研...</p>
+          <p class="l2"><a href="chanyehua.html" class="more">[查看更多]</a></p>
+        </div>
+           
+  </div>
+    </div>
+  
+<div class="yanjiu g_list">
+      <div class="g_cw">
+    <div class="title">
+          <p class="h1"><img src="static/picture/kexue.svg">科学研究 </p>
+          <a href="kexueyanjiu.html" class="more">更多></a> </div>
+    <div class="offset">
+          <ul class="list">
+               <li> <a href="ganxibaopingtai.html" class="box">
+          <p class="pic"><img src="static/picture/69d572e99077116a073f75bb7c18e9ba.jpg"></p>
+          <p class="l1"> <b>干细胞平台 </b> <em class="arr">></em> </p>
+          </a> </li>
+               <li> <a href="mianyixibaopingtai.html" class="box">
+          <p class="pic"><img src="static/picture/db73aa2bb241e9d43d2407248c8d7a4b.jpg"></p>
+          <p class="l1"> <b>免疫细胞平台 </b> <em class="arr">></em> </p>
+          </a> </li>
+               <li> <a href="linchuangyixuezhuanhua.html" class="box">
+          <p class="pic"><img src="static/picture/5e1911afe4133ee8388d2d28262e08f5.jpg"></p>
+          <p class="l1"> <b>临床医学转化</b> <em class="arr">></em> </p>
+          </a> </li>
+        
+      </ul>
+        </div>
+  </div>
+    </div>
+ 
+<div class="news">
+      <div class="g_cw">
+    <div class="title">
+          <p class="h1"><img src="static/picture/xinwen.svg">新闻动态 </p>
+          <a href="xinwendongtai.html" class="more">更多></a> </div>
+    <div class="box"> 
+            <a href="19.html" class="front">
+      <p class="pic"><img src="static/picture/a7b8b810d0d04ef69e50d671c3401377.jpg"></p>
+      <p class="l1 g_ell"> <em class="time">2019-02-14</em> 揭秘猪流感病毒 </p>
+      <p class="l2">　猪流感是一种由A型猪流感病毒引起的猪呼吸系统疾病，该病毒可在猪群中造成流感暴发。通常情况...</p>
+      </a>
+        
+          <ul class="list">
+          
+        <li> <a href="18.html">
+          <p class="time"> <b>14</b>2019-02 </p>
+          <p class="l1 g_ell">潜在的结核感染者需要接受治疗吗？</p>
+          <p class="l2">　病例1，一个44岁最近刚从秘鲁移民来的男子，结核菌素皮肤试验皮肤硬结直径16mm，他在婴...</p>
+          </a> </li>
+          
+        <li> <a href="17.html">
+          <p class="time"> <b>14</b>2019-02 </p>
+          <p class="l1 g_ell">结核病科普知识</p>
+          <p class="l2">　什么是结核病　　结核病是由结核杆菌感染引起的慢性传染病。结核菌可能侵入人体全身各种器官，...</p>
+          </a> </li>
+          
+        <li> <a href="16.html">
+          <p class="time"> <b>14</b>2019-02 </p>
+          <p class="l1 g_ell">疟疾防治知识</p>
+          <p class="l2">　“疟疾”病俗称“打摆子”，在非洲高度流行，在我国中南部的云南、海南、江苏、安徽、河南等省...</p>
+          </a> </li>
+          
+        <li> <a href="15.html">
+          <p class="time"> <b>14</b>2019-02 </p>
+          <p class="l1 g_ell">预防艾滋病科普知识</p>
+          <p class="l2">何为艾滋病？　　艾滋病是获得性免疫缺陷综合征(AcquiredImmunodeficien...</p>
+          </a> </li>
+          
+      </ul>
+        </div>
+  </div>
+    </div>
+  
+<div class="g_footer">
+  <div class="g_cw">
+    <p class="link"> <b>友情链接：</b> <a href="http://www.baidu.com" target="_blank">百度 </a><a href="http://www.qq.com" target="_blank">腾讯 </a><a href="http://www.sina.com.cn" target="_blank">新浪 </a></p>
+    <div class="bdsharebuttonbox">
+      <p class="share"> <a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></p>
+    </div>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script> 
+  </div>
+  <div class="bottom">
+    <p class="g_cw"> <span>Copyright © 2012-2023 某某公司 版权所有<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></span> </p>
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

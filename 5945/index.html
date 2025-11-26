@@ -1,0 +1,804 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>响应式精密仪器制造网站模板</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/5945/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/5945/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/5945/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/5945/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/5945/template/pc/skin/js/respond.min.js"></script>
+      <script src="/5945/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<script type="text/javascript" src="static/js/ajax-url.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body"> <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="col-logo">
+        <div class="w-logo">
+          <h1 style="display:none;"><a href=""></a></h1>
+          <a href="" class="w-logo-img"> <img src="static/picture/18044042432eaa46e1cd245932d18597.png"> </a> </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="menu-tel">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix">
+                <li class="active"><a href="">网站首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们<i class="fa fa-plus"></i> </a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="gongsijianjie.html">公司简介</a></li>
+                                            <li><a href="zuzhijiagou.html">组织架构</a></li>
+                                            <li><a href="gongsirongyu.html">公司荣誉</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zixunzhongxin.html">资讯中心<i class="fa fa-plus"></i> </a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                            <li><a href="xingyedongtai.html">行业动态</a></li>
+                                            <li><a href="meitibaodao.html">媒体报道</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i> </a></div>
+                  <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                            <li><a href="cehuiyiqizhuanqu.html">测绘仪器专区</a></li>
+                                            <li><a href="sanzuobiaoceliangji.html">三坐标测量机</a></li>
+                                            <li><a href="zhiyangshebei.html">制样设备</a></li>
+                                            <li><a href="xianweijing.html">显微镜</a></li>
+                                          </ul>
+                  </div>
+                   </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="renliziyuan.html">人力资源 </a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                  <i class="nav_simpline_cur"></i>  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="topLogBox">
+          <div class="topLogBox-in">
+            <div class="col-com"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-container bannerBox ">
+    <div class="banner">
+      <ul class="bxslider">
+                <li> <img src="static/picture/631e4133de74cb67b54ab649572d3d57.jpg" alt="首页幻灯2" title="首页幻灯2" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </li>
+                <li> <img src="static/picture/4b559ce552fba331b625dddca4f2c65f.jpg" alt="首页幻灯1" title="首页幻灯1" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </li>
+              </ul>
+      <script src="static/js/jquery.bxslider.js"></script>
+      <link rel="stylesheet" href="static/css/jquery.bxslider.css">
+      <script type="text/javascript">
+            var scale = '';
+            var speed = 500;
+            var pause = 5;
+            $(function () {
+                $('.banner>ul').bxSlider({
+                    mode: 'fade', /*滚动方式 fade、vertical、horizontal */
+                    auto: true, /*自动滚动*/
+                    autoControls: false, /*自动滚动按钮*/
+                    infiniteLoop: true, /*循环滚动*/
+                    hideControlOnEnd: true, /*无效按钮隐藏*/
+                    adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+                    minSlides: 1,
+                    maxSlides: 2,
+                    scale: scale,
+                    speed: speed,
+                    pause: pause * 1000
+                });
+            });
+        </script> 
+    </div>
+  </section>
+  <div class="menu-pc">
+    <div class="menu-pc-in clearfix">
+      <div class="column column3">
+        <div class="col-logo">
+          <div class="w-logo">
+            <h1 style="display:none;"><a href=""></a></h1>
+            <a href="" class="w-logo-img"> <img src="static/picture/18044042432eaa46e1cd245932d18597.png"> </a> </div>
+        </div>
+      </div>
+      <div class="column column9 clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li class="active"><a href="">网站首页</a><i class="nav_simpline_cur"></i></li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="gongsijianjie.html">公司简介</a></li>
+                                        <li><a href="zuzhijiagou.html">组织架构</a></li>
+                                        <li><a href="gongsirongyu.html">公司荣誉</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="zixunzhongxin.html">资讯中心<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="gongsixinwen.html">公司新闻</a></li>
+                                        <li><a href="xingyedongtai.html">行业动态</a></li>
+                                        <li><a href="meitibaodao.html">媒体报道</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhongxin.html">产品中心<i class="fa fa-plus"></i> </a></div>
+                <i class="nav_simpline_cur"></i>                 <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                        <li><a href="cehuiyiqizhuanqu.html">测绘仪器专区</a></li>
+                                        <li><a href="sanzuobiaoceliangji.html">三坐标测量机</a></li>
+                                        <li><a href="zhiyangshebei.html">制样设备</a></li>
+                                        <li><a href="xianweijing.html">显微镜</a></li>
+                                      </ul>
+                </div>
+                 </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="renliziyuan.html">人力资源 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <li class="">
+                <div class="li-parent-div li-parentOne-div"><a href="lianxiwomen.html">联系我们 </a></div>
+                <i class="nav_simpline_cur"></i>  </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container w-main">
+    <div class="w-section pdTop-default pdBottom-default">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:60px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">业务服务</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">创建技术与服务至上的共享协作服务平台，为国内外客户提供仪器、仪表灯技术方面市场化服务。 </span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:55px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>                     <td class="td-w" width="33.333333333333336%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatNone" data-animate="fadeInUp" style="cursor:pointer;">
+                            <div class="image-w"> <a title="" href="chanpinzhongxin.html">
+                              <div class="imgScaleBig">
+                                <div class="img"> <img src="static/picture/74a41b9d3354be20e788bf0277489978.jpg"> </div>
+                              </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:25px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                            <div style="font-size:128%; line-height:2; border-bottom:1px solid #E1E1E1; margin-bottom:5px;">产品中心</div>
+                            <div style="line-height:2;">企业对现有产品与世界技术进行整合，使产品的设计、品质以及做工均达到世界水平。</div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-simImg" data-animate="fadeInUp" style="cursor:pointer;text-align:right;">
+                            <div class="image-w"> <a title="" style="" href="chanpinzhongxin.html">
+                              <div class="img"> <img src="static/picture/be20e859bafbbcd6980c916d1c6de30c.png"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                                        <td class="td-w" width="33.333333333333336%"><div class="div-padding">                         <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatNone" data-animate="fadeInUp" style="cursor:pointer;">
+                            <div class="image-w"> <a title="" href="zixunzhongxin.html">
+                              <div class="imgScaleBig">
+                                <div class="img"> <img src="static/picture/682beb1a05f85e3f07b165abe337e6bd.jpg"> </div>
+                              </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:25px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                            <div style="font-size:128%; line-height:2; border-bottom:1px solid #E1E1E1; margin-bottom:5px;">资讯中心</div>
+                            <div style="line-height:2;">企业对资讯内容进行汇聚，让您第一时间了解企业的企业新闻、行业新闻、专题报道。</div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-simImg" data-animate="fadeInUp" style="cursor:pointer;text-align:right;">
+                            <div class="image-w"> <a title="" style="" href="zixunzhongxin.html">
+                              <div class="img"> <img src="static/picture/be20e859bafbbcd6980c916d1c6de30c.png"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div>
+                       </td>
+                                        <td class="td-w" width="33.333333333333336%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-simImg imgFloatNone" data-animate="fadeInUp" style="cursor:pointer;">
+                            <div class="image-w"> <a title="" href="guanyuwomen.html">
+                              <div class="imgScaleBig">
+                                <div class="img"> <img src="static/picture/a29e94378c9ada0bfc8225af7667c258.jpg"> </div>
+                              </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:25px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                            <div style="font-size:128%; line-height:2; border-bottom:1px solid #E1E1E1; margin-bottom:5px;">关于我们</div>
+                            <div style="line-height:2;">企业对人才求贤若渴，企业拥有非常完善的用人理念及用人环境，公平的提升平台让你在企业获得价值体现。</div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-simImg" data-animate="fadeInUp" style="cursor:pointer;text-align:right;">
+                            <div class="image-w"> <a title="" style="" href="guanyuwomen.html">
+                              <div class="img"> <img src="static/picture/be20e859bafbbcd6980c916d1c6de30c.png"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                     </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:55px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-section pdTop-default pdBottom-default" style="background:url(static/image/59005502a8bc0.jpg) no-repeat center;">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-small pdBottom-small">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:70px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+                    <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="52.25835536553608%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInLeft" style="">
+                            <style type="text/css">
+												.font36{ font-size:36px;}
+												@media (max-width:767px){
+													.font36{ font-size:150%;}
+												}												
+</style>
+                            <div class="font36" style="margin-bottom:0.5em;">关于我们</div>
+                            <div>                              某某仪器设备有限公司经国务院批准创建于1978年，是国内专营教学科研仪器设备的龙头企业，是教学仪器行业内唯一的国家队。公司是世界教具联合会会员单位。公司拥有国家发改委、财政部、商务部、北京市颁发的中央投资项目招标资质、国际招标资质、政府采购招标代理甲级资质、医疗器械经营等多种业务资质，是教育系统唯一具备国际、国内招标资质的企业。近40年来，公司以经营教学科研仪器设备和软件为主体，以全方位服务为基础，为众多国家重点项目、国内重点大学、国家级重点实验室以及国内外各级各类院校提供了教学科研仪器设备、软件和整体解决方案，为我国教育装备事业的发展和学校教...
+                              </div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="fadeInLeft" style="">
+                            <style type="text/css">
+												.btn_me a{ display:inline-block; *display:inline; *zoom:1;padding:12px 45px; color:#fff;text-decoration:none;}
+												@media (max-width:480px){
+													.btn_me a{ padding:8px 30px;}
+												}
+</style>
+                            <div class="btn_me" style="margin-top:15px;"><a href="guanyuwomen.html" style="  background:#E6101A; margin-right:28px; color:#fff; ">查看详情</a>  <a href="lianxiwomen.html" style="  background:#003579; color:#fff;">联系我们</a></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="9.223121705094004%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="38.45528951505335%"><div class="div-padding">                         <div class="li-div">
+                          <div class="tel-hidden not-animated w-simImg" data-animate="fadeInRight" style="cursor:pointer;padding-bottom:20px;">
+                            <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                              <div class="img"> <img src="static/picture/f645628ccd371dfc339fe862c9b8a735.jpg"> </div>
+                              <div class="caption w-img-caption">
+                                <div class="captionbg"></div>
+                              </div>
+                              </a> </div>
+                          </div>
+                        </div>
+                                                <div class="li-div col-li-div">
+                          <div class="col-table">
+                            <table class="div-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="td-w" width="50%"><div class="div-padding">                                       <div class="li-div">
+                                        <div class="tel-hidden not-animated w-simImg" data-animate="fadeInRight" style="cursor:pointer;">
+                                          <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                                            <div class="img"> <img src="static/picture/93016f89ca6421a112b66d9f4001ca20.jpg"> </div>
+                                            <div class="caption w-img-caption">
+                                              <div class="captionbg"></div>
+                                            </div>
+                                            </a> </div>
+                                        </div>
+                                      </div>
+                                       </div></td>
+                                  <td class="td-w" width="50%"><div class="div-padding">                                       <div class="li-div">
+                                        <div class="tel-hidden not-animated w-simImg" data-animate="fadeInRight" style="cursor:pointer;">
+                                          <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                                            <div class="img"> <img src="static/picture/c73b7a6e85a46d8e76aedb3d75328e62.jpg"> </div>
+                                            <div class="caption w-img-caption">
+                                              <div class="captionbg"></div>
+                                            </div>
+                                            </a> </div>
+                                        </div>
+                                      </div>
+                                       </div></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+                    <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:57px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-default pdBottom-default">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:60px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">产品中心</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">企业对现有产品与世界技术进行整合，使产品的设计、品质以及做工均达到世界水平。</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:27px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <style type="text/css">
+    .w-productList1 .g-n4{ width:24.99%; *width:24.99%;}
+</style>
+          <div class="li-div">
+            <div class="not-animated w-productList w-productList1" data-animate="fadeInUp" style="">
+              <div class="w-productList-in clearfix">                 <div class="w-prd-list-cell g-n4">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="18.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/922b80add03992b7510e01dae65b589a.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="18.html">RTS-177</a></h2>
+                        <div class="w-prd-sum" style="">平台，用户可以非常方便的设置个性化的测量，满足不同行业，不同测量单位的生产需要。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-n4">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="17.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/85c0ace37832a2817aed6fde36b08014.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="17.html">RTS-851</a></h2>
+                        <div class="w-prd-sum" style="">平台，用户可以非常方便的设置个性化的测量，满足不同行业，不同测量单位的生产需要。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-n4">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="16.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/06c4500670934428359d2869c98c5839.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="16.html">RTS-545</a></h2>
+                        <div class="w-prd-sum" style="">平台，用户可以非常方便的设置个性化的测量，满足不同行业，不同测量单位的生产需要。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                                <div class="w-prd-list-cell g-n4">
+                  <div class="w-prd-list-cell-in">
+                    <div class="w-prd-con">
+                      <div class="w-prd-imgbox imgScaleBig"><a href="15.html" class="img-count w-prd-img">
+                        <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                        <div class="img-count-in"><img src="static/picture/e582952050110d2f6308d8471a19f139.jpg"></div>
+                        </a></div>
+                      <div class="w-prd-infobox" style="text-align:left;">
+                        <h2 class="w-prd-name" style=""><a href="15.html">RTS-895</a></h2>
+                        <div class="w-prd-sum" style="">平台，用户可以非常方便的设置个性化的测量，满足不同行业，不同测量单位的生产需要。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:45px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-button" data-animate="fadeInUp" style="text-align:center;padding-top:10px;">
+              <div class="btn-default-b btn-default-w btn-large-w g-click-to-link" onclick="window.open('/5945/chanpinzhongxin/','_self')"> <span class="btn-inner" style="">VIEW MORE</span> </div>
+              </div>
+          </div>
+          </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-default pdBottom-default">
+      <div class="row" style="max-width:100%;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-delimiters-hor" style="margin:9px auto;">
+              <hr class="delimiters" style="margin:0 auto;background-color:#f8f8f8;width:100%;height:1px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-default pdBottom-default">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="tel-hidden w-space space-b noChoose" style="height:23px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInDown" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">资讯中心</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">企业对资讯内容进行汇聚，让您第一时间了解企业的企业新闻、行业新闻、专题报道。</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:27px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+            <div class="not-animated w-adNews w-adNews2" data-animate="fadeInUp" style="">
+              <div class="w-adNews-in clearfix">
+                <ul>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="24.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/585d7c6d3dd23e7493ae170fb5cc61f2.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="date">2019-01-04</div>
+                          <div class="viewDetail"><a href="24.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="24.html" title="世界计量日！带你了解古代仪器的文化">世界计量日！带你了解古代仪器的文化</a></div>
+                        <div class="news-sum">其实要追溯，我们国家从2001年就已经展开了世界计...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="23.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/65d317f7f1e7a018d5397b88d9dd38b6.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="date">2019-01-04</div>
+                          <div class="viewDetail"><a href="23.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="23.html" title="我国分析仪器行业逐步走向高端">我国分析仪器行业逐步走向高端</a></div>
+                        <div class="news-sum">作为中国仪器仪表行业重要组成部分的分析仪器，在金融...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="22.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/bb5bc4edf962fb662e553878708182db.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="date">2019-01-04</div>
+                          <div class="viewDetail"><a href="22.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="22.html" title="仪器仪表行业整体上处于良性发展阶段">仪器仪表行业整体上处于良性发展阶段</a></div>
+                        <div class="news-sum">仪器仪表行业近几年来呈现出高速发展的态势。一份来自...</div>
+                      </div>
+                    </div>
+                  </li>
+                                    <li class="li-right">
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="21.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/585d7c6d3dd23e7493ae170fb5cc61f2.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="date">2019-01-04</div>
+                          <div class="viewDetail"><a href="21.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="21.html" title="国家节能环保政策促进仪器行业发展">国家节能环保政策促进仪器行业发展</a></div>
+                        <div class="news-sum">长沙开元仪器3月27日成功过会，公司拟发行不超过1...</div>
+                      </div>
+                    </div>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     </div>
+  <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content  ">
+       <ul class="link">
+        <span>友情链接 :</span>
+                <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                <li><a href="http://www.yiyongtong.com" target="_blank">小程序开发教程 </a></li>
+                <li><a href="http://www.sucai58.com" target="_blank">素材58 </a></li>
+              </ul>
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="w-container w-footer">
+  <div class="w-footer-section ">
+    <div class="w-footer-in">
+      <div class="foot-mask"></div>
+      <div class="w-foot-content  ">
+        <div class="li-div">
+          <div class="w-space space-b noChoose" style="height:20px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div style="text-align: center;">Copyright © 2012-2018 某某公司 版权所有<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">琼ICP备xxxxxxxx号</a><br>
+            </div>
+          </div>
+        </div>
+        <div class="li-div">
+          <div class="w-space space-b noChoose" style="height:20px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+ </div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>

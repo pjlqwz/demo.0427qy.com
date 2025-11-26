@@ -1,0 +1,735 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>响应式spa芳香理疗网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/1867/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery-1.11.3.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/1867/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/1867/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/1867/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/1867/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/1867/template/pc/skin/js/respond.min.js"></script>
+      <script src="/1867/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="topLogBox topLogBoxPc">
+    <div class="topLogBox-in">
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top clearfix">
+        <div class="column column3">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href=""></a></h1>
+              <a href="" class="w-logo-img"> <img src="static/picture/579977e8d3767acb60642ea7c10012bc.png"> </a> </div>
+          </div>
+        </div>
+        <div class="column column9 clearfix">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                                           <li><a href="meitibaodao.html">媒体报道</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="tiyanSPA.html">体验SPA </a></li>
+                                           <li><a href="jingyouSPA.html">精油SPA </a></li>
+                                           <li><a href="SPAshuiliao.html">SPA水疗</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="gongsixinwen.html">公司新闻 </a></li>
+                                         <li><a href="meitibaodao.html">媒体报道</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="chanpinzhanshi.html">产品展示 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="tiyanSPA.html">体验SPA </a></li>
+                                         <li><a href="jingyouSPA.html">精油SPA </a></li>
+                                         <li><a href="SPAshuiliao.html">SPA水疗</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式</a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in">
+            <div class="col-com"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    @media (max-width:767px){
+        .bannerBox{width:100%; margin-left:-0%;}
+    }
+</style>
+  <section class="w-container bannerBox ">
+    <div class="banner">
+      <ul class="bxslider">
+              <li><a href="" target="_self"> <img src="static/picture/5571ef8887daac78401aa2176b3f02c9.jpg" alt="幻灯二" title="" style=""> </a> </li>
+              <li><a href="" target="_self"> <img src="static/picture/5571ef8887daac78401aa2176b3f02c9.jpg" alt="幻灯一" title="" style=""> </a> </li>
+                            
+      </ul>
+      <script src="static/js/jquery.bxslider.js"></script>
+      <link rel="stylesheet" href="static/css/jquery.bxslider.css">
+      <script type="text/javascript">
+            var scale = '';
+            var speed = 500;
+            var pause = 5;
+            $(function () {
+                $('.bxslider').bxSlider({
+                    mode: 'fade', /*滚动方式 fade、vertical、horizontal */
+                    auto: true, /*自动滚动*/
+                    autoControls: false, /*自动滚动按钮*/
+                    infiniteLoop: true, /*循环滚动*/
+                    hideControlOnEnd: true, /*无效按钮隐藏*/
+                    adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+                    minSlides: 1,
+                    maxSlides: 2,
+                    scale: scale,
+                    speed: speed,
+                    pause: pause * 1000
+                });
+            });
+        </script> 
+    </div>
+  </section>
+  <div class="w-container w-main">
+      <div class="w-section pdTop-large pdBottom-default" style="background:url(static/image/d2095443b1819e73bce2c48dbc2fbdad.jpg) no-repeat center;" id="505059">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="not-animated w-title w-title16" data-animate="fadeInUp" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">产品展示 </h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">PRODUCTS</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <style type="text/css">
+    .w-productList2 .g-n3{ width:33.32%; *width:33.32%;}
+    @media (max-width:767px){
+        .w-productList2 .w-prd-list-cell{ width:50%;}
+    }
+</style>
+          <div class="li-div" data-comunique="n3">
+            <div class="not-animated w-productList w-productList2" data-animate="fadeInUp" style="text-align:center;" id="products-n3">
+              <div class="w-productList-in">
+                <div class="w-productList-inner clearfix">
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="15.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/3f749f8a34cf178bc1691388e6f380a5.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="15.html">产品名称七</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="14.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/e04c49e034b814e134ab7fbf07054e88.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="14.html">产品名称六</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="13.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/75400793df99896444f95897a5635610.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="13.html">产品名称五</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="12.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/66ce0098b9f82f434dfeadeb97c8b765.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="12.html">产品名称四</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="11.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/6bbf89a451b88d8701a74c48c088f890.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="11.html">产品名称三</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="w-prd-list-cell g-n3">
+                    <div class="w-prd-list-cell-in">
+                      <div class="w-prd-con">
+                        <div class="w-prd-imgbox "><a href="10.html" class="img-count w-prd-img">
+                          <div class="aspectRatio" style="padding-bottom:100%;"></div>
+                          <div class="img-count-in"><img src="static/picture/00b33020ebe28b206f039fe9bafeb16e.jpg"></div>
+                          </a></div>
+                        <div class="w-prd-infobox" style="text-align:center;">
+                          <h2 class="w-prd-name" style=""><a href="10.html">产品名称二</a></h2>
+                          <div class="w-prd-sum" style="display:none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="prd_pre bg_main aHoverbg_deepen"></div>
+              <div class="prd_next bg_main aHoverbg_deepen"></div>
+              <div class="prd_pageState"></div>
+              <script type="text/javascript">
+            $(function () {
+                var $prdList = $('#products-n3');
+                (function ($,window,$prdList) {
+                    /* 需要被触发的方法 */
+                    var loadOver = function () {
+                        var prdListChild = $prdList.find('.w-productList-in').html();
+                        var prdSlideX = function () {
+                            var visX;
+                            if ($(window).width() > 767) {
+                                visX = 3;
+                            } else {
+                                visX = 2;
+                            }
+                            $prdList.slideNew({
+                                mainCell: ".w-productList-in .w-productList-inner",
+                                autoPage: true,
+                                effect: "leftLoop",
+                                interTime: 5000,
+                                autoPlay: true,
+                                scroll: visX,
+                                vis: visX,
+                                pageStateCell: ".prd_pageState",
+                                prevCell: ".prd_pre",
+                                nextCell: ".prd_next"
+                            });
+                        };
+                        prdSlideX();
+                        var widthOld = $(window).width();
+                        var widthNew;
+                        $(window).resize(function () {
+                            widthNew = $(window).width();
+                            if (widthOld > 767) {
+                                if (widthNew < 768) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            } else {
+                                if (widthNew > 767) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            }
+                            widthOld = $(window).width();
+                        });
+                    }
+                    /* 获取图片 */
+                    var $thisimg = $prdList.find('img');
+                    var imgNum = $thisimg.length;
+                    $thisimg.each(function(){
+                        $(this).load(function(){
+                            if (!--imgNum) {
+                                loadOver();
+                            }
+                        });
+                        $(this).attr("src",$(this).attr("src"));
+                    });
+                })(jQuery,window,$prdList);
+            });
+        </script> 
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-large pdBottom-large" style="background:url(static/image/fab345dfaeecbf7019dac4001e89e169.jpg) no-repeat center;color:#666666;" id="505064">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="not-animated w-text" data-animate="fadeInUp" style="">
+              <style type="text/css">
+							.aboutUs_me .btn-more:hover{ background:#b9984d; border-color:#b9984d !important; color:#fff !important;}
+</style>
+              <div class="w-space" style="height:85px;"></div>
+              <div class="aboutUs_me" style="background:#fff; max-width:940px; margin:0 auto; box-shadow:0 1px 8px rgba(6,0,1,0.2); -moz-box-shadow:0 1px 8px rgba(6,0,1,0.2); -webkit-box-shadow:0 1px 8px rgba(6,0,1,0.2);">
+                <div style="padding:1em;">
+                  <div class="w-space" style="height:35px;"></div>
+                  <div class="w-title w-title16" style="text-align:center;">
+                    <div class="title-h-in">
+                      <h2 class="color_main color_h" style="color:#b9984d;">关于我们 </h2>
+                      <span class="color_vice color_span" style="color:#999;">ABOUT US</span></div>
+                  </div>
+                  <div class="w-space" style="height:15px;"></div>
+                  <div style="text-align:center;">
+                    <div style=" max-width:700px; margin:0 auto; font-size:90%;">浸润身心于Spa水疗会所,让我们专业细致的服务为您提供一份隐于世外的闲适与优雅:结合巴厘岛SPA鲸鱼按摩手法及多种理疗护理技巧,专业异性SPA男技师呵护的双手将为您拭去所有的疲惫与烦恼;来自浪漫法国的尊享品牌为您呵护健康,延续美丽...以优雅度假的设计理念打造馆内理疗房的独立专属空间,并设有尊贵奢华的VIP理...</div>
+                    <div class="w-space" style="height:25px;"></div>
+                    <div><a href="guanyuwomen.html" class="btn-more" style="text-decoration:none; color:#666; border:1px solid #D7D7D7; display:inline-block; *dispay:inline; *zoom:1; padding:0; line-height:2.7; width:11em; text-align:center;">MORE</a></div>
+                  </div>
+                  <div class="w-space" style="height:47px;"></div>
+                </div>
+              </div>
+              <div class="w-space" style="height:85px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="w-section pdTop-large pdBottom-small">
+      <div class="row" style="max-width:;">
+        <div class="row-mask"></div>
+        <div class="wrap-content-in  pdTop-default pdBottom-default">
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div" data-comunique="8d494cc16d2d497ae671727604399460">
+            <div class="not-animated w-title w-title16" data-animate="fadeInUp" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">新闻资讯 </h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">NEWS CENTER</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div" data-comunique="144409220d2bc6f7e9888ca2c8d38857">
+            <div class="w-space space-b noChoose" style="height:20px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+            <div class="not-animated w-adNews w-adNews2" data-animate="fadeInUp" style="">
+              <div class="w-adNews-in clearfix">
+                <ul>
+                                  <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="7.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/e39cc23e757bc100c7837dba5a6b1545.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="viewDetail"><a href="7.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="7.html" title="灵修SPA之旅 眼睛与身体一同享受">灵修SPA之旅 眼睛与身体一同享受</a></div>
+                        <div class="news-sum">在寂静的幽谷或者绵软的沙滩上做一场SPA，一边欣赏自然美景，一边感受精油流淌过肌肤的极致触......</div>
+                      </div>
+                    </div>
+                  </li>
+                                   <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="6.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/ff0ded28431b3249e36fbaa2d6719e03.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="viewDetail"><a href="6.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="6.html" title="热带花园Spa落户新加坡　雨露浸润技艺">热带花园Spa落户新加坡　雨露浸润技艺</a></div>
+                        <div class="news-sum">作为迄今为止最高的悦榕Spa，位于滨海湾金沙酒店55楼，打造了城市中心的宁静休憩之地。以生......</div>
+                      </div>
+                    </div>
+                  </li>
+                                   <li>
+                    <div class="news-item">
+                      <div class="news-imgbox"><a class="img-count w-news-img" href="5.html">
+                        <div class="aspectRatio" style="padding-bottom:75%;"></div>
+                        <div class="img-count-in"><img src="static/picture/0a9566cc76f2030bbfef1cdc4a63a461.jpg"></div>
+                        </a></div>
+                      <div class="news-com">
+                        <div class="news-com-top clearfix">
+                          <div class="viewDetail"><a href="5.html">view detaits<i class="icon_viewDetail"></i></a></div>
+                        </div>
+                        <div class="news-h"><a href="5.html" title="巴厘岛SPA药草养生疗法介绍">巴厘岛SPA药草养生疗法介绍</a></div>
+                        <div class="news-sum">走入位在塞米亚克的PranaSpa，你将会被特有的异国氛围所媚惑--这里属于TheVill......</div>
+                      </div>
+                    </div>
+                  </li>
+                   
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+  </div>
+    <div class="w-container w-footer">
+    <div class="w-footer-section pdTop-large pdBottom-default">
+      <div class="w-footer-in" style="max-width:;">
+        <div class="foot-mask"></div>
+        <div class="w-foot-content  pdTop-default pdBottom-small" data-id="505095" data-type="31">
+          <div class="li-div" data-comunique="b026252b151954e7cf1c705048c33d85">
+            <div class="tel-hidden w-title w-title16" style="">
+              <div class="w-title-in">
+                <div class="w-title-inner">
+                  <div class="title-h-in">
+                    <h2 class="color_main color_h" style="" data-type="title">联系方式</h2>
+                    <span class="color_vice color_span" style="" data-type="subtitle">CONTACT US</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="li-div" data-comunique="d149fb6ef363ccabeb76b0691712f00b">
+            <div class="tel-hidden w-space space-b noChoose" style="height:35px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div col-li-div" data-id="505100" data-type="1">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="505095" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td class="td-w" width="50.69105691056911%"><div class="div-padding">
+                        <div class="li-div" data-comunique="a8c4dd17c4e389b8eaa50fcc93872b25">
+                          <div class="w-text" style=""> <font size="4">响应式spa芳香理疗网站模板</font> </div>
+                        </div>
+                        <div class="li-div" data-comunique="91f7289cf818b4723b9cbbdf951227e6">
+                          <div class="w-space space-b noChoose" style="height:20px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                        <div class="li-div" data-comunique="d018655369f3918f0edbcad2a1394218">
+                          <div class="w-text" style=""> 电话：400-123-4567<br>
+                            传真：+86-123-4567<br>
+                            手机：13800000000<br>
+                            Q Q：1234567890<br>
+                            邮箱：admin@qq.com<br>
+                            地址：广东省广州市天河区88号<br>
+                           </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="tel-hidden w-space space-b noChoose" style="height:40px;">
+                            <div class="stretch-b"></div>
+                          </div>
+                        </div>
+                      </div></td>
+                    <td class="td-w" width="44.87804878048781%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="w-form tel-hidden" style="">
+                                                     <form method="POST" class="guest-form" enctype="multipart/form-data" action="/1867/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-shartText">
+                                  <label class="w-label-form"> <span>姓名</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="text" name="attr_1" id="attr_1">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-Email">
+                                  <label class="w-label-form"> <span>邮箱</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="email" name="attr_2" id="attr_2">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="li-div">
+                              <div class="w-form-section  w-form-UL clearfix" style="">
+                                <div class="w-form-tel">
+                                  <label class="w-label-form"> <span>电话</span> </label>
+                                  <div class="w-form-fr" style="">
+                                    <input class="w-text-form" style="width:100%" type="tel" name="attr_3" id="attr_3">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="li-div">
+                              <div class="w-form-section w-form-UL clearfix" style="">
+                                <div class="w-form-largeText">
+                                  <label class="w-label-form"> 内容 </label>
+                                  <div class="w-form-fr" style="">
+                                    <textarea class="w-textarea-form" style="width:100%;height:5em" name="attr_4" id="attr_4"></textarea>
+                                    <input class="w-text-form" type="hidden">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="w-form-submit">
+                              <div class="w-buttom" style="">
+                                <div class="btn-default-w g-form-components" onclick="checkForm();"> <span class="btn-inner">提交</span> </div>
+                              </div>
+                            </div>
+                          </form></div>
+                          <input type="hidden" name="typeid" value="5"><input type="hidden" name="__token__7ab555314bcd853a9485cf06928923b2" id="7ab555314bcd853a9485cf06928923b2" value=""><script type="text/javascript">
+    function ey_fleshVerify(id)
+    {
+        var src = "/1867/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+        if (src.indexOf('?') > -1) {
+            src += '&';
+        } else {
+            src += '?';
+        }
+        src += 'r='+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+    function f0244d978bc31407d3ded05cb71735d1b()
+    {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open("get", "/1867/index.php?m=api&c=Ajax&a=get_token&name=__token__7ab555314bcd853a9485cf06928923b2", true);
+        // 给头部添加ajax信息
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //步骤三:发送请求+数据
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("7ab555314bcd853a9485cf06928923b2").value = ajax.responseText;
+          　}
+        } 
+    }
+    f0244d978bc31407d3ded05cb71735d1b();
+</script>                            </form>
+						  <script type="text/javascript">
+                            function checkForm()
+                            {
+                              if(document.getElementById('attr_1').value.length == 0)
+                              {
+                                alert('请输入姓名');
+                                return false;
+                              }
+                              if(document.getElementById('attr_2').value.length == 0)
+                              {
+                                alert('请输入邮箱');
+                                return false;
+                              }
+                              document.getElementById('myform').submit();
+                            }
+                          </script>
+                                                </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-space space-b noChoose" style="height:40px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>
+          <div class="li-div">
+            <div class="w-text" style="">
+              <div class="line" style="background:#6A696F; position:absolute; width:5000px;height:1px; left:-1500px;"></div>
+              <div style="text-align:center; padding-top:1em; font-size:95%;">Copyright © 2012-2028 某某网络 版权所有 &nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-service-fixed">
+      <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+        <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>

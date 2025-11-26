@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>在线留言_某某公司</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="/6902/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="static/css/slick.css">
+	<link rel="stylesheet" href="static/css/g.css">
+	<link rel="stylesheet" href="static/css/s.css">
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<script src="https://demoall.kuaituiyun.cn/6902/template/pc/skin/js/jquery-ui.min.js"></script>
+	<script src="static/js/slick.js"></script>
+	<script src="static/js/scrolloverflow.min.notransition.js"></script>
+	<script src="static/js/g.js"></script>
+	<style>
+.tab {
+	margin: 43px 0;
+}
+.tab .list {
+	margin-left: -6px;
+, margin-bottom:-6px;
+}
+.tab .list > li {
+	float: left;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.tab .list > li .box {
+	display: block;
+	padding: 14px 0;
+	min-width: 192px;
+	background: #eaeaea;
+	text-align: center;
+}
+.tab .list > li .box:hover {
+	background: #286cc2;
+	color: #fff;
+}
+.tab .list > li .on {
+	background: #286cc2;
+	color: #fff;
+}
+ @media (max-width: 1024px) {
+.tab .list > li {
+	width: 25%;
+}
+.tab .list > li .box {
+	min-width: auto;
+}
+}
+ @media (max-width: 750px) {
+.tab .list > li {
+	width: 33.33%;
+}
+}
+ @media (max-width: 600px) {
+.tab .list > li {
+	width: 50%;
+}
+}
+.product .title {
+	margin-top: 45px;
+}
+.product .cust {
+	margin-bottom: 90px;
+}
+.product .cust .p1 {
+	color: #696969;
+	line-height: 24px;
+	max-width: 1074px;
+	padding: 40px 0 60px 0;
+}
+.product .cust .p1 span {
+	display: block;
+	padding-bottom: 10px;
+}
+.product .cust .message {
+	overflow: hidden;
+}
+.product .cust .message .left {
+	float: left;
+	min-width: 460px;
+	margin-left: 72px;
+}
+.product .cust .message .left .list_xx {
+	display: block;
+	padding-top: 25px;
+	overflow: hidden;
+}
+.product .cust .message .left .list_xx > li {
+	padding-bottom: 29px;
+}
+.product .cust .message .left .list_xx > li .con_1 {
+	border: 1px solid #d3d3d3;
+	color: #979797;
+	padding-left: 17px;
+	height: 54px;
+	line-height: 54px;
+}
+.product .cust .message .left .list_xx > li .input_1 {
+	background: none;
+	border: none;
+	width: 80%;
+}
+.product .cust .message .left .wby {
+	height: 174px;
+	border: 1px solid #d3d3d3;
+	padding: 20px 16px;
+}
+.product .cust .message .left .wby .s1 {
+	vertical-align: top;
+	display: inline-block;
+}
+.product .cust .message .left .wby .text_a {
+	width: 95%;
+	height: 100%;
+	background: none;
+	border: none;
+}
+.product .cust .message .left .btn {
+	text-align: center;
+	margin-top: 34px;
+}
+.product .cust .message .left .btn .sub {
+	margin-right: 50px;
+}
+.product .cust .message .left .btn a {
+	padding: 10px 40px;
+	background: #286cc2;
+	display: inline-block;
+	color: #fff;
+	border-radius: 10px;
+}
+.product .cust .message .right {
+	float: right;
+	margin-right: 92px;
+}
+ @media (max-width: 1024px) {
+.product .cust .message .left {
+	float: none;
+	min-width: auto;
+	margin-left: 0;
+}
+.product .cust .message .right {
+	float: none;
+	margin-right: 0;
+	text-align: center;
+}
+}
+ @media (max-width: 600px) {
+.product .cust .message .left .btn .sub {
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.product .cust .message .left .btn a {
+	padding: 15px 0;
+	background: #286cc2;
+	display: block;
+	color: #fff;
+	border-radius: 10px;
+}
+}
+</style>
+	<script>
+		$(function () {
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="static/css/freedom.css">
+	</head>
+	<body>
+<div class="g_header">
+  <div class="top">
+    <div class="g_cw">
+      <p class="logo"><a href="index.html"><img src="static/picture/798f8af102bfaebc6ad1f61e065d6773.png"></a></p>
+      <div class="right">
+        <p class="tel"><span class="ico"><img src="static/picture/ico_phone.svg" style="height:18px;"></span>咨询热线：<em class="h1">020-88888888</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="bar"> <a href="index.html" class="logo"><img src="static/picture/798f8af102bfaebc6ad1f61e065d6773.png"> </a> <a href="#" class="menu"><img src="static/picture/menu.svg"></a> </div>
+  <div class="nav">
+    <div class="g_cw">
+      <ul class="list">
+        <li><a href="index.html"><b>网站首页</b></a></li>
+                <li><a href="chanpinzhongxin.html" class=""><b>产品中心</b></a></li>
+                <li><a href="fuwuxiangmu.html" class=""><b>服务项目</b></a></li>
+                <li><a href="guanyuwomen.html" class=""><b>关于我们</b></a></li>
+                <li><a href="" class="on"><b>在线留言</b></a></li>
+                <li><a href="lianxiwomen.html" class=""><b>联系我们</b></a></li>
+              </ul>
+      <div class="search"> 
+              <form method="get" action="/6902/index.php?m=home&c=Search&a=lists&lang=cn" name="serch" id="serch">
+          <input type="hidden" name="m" value="home"><input type="hidden" name="c" value="Search"><input type="hidden" name="a" value="lists"><input type="hidden" name="lang" value="cn">          <input type="text" name="keywords" placeholder="请输入产品关键字" class="input_1">
+          <span class="ico" onclick="javascript:$('#serch').submit();"><img src="static/picture/ico_fdj.svg"></span>
+          
+        </form>
+         
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="child_banner"><img src="static/picture/c0dcb8fe90b2aab7d2bb478beb90375a.jpg" class="g_imgf"></div>
+<div class="s_child_banner"><img src="static/picture/ccb6d5d22d2fa14bbf760fc6973a469c.jpg" class="g_imgf"></div>
+
+<!--主体内容-->
+
+<div class="product">
+      <div class="g_cw">
+    <div class="title">
+          <div class="right"> 当前位置： <a href='index.html' class='crumb'>首页</a> &gt; <a href=''>在线留言</a> </div>
+          <div class="left">
+        <p class="p1"><span class="line"></span>在线留言</p>
+      </div>
+        </div>
+    <div class="cust">
+          <div class="message">
+        <div class="right"> <img src="static/picture/ba1537f5541029be085f47b151c68118.jpg" class="g_imgf"> </div>
+        <div class="left">               <form method="POST" enctype="multipart/form-data" action="/6902/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+            <ul class="list_xx clearfix">
+                  <li>
+                <p class="con_1">姓名：
+                      <input type="text" class="input_1" value="" name="attr_1" id="attr_1">
+                    </p>
+              </li>
+                  <li>
+                <p class="con_1">手机号码：
+                      <input type="text" class="input_1" value="" name="attr_2" id="attr_2">
+                    </p>
+              </li>
+                  <li>
+                <p class="con_1">电子邮箱：
+                      <input type="text" class="input_1" value="" name="attr_3" id="attr_3">
+                    </p>
+              </li>
+                </ul>
+            <p class="wby"><span class="s1">留言内容：</span>
+                  <textarea class="text_a" value="" name="attr_4" id="attr_4"></textarea>
+                </p>
+            <p class="btn" onclick="checkForm();"> <a class="sub">提交</a> </p>
+            <input type="hidden" name="typeid" value="4"><input type="hidden" name="__token__35bd9c47ff7a62942db097d0a139bb2f" id="35bd9c47ff7a62942db097d0a139bb2f" value=""><script type="text/javascript">
+    function ey_fleshVerify(id)
+    {
+        var src = "/6902/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+        if (src.indexOf('?') > -1) {
+            src += '&';
+        } else {
+            src += '?';
+        }
+        src += 'r='+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+    function feaa3b1b5a17089ce6e2cb9a122c4a6ec()
+    {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open("get", "/6902/index.php?m=api&c=Ajax&a=get_token&name=__token__35bd9c47ff7a62942db097d0a139bb2f", true);
+        // 给头部添加ajax信息
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //步骤三:发送请求+数据
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("35bd9c47ff7a62942db097d0a139bb2f").value = ajax.responseText;
+          　}
+        } 
+    }
+    feaa3b1b5a17089ce6e2cb9a122c4a6ec();
+</script>          </form>
+              <script type="text/javascript">
+                            function checkForm()
+                            {
+                              if(document.getElementById('attr_1').value.length == 0)
+                              {
+                                alert('请输入您的姓名');
+                                return false;
+                              }
+                              if(document.getElementById('attr_2').value.length == 0)
+                              {
+                                alert('请输入您的手机号码');
+                                return false;
+                              }
+                              document.getElementById('myform').submit();
+                            }
+                          </script> 
+               </div>
+      </div>
+        </div>
+  </div>
+    </div>
+
+<!--主体内容 end--> 
+
+<div class="g_footer">   <div class="top">
+    <div class="g_cw">
+      <div class="left">
+        <p class="title">CONTACT <span class="line"></span></p>
+        <p class="p1"> 感谢您来到某某制造有限公司，若您有合作意向，请您使用 以下方式联系我们我们将尽快给你回复，并为您提供最真诚的设计服务，谢谢！</p>
+        <div class="lx">
+          <p class="s1"><img src="static/picture/ico_phone2.svg" style="height:23px;"> 020-88888888</p>
+          <p class="s1"><img src="static/picture/ico_youxiang.svg" style="height:23px;"> admin@youweb.com</p>
+          <p class="s1"><img src="static/picture/ico_address.svg" style="height:23px;"> 江西省南昌市</p>
+        </div>
+      </div>
+      <div class="right"><img src="static/picture/2db368960d98e628e59b5a29c721541c.png" class="g_imgf"></div>
+    </div>
+  </div>
+    <div class="bottom">
+   <ul class="link tc">
+            <li>友情链接 :</li>
+                        <li><a href="http://www.baidu.com" target="_blank">百度 </a></li>
+                        <li><a href="http://www.qq.com" target="_blank">腾讯 </a></li>
+                        <li><a href="http://www.sina.com.cn" target="_blank">新浪 </a></li>
+                        <li><a href="http://www.taobao.com" target="_blank">淘宝 </a></li>
+                        <li><a href="http://www.weibo.com" target="_blank">微博 </a></li>
+                      </ul>
+    <p>Copyright © 2012-2023 某某公司 版权所有</p>
+  </div>
+</div>
+ 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

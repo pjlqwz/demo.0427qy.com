@@ -1,0 +1,156 @@
+﻿
+/*common css*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,input,textarea,div,tr,td,p{margin:0;padding:0; list-style:none;}
+body{ position:relative;font-family:"microsoft yahei", Arial, Helvetica, sans-serif;background:url(../image/bodybg.png) repeat;font-size: 14px;}
+body.in{
+    background: url(../image/inbg_02.jpg) repeat;
+}
+a{ color:#333; text-decoration:none}
+table{border-collapse:collapse;border-spacing:0;}
+img{ border:none;max-width: 100%;}
+.C{ clear:both}
+.clearfix:after { content:'\20'; display:block; height:0; clear:both; }
+.clearfix { *zoom:1;}
+.left{float:left}
+.right{ float:right}
+div:after,ul:after,li:after{
+    content:'\20'; display:block; height:0; clear:both; 
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
+    background-color: #1F1F1F;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]{
+    background: url(../image/locationbg.png) repeat;
+}
+.pad{
+    height: 83px;
+}
+.page_box{
+    text-align: center; 
+    margin: 20px 0;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #1F1F1F;
+    border-color: #1F1F1F;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #A19D9D;
+}
+.pagination > li{
+    float: left;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    background: #fff; /*这里设置的是活动导航的颜色*/
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border: 1px solid #fff;/*这里设置的是非活动导航的颜色*/
+}
+/*#fp-nav ul li:last-child{
+    display: none;
+}*/
+.opacity{
+    opacity: 0;
+}
+@media(max-width:992px){
+    .opacity{
+    opacity: 1;
+}
+.page_box{
+    margin: 0;
+}
+}
+@keyframes lightSpeedIn{
+  0% {
+    -webkit-transform: translate3d(50%, 0, 0) skewX(-30deg);
+    transform: translate3d(50%, 0, 0) skewX(-30deg);
+    opacity: 0;
+}
+}
+.animated1{
+    animation: animated1 1s ease-in-out;
+    -webkit-animation: animated1 1s ease-in-out;
+    -moz-animation: animated1 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes animated1{
+    0%{
+        -webkit-transform: translate3d(-100%, -100%, 0);
+        transform: translate3d(-100%, -100%, 0);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+.animated2{
+    animation: animated2 1s ease-in-out;
+    -webkit-animation: animated2 1s ease-in-out;
+    -moz-animation: animated2 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes animated2{
+    0%{
+        -webkit-transform: translate3d(100%, -100%, 0);
+        transform: translate3d(100%, -100%, 0);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.animated3{
+    animation: animated3 1s ease-in-out;
+    -webkit-animation: animated3 1s ease-in-out;
+    -moz-animation: animated3 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes animated3{
+    0%{
+        -webkit-transform: translate3d(-100%, 100%, 0);
+        transform: translate3d(-100%, 100%, 0);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.animated4{
+    animation: animated4 1s ease-in-out;
+    -webkit-animation: animated4 1s ease-in-out;
+    -moz-animation: animated4 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes animated4{
+    0%{
+        -webkit-transform: translate3d(100%, 100%, 0);
+        transform: translate3d(100%, 100%, 0);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.pro-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .pro-container {
+    width: 970px;
+  }
+}
+@media (max-width: 768px) {
+  .pro-container {
+    width: 100%;
+  }
+}
