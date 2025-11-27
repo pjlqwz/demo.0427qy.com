@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<title>企业开发APP应用不得不正视的三大问题_营销型运动健身器械网站模板</title>
+<meta name="description" content="相信大家在使用APP应用的时候，经常会遇到，知名度越是高的APP应用，使用起来就越是顺畅，知名度小的APP应用，使用时就会遇到很多问题。因此我们反过来说，企业在进行APP开发时，">
+<meta name="keywords" content="企业,开发,APP,应用,不得不">
+<link href="/16870/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<script type="text/javascript" src="static/js/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+<script type="text/javascript" src="static/js/js.js"></script>
+<script type="text/javascript" src="static/js/superslide.js"></script>
+</head>
+<body>
+<div class="iet">
+  <p>您的浏览器版本过低，为保证更佳的浏览体验，<a href="https://www.imooc.com/static/html/browser.html">请点击更新高版本浏览器</a></p>
+  <span class="closed">以后再说<i>X</i></span> </div>
+<script type="text/javascript">
+        $('.closed').click(function(){
+            $('.iet').hide();
+        })
+    </script>
+<div class="header">
+  <div class="toptext">
+    <div class="center clearfix">
+      <p>欢迎访问广东某某健身器械生产有限公司网站！</p>
+      <!--  <span>
+                    <a href="javascript:;"><img src="/16870/template/pc/skin/img/china.png" alt="图片名"><i>中文</i></a>
+                    <a href="javascript:;"><img src="/16870/template/pc/skin/img/english.png" alt="图片名"><i>English</i></a>
+                </span> --> 
+    </div>
+  </div>
+  <div class="center">
+    <div class="head_top clearfix">
+      <div class="logo fl"> <a href="http://demoall.5fa.cn/16870"><img src="static/picture/1-211105141TVP.png"></a> <p> <span>20年<i>健身器械</i>自主研究定制品牌</span><br>
+          <small>具备年产30万台健身器材生产制造能力</small> </p> </div>
+      <div class="fr"> <img src="static/picture/yw4.gif" alt="图片名">
+        <p>全国订购热线：<br>
+          <span>020-88888888</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="nav" id="nav">
+    <div class="center">
+      <ul id="pc_nav">
+        <li><a class="" href="http://demoall.5fa.cn/16870">网站首页</a></li>
+                <li><a href="about.html" class="">关于我们</a></li>
+                <li><a href="product.html" class="">健身器材</a></li>
+                <li><a href="jiejuefangan.html" class="">解决方案</a></li>
+                <li><a href="case.html" class="">客户案例</a></li>
+                <li><a href="fuwuzhichi.html" class="">服务支持</a></li>
+                <li><a href="news.html" class="active">资讯公告</a></li>
+                <li><a href="contact.html" class="">联系我们</a></li>
+              </ul>
+    </div>
+  </div>
+  <script type="text/javascript">
+            $("#pc_nav a").each(function(){
+                if ($(this)[0].href == String(window.location) && $(this).attr('href')!="") {
+                    $(this).addClass("active");
+                }
+            });
+        </script> 
+  <script type="text/javascript">
+            $(document).ready(function() {
+                var navOffset=$("#nav").offset().top;
+                $(window).scroll(function(){
+                    var scrollPos=$(window).scrollTop();
+                    if(scrollPos >=navOffset){
+                        $("#nav").addClass("fixed");
+                        $("#navi").addClass("full");
+                    }else{
+                        $("#nav").removeClass("fixed");
+                        $("#navi").removeClass("full");
+                    }
+                });
+            });
+        </script> 
+</div>
+<div class="m_header">
+  <div class="m_head_content">
+    <div class="m_head_logo"> <a href="http://demoall.5fa.cn/16870"><img src="static/picture/1-2111051421034R.png"></a> </div>
+    <div class="language"> 
+      <!-- <span>
+                    <a href="javascript:;"><img src="/16870/template/pc/skin/img/china.png" alt="图片名"><i>中文</i></a>
+                    <a href="javascript:;"><img src="/16870/template/pc/skin/img/english.png" alt="图片名"><i>English</i></a>
+                </span>--> 
+    </div>
+    <div class="menu" id="menu"><i class="fa fa-list-ul"></i></div>
+  </div>
+  <div class="app_menu" id="app_menu">
+    <ul>
+      <li><a href="http://demoall.5fa.cn/16870"><span>网站首页</span></a></li>
+            <li><a href="about.html" class=""><span>关于我们</span></a></li>
+            <li><a href="product.html" class=""><span>健身器材</span></a></li>
+            <li><a href="jiejuefangan.html" class=""><span>解决方案</span></a></li>
+            <li><a href="case.html" class=""><span>客户案例</span></a></li>
+            <li><a href="fuwuzhichi.html" class=""><span>服务支持</span></a></li>
+            <li><a href="news.html" class="active"><span>资讯公告</span></a></li>
+            <li><a href="contact.html" class=""><span>联系我们</span></a></li>
+          </ul>
+    <script type="text/javascript">
+                $("#menu").on('click', function (event) {
+                    if($("#app_menu").css("display")=="none"){
+                        $("#app_menu").slideDown(600);
+                    }else{
+                        $("#app_menu").slideUp(600);
+                    }
+                });
+            </script> 
+  </div>
+</div>
+
+<div class="page_banner"> <img src="static/picture/nybanner.jpg"> </div>
+<div class="m_banner mtbanner">
+  <div class="mbanner" id="mbanner">
+    <ul>
+            <li><img src="static/picture/1-211105091334249.jpg"></li>
+            <li><img src="static/picture/1-2111050913344G.jpg"></li>
+          </ul>
+  </div>
+  <script type="text/javascript">
+            $(function () {
+                $('#mbanner').roll({
+                    banner: true,
+                    btn: true
+                });
+            });
+        </script> 
+</div>
+<div class="container">
+  <div class="curson">
+    <div class="center">
+      <p>  <a href='index.html' class=''>主页</a> > <a href='news.html' class=''>资讯公告</a> > <a href='huodonggonggao.html'>活动公告</a> </p>
+      <span>活动公告</span> </div>
+  </div>
+  <div class="m_pagemenu">  <a href="huodonggonggao.html" class="active">活动公告</a>  <a href="gongsixinwen.html" class="">公司新闻</a>  <a href="jianshenzhinan.html" class="">健身指南</a>  <a href="qicaibaoyang.html" class="">器材保养</a>  <a href="changjianwenti.html" class="">常见问题</a>  </div>
+  <div class="center">
+    <div class="wrap clearfix">
+      <div class="main_l fl">
+        <h3>NEWS</h3>
+        <i></i> <span>资讯公告</span>
+        <ul class="page_menu">
+                    <li><a href="huodonggonggao.html" class="active">活动公告</a></li>
+                    <li><a href="gongsixinwen.html" class="">公司新闻</a></li>
+                    <li><a href="jianshenzhinan.html" class="">健身指南</a></li>
+                    <li><a href="qicaibaoyang.html" class="">器材保养</a></li>
+                    <li><a href="changjianwenti.html" class="">常见问题</a></li>
+                  </ul>
+      </div>
+      <div class="main_r fr">
+        <div class="page_content">
+          <div class="art_tit">
+            <h3>企业开发APP应用不得不正视的三大问题</h3>
+            <p> <span>作者：</span> <span>发布时间：2020-07-07 21:06:12</span> <span><script type="text/javascript">
+    function tag_arcclick(aid)
+    {
+        var ajax = new XMLHttpRequest();
+        ajax.open("get", "/16870/index.php?m=api&c=Ajax&a=arcclick&aid="+aid+"&type=view", true);
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send();
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("eyou_arcclick_1696668043_"+aid).innerHTML = ajax.responseText;
+          　}
+        } 
+    }
+</script><i id="eyou_arcclick_1696668043_43" class="eyou_arcclick" style="font-style:normal"></i> 
+<script type="text/javascript">tag_arcclick(43);</script>次浏览</span> </p>
+          </div>
+          <div class="art_desc">
+            <p>
+            <p>相信大家在使用APP应用的时候，经常会遇到，知名度越是高的APP应用，使用起来就越是顺畅，知名度小的APP应用，使用时就会遇到很多问题。因此我们反过来说，企业在进行APP开发时，</p>
+            
+          </div>
+          <div class="content"> <p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	相信大家在使用APP应用的时候，经常会遇到，知名度越是高的APP应用，使用起来就越是顺畅，知名度小的APP应用，使用时就会遇到很多问题。因此我们反过来说，企业在进行APP开发时，如果APP应用足够优秀，体验感更好，才会有更多人使用，APP应用也就更易成功。如果APP应用问题很多，使用的人就会非常少，APP应用也就会失败。所以小编认为，要想APP应用获得成功，企业在开发过程中不得不正视以下三大问题。</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	&nbsp;</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	第一大问题：网络错误</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	数据表明，网络问题是导致用户卸载APP应用的主要原因，想象一下，企业花费不菲的代价制作出一款APP应用，并不断地投入运营和推广，好不容易吸引到用户来关注和下载，但当用户下载APP应用之后，却发现这个APP应用打不开，不能正常使用，那么用户必然会卸载掉。这样不仅使这个APP应用完全浪费掉，同时还会对企业形象造成非常大的损失，使企业的发展受到阻碍，如此将会给企业带来非常大的损失。</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	第二大问题：卡顿闪退</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	卡顿和闪退也是大家在使用APP应用当中最常见的问题之一，虽然用户在使用APP应用时，出现这样的情况不一定每次都是APP应用本身的问题，但是用户通常都会人为这个APP应用有问题，再说，用户换个APP应用使用很容易，要换个手机使用就不一定了。所以考虑到这样的情况，企业在制作APP应用的时候，不仅需要对旗舰机适配，还要考虑老旧机和低端机适配，绝大部分情况下都能正常使用，这样才能使大部分用户都能正常使用APP应用。</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	第三大问题：占用耗电</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	除去以上两个问题，还有一个也是非常严重的，那就是APP应用的内存和CPU占用，以及耗电问题，如果用户在使用APP应用时，一旦出现这样的问题，就会对手机造成非常大的损害，相信没有谁是能够忍受的，毕竟谁也不会拿自己的手机来开玩笑，卸载也是唯一的选择。所以企业想要自己的APP应用能够获得广大用户的支持，对于APP应用的资源占用，以及电量消耗问题就必要优化好，给用户一个能够正常使用的APP应用，这样才能获得用户认可。</p>
+<p style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); margin: 0px; color: rgb(102, 102, 102); font-family: 'microsoft yahei', 宋体, Arial; font-size: 14px; line-height: 28px;">
+	关于以上这三个问题，相信大家在使用APP应用的过程中，机会都会遇到，也是屡见不鲜的问题了。因此用户在遇到哪些存在以上问题的APP应用时，自然也会像大家一样，采取卸载的措施来减少自己手机的损害，虽然在这之中难免有APP应用会背锅，但用户并不会管这些。所以，企业想要自己的APP应用能够获得理想的效果，首先就应该解决用户使用过程中所遇到的各种问题，让用户能够正常使用，这样APP应用才会获得成功的机会。</p>
+ </div>
+          <div class="show_pages">
+            <p>  <a>上一篇：暂无</a>  </p>
+            <p>  <a href='44.html' title='浅谈确定营销型网站主题的三大原则'> 下一篇：浅谈确定营销型网站主题的三大原则 </a>  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="center">
+    <div class="foot clearfix">
+      <div class="foot_contact fl">
+        <h3>联系我们</h3>
+        <span><strong>020-88888888</strong>Sale Hotline</span>
+        <p>广东省广州市番禺经济开发区</p>
+        <p>邮箱：youweb@126.com</p>
+        <br>
+        <p>总机：020-88888888</p>
+        <p>传真：020-66668888</p>
+         <a href="contact.html">了解更多</a> </div>
+      <div class="foot_ewm fl">
+        <p>"精益求精，诚信为本"</p>
+        <div class="ewm_text"> <img src="static/picture/1-2111050ZJ1344.jpg"> <span>微信公众号</span> </div>
+        <div class="ewm_text"> <img src="static/picture/1-2111050ZJ1344.jpg"> <span>移动端网站</span> </div>
+      </div>
+      <div class="foot_nav fl">
+        <ul>
+          <h3>网站导航</h3>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="product.html">健身器材</a></li>
+                    <li><a href="jiejuefangan.html">解决方案</a></li>
+                    <li><a href="case.html">客户案例</a></li>
+                    <li><a href="fuwuzhichi.html">服务支持</a></li>
+                    <li><a href="news.html">资讯公告</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <div class="center">
+    <p>
+    <p>Copyright © 2012-2023 广东某某健身器械生产有限公司 版权所有 备案号：<a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">粤ICP备xxxxxxx号</a> <a href="http://demoall.5fa.cn/16870/sitemap.xml">网站地图</a></p>
+    
+  </div>
+</div>
+<div class="kefu" id="kefu">
+  <p> <img src="static/picture/ff.png" alt="图片名"> <span>客服</span> </p>
+  <div class="float_img">
+    <div class="qq" id="qq"> <span>在线客服</span> <a href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes;">客服一号</a> <a href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes">客服二号</a> <a href="http://wpa.qq.com/msgrd?v=3&uin=88888888&site=qq&menu=yes">客服三号</a> </div>
+  </div>
+</div>
+<script type="text/javascript">
+        $(function () {
+            $('.imgauto img').imgAuto();
+        })
+    </script> 
+<script type="text/javascript">
+        var browser=navigator.appName
+        var b_version=navigator.appVersion
+        var version=b_version.split(";");
+        var trim_Version=version[1].replace(/[ ]/g,"");
+        if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0") {
+            $('.iet').show();
+        }else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0") {
+            $('.iet').show();
+        }else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") {
+            $('.iet').show();
+        }else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") {
+            $('.iet').hide();
+        } else {
+            $('.iet').hide();
+        }
+    </script> 
+<!-- 应用插件标签 start --> 
+  
+<!-- 应用插件标签 end -->
+</body>
+</html>

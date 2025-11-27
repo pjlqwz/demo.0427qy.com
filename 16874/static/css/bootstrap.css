@@ -1,0 +1,407 @@
+﻿ @media (max-width:1460px) {
+/*.news_con .main .sum{
+    display: none;
+  }*/
+.news_con .news_main {
+	width: 100%;
+	height: auto;
+	padding: 2%;
+}
+.news_con .main {
+	width: 100%;
+}
+.news_con {
+	width: 68%;
+	margin-right: 2%;
+}
+.news_pro .img {
+	width: 30%;
+}
+.news_pro .swiper-pagination {
+	display: none;
+}
+.contact .info ul {
+	text-align: center;
+	display: flex;
+}
+.contact .info li {
+	display: inline-block;
+	float: none;
+	padding: 10px;
+}
+.contact .info .info_con {
+	background: none;
+	padding-left: 0;
+}
+.contact_cont ul {
+	display: block;
+}
+.contact_cont ul li {
+	width: 24%;
+	line-height: 30px;
+	display: inline-block;
+}
+}
+ @media (min-width:1200px) {
+}
+@media (max-width:1200px) {
+html {
+	font-size: 50%;
+}
+.head_pc .nav .nav_link {
+	padding: 0 2px;
+}
+.head_pc .head_nav .nav_link {
+	font-size: 1.8rem;
+}
+.head_pc .tel {
+	display: none;
+}
+.news_con .news_main {
+	position: static;
+}
+.news_con .main {
+	float: none;
+}
+.choose .type_img {
+	display: none;
+}
+.choose .choose_main {
+	width: 100%;
+}
+.choose .h1600 {
+	background-color: #e60a19;
+	padding: 3%;
+}
+.news_product i {
+	display: none;
+}
+.contact_cont ul li {
+	width: 32%;
+}
+}
+ @media (min-width:992px) {
+.nav_button, .nav_m {
+	display: none !important;
+}
+}
+ @media (max-width:992px) {
+html {
+	font-size: 46%;
+}
+.banner .head_pc {
+	position: static;
+}
+.head_pc .head_nav {
+	display: none;
+}
+.head_pc .logo {
+	display: none;
+}
+.head_pc .wap_logo {
+	display: block;
+	line-height: 110px;
+}
+.head_pc .lan {
+	line-height: 110px;
+}
+.head_pc .wap_logo img {
+	display: inline;
+}
+.head_pc .container {
+	height: auto;
+}
+.head_pc .lan, .head_pc .head_right {
+	float: none;
+}
+.head_pc .lan li:first-child {
+	display: none;
+}
+.head_pc .lan a {
+	font-size: 2.4rem;
+}
+.head_pc .container {
+	display: flex;
+	justify-content: space-between;
+}
+.head_pc .clear {
+	display: none;
+}
+.nav_bar {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+.nav_button {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.nav_button span {
+	display: inline-block;
+}
+.nav_pc {
+	display: none;
+}
+.banner2, .banner {
+	position: static;
+}
+.banner2 .head_pc {
+	position: static;
+}
+.news_con .index_type {
+	height: auto;
+	padding: 3% 0;
+}
+.news_pro .img {
+	background-color: #fff;
+	padding: 2%;
+}
+.choose .typename {
+	width: 100%;
+	margin-bottom: 3%;
+	background: url(../image/choose_icon.jpg) no-repeat center bottom;
+}
+.choose .typename h2, .choose .typename h1 {
+	text-align: center;
+}
+.choose .typename h2 {
+	padding: 1% 0;
+}
+.choose .choose_top {
+	display: block;
+}
+.choose .choose_ul {
+	display: block;
+	margin: 0;
+}
+.choose .choose_ul ul {
+	margin: 0 -10px;
+}
+.choose .choose_ul ul li {
+	padding: 10px;
+	margin: 0;
+}
+.choose .choose_top li {
+	width: 50%;
+}
+.footer .foo_logo {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.footer .foo_logo img {
+	display: inline;
+}
+.footer .foo_right {
+	float: none;
+}
+.index_contact ul li {
+	display: block;
+	margin-left: 0;
+	margin-bottom: 3%;
+}
+.foo_nav ul {
+	text-align: center;
+}
+.pub_left {
+	display: none;
+}
+.about_top .about_cont h1 {
+	font-size: 2.6rem;
+}
+.about_top {
+	display: block;
+}
+.about_top .img {
+	width: 100%;
+	text-align: center;
+	margin-right: 0;
+}
+.about_top .img img {
+	display: inline;
+}
+.about_top .about_cont {
+	width: 100%;
+	padding-top: 6%;
+}
+.honor .honor_list .pic {
+	display: none;
+}
+.honor .honor_list .list {
+	width: 100%;
+}
+.news_product .img {
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.contact_cont ul li {
+	width: 49%;
+}
+}
+ @media (max-width:768px) {
+.news_con {
+	width: 100%;
+	height: auto;
+	margin-right: 0;
+}
+.index_type h1 {
+	font-size: 4rem;
+}
+.news_con .main h2 {
+	font-size: 2.4rem;
+}
+.news_pro .img {
+	width: 100%;
+}
+.news_pro .img img {
+	max-height: 200px;
+}
+.index_pro ul .img {
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 2%;
+	background: none;
+}
+.index_pro ul img {
+	width: auto;
+	display: inline;
+	max-height: 200px;
+}
+.index_pro ul {
+	margin: 0 -3px;
+}
+.index_pro ul li {
+	padding: 10px 3px;
+}
+.index_pro ul li:last-child {
+	width: 100%;
+	max-width: 100%;
+	flex: 0 0 100%;
+}
+.choose .choose_ul ul {
+	display: block;
+}
+.choose .choose_top li {
+	width: 100%;
+}
+.choose .choose_ul li {
+	width: 100%;
+}
+.index_news li .img {
+	display: none;
+}
+.index_news li .news_main {
+	width: 100%;
+	padding-right: 0;
+}
+.index_news li a {
+	padding: 4%;
+}
+.footer .foo_right .foo_nav {
+	display: none;
+}
+.foo_bottom {
+	padding: 3% 0;
+}
+.foo_bottom a {
+	line-height: 20px;
+}
+.product ul, .honor ul, .workshop ul {
+	margin: 0 -5px;
+}
+.product ul li, .honor ul li, .workshop ul li {
+	padding: 10px 5px;
+}
+.ab_type h2 {
+	font-size: 4rem;
+}
+.about_bg {
+	padding: 5% 0;
+}
+.news_product ul a {
+	display: block;
+}
+.news_product .news_pro_main {
+	width: 100%;
+	padding: 10px;
+}
+.news_product .img {
+	width: 100%;
+}
+.news_product_read {
+	display: block;
+}
+.product_img {
+	width: 100%;
+}
+.pro_info {
+	width: 100%;
+	margin-left: 0;
+	padding: 10px;
+}
+.pro_content {
+	padding: 4% 10px 10px 10px;
+}
+.product {
+	padding: 0;
+	padding-top: 4%;
+}
+.news li .img {
+	display: none;
+}
+.news li .news_main {
+	width: 100%;
+	margin-right: 0;
+}
+.news li .news_main .news_icon {
+	position: static;
+}
+.news_read .title {
+	font-size: 2rem;
+	line-height: 26px;
+}
+.contact .info ul {
+	display: block;
+}
+.contact .info li {
+	width: 100%;
+}
+#map {
+	height: 300px;
+}
+.contact_cont ul li {
+	width: 100%;
+}
+.news_pro .img {
+	margin-top: 4%;
+}
+.index_ab .ab_flex {
+	display: block;
+}
+.index_ab .ab_flex .ab_left,  .index_ab .ab_flex .ab_right {
+	width: 100%;
+	padding: 1%;
+}
+.index_ab .ab_left .ab_box {
+	width: 100%;
+	float: none;
+}
+.index_ab .index_type h1,  .index_ab .index_type h2 {
+	text-align: center;
+}
+.index_ab .ab_flex .ab_right video {
+	width: 100%;
+	float: none;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 2px;
+}
+.index_part ul {
+	margin: 0 -5px;
+}
+.index_part li {
+	padding: 10px 5px;
+}
+}
