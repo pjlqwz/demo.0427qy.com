@@ -1,0 +1,277 @@
+﻿@media only screen and (max-width: 1530px) {
+.ul-imgtxt05 {
+	padding: 0;
+}
+}
+/*Common For Max 1366*/
+@media only screen and (max-width: 1499px) {
+}
+
+/*Common For Max 1200*/
+@media only screen and (max-width: 1365px) {
+.wp {
+	width: 97%;
+}
+}
+
+/*Common For Max 960*/
+@media only screen and (max-width: 1199px) {
+.wp {
+	width: 95%;
+}
+.kf {
+	display: none;
+}
+/*内页*/
+.m-news1 .box h1 {
+	font-size: 22px;
+}
+.m-pic1 {
+	width: 300px;
+}
+.view .swiper-slide .imgauto {
+	height: 300px;
+	line-height: 300px;
+}
+.m-txt1 .txt {
+	margin-right: 0;
+}
+.preview .swiper-slide {
+	width: 120px;
+}
+.ul-imgtxt-01 li {
+	width: 33.33%;
+}
+}
+/*Common For Max 768*/
+@media only screen and (max-width: 959px) {
+body {
+	padding-top: 50px;
+}
+/*内页*/
+.ban {
+	height: 300px;
+}
+.row-b1 .col-l {
+	float: none;
+	width: auto;
+}
+.row-b1 .col-r {
+	margin-left: 0 !important;
+	
+}
+.m-news1 h1{ font-size:18px !important}
+.m-news1 .desc span{ font-size:12px !important}
+.g-titIns1 {
+	font-size: 18px;
+}
+.snv {
+	margin-bottom: 15px;
+}
+.ul-news1 {
+	margin-bottom: 15px;
+}
+.ul-newslist {
+	display: none;
+}
+.m-info {
+	display: none;
+}
+.dbn {
+	display: none;
+}
+.m-news1 .box h1 {
+	font-size: 18px;
+}
+.m-txt3 {
+	display: none;
+}
+.g-tabel {
+	display: none;
+}
+.m-message {
+	margin: 20px auto 0;
+}
+}
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+/*内页*/
+.ban {
+	display: none;
+}
+.g-cur {
+	height: 30px;
+	line-height: 30px;
+}
+.row-b1 {
+	padding: 20px 0 36px
+}
+.row-b1 .col-l {
+	display: none;
+}
+.ul-imgtxt-01 li {
+	width: 50%;
+}
+.ul-imgtxt-01 li:last-child {
+}
+.ul-imgtxt2 li:last-child {
+	display: block;
+}
+.ul-imgtxt-01 li a p {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.m-news1 .box h1 {
+	font-size: 16px;
+}
+.ul-news1 li {
+	float: none;
+	width: auto;
+    border-right: unset;
+}
+.ul-news1 li .tit {
+	margin: 0 !important;
+}
+.ul-newslist li .txt p {
+	font-size: 12px;
+	line-height: normal;
+}
+.m-message label span {
+	float: none;
+	margin-right: 15px;
+}
+.m-message label.code input {
+	float: none;
+}
+.m-message label.mes span {
+	position: relative;
+	top: -55px;
+	z-index: 3;
+}
+.m-message label.code input {
+	width: 30%!important;
+	margin-right: 10px;
+}
+.m-pic1 {
+	float: none;
+	width: auto;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.m-pic1-for .item {
+	height: auto;
+}
+.m-txt1 {
+	padding-left: 0;
+	margin-top: 20px;
+}
+.ul-pages1 {
+	margin-bottom: 10px;
+}
+.btn-1 {
+	padding-left: 90px;
+}
+.preview .swiper-slide {
+	width: 25%;
+}
+.ul-pages1 li {
+	float: none !important;
+	margin-bottom: 10px;
+    width: 100%;
+}
+.ul-pages1 li:last-child {
+    text-align: unset !important;
+}
+.m-list2 .box .txt .tit {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+}
+ @media only screen and (max-width: 600px) {
+.m-box01 .wp {
+	width: auto;
+}
+}
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+/*内页*/
+.row-b1 {
+	padding: 10px 0 16px
+}
+.m-chanpin {
+	margin-bottom: 15px;
+}
+.ul-imgtxt-01 {
+	margin: 0 -5px;
+}
+.ul-imgtxt-01 li {
+	margin-top: 10px;
+}
+.ul-imgtxt-01 li a {
+	margin: 0 5px;
+}
+.m-list3 {
+	padding: 10px 0;
+}
+.m-content .txt {
+	line-height: 24px;
+}
+.m-news1 .txt {
+	line-height: 24px;
+}
+.ul-newslist li {
+	padding: 15px 0;
+    border-right: unset;
+}
+.ul-newslist li .tit {
+	margin-bottom: 15px;
+}
+.ul-newslist li .tit .time {
+	font-size: 12px;
+}
+.ul-newslist li .tit a {
+	font-size: 14px;
+}
+#message .m-content .m-message {
+	width: 90%;
+	padding: 20px;
+	overflow-y: auto;
+}
+.m-message {
+	margin: 10px auto 0;
+}
+.m-message label input.inp, .m-message label textarea, .m-message label.code input {
+	width: 61%;
+}
+.m-message label {
+	margin-bottom: 10px;
+}
+.m-txt1 .txt {
+	padding-bottom: 10px;
+}
+.m-txt1 .txt p {
+	margin-bottom: 0;
+}
+.ul-txt3 li {
+	margin: 0;
+}
+.m-list2 {
+	margin-top: 15px;
+	padding-top: 13px;
+}
+.m-list2 .con .pic {
+	height: auto;
+	line-height: normal;
+}
+.m-list2 .con .txt .tit {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.m-news1 .box .desc span {
+	margin: 0;
+}
+.preview .swiper-slide {
+	width: 33.33%;
+}
+}

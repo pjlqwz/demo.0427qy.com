@@ -57,7 +57,8 @@
 .home-hotpro .homehotpro-list .homehotpro-item{width:48%;border:1px solid #E5E5E5;border-radius:var(--borderradius);overflow:hidden;background:#FFF;display:flex;align-items:center;transition:all .15s linear;margin-bottom:2em}
 .home-hotpro .homehotpro-list .homehotpro-item:nth-last-child(-n+2):nth-child(n){margin-bottom:0px}
 .home-hotpro .homehotpro-list .homehotpro-item .homehotpro-img{width:260px;max-height:260px;display:flex;align-items:center;justify-content:center}
-.home-hotpro .homehotpro-list .homehotpro-item .homehotpro-img img{width:100%;height:100%;object-fit:cover}
+.home-hotpro .homehotpro-list .homehotpro-item .homehotpro-img img{width:100%;height:100%;object-fit:cover;transition: all .2s
+linear;}
 .home-hotpro .homehotpro-list .homehotpro-item .homehotpro-img .icon-videoplay{position:absolute;left:10px;top:10px}
 .home-hotpro .homehotpro-list .homehotpro-item .homehotpro-info{padding:10px 20px;flex:1}
 .home-hotpro .homehotpro-list .homehotpro-item .homehotpro-info .title{font-size:18px;line-height:1.2;font-weight:var(--fontbold6);color:var(--fontcolor);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;text-transform:capitalize}

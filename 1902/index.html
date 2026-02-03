@@ -1,0 +1,829 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>响应式新能源开发企业网站模板</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/1902/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="static/css/font-awesome.css">
+<link rel="stylesheet" href="static/css/global.css">
+<link rel="stylesheet" href="static/css/widget.css">
+<link rel="stylesheet" href="static/css/variouscomponents.css">
+<link rel="stylesheet" href="static/css/images.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/color_0.css">
+<script src="static/js/jquery-1.11.3.min.js"></script>
+<!--[if !IE]><!-->
+<script src="static/js/base.js"></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="/1902/template/pc/skin/js/base.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="/1902/template/pc/skin/css/font-awesome-ie7.min.css">
+      <script src="/1902/template/pc/skin/js/selectivizr.js"></script>
+      <script src="/1902/template/pc/skin/js/html5shiv.min.js"></script>
+      <script src="/1902/template/pc/skin/js/respond.min.js"></script>
+      <script src="/1902/template/pc/skin/js/modernizr.min.js"></script>
+    <![endif]-->
+<link href="static/css/lightbox.min.css" rel="stylesheet">
+<script src="static/js/jquery.superslide.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/theme.js"></script>
+<!-- feib -->
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/language.js"></script>
+<!-- plugins -->
+<script type="text/javascript" src="static/js/jquery.formsvalidation.js"></script>
+<script type="text/javascript" src="static/js/jquery.nodecommon.js"></script>
+<script type="text/javascript" src="static/js/extend.js"></script>
+<link rel="stylesheet" href="static/css/animate.min.css">
+<script src="static/js/animate.min.js"></script>
+<script type="text/javascript" src="static/js/components.js"></script>
+<script type="text/javascript" src="static/js/jquery.menu_style.js"></script>
+<script type="text/javascript" src="static/js/jquery.init.js"></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+ 
+</head>
+<body>
+<div class="body">
+  <div class="topLogBox topLogBoxPc">
+    <div class="topLogBox-in">
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="w-container w-header w-header-common">
+    <div class="row clearfix">
+      <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+      <div class="nav_right_mask"></div>
+      <div class="row_top clearfix">
+        <div class="column column3">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href=""></a></h1>
+              <a href="" class="w-logo-img"> <img src="static/picture/fd9a8d70a3ea40bc27caad8450b6d25f.png"> </a> </div>
+          </div>
+        </div>
+        <div class="column column9 clearfix">
+          <div class="w-nav g-active-add">
+            <div class="w-nav-in">
+              <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+                <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="gongsidongtai.html">公司动态</a></li>
+                                           <li><a href="xingyezixun.html">行业资讯</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="zhuyaochanye.html">主要产业 <i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                    <div class="submenu">
+                    <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                    <ul>
+                                           <li><a href="fengdian.html">风电</a></li>
+                                           <li><a href="shuidian.html">水电</a></li>
+                                           <li><a href="taiyangnen.html">太阳能</a></li>
+                                         </ul>
+                  </div>
+                                  </li>
+                                <li class="">
+                  <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式<i class="fa fa-plus"></i></a></div>
+                  <i class="nav_simpline_cur"></i>
+                                  </li>
+                                <div class="nav_moveBox"></div>
+              </ul>
+            </div>
+          </div>
+          <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["46149"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script> 
+        </div>
+      </div>
+      <div class="col-right clearfix">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix">
+              <li><a href="">首页</a><i class="nav_simpline_cur"></i></li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="guanyuwomen.html">关于我们 </a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="xinwenzixun.html">新闻资讯 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="gongsidongtai.html">公司动态</a></li>
+                                         <li><a href="xingyezixun.html">行业资讯</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="zhuyaochanye.html">主要产业 <i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                                         <li><a href="fengdian.html">风电</a></li>
+                                         <li><a href="shuidian.html">水电</a></li>
+                                         <li><a href="taiyangnen.html">太阳能</a></li>
+                                      </ul>
+                </div>
+                              </li>
+                            <li>
+                <div class="li-parent-div li-parentOne-div"><a href="lianxifangshi.html">联系方式</a></div>
+                <i class="nav_simpline_cur"></i>
+                              </li>
+                            <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="topLogBox topLogBoxTel">
+          <div class="topLogBox-in">
+            <div class="col-com"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainBoxP">
+    <style type="text/css">
+    @media (max-width:767px){
+        .bannerBox{width:100%; margin-left:-0%;}
+    }
+</style>
+    <section class="w-container bannerBox ">
+      <div class="banner">
+        <ul class="bxslider">
+                  <li> <img src="static/picture/249267212635913bbe4bbc6051e71166.jpg" alt="" title="" style=""> <a href="" target="_self"><span id="05760730e150203db3a7c570dd659b5f" style="display:none;">none</span></a> </li>
+                  <li> <img src="static/picture/249267212635913bbe4bbc6051e71166.jpg" alt="" title="" style=""> <a href="" target="_self"><span id="05760730e150203db3a7c570dd659b5f" style="display:none;">none</span></a> </li>
+           
+        </ul>
+        <script src="static/js/jquery.bxslider.js"></script>
+        <link rel="stylesheet" href="static/css/jquery.bxslider.css">
+        <script type="text/javascript">
+            var scale = '';
+            var speed = 500;
+            var pause = 5;
+            $(function () {
+                $('.banner>ul').bxSlider({
+                    mode: 'fade', /*滚动方式 fade、vertical、horizontal */
+                    auto: true, /*自动滚动*/
+                    autoControls: false, /*自动滚动按钮*/
+                    infiniteLoop: true, /*循环滚动*/
+                    hideControlOnEnd: true, /*无效按钮隐藏*/
+                    adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+                    minSlides: 1,
+                    maxSlides: 2,
+                    scale: scale,
+                    speed: speed,
+                    pause: pause * 1000
+                });
+            });
+        </script> 
+      </div>
+    </section>
+    <div class="w-container w-main">
+          <div class="w-section pdTop-large pdBottom-large" id="504811">
+        <div class="row" style="max-width:;">
+          <div class="row-mask"></div>
+          <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="504811" data-type="31">
+            <div class="li-div" data-comunique="86eb9d3b9a8a803b74afb76a882d2b42">
+              <div class="w-title w-title20" style="">
+                <div class="w-title-in">
+                  <div class="w-title-inner">
+                    <div class="title-h-in">
+                      <div class="tith"> <span class="color_main" style="" data-type="title">主要产业 </span>
+                        <h2 style="" data-type="subtitle">MAIN INDUSTRIES</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="li-div" data-comunique="993b00e0f251ea580dc46adf141f29b8">
+              <div class="w-space space-b noChoose" style="height:20px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+            <style type="text/css">
+    .w-productList2 .g-n3{ width:33.32%; *width:33.32%;}
+    @media (max-width:767px){
+        .w-productList2 .w-prd-list-cell{ width:50%;}
+    }
+</style>
+            <div class="li-div" data-comunique="n3">
+              <div class="w-productList w-productList2" style="text-align:left;" id="products-n3">
+                <div class="w-productList-in">
+                  <div class="w-productList-inner clearfix">
+                                      <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="12.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/fbab51836a4b0d88f8ec358bbd10fa26.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="12.html">产品名称六</a></h2>
+                            <div class="w-prd-sum" style="">水力发电，研究将水能转换为电能的工程建设和生产运行等技术经济问题的科学技术。水力发电利用的......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                       <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="11.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/27653acf1a4aba9875140bd80f965bbd.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="11.html">产品名称五</a></h2>
+                            <div class="w-prd-sum" style="">水力发电，研究将水能转换为电能的工程建设和生产运行等技术经济问题的科学技术。水力发电利用的......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                       <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="10.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/5151fd6f1f4feb304db676dd553a70b6.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="10.html">产品名称四</a></h2>
+                            <div class="w-prd-sum" style="">水力发电，研究将水能转换为电能的工程建设和生产运行等技术经济问题的科学技术。水力发电利用的......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                       <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="9.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/21d46b580fbcc9d0669b03e761f77c0f.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="9.html">产品名称三</a></h2>
+                            <div class="w-prd-sum" style="">风力发电是指把风的动能转为电能。风能是一种清洁无公害的的可再生能源能源，很早就被人们利用，......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                       <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="8.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/62d0a081893d61af8153207662ac3bf0.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="8.html">产品名称二</a></h2>
+                            <div class="w-prd-sum" style="">风力发电是指把风的动能转为电能。风能是一种清洁无公害的的可再生能源能源，很早就被人们利用，......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                       <div class="w-prd-list-cell g-n3">
+                      <div class="w-prd-list-cell-in">
+                        <div class="w-prd-con">
+                          <div class="w-prd-imgbox imgSearch"><a href="7.html" class="img-count w-prd-img">
+                            <div class="aspectRatio" style="padding-bottom:66.67%;"></div>
+                            <div class="img-count-in">
+                              <div class="imgSearchBox">
+                                <div class="imgbg"></div>
+                                <i class="icon_search"></i></div>
+                              <img src="static/picture/1922441ff4fff09ec4ce827d1f419ae5.jpg"></div>
+                            </a></div>
+                          <div class="w-prd-infobox" style="text-align:left;">
+                            <h2 class="w-prd-name" style=""><a href="7.html">产品名称一</a></h2>
+                            <div class="w-prd-sum" style="">风力发电是指把风的动能转为电能。风能是一种清洁无公害的的可再生能源能源，很早就被人们利用，......</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      
+                  </div>
+                </div>
+                <div class="prd_pre bg_main aHoverbg_deepen"></div>
+                <div class="prd_next bg_main aHoverbg_deepen"></div>
+                <div class="prd_pageState"></div>
+                <script type="text/javascript">
+            $(function () {
+                var $prdList = $('#products-n3');
+                (function ($,window,$prdList) {
+                    /* 需要被触发的方法 */
+                    var loadOver = function () {
+                        var prdListChild = $prdList.find('.w-productList-in').html();
+                        var prdSlideX = function () {
+                            var visX;
+                            if ($(window).width() > 767) {
+                                visX = 3;
+                            } else {
+                                visX = 2;
+                            }
+                            $prdList.slideNew({
+                                mainCell: ".w-productList-in .w-productList-inner",
+                                autoPage: true,
+                                effect: "leftLoop",
+                                interTime: 5000,
+                                autoPlay: true,
+                                scroll: visX,
+                                vis: visX,
+                                pageStateCell: ".prd_pageState",
+                                prevCell: ".prd_pre",
+                                nextCell: ".prd_next"
+                            });
+                        };
+                        prdSlideX();
+                        var widthOld = $(window).width();
+                        var widthNew;
+                        $(window).resize(function () {
+                            widthNew = $(window).width();
+                            if (widthOld > 767) {
+                                if (widthNew < 768) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            } else {
+                                if (widthNew > 767) {
+                                    $prdList.find('.w-productList-in').html(prdListChild);
+                                    prdSlideX();
+                                }
+                            }
+                            widthOld = $(window).width();
+                        });
+                    }
+                    /* 获取图片 */
+                    var $thisimg = $prdList.find('img');
+                    var imgNum = $thisimg.length;
+                    $thisimg.each(function(){
+                        $(this).load(function(){
+                            if (!--imgNum) {
+                                loadOver();
+                            }
+                        });
+                        $(this).attr("src",$(this).attr("src"));
+                    });
+                })(jQuery,window,$prdList);
+            });
+        </script> 
+              </div>
+            </div>
+            <div class="li-div">
+              <div class="w-space space-b noChoose" style="height:40px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="w-section pdTop-large pdBottom-large" style="background:#f8f8f8;">
+        <div class="row" style="max-width:;">
+          <div class="row-mask"></div>
+          <div class="wrap-content-in  pdTop-default pdBottom-default">
+            <div class="li-div col-li-div" data-id="504817" data-type="1">
+              <div class="col-table">
+                <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="504816" cellpadding="0" border="0">
+                  <tbody>
+                    <tr>
+                      <td class="td-w" width="64.51219512195122%"><div class="div-padding">
+                          <div class="li-div">
+                            <div class="w-title w-title20" style="">
+                              <div class="w-title-in">
+                                <div class="w-title-inner">
+                                  <div class="title-h-in">
+                                    <div class="tith"> <span class="color_main" style="" data-type="title">关于我们 </span>
+                                      <h2 style="" data-type="subtitle">ABOUT US</h2>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="li-div">
+                            <div class="w-text" style="">
+                              <div style="font-size:115%; color:#000;">响应式新能源开发企业网站模板</div>
+                              <div class="w-space" style="height:20px;"></div>
+                              <div>新能源产业是开发新能源的单位和企业所从事的工作的一系列过程。新能源产业主要是源于新能源的发现和应用。新能源指刚开始开发利用或正在积极研究、有待推广的能源，如太阳能、地热能、风能、海洋能、生物质能和核聚变能等。1、新能源按其形成和来源分类：(1)、来自太阳辐射的能量，如：太阳能、水能、风能、生物能等。(2)、来...</div>
+                              <div class="w-space" style="height:30px;"></div>
+                            </div>
+                          </div>
+                          <div class="li-div">
+                            <div class="w-button" style="">
+                              <div class="btn-default-b btn-default-w btn-large-w g-click-to-link" onclick="window.location='/1902/guanyuwomen/';"> <span class="btn-inner" style="">MORE</span> </div>
+                              <a style="display:none;" href="guanyuwomen.html" target="_self"><span id="tag-a-c8508f9169402d3c577cb603cf877221"></span></a> </div>
+                          </div>
+                          </div></td>
+                      <td class="td-w" width="35.50000198488313%"><div class="div-padding">
+                          <div class="li-div">
+                            <div class="w-simImg" style="cursor:pointer;">
+                              <div class="image-w"> <a title="" style="cursor:default;" href="javascript:void(0);">
+                                <div class="img"> <img src="static/picture/0472a7db85e40d4b253b85e2330e2070.jpg"> </div>
+                                <div class="caption w-img-caption">
+                                  <div class="captionbg"></div>
+                                </div>
+                                </a> </div>
+                            </div>
+                          </div>
+                        </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="w-section pdTop-medium pdBottom-small" id="504822">
+        <div class="row" style="max-width:;">
+          <div class="row-mask"></div>
+          <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="504822" data-type="31">
+            <div class="li-div" data-comunique="255481f88176900412c1f68cf13fa376">
+              <div class="w-space space-b noChoose" style="height:40px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+            <div class="li-div" data-comunique="317670bbde4dbd956ae85c52b51a733e">
+              <div class="w-title w-title20" style="">
+                <div class="w-title-in">
+                  <div class="w-title-inner">
+                    <div class="title-h-in">
+                      <div class="tith"> <span class="color_main" style="" data-type="title">新闻资讯 </span>
+                        <h2 style="" data-type="subtitle">NEWS</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="li-div" data-comunique="452389ba5a5bcc9d81aed6b3036e6f44">
+              <div class="w-space space-b noChoose" style="height:40px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+            <div class="li-div col-li-div" data-id="504826" data-type="1">
+              <div class="col-table">
+                <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="504822" cellpadding="0" border="0">
+                  <tbody>
+                    <tr>
+                                          <td class="td-w" width="40.28455284552845%"><div class="div-padding">
+                          <div class="li-div">
+                            <div class="w-simImg" style="cursor:pointer;">
+                              <div class="image-w"> <a title="" style="cursor:default;" href="6.html">
+                                <div class="img"> <img src="static/picture/5ba4628a05c8a.png"> </div>
+                                <div class="caption w-img-caption">
+                                  <div class="captionbg"></div>
+                                </div>
+                                </a> </div>
+                            </div>
+                          </div>
+                          <div class="li-div">
+                            <div class="w-space space-b noChoose" style="height:25px;">
+                              <div class="stretch-b"></div>
+                            </div>
+                          </div>
+                          <div class="li-div">
+                            <div class="w-text" style="">
+                              <div style="font-size:110%;"><a href="6.html">世界上第一条智能塑料自行车道在荷兰建成</a></div>
+                              <div style="color:#8f8f8f; margin-bottom:1em; font-size:95%;">2018-09-21</div>
+                              <div style="color:#666666; font-size:95%;">　　最近在Overijssel（荷兰）的Zwolle公司开设了第一条塑料公路自行车道。这条......</div>
+                            </div>
+                          </div>
+                          <div class="li-div">
+                            <div class="w-button7" style="padding-top:20px;">
+                              <div class="btn-w btn-pd3 aHovercolor_main g-click-to-link" onclick="window.location='/1902/xinwenzixun/gongsidongtai/6.html';"> <span class="btn-inner" style="">查看详情+</span> </div>
+                              <a style="display:none;" href="6.html"><span id="tag-a-5cfc2883eff3d90341ab6b28d009a0a9"></span></a> </div>
+                          </div>
+                          </div></td>
+                            
+                      <td class="td-w" width="59.71273778899898%"><div class="div-padding">
+                          <div class="li-div" onselectstart="return false" style=" -moz-user-select: none;">
+                            <div class="w-adNews w-adNews8" style="">
+                              <div class="w-adNews-in clearfix">
+                                <ul>
+                                                                  <li>
+                                    <div class="news-item">
+                                      <div class="news-together">
+                                        <div class="news-h"><a href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="6.html" title="世界上第一条智能塑料自行车道在荷兰建成">世界上第一条智能塑料自行车道在荷兰建成</a></div>
+                                      </div>
+                                      <div class="news-sum">　　最近在Overijssel（荷兰）的Zwolle公司开设了第一条塑料公路自行车道。这条30米长的自行车道包含的可再生塑料相当于超过218,000个塑料杯或500,00......</div>
+                                    </div>
+                                  </li>
+                                                                   <li>
+                                    <div class="news-item">
+                                      <div class="news-together">
+                                        <div class="news-h"><a href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="5.html" title="环保升级 电力、钢铁和建材三大领域迈向新">环保升级 电力、钢铁和建材三大领域迈向新</a></div>
+                                      </div>
+                                      <div class="news-sum">　　大气环保向限排升级我国粉尘和氮氧化物的主要排放源都是工业生产，分别占到了83%和71%。如果将工业领域进一步细分的话，电力(特别是火电)、钢铁和建材行业是排放烟粉尘和......</div>
+                                    </div>
+                                  </li>
+                                                                   <li>
+                                    <div class="news-item">
+                                      <div class="news-together">
+                                        <div class="news-h"><a href="gongsidongtai.html" class="news-kind" title="公司动态">【公司动态】</a><a href="4.html" title="光伏储能系统的概念及工作模式">光伏储能系统的概念及工作模式</a></div>
+                                      </div>
+                                      <div class="news-sum">什么是储能？储能主要是指电能的储存。储能又是石油油藏中的一个名词，代表储层储存油气的能力。储能本身不是新兴的技术，但从产业角度来说却是刚刚出现，正处在起步阶段。　　到目前......</div>
+                                    </div>
+                                  </li>
+                                    
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="li-div" data-comunique="05fa7dc78873bc63511133ecfea08c21">
+              <div class="w-space space-b noChoose" style="height:40px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+    </div>
+      <div class="w-container w-footer">
+      <div class="w-footer-section pdTop-large pdBottom-default">
+        <div class="w-footer-in" style="max-width:;">
+          <div class="foot-mask"></div>
+          <div class="w-foot-content  pdTop-small pdBottom-small" data-id="504869" data-type="31">
+            <div class="li-div" data-comunique="2a262fb3b19b76b20d9388b7562c9af3">
+              <div class="w-title w-title20" style="">
+                <div class="w-title-in">
+                  <div class="w-title-inner">
+                    <div class="title-h-in">
+                      <div class="tith"> <span class="color_main" style="" data-type="title">联系方式</span>
+                        <h2 style="" data-type="subtitle">CONTACT US</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="li-div" data-comunique="24aad0245d3f3b17a503751bf8b84a2f">
+              <div class="w-space space-b noChoose" style="height:35px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+            <div class="li-div col-li-div" data-id="504874" data-type="1">
+              <div class="col-table">
+                <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="504869" cellpadding="0" border="0">
+                  <tbody>
+                    <tr>
+                      <td class="td-w" width="48.333333333333336%"><div class="div-padding">
+                          <div class="li-div" data-comunique="7b0f7ba1e99b8d1a018f16e2cf273d95">
+                            <div class="w-text" style=""> <font size="4">响应式新能源开发企业网站模板</font> </div>
+                          </div>
+                          <div class="li-div" data-comunique="21cd9da6659aba4a86f0b3d3c5aa6533">
+                            <div class="w-space space-b noChoose" style="height:20px;">
+                              <div class="stretch-b"></div>
+                            </div>
+                          </div>
+                          <div class="li-div" data-comunique="096e44a48b8806394e8c372bd976e805">
+                            <div class="tel-hidden w-text" style=""> 电话：400-123-4567<br>
+                              传真：+86-123-4567<br>
+                              手机： 13800000000<br>
+                              Q Q： 1234567890<br>
+                              邮箱：admin@qq.com<br>
+                              地址： 广东省广州市天河区88号<br>
+                          </div>
+                        </div></div></td>
+                      <td class="td-w" width="4.0650406504065035%"><div class="div-padding">
+                          <div class="li-div">
+                            <div class="w-space space-b noChoose" style="height:20px;">
+                              <div class="stretch-b"></div>
+                            </div>
+                          </div>
+                        </div></td>
+                      <td class="td-w" width="46.91056910569106%"><div class="div-padding">
+                          <div class="li-div">
+                            <div class="w-form" style="">
+                                                        <form method="POST" class="guest-form" enctype="multipart/form-data" action="/1902/index.php?m=home&c=Lists&a=gbook_submit&lang=cn" id="myform">
+                              <div class="li-div">
+                                <div class="w-form-section  w-form-UL clearfix" style="">
+                                  <div class="w-form-shartText">
+                                    <label class="w-label-form"> <span>姓名</span> </label>
+                                    <div class="w-form-fr" style="">
+                                      <input class="w-text-form" style="width:100%" type="text" name="attr_1" id="attr_1">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="li-div">
+                                <div class="w-form-section  w-form-UL clearfix" style="">
+                                  <div class="w-form-Email">
+                                    <label class="w-label-form"> <span>电话</span> </label>
+                                    <div class="w-form-fr" style="">
+                                      <input class="w-text-form" style="width:100%" type="tel" name="attr_2" id="attr_2">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="li-div">
+                                <div class="w-form-section  w-form-UL clearfix" style="">
+                                  <div class="w-form-tel">
+                                    <label class="w-label-form"> <span>邮箱</span> </label>
+                                    <div class="w-form-fr" style="">
+                                      <input class="w-text-form" style="width:100%" type="email" name="attr_3" id="attr_3">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="li-div">
+                                <div class="w-form-section w-form-UL clearfix" style="">
+                                  <div class="w-form-largeText">
+                                    <label class="w-label-form"> 内容 </label>
+                                    <div class="w-form-fr" style="">
+                                      <textarea class="w-textarea-form" style="width:100%;height:5em" name="attr_4" id="attr_4"></textarea>
+                                      <input class="w-text-form" type="hidden">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="w-form-submit">
+                                <div class="w-buttom" style="">
+                                  <div class="btn-default-w g-form-components" onclick="checkForm();"> <span class="btn-inner">提交</span> </div>
+                                </div>
+                              </div>
+                              <input type="hidden" name="typeid" value="10"><input type="hidden" name="__token__9f49bd305306857acdac6fdea79eb8fb" id="9f49bd305306857acdac6fdea79eb8fb" value=""><script type="text/javascript">
+    function ey_fleshVerify(id)
+    {
+        var src = "/1902/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+        if (src.indexOf('?') > -1) {
+            src += '&';
+        } else {
+            src += '?';
+        }
+        src += 'r='+ Math.floor(Math.random()*100);
+        document.getElementById(id).src = src;
+    }
+    function fc9bb3ebc316920f53a175fe5a745c62c()
+    {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open("get", "/1902/index.php?m=api&c=Ajax&a=get_token&name=__token__9f49bd305306857acdac6fdea79eb8fb", true);
+        // 给头部添加ajax信息
+        ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //步骤三:发送请求+数据
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200) {
+        　　　　document.getElementById("9f49bd305306857acdac6fdea79eb8fb").value = ajax.responseText;
+          　}
+        } 
+    }
+    fc9bb3ebc316920f53a175fe5a745c62c();
+</script>                            </form>
+						  <script type="text/javascript">
+                            function checkForm()
+                            {
+                              if(document.getElementById('attr_1').value.length == 0)
+                              {
+                                alert('请输入姓名');
+                                return false;
+                              }
+                              if(document.getElementById('attr_2').value.length == 0)
+                              {
+                                alert('请输入电话');
+                                return false;
+                              }
+                              document.getElementById('myform').submit();
+                            }
+                          </script>
+                                                    </div>
+                          </div>
+                        </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="li-div">
+              <div class="w-space space-b noChoose" style="height:40px;">
+                <div class="stretch-b"></div>
+              </div>
+            </div>
+            <div class="li-div">
+              <div class="w-text" style="">
+                <style type="text/css">
+.color_white{ color:#fff;}
+</style>
+                <div class="line" style="background:#394C84; position:absolute; width:5000px;height:1px; left:-1500px;"></div>
+                <div style="text-align:center; padding-top:1em; font-size:95%;" class="color_white">Copyright © 2012-2028 某某网络 版权所有 &nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">ICP备xxxxxxxx号</a></div>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-service-fixed">
+        <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+          <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+        </div>
+        <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+      </div>
+    </div>
+  </div>
+     <!-- 应用插件标签 start -->
+     <!-- 应用插件标签 end -->
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<script type="text/javascript" src="static/js/jquery.global.js"></script> 
+<script type="text/javascript" src="static/js/jquery.form.js"></script> 
+<script type="text/javascript" src="static/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="static/js/jquery.custom.js"></script>
+</body>
+</html>
