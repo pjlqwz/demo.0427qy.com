@@ -68,6 +68,27 @@
             width: 80%;
         }
         
+        .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+        
+        .dropdown-menu {
+            margin-top: 10px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .dropdown-item {
+            padding: 12px 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .dropdown-item:hover {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+        }
+        
         .page-header {
             background: linear-gradient(135deg, rgba(30, 60, 114, 0.9) 0%, rgba(42, 82, 152, 0.9) 100%),
                         url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920') center/cover no-repeat;
