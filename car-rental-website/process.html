@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="租车流程,如何租车,租车步骤">
+    <meta name="description" content="优行租车流程简单，四步轻松租车：选择车型、在线预订、确认订单、取车出行">
+    <title>租车流程 - 优行租车</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans SC', 'Source Han Sans SC', sans-serif; color: #333; line-height: 1.6; }
+        .navbar { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); padding: 15px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+        .navbar-brand { font-size: 28px; font-weight: 900; color: #fff !important; letter-spacing: 2px; }
+        .navbar-brand span { color: #ffd700; }
+        .nav-link { color: #fff !important; font-weight: 500; padding: 10px 20px !important; transition: all 0.3s ease; position: relative; }
+        .nav-link:hover { color: #ffd700 !important; transform: translateY(-2px); }
+        .page-header { background: linear-gradient(135deg, rgba(30, 60, 114, 0.9) 0%, rgba(42, 82, 152, 0.9) 100%), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920') center/cover no-repeat; padding: 120px 0 80px; color: #fff; text-align: center; }
+        .page-header h1 { font-size: 48px; font-weight: 900; margin-bottom: 20px; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); }
+        .breadcrumb { background: transparent; padding: 0; margin-bottom: 0; }
+        .breadcrumb-item a { color: #ffd700; text-decoration: none; }
+        .breadcrumb-item.active { color: #fff; }
+        .section-padding { padding: 80px 0; }
+        .process-step { text-align: center; padding: 40px 20px; position: relative; }
+        .process-step:not(:last-child)::after { content: ''; position: absolute; top: 50px; right: -20%; width: 40%; height: 2px; background: linear-gradient(90deg, #ffd700, transparent); }
+        .step-number { width: 80px; height: 80px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; color: #fff; font-size: 32px; font-weight: 900; box-shadow: 0 5px 20px rgba(30, 60, 114, 0.3); }
+        .process-step h3 { font-size: 24px; font-weight: 700; margin-bottom: 15px; color: #1e3c72; }
+        .process-step p { color: #666; font-size: 15px; }
+        .info-card { background: #fff; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08); margin-bottom: 30px; }
+        .info-card h3 { font-size: 24px; font-weight: 700; color: #1e3c72; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #ffd700; }
+        .info-card ul { list-style: none; padding: 0; }
+        .info-card li { padding: 12px 0; border-bottom: 1px solid #f0f0f0; color: #555; }
+        .info-card li i { color: #ffd700; margin-right: 10px; width: 20px; }
+        .cta-section { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); padding: 80px 0; color: #fff; text-align: center; }
+        .cta-section h2 { font-size: 42px; font-weight: 900; margin-bottom: 20px; }
+        .cta-section p { font-size: 18px; margin-bottom: 40px; opacity: 0.95; }
+        .btn-custom { background: linear-gradient(135deg, #ffd700 0%, #ffed4a 100%); color: #1e3c72; font-weight: 700; padding: 15px 40px; border: none; border-radius: 50px; font-size: 18px; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 215, 0, 0.4); }
+        .btn-custom:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(255, 215, 0, 0.6); color: #1e3c72; }
+        .footer { background: #1a1a2e; color: #fff; padding: 60px 0 30px; }
+        .footer h4 { font-size: 20px; font-weight: 700; margin-bottom: 25px; color: #ffd700; }
+        .footer-links { list-style: none; padding: 0; }
+        .footer-links li { margin-bottom: 12px; }
+        .footer-links a { color: #ccc; text-decoration: none; transition: all 0.3s ease; }
+        .footer-links a:hover { color: #ffd700; padding-left: 5px; }
+        .footer-contact p { color: #ccc; margin-bottom: 15px; }
+        .footer-contact i { color: #ffd700; width: 25px; }
+        .footer-bottom { border-top: 1px solid rgba(255, 255, 255, 0.1); margin-top: 40px; padding-top: 30px; text-align: center; color: #999; font-size: 14px; }
+        @media (max-width: 768px) {
+            .process-step:not(:last-child)::after { display: none; }
+            .page-header h1 { font-size: 36px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-car-side"></i> 优行<span>租车</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">关于我们</a></li>
+                    <li class="nav-item"><a class="nav-link" href="car_list.html">车型展示</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">租车服务</a><div class="dropdown-menu"><a class="dropdown-item" href="service_list.html?type=business">商务租车</a><a class="dropdown-item" href="service_list.html?type=travel">旅游租车</a><a class="dropdown-item" href="service_list.html?type=airport">机场接送</a></div></li>
+                    <li class="nav-item"><a class="nav-link active" href="process.html">租车流程</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news_list.html">新闻资讯</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>租车流程</h1>
+            <nav aria-label="breadcrumb"><ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a href="index.html">首页</a></li><li class="breadcrumb-item active">租车流程</li></ol></nav>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 style="font-size: 42px; font-weight: 900; color: #1e3c72; margin-bottom: 20px;">简单四步，轻松租车</h2>
+                <p style="color: #666; font-size: 18px;">流程简单，操作便捷，让您快速享受租车服务</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>选择车型</h3>
+                        <p>浏览我们的车型列表，根据您的需求选择合适的车型。我们提供经济型、舒适型、豪华型等多种车型供您选择。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>在线预订</h3>
+                        <p>填写预订信息，包括租车时间、取还车地点等。提交订单后，我们的客服会尽快与您联系确认。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>确认订单</h3>
+                        <p>客服与您确认订单详情，包括车型、价格、服务等。确认无误后，支付定金或全款，完成预订。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>取车出行</h3>
+                        <p>按照约定时间到指定地点取车，出示身份证和驾驶证，办理取车手续，即可开始您的旅程。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-card">
+                        <h3>租车所需材料</h3>
+                        <ul>
+                            <li><i class="fas fa-id-card"></i>有效身份证原件</li>
+                            <li><i class="fas fa-drivers-license"></i>有效驾驶证原件</li>
+                            <li><i class="fas fa-credit-card"></i>信用卡或借记卡</li>
+                            <li><i class="fas fa-mobile-alt"></i>联系电话</li>
+                            <li><i class="fas fa-file-alt"></i>驾驶证驾龄需满1年以上</li>
+                            <li><i class="fas fa-info-circle"></i>年龄需满18周岁</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info-card">
+                        <h3>注意事项</h3>
+                        <ul>
+                            <li><i class="fas fa-exclamation-circle"></i>请提前1-2天预订，确保有车</li>
+                            <li><i class="fas fa-exclamation-circle"></i>取车时请仔细检查车辆状况</li>
+                            <li><i class="fas fa-exclamation-circle"></i>还车时需加满油，否则收取油费</li>
+                            <li><i class="fas fa-exclamation-circle"></i>超时每小时加收50元</li>
+                            <li><i class="fas fa-exclamation-circle"></i>异地还车需提前预约并支付费用</li>
+                            <li><i class="fas fa-exclamation-circle"></i>节假日价格可能上浮</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>准备好租车了吗？</h2>
+            <p>立即预订，享受专业、便捷的租车服务</p>
+            <a href="car_list.html" class="btn btn-custom btn-lg"><i class="fas fa-car"></i> 立即预订</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4"><h4>关于我们</h4><p style="color: #ccc; margin-bottom: 20px;">优行租车是一家专业的汽车租赁服务公司，致力于为客户提供高品质、便捷的租车体验。</p><a href="about.html" class="btn-link">了解更多 <i class="fas fa-arrow-right"></i></a></div>
+                <div class="col-lg-2 mb-4"><h4>快速链接</h4><ul class="footer-links"><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="car_list.html">车型展示</a></li><li><a href="service_list.html">租车服务</a></li><li><a href="process.html">租车流程</a></li><li><a href="news_list.html">新闻资讯</a></li></ul></div>
+                <div class="col-lg-3 mb-4"><h4>租车服务</h4><ul class="footer-links"><li><a href="service_list.html?type=business">商务租车</a></li><li><a href="service_list.html?type=travel">旅游租车</a></li><li><a href="service_list.html?type=airport">机场接送</a></li><li><a href="service_list.html?type=longterm">长期租赁</a></li></ul></div>
+                <div class="col-lg-3 mb-4"><h4>联系我们</h4><div class="footer-contact"><p><i class="fas fa-phone"></i> 400-888-8888</p><p><i class="fas fa-envelope"></i> contact@youxing.com</p><p><i class="fas fa-map-marker-alt"></i> 北京市朝阳区建国路88号</p></div></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2024 优行租车 版权所有 | 京ICP备12345678号</p></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
